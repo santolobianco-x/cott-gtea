@@ -1,0 +1,21 @@
+displayName: GTEA (Georgia Tech Egocentric Activity)
+labelTypes: []
+license:
+- Unknown
+mediaTypes:
+- Video
+paperUrl: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.228.1080&rep=rep1&type=pdf
+publishDate: "2011"
+publishUrl: http://cbs.ic.gatech.edu/fpv/
+publisher:
+- Georgia Institute of Technology
+- Intel Labs Seattle
+tags:
+- coffee
+- Sandwich
+- Tea
+taskTypes:
+- Weakly Supervised Action Localization
+- Action Segmentation
+- Fine Grained Action Detection
+‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌

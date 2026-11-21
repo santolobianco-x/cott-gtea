@@ -1,0 +1,6 @@
+name: cott_gtea
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+prefix: /opt/anaconda3/envs/cott_gtea

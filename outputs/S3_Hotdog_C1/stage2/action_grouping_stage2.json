@@ -1,0 +1,249 @@
+{
+    "video_id": "S3_Hotdog_C1",
+    "prompt_version": "stage2_lines_en_v3",
+    "failed_blocks": [],
+    "actions": [
+        {
+            "action_id": 0,
+            "action_label": "hand picks up a piece of bread",
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "transition_ids": [
+                0,
+                1
+            ]
+        },
+        {
+            "action_id": 1,
+            "action_label": "hand places the bread on a plate",
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "transition_ids": [
+                2,
+                3
+            ]
+        },
+        {
+            "action_id": 2,
+            "action_label": "hand picks up a piece of bread",
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "transition_ids": [
+                4,
+                5
+            ]
+        },
+        {
+            "action_id": 3,
+            "action_label": "hand places the bread on a plate",
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "transition_ids": [
+                6,
+                7
+            ]
+        },
+        {
+            "action_id": 4,
+            "action_label": "hand picks up a piece of bread",
+            "start_time": 4.0,
+            "end_time": 5.0,
+            "transition_ids": [
+                8,
+                9
+            ]
+        },
+        {
+            "action_id": 5,
+            "action_label": "hand places the bread on a plate",
+            "start_time": 5.0,
+            "end_time": 6.0,
+            "transition_ids": [
+                10,
+                11
+            ]
+        },
+        {
+            "action_id": 6,
+            "action_label": "hands place another piece of bread on the paper plate.",
+            "start_time": 6.0,
+            "end_time": 7.0,
+            "transition_ids": [
+                12,
+                13
+            ]
+        },
+        {
+            "action_label": "place bread on plate",
+            "start_time": 7.0,
+            "end_time": 12.0,
+            "transition_ids": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+            ],
+            "action_id": 7
+        },
+        {
+            "action_id": 8,
+            "action_label": "spread mustard on bread",
+            "start_time": 12.0,
+            "end_time": 14.0,
+            "transition_ids": [
+                24,
+                25,
+                26,
+                27
+            ]
+        },
+        {
+            "action_label": "hand applies mustard to hot dog",
+            "start_time": 14.0,
+            "end_time": 30.0,
+            "transition_ids": [
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59
+            ],
+            "action_id": 9
+        },
+        {
+            "action_label": "adjusts hot dog",
+            "start_time": 30.0,
+            "end_time": 32.5,
+            "transition_ids": [
+                60,
+                61,
+                62,
+                63,
+                64
+            ],
+            "action_id": 10
+        },
+        {
+            "action_label": "hand continues opening mustard bottle",
+            "start_time": 32.5,
+            "end_time": 45.0,
+            "transition_ids": [
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89
+            ],
+            "action_id": 11
+        },
+        {
+            "action_label": "hand applies ketchup to the bread",
+            "start_time": 45.0,
+            "end_time": 50.0,
+            "transition_ids": [
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99
+            ],
+            "action_id": 12
+        },
+        {
+            "action_label": "hand adjusts the sandwich on the plate",
+            "start_time": 50.0,
+            "end_time": 54.0,
+            "transition_ids": [
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107
+            ],
+            "action_id": 13
+        },
+        {
+            "action_label": "hand places the sandwich on the plate",
+            "start_time": 54.0,
+            "end_time": 55.5,
+            "transition_ids": [
+                108,
+                109,
+                110
+            ],
+            "action_id": 14
+        },
+        {
+            "action_id": 15,
+            "action_label": "hand adjusts the sandwich on the plate",
+            "start_time": 55.5,
+            "end_time": 56.5,
+            "transition_ids": [
+                111,
+                112
+            ]
+        }
+    ],
+    "ignored_transition_ids": []
+}

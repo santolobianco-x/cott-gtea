@@ -1,0 +1,357 @@
+{
+    "video_id": "S1_Cheese_C1",
+    "prompt_version": "stage2_lines_en_v3",
+    "failed_blocks": [],
+    "actions": [
+        {
+            "action_id": 0,
+            "action_label": "hand places flour on the table",
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "transition_ids": [
+                0,
+                1
+            ]
+        },
+        {
+            "action_id": 1,
+            "action_label": "hand places sugar on the table",
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "transition_ids": [
+                2,
+                3
+            ]
+        },
+        {
+            "action_id": 2,
+            "action_label": "hand places salt on the table",
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "transition_ids": [
+                4,
+                5
+            ]
+        },
+        {
+            "action_id": 3,
+            "action_label": "hand places baking powder on the table",
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "transition_ids": [
+                6,
+                7
+            ]
+        },
+        {
+            "action_id": 4,
+            "action_label": "hand places baking soda on the table",
+            "start_time": 4.0,
+            "end_time": 5.0,
+            "transition_ids": [
+                8,
+                9
+            ]
+        },
+        {
+            "action_id": 5,
+            "action_label": "hand places yeast on the table",
+            "start_time": 5.0,
+            "end_time": 6.0,
+            "transition_ids": [
+                10,
+                11
+            ]
+        },
+        {
+            "action_id": 6,
+            "action_label": "hand places vinegar on the table",
+            "start_time": 6.0,
+            "end_time": 7.0,
+            "transition_ids": [
+                12,
+                13
+            ]
+        },
+        {
+            "action_label": "hand places bottle on table",
+            "start_time": 7.0,
+            "end_time": 9.0,
+            "transition_ids": [
+                14,
+                15,
+                16,
+                17
+            ],
+            "action_id": 7
+        },
+        {
+            "action_label": "hand places bottle on table",
+            "start_time": 9.0,
+            "end_time": 11.0,
+            "transition_ids": [
+                18,
+                19,
+                20,
+                21
+            ],
+            "action_id": 8
+        },
+        {
+            "action_id": 9,
+            "action_label": "hand places bottle on table",
+            "start_time": 11.0,
+            "end_time": 13.0,
+            "transition_ids": [
+                22,
+                23,
+                24,
+                25
+            ]
+        },
+        {
+            "action_label": "hand holds cheese",
+            "start_time": 13.0,
+            "end_time": 18.0,
+            "transition_ids": [
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+            ],
+            "action_id": 10
+        },
+        {
+            "action_label": "hands spread butter on cheese",
+            "start_time": 18.0,
+            "end_time": 24.0,
+            "transition_ids": [
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47
+            ],
+            "action_id": 11
+        },
+        {
+            "action_label": "apply mayonnaise",
+            "start_time": 24.0,
+            "end_time": 34.0,
+            "transition_ids": [
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67
+            ],
+            "action_id": 12
+        },
+        {
+            "action_id": 13,
+            "action_label": "hand picks up bottle of mustard",
+            "start_time": 34.0,
+            "end_time": 35.0,
+            "transition_ids": [
+                68,
+                69
+            ]
+        },
+        {
+            "action_id": 14,
+            "action_label": "hand applies mustard",
+            "start_time": 35.0,
+            "end_time": 37.0,
+            "transition_ids": [
+                70,
+                71,
+                72,
+                73
+            ]
+        },
+        {
+            "action_label": "hand applies mayonnaise",
+            "start_time": 37.0,
+            "end_time": 39.0,
+            "transition_ids": [
+                74,
+                75,
+                76,
+                77
+            ],
+            "action_id": 15
+        },
+        {
+            "action_label": "hand applies mustard to bread",
+            "start_time": 39.0,
+            "end_time": 42.0,
+            "transition_ids": [
+                78,
+                79,
+                80,
+                81,
+                82,
+                83
+            ],
+            "action_id": 16
+        },
+        {
+            "action_id": 17,
+            "action_label": "hand applies mustard to bread",
+            "start_time": 42.0,
+            "end_time": 43.0,
+            "transition_ids": [
+                84,
+                85
+            ]
+        },
+        {
+            "action_id": 18,
+            "action_label": "hand applies mustard to bread",
+            "start_time": 43.0,
+            "end_time": 44.0,
+            "transition_ids": [
+                86,
+                87
+            ]
+        },
+        {
+            "action_id": 19,
+            "action_label": "hand applies mustard to bread",
+            "start_time": 44.0,
+            "end_time": 45.0,
+            "transition_ids": [
+                88,
+                89
+            ]
+        },
+        {
+            "action_label": "hand places the bottle of mustard on the table",
+            "start_time": 45.0,
+            "end_time": 46.0,
+            "transition_ids": [
+                90,
+                91
+            ],
+            "action_id": 20
+        },
+        {
+            "action_label": "hand picks up the bottle of mustard",
+            "start_time": 46.0,
+            "end_time": 47.0,
+            "transition_ids": [
+                92,
+                93
+            ],
+            "action_id": 21
+        },
+        {
+            "action_label": "hand places the bottle of mustard on the table",
+            "start_time": 47.0,
+            "end_time": 48.0,
+            "transition_ids": [
+                94,
+                95
+            ],
+            "action_id": 22
+        },
+        {
+            "action_id": 23,
+            "action_label": "hand places the bottle of mustard on the table",
+            "start_time": 48.0,
+            "end_time": 49.0,
+            "transition_ids": [
+                96,
+                97
+            ]
+        },
+        {
+            "action_id": 24,
+            "action_label": "hand places the bottle of ketchup on the table",
+            "start_time": 49.0,
+            "end_time": 50.0,
+            "transition_ids": [
+                98,
+                99
+            ]
+        },
+        {
+            "action_id": 25,
+            "action_label": "hand places the bottle of mayonnaise on the table",
+            "start_time": 50.0,
+            "end_time": 51.0,
+            "transition_ids": [
+                100,
+                101
+            ]
+        },
+        {
+            "action_label": "press bread slices together",
+            "start_time": 51.0,
+            "end_time": 60.0,
+            "transition_ids": [
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119
+            ],
+            "action_id": 26
+        },
+        {
+            "action_id": 27,
+            "action_label": "hold bread slices",
+            "start_time": 60.0,
+            "end_time": 62.5,
+            "transition_ids": [
+                120,
+                121,
+                122,
+                123,
+                124
+            ]
+        }
+    ],
+    "ignored_transition_ids": []
+}

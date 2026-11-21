@@ -1,0 +1,194 @@
+[
+    {
+        "action_id": 0,
+        "start_time": 1.5,
+        "end_time": 2.0,
+        "description": "hand places bread on plate",
+        "refined": true,
+        "raw_stage2_label": "hand places bread on plate"
+    },
+    {
+        "action_id": 1,
+        "start_time": 2.5,
+        "end_time": 3.0,
+        "description": "hand places bread on plate",
+        "refined": true,
+        "raw_stage2_label": "hand places bread on plate"
+    },
+    {
+        "action_id": 2,
+        "start_time": 3.0,
+        "end_time": 4.0,
+        "description": "hand places bread on plate",
+        "refined": true,
+        "raw_stage2_label": "hand places bread on plate"
+    },
+    {
+        "action_id": 3,
+        "start_time": 4.0,
+        "end_time": 5.0,
+        "description": "hand places bread on plate",
+        "refined": true,
+        "raw_stage2_label": "hand places bread on plate"
+    },
+    {
+        "action_id": 4,
+        "start_time": 4.0,
+        "end_time": 6.0,
+        "description": "hand places bread on plate",
+        "refined": true,
+        "raw_stage2_label": "hand places bread on plate"
+    },
+    {
+        "action_id": 5,
+        "start_time": 6.5,
+        "end_time": 7.0,
+        "description": "hand places bread on plate",
+        "refined": true,
+        "raw_stage2_label": "hand places bread on plate"
+    },
+    {
+        "action_id": 6,
+        "start_time": 7.0,
+        "end_time": 8.0,
+        "description": "hand spreads butter on bread",
+        "refined": true,
+        "raw_stage2_label": "hand places bread on plate"
+    },
+    {
+        "action_id": 7,
+        "start_time": 6.0,
+        "end_time": 10.0,
+        "description": "spread butter on bread",
+        "refined": true,
+        "raw_stage2_label": "spread butter on bread"
+    },
+    {
+        "action_id": 8,
+        "start_time": 12.5,
+        "end_time": 13.0,
+        "description": "place hot dog on plate",
+        "refined": true,
+        "raw_stage2_label": "place bread on plate"
+    },
+    {
+        "action_id": 9,
+        "start_time": 12.0,
+        "end_time": 16.0,
+        "description": "place hot dog on bun",
+        "refined": true,
+        "raw_stage2_label": "place hot dog on bun"
+    },
+    {
+        "action_id": 10,
+        "start_time": 15.0,
+        "end_time": 18.0,
+        "description": "hand picks up a piece of bread from the table.",
+        "refined": false,
+        "raw_stage2_label": "hand picks up a piece of bread from the table."
+    },
+    {
+        "action_id": 11,
+        "start_time": 19.0,
+        "end_time": 22.0,
+        "description": "hand places the mustard on the hot dog.",
+        "refined": true,
+        "raw_stage2_label": "hand places the bread on the plate."
+    },
+    {
+        "action_id": 12,
+        "start_time": 20.0,
+        "end_time": 29.5,
+        "description": "hand applies mustard",
+        "refined": true,
+        "raw_stage2_label": "hand applies mustard"
+    },
+    {
+        "action_id": 13,
+        "start_time": 30.0,
+        "end_time": 33.0,
+        "description": "hand opens jar lid",
+        "refined": false,
+        "raw_stage2_label": "hand places mustard on bread"
+    },
+    {
+        "action_id": 14,
+        "start_time": 32.0,
+        "end_time": 36.5,
+        "description": "hand applies jam to bread",
+        "refined": true,
+        "raw_stage2_label": "hand applies jam to bread"
+    },
+    {
+        "action_id": 15,
+        "start_time": 34.5,
+        "end_time": 39.5,
+        "description": "hand applies ketchup to hot dog",
+        "refined": true,
+        "raw_stage2_label": "hand applies ketchup to hot dog"
+    },
+    {
+        "action_id": 16,
+        "start_time": 40.0,
+        "end_time": 44.0,
+        "description": "hand applies ketchup to hot dog",
+        "refined": true,
+        "raw_stage2_label": "hand applies ketchup to hot dog"
+    },
+    {
+        "action_id": 17,
+        "start_time": 43.5,
+        "end_time": 48.5,
+        "description": "hand applies ketchup to the hot dog",
+        "refined": true,
+        "raw_stage2_label": "hand continues applying ketchup"
+    },
+    {
+        "action_id": 18,
+        "start_time": 47.0,
+        "end_time": 50.0,
+        "description": "hand places bun on plate",
+        "refined": true,
+        "raw_stage2_label": "hand places bun on plate"
+    },
+    {
+        "action_id": 19,
+        "start_time": 48.0,
+        "end_time": 51.0,
+        "description": "hand places bun on plate",
+        "refined": true,
+        "raw_stage2_label": "hand places bun on plate"
+    },
+    {
+        "action_id": 20,
+        "start_time": 49.0,
+        "end_time": 52.0,
+        "description": "hand places bread on plate",
+        "refined": true,
+        "raw_stage2_label": "hand places bread on plate"
+    },
+    {
+        "action_id": 21,
+        "start_time": 50.0,
+        "end_time": 53.0,
+        "description": "hand adjusts bread pieces",
+        "refined": true,
+        "raw_stage2_label": "hand adjusts bread pieces"
+    },
+    {
+        "action_id": 22,
+        "start_time": 51.0,
+        "end_time": 54.0,
+        "description": "hand places bread on plate",
+        "refined": true,
+        "raw_stage2_label": "hand places bread on plate"
+    },
+    {
+        "action_id": 23,
+        "start_time": 52.0,
+        "end_time": 54.0,
+        "description": "hand adjusts bread pieces",
+        "refined": true,
+        "raw_stage2_label": "hand adjusts bread pieces"
+    }
+]

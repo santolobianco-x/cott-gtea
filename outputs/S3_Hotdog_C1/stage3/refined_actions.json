@@ -1,0 +1,130 @@
+[
+    {
+        "action_id": 0,
+        "start_time": 0.0,
+        "end_time": 1.0,
+        "description": "hand picks up a piece of bread",
+        "refined": false,
+        "raw_stage2_label": "hand picks up a piece of bread"
+    },
+    {
+        "action_id": 1,
+        "start_time": 2.5,
+        "end_time": 3.0,
+        "description": "hand places the bread on a plate",
+        "refined": true,
+        "raw_stage2_label": "hand places the bread on a plate"
+    },
+    {
+        "action_id": 2,
+        "start_time": 3.0,
+        "end_time": 4.0,
+        "description": "hand picks up a piece of bread",
+        "refined": true,
+        "raw_stage2_label": "hand picks up a piece of bread"
+    },
+    {
+        "action_id": 3,
+        "start_time": 4.0,
+        "end_time": 5.0,
+        "description": "place the bread on a plate",
+        "refined": true,
+        "raw_stage2_label": "hand places the bread on a plate"
+    },
+    {
+        "action_id": 4,
+        "start_time": 4.0,
+        "end_time": 5.5,
+        "description": "hand picks up a piece of bread",
+        "refined": true,
+        "raw_stage2_label": "hand picks up a piece of bread"
+    },
+    {
+        "action_id": 5,
+        "start_time": 4.0,
+        "end_time": 7.0,
+        "description": "hand places the bread on a plate",
+        "refined": true,
+        "raw_stage2_label": "hand places the bread on a plate"
+    },
+    {
+        "action_id": 6,
+        "start_time": 5.0,
+        "end_time": 8.0,
+        "description": "hands place another piece of bread on the paper plate.",
+        "refined": true,
+        "raw_stage2_label": "hands place another piece of bread on the paper plate."
+    },
+    {
+        "action_id": 7,
+        "start_time": 9.0,
+        "end_time": 12.5,
+        "description": "place bread on plate",
+        "refined": true,
+        "raw_stage2_label": "place bread on plate"
+    },
+    {
+        "action_id": 8,
+        "start_time": 14.5,
+        "end_time": 15.0,
+        "description": "spread mustard on bread",
+        "refined": true,
+        "raw_stage2_label": "spread mustard on bread"
+    },
+    {
+        "action_id": 9,
+        "start_time": 14.5,
+        "end_time": 29.5,
+        "description": "hand applies mustard to hot dog",
+        "refined": true,
+        "raw_stage2_label": "hand applies mustard to hot dog"
+    },
+    {
+        "action_id": 10,
+        "start_time": 32.5,
+        "end_time": 33.5,
+        "description": "picks up the mustard bottle",
+        "refined": true,
+        "raw_stage2_label": "adjusts hot dog"
+    },
+    {
+        "action_id": 11,
+        "start_time": 37.5,
+        "end_time": 45.0,
+        "description": "hand continues opening mustard bottle",
+        "refined": true,
+        "raw_stage2_label": "hand continues opening mustard bottle"
+    },
+    {
+        "action_id": 12,
+        "start_time": 44.0,
+        "end_time": 49.0,
+        "description": "hand applies ketchup to the bread",
+        "refined": true,
+        "raw_stage2_label": "hand applies ketchup to the bread"
+    },
+    {
+        "action_id": 13,
+        "start_time": 50.0,
+        "end_time": 54.5,
+        "description": "hand adjusts the sandwich on the plate",
+        "refined": true,
+        "raw_stage2_label": "hand adjusts the sandwich on the plate"
+    },
+    {
+        "action_id": 14,
+        "start_time": 53.0,
+        "end_time": 56.5,
+        "description": "hand places the sandwich on the plate",
+        "refined": true,
+        "raw_stage2_label": "hand places the sandwich on the plate"
+    },
+    {
+        "action_id": 15,
+        "start_time": 54.5,
+        "end_time": 57.0,
+        "description": "hand adjusts the sandwich on the plate",
+        "refined": true,
+        "raw_stage2_label": "hand adjusts the sandwich on the plate"
+    }
+]

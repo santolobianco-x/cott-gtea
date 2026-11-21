@@ -1,0 +1,1699 @@
+{
+  "video_id": "S2_Cheese_C1",
+  "stage": "transition_captioning",
+  "config": {
+    "fps": 2,
+    "window_size": 12,
+    "stride": 6,
+    "image_side": 336,
+    "jpeg_quality": 90,
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "max_tokens": 384,
+    "temperature": 0.1,
+    "prompt_version": "stage1_small_v4",
+    "output_format": "numbered_lines_v1"
+  },
+  "windows": [
+    {
+      "window_id": 0,
+      "frame_start": 0,
+      "frame_end": 11,
+      "status": "success",
+      "attempts": 1,
+      "warnings": [],
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 159,
+        "prompt_tokens": 1394,
+        "total_tokens": 1553,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "transitions": [
+        {
+          "window_id": 0,
+          "transition_id": 0,
+          "frame_start": 0,
+          "frame_end": 1,
+          "start_time": 0.0,
+          "end_time": 0.5,
+          "description": "hand picks up a packet of salt.",
+          "status": "start"
+        },
+        {
+          "window_id": 0,
+          "transition_id": 1,
+          "frame_start": 1,
+          "frame_end": 2,
+          "start_time": 0.5,
+          "end_time": 1.0,
+          "description": "hand continues to hold the packet of salt.",
+          "status": "continue"
+        },
+        {
+          "window_id": 0,
+          "transition_id": 2,
+          "frame_start": 2,
+          "frame_end": 3,
+          "start_time": 1.0,
+          "end_time": 1.5,
+          "description": "hand continues to hold the packet of salt.",
+          "status": "continue"
+        },
+        {
+          "window_id": 0,
+          "transition_id": 3,
+          "frame_start": 3,
+          "frame_end": 4,
+          "start_time": 1.5,
+          "end_time": 2.0,
+          "description": "hand continues to hold the packet of salt.",
+          "status": "continue"
+        },
+        {
+          "window_id": 0,
+          "transition_id": 4,
+          "frame_start": 4,
+          "frame_end": 5,
+          "start_time": 2.0,
+          "end_time": 2.5,
+          "description": "hand continues to hold the packet of salt.",
+          "status": "continue"
+        },
+        {
+          "window_id": 0,
+          "transition_id": 5,
+          "frame_start": 5,
+          "frame_end": 6,
+          "start_time": 2.5,
+          "end_time": 3.0,
+          "description": "hand continues to hold the packet of salt.",
+          "status": "continue"
+        },
+        {
+          "window_id": 0,
+          "transition_id": 6,
+          "frame_start": 6,
+          "frame_end": 7,
+          "start_time": 3.0,
+          "end_time": 3.5,
+          "description": "hand continues to hold the packet of salt.",
+          "status": "continue"
+        },
+        {
+          "window_id": 0,
+          "transition_id": 7,
+          "frame_start": 7,
+          "frame_end": 8,
+          "start_time": 3.5,
+          "end_time": 4.0,
+          "description": "hand continues to hold the packet of salt.",
+          "status": "continue"
+        },
+        {
+          "window_id": 0,
+          "transition_id": 8,
+          "frame_start": 8,
+          "frame_end": 9,
+          "start_time": 4.0,
+          "end_time": 4.5,
+          "description": "hand continues to hold the packet of salt.",
+          "status": "continue"
+        },
+        {
+          "window_id": 0,
+          "transition_id": 9,
+          "frame_start": 9,
+          "frame_end": 10,
+          "start_time": 4.5,
+          "end_time": 5.0,
+          "description": "hand continues to hold the packet of salt.",
+          "status": "continue"
+        },
+        {
+          "window_id": 0,
+          "transition_id": 10,
+          "frame_start": 10,
+          "frame_end": 11,
+          "start_time": 5.0,
+          "end_time": 5.5,
+          "description": "hand continues to hold the packet of salt.",
+          "status": "continue"
+        }
+      ]
+    },
+    {
+      "window_id": 1,
+      "frame_start": 6,
+      "frame_end": 17,
+      "status": "success",
+      "attempts": 1,
+      "warnings": [],
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 166,
+        "prompt_tokens": 1394,
+        "total_tokens": 1560,
+        "prompt_tokens_details": {
+          "cached_tokens": 311
+        }
+      },
+      "transitions": [
+        {
+          "window_id": 1,
+          "transition_id": 6,
+          "frame_start": 6,
+          "frame_end": 7,
+          "start_time": 3.0,
+          "end_time": 3.5,
+          "description": "hand picks up a piece of bread.",
+          "status": "start"
+        },
+        {
+          "window_id": 1,
+          "transition_id": 7,
+          "frame_start": 7,
+          "frame_end": 8,
+          "start_time": 3.5,
+          "end_time": 4.0,
+          "description": "hand places the bread on the other piece of bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 1,
+          "transition_id": 8,
+          "frame_start": 8,
+          "frame_end": 9,
+          "start_time": 4.0,
+          "end_time": 4.5,
+          "description": "hand picks up a piece of bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 1,
+          "transition_id": 9,
+          "frame_start": 9,
+          "frame_end": 10,
+          "start_time": 4.5,
+          "end_time": 5.0,
+          "description": "hand places the bread on the other piece of bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 1,
+          "transition_id": 10,
+          "frame_start": 10,
+          "frame_end": 11,
+          "start_time": 5.0,
+          "end_time": 5.5,
+          "description": "hand picks up a piece of bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 1,
+          "transition_id": 11,
+          "frame_start": 11,
+          "frame_end": 12,
+          "start_time": 5.5,
+          "end_time": 6.0,
+          "description": "hand places the bread on the other piece of bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 1,
+          "transition_id": 12,
+          "frame_start": 12,
+          "frame_end": 13,
+          "start_time": 6.0,
+          "end_time": 6.5,
+          "description": "hand picks up a piece of bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 1,
+          "transition_id": 13,
+          "frame_start": 13,
+          "frame_end": 14,
+          "start_time": 6.5,
+          "end_time": 7.0,
+          "description": "hand places the bread on the other piece of bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 1,
+          "transition_id": 14,
+          "frame_start": 14,
+          "frame_end": 15,
+          "start_time": 7.0,
+          "end_time": 7.5,
+          "description": "hand picks up a piece of bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 1,
+          "transition_id": 15,
+          "frame_start": 15,
+          "frame_end": 16,
+          "start_time": 7.5,
+          "end_time": 8.0,
+          "description": "hand places the bread on the other piece of bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 1,
+          "transition_id": 16,
+          "frame_start": 16,
+          "frame_end": 17,
+          "start_time": 8.0,
+          "end_time": 8.5,
+          "description": "hand picks up a piece of bread.",
+          "status": "continue"
+        }
+      ]
+    },
+    {
+      "window_id": 2,
+      "frame_start": 12,
+      "frame_end": 23,
+      "status": "success",
+      "attempts": 1,
+      "warnings": [],
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 120,
+        "prompt_tokens": 1394,
+        "total_tokens": 1514,
+        "prompt_tokens_details": {
+          "cached_tokens": 311
+        }
+      },
+      "transitions": [
+        {
+          "window_id": 2,
+          "transition_id": 12,
+          "frame_start": 12,
+          "frame_end": 13,
+          "start_time": 6.0,
+          "end_time": 6.5,
+          "description": "hand places cheese on bread",
+          "status": "start"
+        },
+        {
+          "window_id": 2,
+          "transition_id": 13,
+          "frame_start": 13,
+          "frame_end": 14,
+          "start_time": 6.5,
+          "end_time": 7.0,
+          "description": "hand adjusts cheese on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 2,
+          "transition_id": 14,
+          "frame_start": 14,
+          "frame_end": 15,
+          "start_time": 7.0,
+          "end_time": 7.5,
+          "description": "hand picks up cheese",
+          "status": "continue"
+        },
+        {
+          "window_id": 2,
+          "transition_id": 15,
+          "frame_start": 15,
+          "frame_end": 16,
+          "start_time": 7.5,
+          "end_time": 8.0,
+          "description": "hand places cheese on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 2,
+          "transition_id": 16,
+          "frame_start": 16,
+          "frame_end": 17,
+          "start_time": 8.0,
+          "end_time": 8.5,
+          "description": "hand adjusts cheese on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 2,
+          "transition_id": 17,
+          "frame_start": 17,
+          "frame_end": 18,
+          "start_time": 8.5,
+          "end_time": 9.0,
+          "description": "hand picks up cheese",
+          "status": "continue"
+        },
+        {
+          "window_id": 2,
+          "transition_id": 18,
+          "frame_start": 18,
+          "frame_end": 19,
+          "start_time": 9.0,
+          "end_time": 9.5,
+          "description": "hand places cheese on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 2,
+          "transition_id": 19,
+          "frame_start": 19,
+          "frame_end": 20,
+          "start_time": 9.5,
+          "end_time": 10.0,
+          "description": "hand adjusts cheese on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 2,
+          "transition_id": 20,
+          "frame_start": 20,
+          "frame_end": 21,
+          "start_time": 10.0,
+          "end_time": 10.5,
+          "description": "hand picks up cheese",
+          "status": "continue"
+        },
+        {
+          "window_id": 2,
+          "transition_id": 21,
+          "frame_start": 21,
+          "frame_end": 22,
+          "start_time": 10.5,
+          "end_time": 11.0,
+          "description": "hand places cheese on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 2,
+          "transition_id": 22,
+          "frame_start": 22,
+          "frame_end": 23,
+          "start_time": 11.0,
+          "end_time": 11.5,
+          "description": "hand adjusts cheese on bread",
+          "status": "continue"
+        }
+      ]
+    },
+    {
+      "window_id": 3,
+      "frame_start": 18,
+      "frame_end": 29,
+      "status": "success",
+      "attempts": 1,
+      "warnings": [],
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 123,
+        "prompt_tokens": 1394,
+        "total_tokens": 1517,
+        "prompt_tokens_details": {
+          "cached_tokens": 311
+        }
+      },
+      "transitions": [
+        {
+          "window_id": 3,
+          "transition_id": 18,
+          "frame_start": 18,
+          "frame_end": 19,
+          "start_time": 9.0,
+          "end_time": 9.5,
+          "description": "hands place cheese on bread",
+          "status": "start"
+        },
+        {
+          "window_id": 3,
+          "transition_id": 19,
+          "frame_start": 19,
+          "frame_end": 20,
+          "start_time": 9.5,
+          "end_time": 10.0,
+          "description": "hands adjust cheese on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 3,
+          "transition_id": 20,
+          "frame_start": 20,
+          "frame_end": 21,
+          "start_time": 10.0,
+          "end_time": 10.5,
+          "description": "hands lift bread from table",
+          "status": "continue"
+        },
+        {
+          "window_id": 3,
+          "transition_id": 21,
+          "frame_start": 21,
+          "frame_end": 22,
+          "start_time": 10.5,
+          "end_time": 11.0,
+          "description": "hands place bread on table",
+          "status": "continue"
+        },
+        {
+          "window_id": 3,
+          "transition_id": 22,
+          "frame_start": 22,
+          "frame_end": 23,
+          "start_time": 11.0,
+          "end_time": 11.5,
+          "description": "hands adjust cheese on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 3,
+          "transition_id": 23,
+          "frame_start": 23,
+          "frame_end": 24,
+          "start_time": 11.5,
+          "end_time": 12.0,
+          "description": "hands lift bread from table",
+          "status": "continue"
+        },
+        {
+          "window_id": 3,
+          "transition_id": 24,
+          "frame_start": 24,
+          "frame_end": 25,
+          "start_time": 12.0,
+          "end_time": 12.5,
+          "description": "hands place bread on table",
+          "status": "continue"
+        },
+        {
+          "window_id": 3,
+          "transition_id": 25,
+          "frame_start": 25,
+          "frame_end": 26,
+          "start_time": 12.5,
+          "end_time": 13.0,
+          "description": "hands adjust cheese on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 3,
+          "transition_id": 26,
+          "frame_start": 26,
+          "frame_end": 27,
+          "start_time": 13.0,
+          "end_time": 13.5,
+          "description": "hands lift bread from table",
+          "status": "continue"
+        },
+        {
+          "window_id": 3,
+          "transition_id": 27,
+          "frame_start": 27,
+          "frame_end": 28,
+          "start_time": 13.5,
+          "end_time": 14.0,
+          "description": "hands place bread on table",
+          "status": "continue"
+        },
+        {
+          "window_id": 3,
+          "transition_id": 28,
+          "frame_start": 28,
+          "frame_end": 29,
+          "start_time": 14.0,
+          "end_time": 14.5,
+          "description": "hands adjust cheese on bread",
+          "status": "continue"
+        }
+      ]
+    },
+    {
+      "window_id": 4,
+      "frame_start": 24,
+      "frame_end": 35,
+      "status": "success",
+      "attempts": 1,
+      "warnings": [],
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 153,
+        "prompt_tokens": 1394,
+        "total_tokens": 1547,
+        "prompt_tokens_details": {
+          "cached_tokens": 311
+        }
+      },
+      "transitions": [
+        {
+          "window_id": 4,
+          "transition_id": 24,
+          "frame_start": 24,
+          "frame_end": 25,
+          "start_time": 12.0,
+          "end_time": 12.5,
+          "description": "hand picks up a bottle of mayonnaise.",
+          "status": "start"
+        },
+        {
+          "window_id": 4,
+          "transition_id": 25,
+          "frame_start": 25,
+          "frame_end": 26,
+          "start_time": 12.5,
+          "end_time": 13.0,
+          "description": "hand places the bottle of mayonnaise on the table.",
+          "status": "continue"
+        },
+        {
+          "window_id": 4,
+          "transition_id": 26,
+          "frame_start": 26,
+          "frame_end": 27,
+          "start_time": 13.0,
+          "end_time": 13.5,
+          "description": "hand opens the bottle of mayonnaise.",
+          "status": "continue"
+        },
+        {
+          "window_id": 4,
+          "transition_id": 27,
+          "frame_start": 27,
+          "frame_end": 28,
+          "start_time": 13.5,
+          "end_time": 14.0,
+          "description": "hand applies mayonnaise to the bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 4,
+          "transition_id": 28,
+          "frame_start": 28,
+          "frame_end": 29,
+          "start_time": 14.0,
+          "end_time": 14.5,
+          "description": "hand closes the bottle of mayonnaise.",
+          "status": "continue"
+        },
+        {
+          "window_id": 4,
+          "transition_id": 29,
+          "frame_start": 29,
+          "frame_end": 30,
+          "start_time": 14.5,
+          "end_time": 15.0,
+          "description": "hand places the bottle of mayonnaise on the table.",
+          "status": "continue"
+        },
+        {
+          "window_id": 4,
+          "transition_id": 30,
+          "frame_start": 30,
+          "frame_end": 31,
+          "start_time": 15.0,
+          "end_time": 15.5,
+          "description": "hand applies mayonnaise to the bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 4,
+          "transition_id": 31,
+          "frame_start": 31,
+          "frame_end": 32,
+          "start_time": 15.5,
+          "end_time": 16.0,
+          "description": "hand closes the bottle of mayonnaise.",
+          "status": "continue"
+        },
+        {
+          "window_id": 4,
+          "transition_id": 32,
+          "frame_start": 32,
+          "frame_end": 33,
+          "start_time": 16.0,
+          "end_time": 16.5,
+          "description": "hand applies mayonnaise to the bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 4,
+          "transition_id": 33,
+          "frame_start": 33,
+          "frame_end": 34,
+          "start_time": 16.5,
+          "end_time": 17.0,
+          "description": "hand closes the bottle of mayonnaise.",
+          "status": "continue"
+        },
+        {
+          "window_id": 4,
+          "transition_id": 34,
+          "frame_start": 34,
+          "frame_end": 35,
+          "start_time": 17.0,
+          "end_time": 17.5,
+          "description": "hand applies mayonnaise to the bread.",
+          "status": "continue"
+        }
+      ]
+    },
+    {
+      "window_id": 5,
+      "frame_start": 30,
+      "frame_end": 41,
+      "status": "success",
+      "attempts": 1,
+      "warnings": [],
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 136,
+        "prompt_tokens": 1394,
+        "total_tokens": 1530,
+        "prompt_tokens_details": {
+          "cached_tokens": 311
+        }
+      },
+      "transitions": [
+        {
+          "window_id": 5,
+          "transition_id": 30,
+          "frame_start": 30,
+          "frame_end": 31,
+          "start_time": 15.0,
+          "end_time": 15.5,
+          "description": "hand applies mayonnaise to bread",
+          "status": "start"
+        },
+        {
+          "window_id": 5,
+          "transition_id": 31,
+          "frame_start": 31,
+          "frame_end": 32,
+          "start_time": 15.5,
+          "end_time": 16.0,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 5,
+          "transition_id": 32,
+          "frame_start": 32,
+          "frame_end": 33,
+          "start_time": 16.0,
+          "end_time": 16.5,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 5,
+          "transition_id": 33,
+          "frame_start": 33,
+          "frame_end": 34,
+          "start_time": 16.5,
+          "end_time": 17.0,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 5,
+          "transition_id": 34,
+          "frame_start": 34,
+          "frame_end": 35,
+          "start_time": 17.0,
+          "end_time": 17.5,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 5,
+          "transition_id": 35,
+          "frame_start": 35,
+          "frame_end": 36,
+          "start_time": 17.5,
+          "end_time": 18.0,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 5,
+          "transition_id": 36,
+          "frame_start": 36,
+          "frame_end": 37,
+          "start_time": 18.0,
+          "end_time": 18.5,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 5,
+          "transition_id": 37,
+          "frame_start": 37,
+          "frame_end": 38,
+          "start_time": 18.5,
+          "end_time": 19.0,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 5,
+          "transition_id": 38,
+          "frame_start": 38,
+          "frame_end": 39,
+          "start_time": 19.0,
+          "end_time": 19.5,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 5,
+          "transition_id": 39,
+          "frame_start": 39,
+          "frame_end": 40,
+          "start_time": 19.5,
+          "end_time": 20.0,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 5,
+          "transition_id": 40,
+          "frame_start": 40,
+          "frame_end": 41,
+          "start_time": 20.0,
+          "end_time": 20.5,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        }
+      ]
+    },
+    {
+      "window_id": 6,
+      "frame_start": 36,
+      "frame_end": 47,
+      "status": "success",
+      "attempts": 1,
+      "warnings": [],
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 136,
+        "prompt_tokens": 1394,
+        "total_tokens": 1530,
+        "prompt_tokens_details": {
+          "cached_tokens": 311
+        }
+      },
+      "transitions": [
+        {
+          "window_id": 6,
+          "transition_id": 36,
+          "frame_start": 36,
+          "frame_end": 37,
+          "start_time": 18.0,
+          "end_time": 18.5,
+          "description": "hand applies mayonnaise to bread",
+          "status": "start"
+        },
+        {
+          "window_id": 6,
+          "transition_id": 37,
+          "frame_start": 37,
+          "frame_end": 38,
+          "start_time": 18.5,
+          "end_time": 19.0,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 6,
+          "transition_id": 38,
+          "frame_start": 38,
+          "frame_end": 39,
+          "start_time": 19.0,
+          "end_time": 19.5,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 6,
+          "transition_id": 39,
+          "frame_start": 39,
+          "frame_end": 40,
+          "start_time": 19.5,
+          "end_time": 20.0,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 6,
+          "transition_id": 40,
+          "frame_start": 40,
+          "frame_end": 41,
+          "start_time": 20.0,
+          "end_time": 20.5,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 6,
+          "transition_id": 41,
+          "frame_start": 41,
+          "frame_end": 42,
+          "start_time": 20.5,
+          "end_time": 21.0,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 6,
+          "transition_id": 42,
+          "frame_start": 42,
+          "frame_end": 43,
+          "start_time": 21.0,
+          "end_time": 21.5,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 6,
+          "transition_id": 43,
+          "frame_start": 43,
+          "frame_end": 44,
+          "start_time": 21.5,
+          "end_time": 22.0,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 6,
+          "transition_id": 44,
+          "frame_start": 44,
+          "frame_end": 45,
+          "start_time": 22.0,
+          "end_time": 22.5,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 6,
+          "transition_id": 45,
+          "frame_start": 45,
+          "frame_end": 46,
+          "start_time": 22.5,
+          "end_time": 23.0,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        },
+        {
+          "window_id": 6,
+          "transition_id": 46,
+          "frame_start": 46,
+          "frame_end": 47,
+          "start_time": 23.0,
+          "end_time": 23.5,
+          "description": "hand continues applying mayonnaise",
+          "status": "continue"
+        }
+      ]
+    },
+    {
+      "window_id": 7,
+      "frame_start": 42,
+      "frame_end": 53,
+      "status": "success",
+      "attempts": 1,
+      "warnings": [],
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 140,
+        "prompt_tokens": 1394,
+        "total_tokens": 1534,
+        "prompt_tokens_details": {
+          "cached_tokens": 311
+        }
+      },
+      "transitions": [
+        {
+          "window_id": 7,
+          "transition_id": 42,
+          "frame_start": 42,
+          "frame_end": 43,
+          "start_time": 21.0,
+          "end_time": 21.5,
+          "description": "hand picks up mayonnaise bottle",
+          "status": "start"
+        },
+        {
+          "window_id": 7,
+          "transition_id": 43,
+          "frame_start": 43,
+          "frame_end": 44,
+          "start_time": 21.5,
+          "end_time": 22.0,
+          "description": "hand holds mayonnaise bottle",
+          "status": "continue"
+        },
+        {
+          "window_id": 7,
+          "transition_id": 44,
+          "frame_start": 44,
+          "frame_end": 45,
+          "start_time": 22.0,
+          "end_time": 22.5,
+          "description": "hand opens mayonnaise bottle",
+          "status": "continue"
+        },
+        {
+          "window_id": 7,
+          "transition_id": 45,
+          "frame_start": 45,
+          "frame_end": 46,
+          "start_time": 22.5,
+          "end_time": 23.0,
+          "description": "hand closes mayonnaise bottle",
+          "status": "continue"
+        },
+        {
+          "window_id": 7,
+          "transition_id": 46,
+          "frame_start": 46,
+          "frame_end": 47,
+          "start_time": 23.0,
+          "end_time": 23.5,
+          "description": "hand opens mayonnaise bottle",
+          "status": "continue"
+        },
+        {
+          "window_id": 7,
+          "transition_id": 47,
+          "frame_start": 47,
+          "frame_end": 48,
+          "start_time": 23.5,
+          "end_time": 24.0,
+          "description": "hand closes mayonnaise bottle",
+          "status": "continue"
+        },
+        {
+          "window_id": 7,
+          "transition_id": 48,
+          "frame_start": 48,
+          "frame_end": 49,
+          "start_time": 24.0,
+          "end_time": 24.5,
+          "description": "hand places mayonnaise bottle down",
+          "status": "continue"
+        },
+        {
+          "window_id": 7,
+          "transition_id": 49,
+          "frame_start": 49,
+          "frame_end": 50,
+          "start_time": 24.5,
+          "end_time": 25.0,
+          "description": "hand picks up mayonnaise bottle",
+          "status": "continue"
+        },
+        {
+          "window_id": 7,
+          "transition_id": 50,
+          "frame_start": 50,
+          "frame_end": 51,
+          "start_time": 25.0,
+          "end_time": 25.5,
+          "description": "hand opens mayonnaise bottle",
+          "status": "continue"
+        },
+        {
+          "window_id": 7,
+          "transition_id": 51,
+          "frame_start": 51,
+          "frame_end": 52,
+          "start_time": 25.5,
+          "end_time": 26.0,
+          "description": "hand closes mayonnaise bottle",
+          "status": "continue"
+        },
+        {
+          "window_id": 7,
+          "transition_id": 52,
+          "frame_start": 52,
+          "frame_end": 53,
+          "start_time": 26.0,
+          "end_time": 26.5,
+          "description": "hand places mayonnaise bottle down",
+          "status": "continue"
+        }
+      ]
+    },
+    {
+      "window_id": 8,
+      "frame_start": 48,
+      "frame_end": 59,
+      "status": "success",
+      "attempts": 1,
+      "warnings": [],
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 171,
+        "prompt_tokens": 1394,
+        "total_tokens": 1565,
+        "prompt_tokens_details": {
+          "cached_tokens": 311
+        }
+      },
+      "transitions": [
+        {
+          "window_id": 8,
+          "transition_id": 48,
+          "frame_start": 48,
+          "frame_end": 49,
+          "start_time": 24.0,
+          "end_time": 24.5,
+          "description": "hand picks up a bottle of mayonnaise.",
+          "status": "start"
+        },
+        {
+          "window_id": 8,
+          "transition_id": 49,
+          "frame_start": 49,
+          "frame_end": 50,
+          "start_time": 24.5,
+          "end_time": 25.0,
+          "description": "hand holds the bottle of mayonnaise.",
+          "status": "continue"
+        },
+        {
+          "window_id": 8,
+          "transition_id": 50,
+          "frame_start": 50,
+          "frame_end": 51,
+          "start_time": 25.0,
+          "end_time": 25.5,
+          "description": "hand opens the bottle of mayonnaise.",
+          "status": "continue"
+        },
+        {
+          "window_id": 8,
+          "transition_id": 51,
+          "frame_start": 51,
+          "frame_end": 52,
+          "start_time": 25.5,
+          "end_time": 26.0,
+          "description": "hand applies mayonnaise on a piece of bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 8,
+          "transition_id": 52,
+          "frame_start": 52,
+          "frame_end": 53,
+          "start_time": 26.0,
+          "end_time": 26.5,
+          "description": "hand continues to apply mayonnaise on the bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 8,
+          "transition_id": 53,
+          "frame_start": 53,
+          "frame_end": 54,
+          "start_time": 26.5,
+          "end_time": 27.0,
+          "description": "hand applies mayonnaise on the bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 8,
+          "transition_id": 54,
+          "frame_start": 54,
+          "frame_end": 55,
+          "start_time": 27.0,
+          "end_time": 27.5,
+          "description": "hand continues to apply mayonnaise on the bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 8,
+          "transition_id": 55,
+          "frame_start": 55,
+          "frame_end": 56,
+          "start_time": 27.5,
+          "end_time": 28.0,
+          "description": "hand applies mayonnaise on the bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 8,
+          "transition_id": 56,
+          "frame_start": 56,
+          "frame_end": 57,
+          "start_time": 28.0,
+          "end_time": 28.5,
+          "description": "hand continues to apply mayonnaise on the bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 8,
+          "transition_id": 57,
+          "frame_start": 57,
+          "frame_end": 58,
+          "start_time": 28.5,
+          "end_time": 29.0,
+          "description": "hand applies mayonnaise on the bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 8,
+          "transition_id": 58,
+          "frame_start": 58,
+          "frame_end": 59,
+          "start_time": 29.0,
+          "end_time": 29.5,
+          "description": "hand continues to apply mayonnaise on the bread.",
+          "status": "continue"
+        }
+      ]
+    },
+    {
+      "window_id": 9,
+      "frame_start": 54,
+      "frame_end": 65,
+      "status": "success",
+      "attempts": 1,
+      "warnings": [],
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 144,
+        "prompt_tokens": 1394,
+        "total_tokens": 1538,
+        "prompt_tokens_details": {
+          "cached_tokens": 311
+        }
+      },
+      "transitions": [
+        {
+          "window_id": 9,
+          "transition_id": 54,
+          "frame_start": 54,
+          "frame_end": 55,
+          "start_time": 27.0,
+          "end_time": 27.5,
+          "description": "hand spreads mayonnaise on bread.",
+          "status": "start"
+        },
+        {
+          "window_id": 9,
+          "transition_id": 55,
+          "frame_start": 55,
+          "frame_end": 56,
+          "start_time": 27.5,
+          "end_time": 28.0,
+          "description": "hand spreads mayonnaise on bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 9,
+          "transition_id": 56,
+          "frame_start": 56,
+          "frame_end": 57,
+          "start_time": 28.0,
+          "end_time": 28.5,
+          "description": "hand spreads mayonnaise on bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 9,
+          "transition_id": 57,
+          "frame_start": 57,
+          "frame_end": 58,
+          "start_time": 28.5,
+          "end_time": 29.0,
+          "description": "hand spreads mayonnaise on bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 9,
+          "transition_id": 58,
+          "frame_start": 58,
+          "frame_end": 59,
+          "start_time": 29.0,
+          "end_time": 29.5,
+          "description": "hand spreads mayonnaise on bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 9,
+          "transition_id": 59,
+          "frame_start": 59,
+          "frame_end": 60,
+          "start_time": 29.5,
+          "end_time": 30.0,
+          "description": "hand spreads mayonnaise on bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 9,
+          "transition_id": 60,
+          "frame_start": 60,
+          "frame_end": 61,
+          "start_time": 30.0,
+          "end_time": 30.5,
+          "description": "hand spreads mayonnaise on bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 9,
+          "transition_id": 61,
+          "frame_start": 61,
+          "frame_end": 62,
+          "start_time": 30.5,
+          "end_time": 31.0,
+          "description": "hand spreads mayonnaise on bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 9,
+          "transition_id": 62,
+          "frame_start": 62,
+          "frame_end": 63,
+          "start_time": 31.0,
+          "end_time": 31.5,
+          "description": "hand spreads mayonnaise on bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 9,
+          "transition_id": 63,
+          "frame_start": 63,
+          "frame_end": 64,
+          "start_time": 31.5,
+          "end_time": 32.0,
+          "description": "hand spreads mayonnaise on bread.",
+          "status": "continue"
+        },
+        {
+          "window_id": 9,
+          "transition_id": 64,
+          "frame_start": 64,
+          "frame_end": 65,
+          "start_time": 32.0,
+          "end_time": 32.5,
+          "description": "hand places bread on plate.",
+          "status": "end"
+        }
+      ]
+    },
+    {
+      "window_id": 10,
+      "frame_start": 60,
+      "frame_end": 71,
+      "status": "success",
+      "attempts": 1,
+      "warnings": [
+        "repetitive"
+      ],
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 123,
+        "prompt_tokens": 1394,
+        "total_tokens": 1517,
+        "prompt_tokens_details": {
+          "cached_tokens": 311
+        }
+      },
+      "transitions": [
+        {
+          "window_id": 10,
+          "transition_id": 60,
+          "frame_start": 60,
+          "frame_end": 61,
+          "start_time": 30.0,
+          "end_time": 30.5,
+          "description": "hand spreads butter on bread",
+          "status": "start"
+        },
+        {
+          "window_id": 10,
+          "transition_id": 61,
+          "frame_start": 61,
+          "frame_end": 62,
+          "start_time": 30.5,
+          "end_time": 31.0,
+          "description": "hand spreads butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 10,
+          "transition_id": 62,
+          "frame_start": 62,
+          "frame_end": 63,
+          "start_time": 31.0,
+          "end_time": 31.5,
+          "description": "hand spreads butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 10,
+          "transition_id": 63,
+          "frame_start": 63,
+          "frame_end": 64,
+          "start_time": 31.5,
+          "end_time": 32.0,
+          "description": "hand spreads butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 10,
+          "transition_id": 64,
+          "frame_start": 64,
+          "frame_end": 65,
+          "start_time": 32.0,
+          "end_time": 32.5,
+          "description": "hand spreads butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 10,
+          "transition_id": 65,
+          "frame_start": 65,
+          "frame_end": 66,
+          "start_time": 32.5,
+          "end_time": 33.0,
+          "description": "hand spreads butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 10,
+          "transition_id": 66,
+          "frame_start": 66,
+          "frame_end": 67,
+          "start_time": 33.0,
+          "end_time": 33.5,
+          "description": "hand spreads butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 10,
+          "transition_id": 67,
+          "frame_start": 67,
+          "frame_end": 68,
+          "start_time": 33.5,
+          "end_time": 34.0,
+          "description": "hand spreads butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 10,
+          "transition_id": 68,
+          "frame_start": 68,
+          "frame_end": 69,
+          "start_time": 34.0,
+          "end_time": 34.5,
+          "description": "hand spreads butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 10,
+          "transition_id": 69,
+          "frame_start": 69,
+          "frame_end": 70,
+          "start_time": 34.5,
+          "end_time": 35.0,
+          "description": "hand spreads butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 10,
+          "transition_id": 70,
+          "frame_start": 70,
+          "frame_end": 71,
+          "start_time": 35.0,
+          "end_time": 35.5,
+          "description": "hand spreads butter on bread",
+          "status": "continue"
+        }
+      ]
+    },
+    {
+      "window_id": 11,
+      "frame_start": 66,
+      "frame_end": 77,
+      "status": "success",
+      "attempts": 1,
+      "warnings": [
+        "repetitive"
+      ],
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 123,
+        "prompt_tokens": 1394,
+        "total_tokens": 1517,
+        "prompt_tokens_details": {
+          "cached_tokens": 311
+        }
+      },
+      "transitions": [
+        {
+          "window_id": 11,
+          "transition_id": 66,
+          "frame_start": 66,
+          "frame_end": 67,
+          "start_time": 33.0,
+          "end_time": 33.5,
+          "description": "hands spread butter on bread",
+          "status": "start"
+        },
+        {
+          "window_id": 11,
+          "transition_id": 67,
+          "frame_start": 67,
+          "frame_end": 68,
+          "start_time": 33.5,
+          "end_time": 34.0,
+          "description": "hands spread butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 11,
+          "transition_id": 68,
+          "frame_start": 68,
+          "frame_end": 69,
+          "start_time": 34.0,
+          "end_time": 34.5,
+          "description": "hands spread butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 11,
+          "transition_id": 69,
+          "frame_start": 69,
+          "frame_end": 70,
+          "start_time": 34.5,
+          "end_time": 35.0,
+          "description": "hands spread butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 11,
+          "transition_id": 70,
+          "frame_start": 70,
+          "frame_end": 71,
+          "start_time": 35.0,
+          "end_time": 35.5,
+          "description": "hands spread butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 11,
+          "transition_id": 71,
+          "frame_start": 71,
+          "frame_end": 72,
+          "start_time": 35.5,
+          "end_time": 36.0,
+          "description": "hands spread butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 11,
+          "transition_id": 72,
+          "frame_start": 72,
+          "frame_end": 73,
+          "start_time": 36.0,
+          "end_time": 36.5,
+          "description": "hands spread butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 11,
+          "transition_id": 73,
+          "frame_start": 73,
+          "frame_end": 74,
+          "start_time": 36.5,
+          "end_time": 37.0,
+          "description": "hands spread butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 11,
+          "transition_id": 74,
+          "frame_start": 74,
+          "frame_end": 75,
+          "start_time": 37.0,
+          "end_time": 37.5,
+          "description": "hands spread butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 11,
+          "transition_id": 75,
+          "frame_start": 75,
+          "frame_end": 76,
+          "start_time": 37.5,
+          "end_time": 38.0,
+          "description": "hands spread butter on bread",
+          "status": "continue"
+        },
+        {
+          "window_id": 11,
+          "transition_id": 76,
+          "frame_start": 76,
+          "frame_end": 77,
+          "start_time": 38.0,
+          "end_time": 38.5,
+          "description": "hands spread butter on bread",
+          "status": "continue"
+        }
+      ]
+    },
+    {
+      "window_id": 12,
+      "frame_start": 72,
+      "frame_end": 83,
+      "status": "success",
+      "attempts": 1,
+      "warnings": [],
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 111,
+        "prompt_tokens": 1394,
+        "total_tokens": 1505,
+        "prompt_tokens_details": {
+          "cached_tokens": 311
+        }
+      },
+      "transitions": [
+        {
+          "window_id": 12,
+          "transition_id": 72,
+          "frame_start": 72,
+          "frame_end": 73,
+          "start_time": 36.0,
+          "end_time": 36.5,
+          "description": "hands hold a sandwich",
+          "status": "start"
+        },
+        {
+          "window_id": 12,
+          "transition_id": 73,
+          "frame_start": 73,
+          "frame_end": 74,
+          "start_time": 36.5,
+          "end_time": 37.0,
+          "description": "hands adjust the sandwich",
+          "status": "continue"
+        },
+        {
+          "window_id": 12,
+          "transition_id": 74,
+          "frame_start": 74,
+          "frame_end": 75,
+          "start_time": 37.0,
+          "end_time": 37.5,
+          "description": "hands adjust the sandwich",
+          "status": "continue"
+        },
+        {
+          "window_id": 12,
+          "transition_id": 75,
+          "frame_start": 75,
+          "frame_end": 76,
+          "start_time": 37.5,
+          "end_time": 38.0,
+          "description": "hands adjust the sandwich",
+          "status": "continue"
+        },
+        {
+          "window_id": 12,
+          "transition_id": 76,
+          "frame_start": 76,
+          "frame_end": 77,
+          "start_time": 38.0,
+          "end_time": 38.5,
+          "description": "hands adjust the sandwich",
+          "status": "continue"
+        },
+        {
+          "window_id": 12,
+          "transition_id": 77,
+          "frame_start": 77,
+          "frame_end": 78,
+          "start_time": 38.5,
+          "end_time": 39.0,
+          "description": "hands adjust the sandwich",
+          "status": "continue"
+        },
+        {
+          "window_id": 12,
+          "transition_id": 78,
+          "frame_start": 78,
+          "frame_end": 79,
+          "start_time": 39.0,
+          "end_time": 39.5,
+          "description": "hands adjust the sandwich",
+          "status": "continue"
+        },
+        {
+          "window_id": 12,
+          "transition_id": 79,
+          "frame_start": 79,
+          "frame_end": 80,
+          "start_time": 39.5,
+          "end_time": 40.0,
+          "description": "hands adjust the sandwich",
+          "status": "continue"
+        },
+        {
+          "window_id": 12,
+          "transition_id": 80,
+          "frame_start": 80,
+          "frame_end": 81,
+          "start_time": 40.0,
+          "end_time": 40.5,
+          "description": "hands adjust the sandwich",
+          "status": "continue"
+        },
+        {
+          "window_id": 12,
+          "transition_id": 81,
+          "frame_start": 81,
+          "frame_end": 82,
+          "start_time": 40.5,
+          "end_time": 41.0,
+          "description": "hands adjust the sandwich",
+          "status": "continue"
+        },
+        {
+          "window_id": 12,
+          "transition_id": 82,
+          "frame_start": 82,
+          "frame_end": 83,
+          "start_time": 41.0,
+          "end_time": 41.5,
+          "description": "hands adjust the sandwich",
+          "status": "continue"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+    "video_id": "S4_Coffee_C1",
+    "prompt_version": "stage2_lines_en_v3",
+    "failed_blocks": [],
+    "actions": [
+        {
+            "action_id": 0,
+            "action_label": "picks up | picks up a red cup",
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "transition_ids": [
+                0,
+                1
+            ]
+        },
+        {
+            "action_id": 1,
+            "action_label": "picks up | picks up a white plate",
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "transition_ids": [
+                2,
+                3
+            ]
+        },
+        {
+            "action_id": 2,
+            "action_label": "picks up | picks up a red cup",
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "transition_ids": [
+                4,
+                5
+            ]
+        },
+        {
+            "action_id": 3,
+            "action_label": "picks up | picks up a white plate",
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "transition_ids": [
+                6,
+                7
+            ]
+        },
+        {
+            "action_id": 4,
+            "action_label": "picks up | picks up a red cup",
+            "start_time": 4.0,
+            "end_time": 5.0,
+            "transition_ids": [
+                8,
+                9
+            ]
+        },
+        {
+            "action_id": 5,
+            "action_label": "picks up | picks up a white plate",
+            "start_time": 5.0,
+            "end_time": 6.0,
+            "transition_ids": [
+                10,
+                11
+            ]
+        },
+        {
+            "action_id": 6,
+            "action_label": "picks up | picks up a bottle",
+            "start_time": 6.0,
+            "end_time": 7.0,
+            "transition_ids": [
+                12,
+                13
+            ]
+        },
+        {
+            "action_label": "picks up | picks up a bottle",
+            "start_time": 7.0,
+            "end_time": 9.0,
+            "transition_ids": [
+                14,
+                15,
+                16,
+                17
+            ],
+            "action_id": 7
+        },
+        {
+            "action_label": "hand holds bottle of sauce",
+            "start_time": 9.0,
+            "end_time": 12.0,
+            "transition_ids": [
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+            ],
+            "action_id": 8
+        },
+        {
+            "action_id": 9,
+            "action_label": "hand opens jar lid",
+            "start_time": 12.0,
+            "end_time": 13.5,
+            "transition_ids": [
+                24,
+                25,
+                26
+            ]
+        },
+        {
+            "action_id": 10,
+            "action_label": "hand holds jar lid",
+            "start_time": 13.5,
+            "end_time": 15.0,
+            "transition_ids": [
+                27,
+                28,
+                29
+            ]
+        },
+        {
+            "action_label": "hand scoops jam with spoon",
+            "start_time": 15.0,
+            "end_time": 17.5,
+            "transition_ids": [
+                30,
+                31,
+                32,
+                33,
+                34
+            ],
+            "action_id": 11
+        },
+        {
+            "action_id": 12,
+            "action_label": "hand scoops jam with spoon",
+            "start_time": 17.5,
+            "end_time": 18.0,
+            "transition_ids": [
+                35
+            ]
+        },
+        {
+            "action_id": 13,
+            "action_label": "hand places spoon in cup",
+            "start_time": 18.0,
+            "end_time": 18.5,
+            "transition_ids": [
+                36
+            ]
+        },
+        {
+            "action_id": 14,
+            "action_label": "hand holds spoon in jar.",
+            "start_time": 18.5,
+            "end_time": 19.0,
+            "transition_ids": [
+                37
+            ]
+        },
+        {
+            "action_id": 15,
+            "action_label": "hand scoops chocolate into cup.",
+            "start_time": 19.0,
+            "end_time": 19.5,
+            "transition_ids": [
+                38
+            ]
+        },
+        {
+            "action_id": 16,
+            "action_label": "hand holds spoon in jar.",
+            "start_time": 19.5,
+            "end_time": 20.0,
+            "transition_ids": [
+                39
+            ]
+        },
+        {
+            "action_id": 17,
+            "action_label": "hand scoops chocolate into cup.",
+            "start_time": 20.0,
+            "end_time": 20.5,
+            "transition_ids": [
+                40
+            ]
+        },
+        {
+            "action_id": 18,
+            "action_label": "hand holds spoon in jar.",
+            "start_time": 20.5,
+            "end_time": 21.0,
+            "transition_ids": [
+                41
+            ]
+        },
+        {
+            "action_id": 19,
+            "action_label": "hand scoops chocolate into cup.",
+            "start_time": 21.0,
+            "end_time": 21.5,
+            "transition_ids": [
+                42
+            ]
+        },
+        {
+            "action_id": 20,
+            "action_label": "hand opens jar lid",
+            "start_time": 21.5,
+            "end_time": 22.5,
+            "transition_ids": [
+                43,
+                44
+            ]
+        },
+        {
+            "action_label": "hand scoops jam from jar",
+            "start_time": 22.5,
+            "end_time": 24.0,
+            "transition_ids": [
+                45,
+                46,
+                47
+            ],
+            "action_id": 21
+        },
+        {
+            "action_label": "hand places jar on table",
+            "start_time": 24.0,
+            "end_time": 27.0,
+            "transition_ids": [
+                48,
+                49,
+                50,
+                51,
+                52,
+                53
+            ],
+            "action_id": 22
+        },
+        {
+            "action_id": 23,
+            "action_label": "hand places jar on table",
+            "start_time": 27.0,
+            "end_time": 30.0,
+            "transition_ids": [
+                54,
+                55,
+                56,
+                57,
+                58,
+                59
+            ]
+        },
+        {
+            "action_label": "hand opens the container lid",
+            "start_time": 30.0,
+            "end_time": 32.0,
+            "transition_ids": [
+                60,
+                61,
+                62,
+                63
+            ],
+            "action_id": 24
+        },
+        {
+            "action_id": 25,
+            "action_label": "hand pours the powder into the cup",
+            "start_time": 32.0,
+            "end_time": 33.0,
+            "transition_ids": [
+                64,
+                65
+            ]
+        },
+        {
+            "action_id": 26,
+            "action_label": "hand closes the container",
+            "start_time": 33.0,
+            "end_time": 34.0,
+            "transition_ids": [
+                66,
+                67
+            ]
+        },
+        {
+            "action_id": 27,
+            "action_label": "hand pours the powder into the cup",
+            "start_time": 34.0,
+            "end_time": 36.0,
+            "transition_ids": [
+                68,
+                69,
+                70,
+                71
+            ]
+        },
+        {
+            "action_id": 28,
+            "action_label": "hand places the container on the table",
+            "start_time": 36.0,
+            "end_time": 37.0,
+            "transition_ids": [
+                72,
+                73
+            ]
+        },
+        {
+            "action_label": "hand places the container on the table.",
+            "start_time": 37.0,
+            "end_time": 39.0,
+            "transition_ids": [
+                74,
+                75,
+                76,
+                77
+            ],
+            "action_id": 29
+        },
+        {
+            "action_label": "hand lifts the container from the table.",
+            "start_time": 39.0,
+            "end_time": 42.0,
+            "transition_ids": [
+                78,
+                79,
+                80,
+                81,
+                82,
+                83
+            ],
+            "action_id": 30
+        },
+        {
+            "action_id": 31,
+            "action_label": "hand places the bottle on the table.",
+            "start_time": 42.0,
+            "end_time": 44.5,
+            "transition_ids": [
+                84,
+                85,
+                86,
+                87,
+                88
+            ]
+        },
+        {
+            "action_label": "hand closes the bottle.",
+            "start_time": 44.5,
+            "end_time": 48.0,
+            "transition_ids": [
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95
+            ],
+            "action_id": 32
+        },
+        {
+            "action_id": 33,
+            "action_label": "opens bottle",
+            "start_time": 48.0,
+            "end_time": 49.0,
+            "transition_ids": [
+                96,
+                97
+            ]
+        },
+        {
+            "action_id": 34,
+            "action_label": "opens bottle",
+            "start_time": 49.0,
+            "end_time": 50.0,
+            "transition_ids": [
+                98,
+                99
+            ]
+        },
+        {
+            "action_id": 35,
+            "action_label": "opens bottle",
+            "start_time": 50.0,
+            "end_time": 51.0,
+            "transition_ids": [
+                100,
+                101
+            ]
+        },
+        {
+            "action_label": "hand pours liquid into cup",
+            "start_time": 51.0,
+            "end_time": 60.0,
+            "transition_ids": [
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119
+            ],
+            "action_id": 36
+        },
+        {
+            "action_id": 37,
+            "action_label": "hand places the bottle back on the table",
+            "start_time": 60.0,
+            "end_time": 62.0,
+            "transition_ids": [
+                120,
+                121,
+                122,
+                123
+            ]
+        }
+    ],
+    "ignored_transition_ids": [
+        124
+    ]
+}

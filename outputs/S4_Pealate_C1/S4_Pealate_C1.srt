@@ -1,0 +1,172 @@
+1
+00:00:01,500 --> 00:00:02,000
+hand picks up a piece of bread.
+
+2
+00:00:02,500 --> 00:00:03,000
+hand places the bread on a plate.
+
+3
+00:00:04,000 --> 00:00:05,000
+hand picks up the buttered bread
+
+4
+00:00:05,000 --> 00:00:07,000
+hand spreads butter on the bread.
+
+5
+00:00:07,000 --> 00:00:08,000
+hand applies jam on the bread.
+
+6
+00:00:07,500 --> 00:00:10,500
+hand tilts the glass of syrup.
+
+7
+00:00:08,000 --> 00:00:09,500
+hand opens the bottle of juice
+
+8
+00:00:09,500 --> 00:00:10,500
+hand places the bottle of syrup on the table [Stage2]
+
+9
+00:00:10,500 --> 00:00:11,500
+hand places the egg on the table [Stage2]
+
+10
+00:00:12,500 --> 00:00:13,500
+hand places the bottle of jam back on the table
+
+11
+00:00:13,000 --> 00:00:14,500
+hand places the spoon back on the plate
+
+12
+00:00:14,000 --> 00:00:15,500
+hand closes the bottle of jam
+
+13
+00:00:15,000 --> 00:00:19,000
+spreads jam on bread
+
+14
+00:00:17,000 --> 00:00:21,000
+hand picks up the piece of bread with jam
+
+15
+00:00:19,000 --> 00:00:21,500
+hand uses the knife to spread the jam on another piece of bread
+
+16
+00:00:19,500 --> 00:00:30,500
+hand spreads jam on bread
+
+17
+00:00:30,000 --> 00:00:33,000
+spread tomato paste on bread [Stage2]
+
+18
+00:00:34,000 --> 00:00:35,000
+hand applies mustard on the bread
+
+19
+00:00:34,000 --> 00:00:37,000
+hand applies honey on the bread
+
+20
+00:00:35,000 --> 00:00:38,000
+hand uses a spoon to spread peanut butter on a piece of bread
+
+21
+00:00:35,500 --> 00:00:36,000
+hand opens the bottle of honey
+
+22
+00:00:38,000 --> 00:00:40,000
+hand uses a spoon to spread peanut butter on a piece of bread
+
+23
+00:00:38,000 --> 00:00:41,500
+hand spreads peanut butter on bread
+
+24
+00:00:39,500 --> 00:00:42,000
+hand spreads peanut butter on bread
+
+25
+00:00:40,000 --> 00:00:42,500
+hand scoops peanut butter with knife
+
+26
+00:00:40,500 --> 00:00:42,500
+hand spreads peanut butter on bread
+
+27
+00:00:41,000 --> 00:00:43,500
+hand spreads peanut butter on bread
+
+28
+00:00:41,500 --> 00:00:44,000
+hand spreads peanut butter on bread
+
+29
+00:00:42,000 --> 00:00:44,500
+hand spreads peanut butter on bread
+
+30
+00:00:42,500 --> 00:00:45,000
+hand spreads peanut butter on bread
+
+31
+00:00:43,000 --> 00:00:45,500
+hand spreads peanut butter on bread
+
+32
+00:00:44,000 --> 00:00:46,000
+hand spreads peanut butter on bread
+
+33
+00:00:44,000 --> 00:00:50,500
+spreading peanut butter on bread
+
+34
+00:00:49,000 --> 00:00:53,500
+spread peanut butter on bread
+
+35
+00:00:59,000 --> 00:01:00,000
+grasp bottle of mayonnaise
+
+36
+00:01:00,000 --> 00:01:05,000
+pour syrup onto bread
+
+37
+00:01:04,500 --> 00:01:12,500
+spread jam on bread
+
+38
+00:01:11,000 --> 00:01:14,500
+spread jam on bread
+
+39
+00:01:15,000 --> 00:01:17,500
+press bread on the other bread
+
+40
+00:01:15,500 --> 00:01:16,000
+Put the other piece of bread on top of the sandwich.
+
+41
+00:01:15,500 --> 00:01:19,000
+place bread on plate
+
+42
+00:01:17,000 --> 00:01:20,500
+lift sandwich
+
+43
+00:01:18,500 --> 00:01:21,500
+place sandwich on plate
+

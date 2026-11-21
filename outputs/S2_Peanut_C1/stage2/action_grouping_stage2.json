@@ -1,0 +1,463 @@
+{
+    "video_id": "S2_Peanut_C1",
+    "prompt_version": "stage2_lines_en_v3",
+    "failed_blocks": [],
+    "actions": [
+        {
+            "action_id": 0,
+            "action_label": "hand reaches for bread bag",
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "transition_ids": [
+                0,
+                1
+            ]
+        },
+        {
+            "action_id": 1,
+            "action_label": "hand holds bread bag",
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "transition_ids": [
+                2,
+                3
+            ]
+        },
+        {
+            "action_id": 2,
+            "action_label": "hand lifts bread bag",
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "transition_ids": [
+                4,
+                5
+            ]
+        },
+        {
+            "action_id": 3,
+            "action_label": "hand holds bread bag",
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "transition_ids": [
+                6,
+                7
+            ]
+        },
+        {
+            "action_id": 4,
+            "action_label": "hand lifts bread bag",
+            "start_time": 4.0,
+            "end_time": 5.0,
+            "transition_ids": [
+                8,
+                9
+            ]
+        },
+        {
+            "action_id": 5,
+            "action_label": "hand holds bread bag",
+            "start_time": 5.0,
+            "end_time": 6.0,
+            "transition_ids": [
+                10,
+                11
+            ]
+        },
+        {
+            "action_id": 6,
+            "action_label": "hand picks up another slice of bread",
+            "start_time": 6.0,
+            "end_time": 7.0,
+            "transition_ids": [
+                12,
+                13
+            ]
+        },
+        {
+            "action_label": "hand picks up a slice of bread",
+            "start_time": 7.0,
+            "end_time": 10.5,
+            "transition_ids": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "action_id": 7
+        },
+        {
+            "action_id": 8,
+            "action_label": "hand picks up a slice of bread",
+            "start_time": 10.5,
+            "end_time": 11.5,
+            "transition_ids": [
+                21,
+                22
+            ]
+        },
+        {
+            "action_id": 9,
+            "action_label": "hand places the bottle of honey on the table",
+            "start_time": 11.5,
+            "end_time": 14.0,
+            "transition_ids": [
+                23,
+                24,
+                25,
+                26,
+                27
+            ]
+        },
+        {
+            "action_label": "hand places the bottle of mayonnaise on the table",
+            "start_time": 14.0,
+            "end_time": 18.0,
+            "transition_ids": [
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+            ],
+            "action_id": 10
+        },
+        {
+            "action_id": 11,
+            "action_label": "hand closes peanut butter jar lid",
+            "start_time": 18.0,
+            "end_time": 19.5,
+            "transition_ids": [
+                36,
+                37,
+                38
+            ]
+        },
+        {
+            "action_id": 12,
+            "action_label": "hand opens peanut butter jar lid",
+            "start_time": 19.5,
+            "end_time": 21.0,
+            "transition_ids": [
+                39,
+                40,
+                41
+            ]
+        },
+        {
+            "action_id": 13,
+            "action_label": "hand closes peanut butter jar",
+            "start_time": 21.0,
+            "end_time": 22.5,
+            "transition_ids": [
+                42,
+                43,
+                44
+            ]
+        },
+        {
+            "action_label": "hand spreads peanut butter on bread",
+            "start_time": 22.5,
+            "end_time": 33.0,
+            "transition_ids": [
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65
+            ],
+            "action_id": 14
+        },
+        {
+            "action_id": 15,
+            "action_label": "continue spreading peanut butter",
+            "start_time": 33.0,
+            "end_time": 35.5,
+            "transition_ids": [
+                66,
+                67,
+                68,
+                69,
+                70
+            ]
+        },
+        {
+            "action_label": "spread peanut butter",
+            "start_time": 35.5,
+            "end_time": 45.0,
+            "transition_ids": [
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89
+            ],
+            "action_id": 16
+        },
+        {
+            "action_id": 17,
+            "action_label": "spread peanut butter on bread",
+            "start_time": 45.0,
+            "end_time": 50.0,
+            "transition_ids": [
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99
+            ]
+        },
+        {
+            "action_label": "spread peanut butter on bread",
+            "start_time": 50.0,
+            "end_time": 53.5,
+            "transition_ids": [
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106
+            ],
+            "action_id": 18
+        },
+        {
+            "action_label": "close peanut butter jar",
+            "start_time": 53.5,
+            "end_time": 54.5,
+            "transition_ids": [
+                107,
+                108
+            ],
+            "action_id": 19
+        },
+        {
+            "action_id": 20,
+            "action_label": "open peanut butter jar",
+            "start_time": 54.5,
+            "end_time": 55.5,
+            "transition_ids": [
+                109,
+                110
+            ]
+        },
+        {
+            "action_id": 21,
+            "action_label": "close peanut butter jar",
+            "start_time": 55.5,
+            "end_time": 56.5,
+            "transition_ids": [
+                111,
+                112
+            ]
+        },
+        {
+            "action_id": 22,
+            "action_label": "open peanut butter jar",
+            "start_time": 56.5,
+            "end_time": 57.5,
+            "transition_ids": [
+                113,
+                114
+            ]
+        },
+        {
+            "action_id": 23,
+            "action_label": "close peanut butter jar",
+            "start_time": 57.5,
+            "end_time": 58.5,
+            "transition_ids": [
+                115,
+                116
+            ]
+        },
+        {
+            "action_id": 24,
+            "action_label": "hold jar lid",
+            "start_time": 58.5,
+            "end_time": 59.5,
+            "transition_ids": [
+                117,
+                118
+            ]
+        },
+        {
+            "action_label": "hand closes jar lid",
+            "start_time": 59.5,
+            "end_time": 63.0,
+            "transition_ids": [
+                119,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125
+            ],
+            "action_id": 25
+        },
+        {
+            "action_id": 26,
+            "action_label": "hand holds jar lid",
+            "start_time": 63.0,
+            "end_time": 66.0,
+            "transition_ids": [
+                126,
+                127,
+                128,
+                129,
+                130,
+                131
+            ]
+        },
+        {
+            "action_label": "hand picks up a jar of mayonnaise",
+            "start_time": 66.0,
+            "end_time": 72.0,
+            "transition_ids": [
+                132,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143
+            ],
+            "action_id": 27
+        },
+        {
+            "action_id": 28,
+            "action_label": "hand places honey jar back on table",
+            "start_time": 72.0,
+            "end_time": 73.0,
+            "transition_ids": [
+                144,
+                145
+            ]
+        },
+        {
+            "action_label": "hand spreads honey on bread",
+            "start_time": 73.0,
+            "end_time": 87.0,
+            "transition_ids": [
+                146,
+                147,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154,
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                163,
+                164,
+                165,
+                166,
+                167,
+                168,
+                169,
+                170,
+                171,
+                172,
+                173
+            ],
+            "action_id": 29
+        },
+        {
+            "action_id": 30,
+            "action_label": "hand lifts and places bread slices",
+            "start_time": 87.0,
+            "end_time": 90.0,
+            "transition_ids": [
+                174,
+                175,
+                176,
+                177,
+                178,
+                179
+            ]
+        },
+        {
+            "action_label": "hand holds bread",
+            "start_time": 90.0,
+            "end_time": 93.0,
+            "transition_ids": [
+                180,
+                181,
+                182,
+                183,
+                184,
+                185
+            ],
+            "action_id": 31
+        },
+        {
+            "action_id": 32,
+            "action_label": "hands place sandwich on table",
+            "start_time": 93.0,
+            "end_time": 95.5,
+            "transition_ids": [
+                186,
+                187,
+                188,
+                189,
+                190
+            ]
+        }
+    ],
+    "ignored_transition_ids": []
+}

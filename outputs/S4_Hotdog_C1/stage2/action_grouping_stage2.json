@@ -1,0 +1,252 @@
+{
+    "video_id": "S4_Hotdog_C1",
+    "prompt_version": "stage2_lines_en_v3",
+    "failed_blocks": [],
+    "actions": [
+        {
+            "action_id": 0,
+            "action_label": "hand spreads butter on bread",
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "transition_ids": [
+                0,
+                1
+            ]
+        },
+        {
+            "action_label": "hand spreads butter on bread",
+            "start_time": 1.0,
+            "end_time": 9.0,
+            "transition_ids": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "action_id": 1
+        },
+        {
+            "action_label": "hands place the hot dog on a plate",
+            "start_time": 9.0,
+            "end_time": 10.0,
+            "transition_ids": [
+                18,
+                19
+            ],
+            "action_id": 2
+        },
+        {
+            "action_id": 3,
+            "action_label": "hands adjust the hot dog on the plate",
+            "start_time": 10.0,
+            "end_time": 10.5,
+            "transition_ids": [
+                20
+            ]
+        },
+        {
+            "action_id": 4,
+            "action_label": "hands place the hot dog on a plate",
+            "start_time": 10.5,
+            "end_time": 11.0,
+            "transition_ids": [
+                21
+            ]
+        },
+        {
+            "action_id": 5,
+            "action_label": "hands adjust the hot dog on the plate",
+            "start_time": 11.0,
+            "end_time": 11.5,
+            "transition_ids": [
+                22
+            ]
+        },
+        {
+            "action_id": 6,
+            "action_label": "hands adjust the hot dog on the plate",
+            "start_time": 11.5,
+            "end_time": 12.0,
+            "transition_ids": [
+                23
+            ]
+        },
+        {
+            "action_id": 7,
+            "action_label": "hand picks up mustard bottle",
+            "start_time": 12.0,
+            "end_time": 13.0,
+            "transition_ids": [
+                24,
+                25
+            ]
+        },
+        {
+            "action_id": 8,
+            "action_label": "hand opens mustard bottle",
+            "start_time": 13.0,
+            "end_time": 13.5,
+            "transition_ids": [
+                26
+            ]
+        },
+        {
+            "action_id": 9,
+            "action_label": "hand applies mustard to bread",
+            "start_time": 13.5,
+            "end_time": 14.0,
+            "transition_ids": [
+                27
+            ]
+        },
+        {
+            "action_id": 10,
+            "action_label": "hand applies mustard to hot dog",
+            "start_time": 14.0,
+            "end_time": 14.5,
+            "transition_ids": [
+                28
+            ]
+        },
+        {
+            "action_label": "hand picks up the bottle of mustard again, continues squeezing the mustard bottle, hand places the bottle back on the table",
+            "start_time": 14.5,
+            "end_time": 16.5,
+            "transition_ids": [
+                29,
+                30,
+                31,
+                32
+            ],
+            "action_id": 11
+        },
+        {
+            "action_label": "hand picks up the bottle of mustard again, continues squeezing the mustard bottle, hand continues applying mustard",
+            "start_time": 16.5,
+            "end_time": 27.0,
+            "transition_ids": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53
+            ],
+            "action_id": 12
+        },
+        {
+            "action_label": "hand applies ketchup",
+            "start_time": 27.0,
+            "end_time": 33.0,
+            "transition_ids": [
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65
+            ],
+            "action_id": 13
+        },
+        {
+            "action_id": 14,
+            "action_label": "open ketchup bottle",
+            "start_time": 33.5,
+            "end_time": 36.5,
+            "transition_ids": [
+                67,
+                68,
+                69,
+                70,
+                71,
+                72
+            ]
+        },
+        {
+            "action_label": "pick up and place mustard bottle",
+            "start_time": 36.5,
+            "end_time": 39.5,
+            "transition_ids": [
+                73,
+                74,
+                75,
+                76,
+                77,
+                78
+            ],
+            "action_id": 15
+        },
+        {
+            "action_id": 16,
+            "action_label": "picks up mustard bottle",
+            "start_time": 39.5,
+            "end_time": 40.0,
+            "transition_ids": [
+                79
+            ]
+        },
+        {
+            "action_id": 17,
+            "action_label": "places mustard bottle on table",
+            "start_time": 40.0,
+            "end_time": 40.5,
+            "transition_ids": [
+                80
+            ]
+        },
+        {
+            "action_id": 18,
+            "action_label": "picks up mayonnaise bottle",
+            "start_time": 40.5,
+            "end_time": 41.0,
+            "transition_ids": [
+                81
+            ]
+        },
+        {
+            "action_id": 19,
+            "action_label": "places mayonnaise bottle on table",
+            "start_time": 41.0,
+            "end_time": 41.5,
+            "transition_ids": [
+                82
+            ]
+        }
+    ],
+    "ignored_transition_ids": [
+        66
+    ]
+}

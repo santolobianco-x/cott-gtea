@@ -1,0 +1,385 @@
+{
+    "video_id": "S3_CofHoney_C1",
+    "prompt_version": "stage2_lines_en_v3",
+    "failed_blocks": [],
+    "actions": [
+        {
+            "action_id": 0,
+            "action_label": "picks up and places",
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "transition_ids": [
+                0,
+                1
+            ]
+        },
+        {
+            "action_id": 1,
+            "action_label": "picks up and places",
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "transition_ids": [
+                2,
+                3
+            ]
+        },
+        {
+            "action_id": 2,
+            "action_label": "picks up and places",
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "transition_ids": [
+                4,
+                5
+            ]
+        },
+        {
+            "action_id": 3,
+            "action_label": "picks up and places",
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "transition_ids": [
+                6,
+                7
+            ]
+        },
+        {
+            "action_id": 4,
+            "action_label": "picks up and places",
+            "start_time": 4.0,
+            "end_time": 5.0,
+            "transition_ids": [
+                8,
+                9
+            ]
+        },
+        {
+            "action_id": 5,
+            "action_label": "picks up and places",
+            "start_time": 5.0,
+            "end_time": 6.0,
+            "transition_ids": [
+                10,
+                11
+            ]
+        },
+        {
+            "action_id": 6,
+            "action_label": "picks up and places",
+            "start_time": 6.0,
+            "end_time": 7.0,
+            "transition_ids": [
+                12,
+                13
+            ]
+        },
+        {
+            "action_label": "hand places the pack of pepper on the table.",
+            "start_time": 7.0,
+            "end_time": 9.0,
+            "transition_ids": [
+                14,
+                15,
+                16,
+                17
+            ],
+            "action_id": 7
+        },
+        {
+            "action_label": "lifts and places",
+            "start_time": 9.0,
+            "end_time": 10.0,
+            "transition_ids": [
+                18,
+                19
+            ],
+            "action_id": 8
+        },
+        {
+            "action_id": 9,
+            "action_label": "hand lifts the spoon from the pink cup.",
+            "start_time": 10.0,
+            "end_time": 10.5,
+            "transition_ids": [
+                20
+            ]
+        },
+        {
+            "action_id": 10,
+            "action_label": "hand places the spoon back into the pink cup.",
+            "start_time": 10.5,
+            "end_time": 11.0,
+            "transition_ids": [
+                21
+            ]
+        },
+        {
+            "action_id": 11,
+            "action_label": "hand stirs the contents of the pink cup.",
+            "start_time": 11.0,
+            "end_time": 11.5,
+            "transition_ids": [
+                22
+            ]
+        },
+        {
+            "action_id": 12,
+            "action_label": "hand lifts the spoon from the pink cup.",
+            "start_time": 11.5,
+            "end_time": 12.0,
+            "transition_ids": [
+                23
+            ]
+        },
+        {
+            "action_id": 13,
+            "action_label": "hand places the spoon back into the jar.",
+            "start_time": 12.0,
+            "end_time": 12.5,
+            "transition_ids": [
+                24
+            ]
+        },
+        {
+            "action_id": 14,
+            "action_label": "hand pours the jam into the red cup.",
+            "start_time": 12.5,
+            "end_time": 13.0,
+            "transition_ids": [
+                25
+            ]
+        },
+        {
+            "action_id": 15,
+            "action_label": "hand uses the spoon to stir the jam in the cup.",
+            "start_time": 13.0,
+            "end_time": 13.5,
+            "transition_ids": [
+                26
+            ]
+        },
+        {
+            "action_id": 16,
+            "action_label": "hand places the spoon back into the jar.",
+            "start_time": 13.5,
+            "end_time": 14.0,
+            "transition_ids": [
+                27
+            ]
+        },
+        {
+            "action_id": 17,
+            "action_label": "hand closes the jar lid.",
+            "start_time": 14.0,
+            "end_time": 14.5,
+            "transition_ids": [
+                28
+            ]
+        },
+        {
+            "action_id": 18,
+            "action_label": "hand uses the spoon to stir the jam in the cup.",
+            "start_time": 14.5,
+            "end_time": 15.0,
+            "transition_ids": [
+                29
+            ]
+        },
+        {
+            "action_label": "hand stirs jam in cup",
+            "start_time": 15.0,
+            "end_time": 16.5,
+            "transition_ids": [
+                30,
+                31,
+                32
+            ],
+            "action_id": 19
+        },
+        {
+            "action_label": "hand pours jam into cup",
+            "start_time": 16.5,
+            "end_time": 18.0,
+            "transition_ids": [
+                33,
+                34,
+                35
+            ],
+            "action_id": 20
+        },
+        {
+            "action_id": 21,
+            "action_label": "hand stirs the contents of the cup",
+            "start_time": 18.0,
+            "end_time": 19.0,
+            "transition_ids": [
+                36,
+                37
+            ]
+        },
+        {
+            "action_id": 22,
+            "action_label": "hand lifts the spoon out of the cup",
+            "start_time": 19.0,
+            "end_time": 20.5,
+            "transition_ids": [
+                38,
+                39,
+                40
+            ]
+        },
+        {
+            "action_label": "hand opens the jar lid",
+            "start_time": 20.5,
+            "end_time": 23.5,
+            "transition_ids": [
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+            ],
+            "action_id": 23
+        },
+        {
+            "action_label": "hand finishes pouring syrup into the cup",
+            "start_time": 23.5,
+            "end_time": 24.5,
+            "transition_ids": [
+                47,
+                48
+            ],
+            "action_id": 24
+        },
+        {
+            "action_label": "hand picks up a bottle of syrup, pours syrup into the cup, places bottle of oil on table, picks up bottle of oil, holds bottle of oil, places bottle of oil on table, picks up bottle of oil, holds bottle of oil.",
+            "start_time": 24.5,
+            "end_time": 27.0,
+            "transition_ids": [
+                49,
+                50,
+                51,
+                52,
+                53
+            ],
+            "action_id": 25
+        },
+        {
+            "action_label": "hand stirs the contents of the red cup with the spoon.",
+            "start_time": 27.0,
+            "end_time": 33.0,
+            "transition_ids": [
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65
+            ],
+            "action_id": 26
+        },
+        {
+            "action_label": "hold and lift spoon",
+            "start_time": 33.0,
+            "end_time": 39.0,
+            "transition_ids": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77
+            ],
+            "action_id": 27
+        },
+        {
+            "action_label": "hand picks up and places the bottle of honey on the table.",
+            "start_time": 39.0,
+            "end_time": 42.0,
+            "transition_ids": [
+                78,
+                79,
+                80,
+                81,
+                82,
+                83
+            ],
+            "action_id": 28
+        },
+        {
+            "action_id": 29,
+            "action_label": "hand opens the bottle of honey.",
+            "start_time": 42.0,
+            "end_time": 44.0,
+            "transition_ids": [
+                84,
+                85,
+                86,
+                87
+            ]
+        },
+        {
+            "action_label": "hand continues to hold the bottle of honey.",
+            "start_time": 44.0,
+            "end_time": 48.0,
+            "transition_ids": [
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95
+            ],
+            "action_id": 30
+        },
+        {
+            "action_id": 31,
+            "action_label": "hand opens bottle of sauce",
+            "start_time": 48.0,
+            "end_time": 51.5,
+            "transition_ids": [
+                96,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102
+            ]
+        },
+        {
+            "action_label": "hand continues to stir the contents of the cup.",
+            "start_time": 51.5,
+            "end_time": 56.5,
+            "transition_ids": [
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112
+            ],
+            "action_id": 32
+        }
+    ],
+    "ignored_transition_ids": []
+}

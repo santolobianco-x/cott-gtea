@@ -1,0 +1,162 @@
+[
+    {
+        "action_id": 0,
+        "start_time": 0.0,
+        "end_time": 1.0,
+        "description": "grasp the knife",
+        "refined": false,
+        "raw_stage2_label": "hand spreads butter on bread"
+    },
+    {
+        "action_id": 1,
+        "start_time": 7.0,
+        "end_time": 10.0,
+        "description": "hand spreads butter on bread",
+        "refined": true,
+        "raw_stage2_label": "hand spreads butter on bread"
+    },
+    {
+        "action_id": 2,
+        "start_time": 8.0,
+        "end_time": 11.0,
+        "description": "hands place the hot dog on a plate",
+        "refined": true,
+        "raw_stage2_label": "hands place the hot dog on a plate"
+    },
+    {
+        "action_id": 3,
+        "start_time": 10.0,
+        "end_time": 10.5,
+        "description": "person picks up a bottle of mustard",
+        "refined": false,
+        "raw_stage2_label": "hands adjust the hot dog on the plate"
+    },
+    {
+        "action_id": 4,
+        "start_time": 10.5,
+        "end_time": 11.0,
+        "description": "hand picks up a bottle of mustard",
+        "refined": false,
+        "raw_stage2_label": "hands place the hot dog on a plate"
+    },
+    {
+        "action_id": 5,
+        "start_time": 11.0,
+        "end_time": 11.5,
+        "description": "hand picks up a bottle of mustard",
+        "refined": false,
+        "raw_stage2_label": "hands adjust the hot dog on the plate"
+    },
+    {
+        "action_id": 6,
+        "start_time": 12.5,
+        "end_time": 13.0,
+        "description": "hand picks up a bottle of mustard",
+        "refined": true,
+        "raw_stage2_label": "hands adjust the hot dog on the plate"
+    },
+    {
+        "action_id": 7,
+        "start_time": 13.0,
+        "end_time": 14.0,
+        "description": "hand picks up mustard bottle",
+        "refined": true,
+        "raw_stage2_label": "hand picks up mustard bottle"
+    },
+    {
+        "action_id": 8,
+        "start_time": 14.0,
+        "end_time": 14.5,
+        "description": "hand opens mustard bottle",
+        "refined": true,
+        "raw_stage2_label": "hand opens mustard bottle"
+    },
+    {
+        "action_id": 9,
+        "start_time": 13.5,
+        "end_time": 14.5,
+        "description": "hand applies mustard to bread",
+        "refined": true,
+        "raw_stage2_label": "hand applies mustard to bread"
+    },
+    {
+        "action_id": 10,
+        "start_time": 14.0,
+        "end_time": 15.5,
+        "description": "hand applies mustard to hot dog",
+        "refined": true,
+        "raw_stage2_label": "hand applies mustard to hot dog"
+    },
+    {
+        "action_id": 11,
+        "start_time": 13.5,
+        "end_time": 17.5,
+        "description": "hand picks up the bottle of mustard again, continues squeezing the mustard bottle, hand places the bottle back on the table",
+        "refined": true,
+        "raw_stage2_label": "hand picks up the bottle of mustard again, continues squeezing the mustard bottle, hand places the bottle back on the table"
+    },
+    {
+        "action_id": 12,
+        "start_time": 15.5,
+        "end_time": 27.0,
+        "description": "hand picks up the bottle of mustard again, continues squeezing the mustard bottle, hand continues applying mustard",
+        "refined": true,
+        "raw_stage2_label": "hand picks up the bottle of mustard again, continues squeezing the mustard bottle, hand continues applying mustard"
+    },
+    {
+        "action_id": 13,
+        "start_time": 26.0,
+        "end_time": 33.5,
+        "description": "hand applies ketchup",
+        "refined": true,
+        "raw_stage2_label": "hand applies ketchup"
+    },
+    {
+        "action_id": 14,
+        "start_time": 32.5,
+        "end_time": 37.5,
+        "description": "open ketchup bottle",
+        "refined": true,
+        "raw_stage2_label": "open ketchup bottle"
+    },
+    {
+        "action_id": 15,
+        "start_time": 35.5,
+        "end_time": 37.5,
+        "description": "spread mustard on bread",
+        "refined": true,
+        "raw_stage2_label": "pick up and place mustard bottle"
+    },
+    {
+        "action_id": 16,
+        "start_time": 39.0,
+        "end_time": 41.0,
+        "description": "sticks mustard on bread",
+        "refined": true,
+        "raw_stage2_label": "picks up mustard bottle"
+    },
+    {
+        "action_id": 17,
+        "start_time": 41.0,
+        "end_time": 41.5,
+        "description": "places mustard bottle on table",
+        "refined": true,
+        "raw_stage2_label": "places mustard bottle on table"
+    },
+    {
+        "action_id": 18,
+        "start_time": 41.0,
+        "end_time": 42.0,
+        "description": "sticks toothpick in sandwich",
+        "refined": true,
+        "raw_stage2_label": "picks up mayonnaise bottle"
+    },
+    {
+        "action_id": 19,
+        "start_time": 42.0,
+        "end_time": 42.5,
+        "description": "places mayonnaise bottle on table",
+        "refined": true,
+        "raw_stage2_label": "places mayonnaise bottle on table"
+    }
+]

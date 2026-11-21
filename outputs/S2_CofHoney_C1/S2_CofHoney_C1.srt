@@ -1,0 +1,112 @@
+1
+00:00:01,000 --> 00:00:02,000
+hand picks up a bottle of sauce
+
+2
+00:00:01,000 --> 00:00:02,500
+hand picks up the red cup
+
+3
+00:00:02,000 --> 00:00:03,000
+hand places the bottle of sauce on the table
+
+4
+00:00:03,000 --> 00:00:04,000
+hand picks up a bottle of sauce
+
+5
+00:00:04,000 --> 00:00:05,500
+hand picks up a bottle of sauce
+
+6
+00:00:04,000 --> 00:00:07,000
+hand places the bottle of sauce on the table
+
+7
+00:00:07,500 --> 00:00:08,000
+hand picks up a bottle of sauce
+
+8
+00:00:09,000 --> 00:00:10,000
+hand opens jar lid
+
+9
+00:00:10,000 --> 00:00:11,000
+hand opens the jar of jam again
+
+10
+00:00:11,000 --> 00:00:11,500
+spoon scoops jam into the cup
+
+11
+00:00:11,500 --> 00:00:12,000
+spoon scoops out jam
+
+12
+00:00:11,500 --> 00:00:12,500
+spoon scoops jam into cup
+
+13
+00:00:11,500 --> 00:00:15,000
+spoon scoops out jam from jar
+
+14
+00:00:12,000 --> 00:00:13,000
+spoon scoops jam into the cup
+
+15
+00:00:12,000 --> 00:00:13,500
+hand pours jam into cup
+
+16
+00:00:13,000 --> 00:00:16,000
+hand scoops jam with spoon
+
+17
+00:00:14,000 --> 00:00:18,500
+hand scoops jam
+
+18
+00:00:19,500 --> 00:00:21,500
+hand picks up bottle
+
+19
+00:00:22,000 --> 00:00:24,500
+pours oil into the cup
+
+20
+00:00:22,500 --> 00:00:26,500
+hand pours liquid into cup
+
+21
+00:00:24,500 --> 00:00:28,500
+hand continues to scoop yogurt
+
+22
+00:00:26,500 --> 00:00:33,500
+hand holding bottle, squeezing liquid into cup
+
+23
+00:00:33,000 --> 00:00:34,500
+add the content of the bottle to the cup [Stage2]
+
+24
+00:00:33,500 --> 00:00:36,500
+add salt to the food
+
+25
+00:00:35,000 --> 00:00:36,500
+placing the egg into the bowl
+
+26
+00:00:39,000 --> 00:00:45,500
+spoon into bowl
+
+27
+00:00:44,000 --> 00:00:46,500
+hand holding spoon in cup
+
+28
+00:00:47,000 --> 00:00:54,000
+hand continues to stir the contents of the cup.
+

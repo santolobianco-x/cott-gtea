@@ -1,0 +1,472 @@
+{
+    "video_id": "S4_Peanut_C1",
+    "prompt_version": "stage2_lines_en_v3",
+    "failed_blocks": [],
+    "actions": [
+        {
+            "action_id": 0,
+            "action_label": "hand picks up a piece of bread",
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "transition_ids": [
+                0,
+                1
+            ]
+        },
+        {
+            "action_id": 1,
+            "action_label": "hand places the bread on the plate",
+            "start_time": 1.0,
+            "end_time": 1.5,
+            "transition_ids": [
+                2
+            ]
+        },
+        {
+            "action_id": 2,
+            "action_label": "hand spreads butter on the bread",
+            "start_time": 1.5,
+            "end_time": 2.0,
+            "transition_ids": [
+                3
+            ]
+        },
+        {
+            "action_id": 3,
+            "action_label": "hand picks up the spread bottle",
+            "start_time": 2.0,
+            "end_time": 2.5,
+            "transition_ids": [
+                4
+            ]
+        },
+        {
+            "action_id": 4,
+            "action_label": "hand places the spread bottle back on the table",
+            "start_time": 2.5,
+            "end_time": 3.0,
+            "transition_ids": [
+                5
+            ]
+        },
+        {
+            "action_id": 5,
+            "action_label": "hand spreads butter on the bread",
+            "start_time": 3.0,
+            "end_time": 3.5,
+            "transition_ids": [
+                6
+            ]
+        },
+        {
+            "action_id": 6,
+            "action_label": "hand picks up the spread bottle",
+            "start_time": 3.5,
+            "end_time": 4.0,
+            "transition_ids": [
+                7
+            ]
+        },
+        {
+            "action_id": 7,
+            "action_label": "hand places the spread bottle back on the table",
+            "start_time": 4.0,
+            "end_time": 4.5,
+            "transition_ids": [
+                8
+            ]
+        },
+        {
+            "action_id": 8,
+            "action_label": "hand spreads butter on the bread",
+            "start_time": 4.5,
+            "end_time": 5.0,
+            "transition_ids": [
+                9
+            ]
+        },
+        {
+            "action_id": 9,
+            "action_label": "hand picks up the spread bottle",
+            "start_time": 5.0,
+            "end_time": 5.5,
+            "transition_ids": [
+                10
+            ]
+        },
+        {
+            "action_id": 10,
+            "action_label": "hand places the spread bottle back on the table",
+            "start_time": 5.5,
+            "end_time": 6.0,
+            "transition_ids": [
+                11
+            ]
+        },
+        {
+            "action_id": 11,
+            "action_label": "hand places the bottle of mayonnaise on the table",
+            "start_time": 6.0,
+            "end_time": 6.5,
+            "transition_ids": [
+                12
+            ]
+        },
+        {
+            "action_id": 12,
+            "action_label": "hand picks up a bottle of mustard",
+            "start_time": 6.5,
+            "end_time": 7.0,
+            "transition_ids": [
+                13
+            ]
+        },
+        {
+            "action_id": 13,
+            "action_label": "hand places the bottle of mustard on the table",
+            "start_time": 7.0,
+            "end_time": 7.5,
+            "transition_ids": [
+                14
+            ]
+        },
+        {
+            "action_label": "hand places the bottle of ketchup on the table.",
+            "start_time": 7.5,
+            "end_time": 9.0,
+            "transition_ids": [
+                15,
+                16,
+                17
+            ],
+            "action_id": 14
+        },
+        {
+            "action_label": "hand applies mustard on bread",
+            "start_time": 9.0,
+            "end_time": 9.5,
+            "transition_ids": [
+                18
+            ],
+            "action_id": 15
+        },
+        {
+            "action_label": "hand closes the bottle of mustard",
+            "start_time": 9.5,
+            "end_time": 10.0,
+            "transition_ids": [
+                19
+            ],
+            "action_id": 16
+        },
+        {
+            "action_id": 17,
+            "action_label": "hand closes the bottle of mustard.",
+            "start_time": 10.0,
+            "end_time": 10.5,
+            "transition_ids": [
+                20
+            ]
+        },
+        {
+            "action_id": 18,
+            "action_label": "hand applies mustard on bread.",
+            "start_time": 10.5,
+            "end_time": 11.0,
+            "transition_ids": [
+                21
+            ]
+        },
+        {
+            "action_id": 19,
+            "action_label": "hand closes the bottle of mustard.",
+            "start_time": 11.0,
+            "end_time": 11.5,
+            "transition_ids": [
+                22
+            ]
+        },
+        {
+            "action_id": 20,
+            "action_label": "hand applies mustard on bread.",
+            "start_time": 11.5,
+            "end_time": 12.0,
+            "transition_ids": [
+                23
+            ]
+        },
+        {
+            "action_id": 21,
+            "action_label": "hand closes the bottle of mustard.",
+            "start_time": 12.0,
+            "end_time": 12.5,
+            "transition_ids": [
+                24
+            ]
+        },
+        {
+            "action_id": 22,
+            "action_label": "hand places the bottle of mustard on the table.",
+            "start_time": 12.5,
+            "end_time": 13.0,
+            "transition_ids": [
+                25
+            ]
+        },
+        {
+            "action_id": 23,
+            "action_label": "hand picks up a bottle of ketchup.",
+            "start_time": 13.0,
+            "end_time": 13.5,
+            "transition_ids": [
+                26
+            ]
+        },
+        {
+            "action_id": 24,
+            "action_label": "hand opens the bottle of ketchup.",
+            "start_time": 13.5,
+            "end_time": 14.0,
+            "transition_ids": [
+                27
+            ]
+        },
+        {
+            "action_id": 25,
+            "action_label": "hand applies ketchup on a piece of bread.",
+            "start_time": 14.0,
+            "end_time": 14.5,
+            "transition_ids": [
+                28
+            ]
+        },
+        {
+            "action_id": 26,
+            "action_label": "hand closes the bottle of ketchup.",
+            "start_time": 14.5,
+            "end_time": 15.0,
+            "transition_ids": [
+                29
+            ]
+        },
+        {
+            "action_label": "scoop with spoon",
+            "start_time": 15.0,
+            "end_time": 16.5,
+            "transition_ids": [
+                30,
+                31,
+                32
+            ],
+            "action_id": 27
+        },
+        {
+            "action_id": 28,
+            "action_label": "hand uses the spoon to scoop something from a container.",
+            "start_time": 16.5,
+            "end_time": 17.0,
+            "transition_ids": [
+                33
+            ]
+        },
+        {
+            "action_id": 29,
+            "action_label": "hand continues to hold the spoon.",
+            "start_time": 17.0,
+            "end_time": 17.5,
+            "transition_ids": [
+                34
+            ]
+        },
+        {
+            "action_label": "hand spreads peanut butter on bread",
+            "start_time": 17.5,
+            "end_time": 30.0,
+            "transition_ids": [
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59
+            ],
+            "action_id": 30
+        },
+        {
+            "action_label": "hand places peanut butter jar on table",
+            "start_time": 30.0,
+            "end_time": 32.5,
+            "transition_ids": [
+                60,
+                61,
+                62,
+                63,
+                64
+            ],
+            "action_id": 31
+        },
+        {
+            "action_id": 32,
+            "action_label": "hand opens the peanut butter jar",
+            "start_time": 32.5,
+            "end_time": 34.0,
+            "transition_ids": [
+                65,
+                66,
+                67
+            ]
+        },
+        {
+            "action_id": 33,
+            "action_label": "hand closes the peanut butter jar",
+            "start_time": 34.0,
+            "end_time": 35.5,
+            "transition_ids": [
+                68,
+                69,
+                70
+            ]
+        },
+        {
+            "action_id": 34,
+            "action_label": "hand places the peanut butter jar on the table",
+            "start_time": 35.5,
+            "end_time": 37.5,
+            "transition_ids": [
+                71,
+                72,
+                73,
+                74
+            ]
+        },
+        {
+            "action_label": "hand holds honey bottle",
+            "start_time": 37.5,
+            "end_time": 42.0,
+            "transition_ids": [
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83
+            ],
+            "action_id": 35
+        },
+        {
+            "action_label": "hand applies honey on bread",
+            "start_time": 42.0,
+            "end_time": 48.0,
+            "transition_ids": [
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95
+            ],
+            "action_id": 36
+        },
+        {
+            "action_id": 37,
+            "action_label": "hand holds ketchup bottle",
+            "start_time": 48.5,
+            "end_time": 50.0,
+            "transition_ids": [
+                97,
+                98,
+                99
+            ]
+        },
+        {
+            "action_id": 38,
+            "action_label": "hand reaches for ketchup bottle",
+            "start_time": 50.0,
+            "end_time": 51.5,
+            "transition_ids": [
+                100,
+                101,
+                102
+            ]
+        },
+        {
+            "action_label": "hand spreads mustard on bread",
+            "start_time": 51.5,
+            "end_time": 54.0,
+            "transition_ids": [
+                103,
+                104,
+                105,
+                106,
+                107
+            ],
+            "action_id": 39
+        },
+        {
+            "action_label": "cuts and places sandwich",
+            "start_time": 54.0,
+            "end_time": 55.5,
+            "transition_ids": [
+                108,
+                109,
+                110
+            ],
+            "action_id": 40
+        },
+        {
+            "action_id": 41,
+            "action_label": "cuts and places sandwich",
+            "start_time": 55.5,
+            "end_time": 56.5,
+            "transition_ids": [
+                111,
+                112
+            ]
+        },
+        {
+            "action_id": 42,
+            "action_label": "holds bread",
+            "start_time": 56.5,
+            "end_time": 59.5,
+            "transition_ids": [
+                113,
+                114,
+                115,
+                116,
+                117,
+                118
+            ]
+        }
+    ],
+    "ignored_transition_ids": [
+        96
+    ]
+}

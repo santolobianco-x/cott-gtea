@@ -1,0 +1,200 @@
+1
+00:00:01,500 --> 00:00:02,000
+grabs a red cup
+
+2
+00:00:02,000 --> 00:00:04,000
+picks up a paper plate
+
+3
+00:00:02,000 --> 00:00:04,500
+places the paper plate on the table
+
+4
+00:00:02,500 --> 00:00:03,000
+grasps the red cup
+
+5
+00:00:05,000 --> 00:00:06,000
+holds a red cup
+
+6
+00:00:06,500 --> 00:00:07,000
+puts the jar of jam on the table
+
+7
+00:00:07,000 --> 00:00:08,000
+opens the jar of peanut butter
+
+8
+00:00:07,000 --> 00:00:11,500
+hand opens the jar of honey [Stage2]
+
+9
+00:00:11,500 --> 00:00:14,500
+hand picks up the spoon [Stage2]
+
+10
+00:00:16,000 --> 00:00:19,000
+hand opens the jar lid.
+
+11
+00:00:19,000 --> 00:00:21,500
+hand opens jar
+
+12
+00:00:20,500 --> 00:00:22,500
+hand scoops honey [Stage2]
+
+13
+00:00:22,000 --> 00:00:24,500
+hand scoops spice from jar
+
+14
+00:00:24,500 --> 00:00:33,500
+hand continues scooping red powder into cup.
+
+15
+00:00:25,000 --> 00:00:26,500
+hand pours spice into bowl
+
+16
+00:00:32,000 --> 00:00:36,500
+hand scoops spices
+
+17
+00:00:34,500 --> 00:00:38,500
+hand places spices on plate
+
+18
+00:00:38,000 --> 00:00:41,000
+hand scoops some of the contents from the cup
+
+19
+00:00:39,000 --> 00:00:40,000
+hand stirs the contents of the cup
+
+20
+00:00:39,000 --> 00:00:41,500
+hand scoops some of the contents from the cup
+
+21
+00:00:41,500 --> 00:00:42,000
+hand picks up a bottle of water
+
+22
+00:00:42,000 --> 00:00:42,500
+hand picks up a bottle of water
+
+23
+00:00:42,500 --> 00:00:43,000
+hand picks up a bottle of water
+
+24
+00:00:42,500 --> 00:00:43,500
+hand picks up the bottle of water
+
+25
+00:00:43,000 --> 00:00:44,500
+hand pours water into the cup
+
+26
+00:00:43,500 --> 00:00:44,000
+hand pours water into the cup
+
+27
+00:00:44,000 --> 00:00:45,000
+hand pours water into the cup
+
+28
+00:00:44,000 --> 00:00:45,500
+hand pours water into the cup
+
+29
+00:00:44,000 --> 00:00:46,000
+hand pours water into the cup
+
+30
+00:00:44,000 --> 00:00:47,500
+spins bottle of water
+
+31
+00:00:45,500 --> 00:00:49,000
+spoon into cup
+
+32
+00:00:47,000 --> 00:01:08,500
+hand pours sprinkles into cup
+
+33
+00:01:08,000 --> 00:01:11,500
+close container lid
+
+34
+00:01:11,000 --> 00:01:13,000
+close container
+
+35
+00:01:11,000 --> 00:01:14,500
+close container
+
+36
+00:01:12,500 --> 00:01:16,000
+close lid
+
+37
+00:01:14,000 --> 00:01:18,500
+open lid
+
+38
+00:01:16,500 --> 00:01:20,000
+hand closes the container lid
+
+39
+00:01:18,000 --> 00:01:21,500
+hand opens the container lid
+
+40
+00:01:19,500 --> 00:01:24,000
+hand holds lid
+
+41
+00:01:28,000 --> 00:01:30,500
+hand stirs yogurt in cup
+
+42
+00:01:28,500 --> 00:01:34,000
+hand stirs cup
+
+43
+00:01:32,000 --> 00:01:35,500
+hand scoops yogurt from container
+
+44
+00:01:33,500 --> 00:01:37,000
+hand stirs yogurt in cup
+
+45
+00:01:35,000 --> 00:01:38,500
+hand scoops sugar from container
+
+46
+00:01:36,500 --> 00:01:45,500
+stir sugar into cup
+
+47
+00:01:44,000 --> 00:01:47,500
+stir yogurt into cup
+
+48
+00:01:47,500 --> 00:01:51,500
+open
+
+49
+00:01:48,000 --> 00:01:49,500
+close the container
+
+50
+00:01:49,500 --> 00:01:53,000
+stirs cup
+

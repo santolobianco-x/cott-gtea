@@ -1,0 +1,132 @@
+1
+00:00:01,000 --> 00:00:02,000
+hand picks up a red cup from the table.
+
+2
+00:00:04,500 --> 00:00:05,000
+hand picks up the black pepper container
+
+3
+00:00:06,000 --> 00:00:07,000
+hand picks up a red cup from the table.
+
+4
+00:00:07,000 --> 00:00:12,000
+hand pours honey into the red cup
+
+5
+00:00:14,000 --> 00:00:15,500
+scoop jam into red cup
+
+6
+00:00:14,500 --> 00:00:18,000
+put jam in cup [Stage2]
+
+7
+00:00:17,000 --> 00:00:24,500
+hand uses spoon to scoop jam
+
+8
+00:00:24,000 --> 00:00:25,000
+hand closes jar lid [Stage2]
+
+9
+00:00:25,000 --> 00:00:27,500
+hand lifts spoon from cup.
+
+10
+00:00:25,500 --> 00:00:26,500
+hand opens jar lid
+
+11
+00:00:25,500 --> 00:00:27,000
+hand stirs cup with spoon.
+
+12
+00:00:25,500 --> 00:00:28,000
+hand holds spoon over cup.
+
+13
+00:00:26,500 --> 00:00:28,500
+hand picks up the bottle of spices again.
+
+14
+00:00:27,500 --> 00:00:28,500
+hand places the bottle of spices back on the table.
+
+15
+00:00:28,000 --> 00:00:28,500
+hand opens the bottle of spices again. [Stage2]
+
+16
+00:00:29,000 --> 00:00:30,000
+hand closes the bottle of spices again.
+
+17
+00:00:29,000 --> 00:00:30,500
+hand places the bottle of spices back on the table.
+
+18
+00:00:29,500 --> 00:00:31,000
+hand picks up the bottle of spices once more.
+
+19
+00:00:30,000 --> 00:00:33,000
+stirs the contents of the cup [Stage2]
+
+20
+00:00:32,000 --> 00:00:36,500
+hand opens sugar container
+
+21
+00:00:34,500 --> 00:00:40,000
+hand scoops yogurt from container
+
+22
+00:00:39,000 --> 00:00:42,500
+hand scoops yogurt with spoon
+
+23
+00:00:41,500 --> 00:00:44,500
+hand closes the container lid [Stage2]
+
+24
+00:00:43,500 --> 00:00:48,500
+hand closes the container
+
+25
+00:00:47,000 --> 00:00:50,000
+hand closes the container lid
+
+26
+00:00:48,000 --> 00:00:51,000
+hand opens the container lid
+
+27
+00:00:49,000 --> 00:00:52,000
+hand pours liquid into cup
+
+28
+00:00:50,000 --> 00:01:00,000
+hand adds white substance to cup
+
+29
+00:01:01,500 --> 00:01:05,500
+grasp bottle
+
+30
+00:01:02,000 --> 00:01:03,000
+hand picks up bottle
+
+31
+00:01:03,500 --> 00:01:07,500
+pours milk into cup
+
+32
+00:01:05,500 --> 00:01:14,000
+stir coffee
+
+33
+00:01:13,500 --> 00:01:15,500
+grasp cup
+

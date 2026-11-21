@@ -1,0 +1,343 @@
+{
+    "video_id": "S3_Cheese_C1",
+    "prompt_version": "stage2_lines_en_v3",
+    "failed_blocks": [],
+    "actions": [
+        {
+            "action_id": 0,
+            "action_label": "place bread on paper plate",
+            "start_time": 0.0,
+            "end_time": 1.0,
+            "transition_ids": [
+                0,
+                1
+            ]
+        },
+        {
+            "action_id": 1,
+            "action_label": "spread spread on bread",
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "transition_ids": [
+                2,
+                3
+            ]
+        },
+        {
+            "action_id": 2,
+            "action_label": "adjust sandwich on paper plate",
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "transition_ids": [
+                4,
+                5
+            ]
+        },
+        {
+            "action_id": 3,
+            "action_label": "adjust sandwich on paper plate",
+            "start_time": 3.0,
+            "end_time": 4.0,
+            "transition_ids": [
+                6,
+                7
+            ]
+        },
+        {
+            "action_id": 4,
+            "action_label": "adjust sandwich on paper plate",
+            "start_time": 4.0,
+            "end_time": 5.0,
+            "transition_ids": [
+                8,
+                9
+            ]
+        },
+        {
+            "action_id": 5,
+            "action_label": "adjust sandwich on paper plate",
+            "start_time": 5.0,
+            "end_time": 6.0,
+            "transition_ids": [
+                10,
+                11
+            ]
+        },
+        {
+            "action_label": "spread butter on bread",
+            "start_time": 6.0,
+            "end_time": 10.5,
+            "transition_ids": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "action_id": 6
+        },
+        {
+            "action_id": 7,
+            "action_label": "adjusts bread",
+            "start_time": 10.5,
+            "end_time": 11.5,
+            "transition_ids": [
+                21,
+                22
+            ]
+        },
+        {
+            "action_id": 8,
+            "action_label": "adjusts cheese",
+            "start_time": 11.5,
+            "end_time": 12.5,
+            "transition_ids": [
+                23,
+                24
+            ]
+        },
+        {
+            "action_id": 9,
+            "action_label": "adjusts bread",
+            "start_time": 12.5,
+            "end_time": 13.5,
+            "transition_ids": [
+                25,
+                26
+            ]
+        },
+        {
+            "action_id": 10,
+            "action_label": "adjusts cheese",
+            "start_time": 13.5,
+            "end_time": 14.5,
+            "transition_ids": [
+                27,
+                28
+            ]
+        },
+        {
+            "action_label": "hand adjusts bread on plate",
+            "start_time": 14.5,
+            "end_time": 16.5,
+            "transition_ids": [
+                29,
+                30,
+                31,
+                32
+            ],
+            "action_id": 11
+        },
+        {
+            "action_label": "hand adjusts cheese on bread",
+            "start_time": 16.5,
+            "end_time": 18.0,
+            "transition_ids": [
+                33,
+                34,
+                35
+            ],
+            "action_id": 12
+        },
+        {
+            "action_id": 13,
+            "action_label": "hand adjusts bread on plate",
+            "start_time": 18.0,
+            "end_time": 19.5,
+            "transition_ids": [
+                36,
+                37,
+                38
+            ]
+        },
+        {
+            "action_id": 14,
+            "action_label": "hand adjusts cheese on bread",
+            "start_time": 19.5,
+            "end_time": 21.0,
+            "transition_ids": [
+                39,
+                40,
+                41
+            ]
+        },
+        {
+            "action_id": 15,
+            "action_label": "hand places the cheese slice back on the plate",
+            "start_time": 21.0,
+            "end_time": 22.5,
+            "transition_ids": [
+                42,
+                43,
+                44
+            ]
+        },
+        {
+            "action_label": "hand adjusts the cheese slice once more",
+            "start_time": 22.5,
+            "end_time": 24.0,
+            "transition_ids": [
+                45,
+                46,
+                47
+            ],
+            "action_id": 16
+        },
+        {
+            "action_label": "hand places the bottle of mayonnaise back on the table.",
+            "start_time": 24.0,
+            "end_time": 25.5,
+            "transition_ids": [
+                48,
+                49,
+                50
+            ],
+            "action_id": 17
+        },
+        {
+            "action_id": 18,
+            "action_label": "hand opens the bottle of mayonnaise.",
+            "start_time": 25.5,
+            "end_time": 27.0,
+            "transition_ids": [
+                51,
+                52,
+                53
+            ]
+        },
+        {
+            "action_label": "hand spreads peanut butter on a slice of bread.",
+            "start_time": 27.0,
+            "end_time": 33.0,
+            "transition_ids": [
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65
+            ],
+            "action_id": 19
+        },
+        {
+            "action_id": 20,
+            "action_label": "spreads mayonnaise",
+            "start_time": 33.0,
+            "end_time": 35.5,
+            "transition_ids": [
+                66,
+                67,
+                68,
+                69,
+                70
+            ]
+        },
+        {
+            "action_label": "applies mayonnaise",
+            "start_time": 35.5,
+            "end_time": 39.0,
+            "transition_ids": [
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77
+            ],
+            "action_id": 21
+        },
+        {
+            "action_label": "pick up mustard bottle",
+            "start_time": 39.0,
+            "end_time": 40.5,
+            "transition_ids": [
+                78,
+                79,
+                80
+            ],
+            "action_id": 22
+        },
+        {
+            "action_id": 23,
+            "action_label": "place mustard bottle on table",
+            "start_time": 40.5,
+            "end_time": 42.0,
+            "transition_ids": [
+                81,
+                82,
+                83
+            ]
+        },
+        {
+            "action_id": 24,
+            "action_label": "apply mustard to bread",
+            "start_time": 42.0,
+            "end_time": 44.5,
+            "transition_ids": [
+                84,
+                85,
+                86,
+                87,
+                88
+            ]
+        },
+        {
+            "action_label": "hand spreads butter on toast",
+            "start_time": 44.5,
+            "end_time": 50.0,
+            "transition_ids": [
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99
+            ],
+            "action_id": 25
+        },
+        {
+            "action_label": "hand spreads butter on toast",
+            "start_time": 50.0,
+            "end_time": 59.5,
+            "transition_ids": [
+                100,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118
+            ],
+            "action_id": 26
+        }
+    ],
+    "ignored_transition_ids": []
+}
