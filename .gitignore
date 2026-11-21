@@ -1,0 +1,25 @@
+# Dataset (scaricare dalla fonte originale, vedi data/README.md)
+data/Videos/
+data/gtea_labels_71/
+
+# Output intermedi pesanti o rigenerabili
+outputs/frames/
+outputs/windows/
+outputs/**/raw_responses/
+outputs/**/checkpoints/
+outputs/**/*.tmp
+outputs/**/action_grouping_stage2_raw.txt
+
+# Utility personali
+savefile.py
+tutti_i_file_python.txt
+
+# Python / ambiente
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
