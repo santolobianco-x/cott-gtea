@@ -1,0 +1,489 @@
+{
+    "video_id": "S2_Coffee_C1",
+    "dedup_tiou": 0.5,
+    "dedup_strategy": "keep",
+    "n_before": 50,
+    "n_after": 43,
+    "actions": [
+        {
+            "action_id": 0,
+            "start_time": 1.5,
+            "end_time": 2.0,
+            "description": "grabs a red cup",
+            "refined": true,
+            "raw_stage2_label": "picks up a red cup",
+            "merged_from": [
+                0
+            ]
+        },
+        {
+            "action_id": 1,
+            "start_time": 2.0,
+            "end_time": 4.5,
+            "description": "places the paper plate on the table",
+            "refined": true,
+            "raw_stage2_label": "places the paper plate on the table",
+            "merged_from": [
+                2,
+                3
+            ]
+        },
+        {
+            "action_id": 2,
+            "start_time": 2.5,
+            "end_time": 3.0,
+            "description": "grasps the red cup",
+            "refined": true,
+            "raw_stage2_label": "places the red cup on the table",
+            "merged_from": [
+                1
+            ]
+        },
+        {
+            "action_id": 3,
+            "start_time": 5.0,
+            "end_time": 6.0,
+            "description": "holds a red cup",
+            "refined": true,
+            "raw_stage2_label": "picks up a paper plate",
+            "merged_from": [
+                4
+            ]
+        },
+        {
+            "action_id": 4,
+            "start_time": 6.5,
+            "end_time": 7.0,
+            "description": "puts the jar of jam on the table",
+            "refined": true,
+            "raw_stage2_label": "places the paper plate on the table",
+            "merged_from": [
+                5
+            ]
+        },
+        {
+            "action_id": 5,
+            "start_time": 7.0,
+            "end_time": 8.0,
+            "description": "opens the jar of peanut butter",
+            "refined": true,
+            "raw_stage2_label": "picks up a jar",
+            "merged_from": [
+                6
+            ]
+        },
+        {
+            "action_id": 6,
+            "start_time": 7.0,
+            "end_time": 11.5,
+            "description": "hand opens the jar of honey",
+            "refined": false,
+            "raw_stage2_label": "hand uses the knife to spread honey on the bread.",
+            "merged_from": [
+                7
+            ]
+        },
+        {
+            "action_id": 7,
+            "start_time": 11.5,
+            "end_time": 14.5,
+            "description": "hand picks up the spoon",
+            "refined": false,
+            "raw_stage2_label": "hand places the spoon on the table.",
+            "merged_from": [
+                8
+            ]
+        },
+        {
+            "action_id": 8,
+            "start_time": 16.0,
+            "end_time": 19.0,
+            "description": "hand opens the jar lid.",
+            "refined": true,
+            "raw_stage2_label": "hand continues to hold the spoon.",
+            "merged_from": [
+                9
+            ]
+        },
+        {
+            "action_id": 9,
+            "start_time": 19.0,
+            "end_time": 21.5,
+            "description": "hand opens jar",
+            "refined": true,
+            "raw_stage2_label": "hand opens jar",
+            "merged_from": [
+                10
+            ]
+        },
+        {
+            "action_id": 10,
+            "start_time": 20.5,
+            "end_time": 22.5,
+            "description": "hand scoops honey",
+            "refined": false,
+            "raw_stage2_label": "hand scoops honey",
+            "merged_from": [
+                11
+            ]
+        },
+        {
+            "action_id": 11,
+            "start_time": 22.0,
+            "end_time": 24.5,
+            "description": "hand scoops spice from jar",
+            "refined": true,
+            "raw_stage2_label": "hand places spoon in jar",
+            "merged_from": [
+                12
+            ]
+        },
+        {
+            "action_id": 12,
+            "start_time": 24.5,
+            "end_time": 33.5,
+            "description": "hand continues scooping red powder into cup.",
+            "refined": true,
+            "raw_stage2_label": "hand continues scooping red powder into cup.",
+            "merged_from": [
+                14
+            ]
+        },
+        {
+            "action_id": 13,
+            "start_time": 25.0,
+            "end_time": 26.5,
+            "description": "hand pours spice into bowl",
+            "refined": true,
+            "raw_stage2_label": "hand pours spice into bowl",
+            "merged_from": [
+                13
+            ]
+        },
+        {
+            "action_id": 14,
+            "start_time": 32.0,
+            "end_time": 36.5,
+            "description": "hand scoops spices",
+            "refined": true,
+            "raw_stage2_label": "hand scoops spices",
+            "merged_from": [
+                15
+            ]
+        },
+        {
+            "action_id": 15,
+            "start_time": 34.5,
+            "end_time": 38.5,
+            "description": "hand places spices on plate",
+            "refined": true,
+            "raw_stage2_label": "hand places spices on plate",
+            "merged_from": [
+                16
+            ]
+        },
+        {
+            "action_id": 16,
+            "start_time": 38.0,
+            "end_time": 41.0,
+            "description": "hand scoops some of the contents from the cup",
+            "refined": true,
+            "raw_stage2_label": "hand scoops some of the contents from the cup",
+            "merged_from": [
+                18,
+                19
+            ]
+        },
+        {
+            "action_id": 17,
+            "start_time": 39.0,
+            "end_time": 40.0,
+            "description": "hand stirs the contents of the cup",
+            "refined": true,
+            "raw_stage2_label": "hand closes jar lid",
+            "merged_from": [
+                17
+            ]
+        },
+        {
+            "action_id": 18,
+            "start_time": 41.5,
+            "end_time": 42.0,
+            "description": "hand picks up a bottle of water",
+            "refined": true,
+            "raw_stage2_label": "hand places the spoon back on the table",
+            "merged_from": [
+                20
+            ]
+        },
+        {
+            "action_id": 19,
+            "start_time": 42.0,
+            "end_time": 42.5,
+            "description": "hand picks up a bottle of water",
+            "refined": true,
+            "raw_stage2_label": "hand stirs the contents of the cup",
+            "merged_from": [
+                21
+            ]
+        },
+        {
+            "action_id": 20,
+            "start_time": 42.5,
+            "end_time": 43.5,
+            "description": "hand picks up the bottle of water",
+            "refined": true,
+            "raw_stage2_label": "hand places the spoon back on the table",
+            "merged_from": [
+                22,
+                23
+            ]
+        },
+        {
+            "action_id": 21,
+            "start_time": 43.0,
+            "end_time": 44.5,
+            "description": "hand pours water into the cup",
+            "refined": true,
+            "raw_stage2_label": "hand places the bottle back on the table",
+            "merged_from": [
+                25
+            ]
+        },
+        {
+            "action_id": 22,
+            "start_time": 43.5,
+            "end_time": 44.0,
+            "description": "hand pours water into the cup",
+            "refined": true,
+            "raw_stage2_label": "hand pours water into the cup",
+            "merged_from": [
+                24
+            ]
+        },
+        {
+            "action_id": 23,
+            "start_time": 44.0,
+            "end_time": 47.5,
+            "description": "spins bottle of water",
+            "refined": true,
+            "raw_stage2_label": "pours water into cup",
+            "merged_from": [
+                26,
+                27,
+                28,
+                29
+            ]
+        },
+        {
+            "action_id": 24,
+            "start_time": 45.5,
+            "end_time": 49.0,
+            "description": "spoon into cup",
+            "refined": true,
+            "raw_stage2_label": "pours water into cup",
+            "merged_from": [
+                30
+            ]
+        },
+        {
+            "action_id": 25,
+            "start_time": 47.0,
+            "end_time": 68.5,
+            "description": "hand pours sprinkles into cup",
+            "refined": true,
+            "raw_stage2_label": "hand pours sprinkles into cup",
+            "merged_from": [
+                31
+            ]
+        },
+        {
+            "action_id": 26,
+            "start_time": 68.0,
+            "end_time": 71.5,
+            "description": "close container lid",
+            "refined": true,
+            "raw_stage2_label": "pick up cup",
+            "merged_from": [
+                32
+            ]
+        },
+        {
+            "action_id": 27,
+            "start_time": 71.0,
+            "end_time": 74.5,
+            "description": "close container",
+            "refined": true,
+            "raw_stage2_label": "pick up container",
+            "merged_from": [
+                33,
+                34
+            ]
+        },
+        {
+            "action_id": 28,
+            "start_time": 72.5,
+            "end_time": 76.0,
+            "description": "close lid",
+            "refined": true,
+            "raw_stage2_label": "close lid",
+            "merged_from": [
+                35
+            ]
+        },
+        {
+            "action_id": 29,
+            "start_time": 74.0,
+            "end_time": 78.5,
+            "description": "open lid",
+            "refined": true,
+            "raw_stage2_label": "open lid",
+            "merged_from": [
+                36
+            ]
+        },
+        {
+            "action_id": 30,
+            "start_time": 76.5,
+            "end_time": 80.0,
+            "description": "hand closes the container lid",
+            "refined": true,
+            "raw_stage2_label": "hand closes the container lid",
+            "merged_from": [
+                37
+            ]
+        },
+        {
+            "action_id": 31,
+            "start_time": 78.0,
+            "end_time": 81.5,
+            "description": "hand opens the container lid",
+            "refined": true,
+            "raw_stage2_label": "hand opens the container lid",
+            "merged_from": [
+                38
+            ]
+        },
+        {
+            "action_id": 32,
+            "start_time": 79.5,
+            "end_time": 84.0,
+            "description": "hand holds lid",
+            "refined": true,
+            "raw_stage2_label": "hand holds lid",
+            "merged_from": [
+                39
+            ]
+        },
+        {
+            "action_id": 33,
+            "start_time": 88.0,
+            "end_time": 90.5,
+            "description": "hand stirs yogurt in cup",
+            "refined": true,
+            "raw_stage2_label": "hand places yogurt in cup",
+            "merged_from": [
+                40
+            ]
+        },
+        {
+            "action_id": 34,
+            "start_time": 88.5,
+            "end_time": 94.0,
+            "description": "hand stirs cup",
+            "refined": true,
+            "raw_stage2_label": "hand stirs cup",
+            "merged_from": [
+                41
+            ]
+        },
+        {
+            "action_id": 35,
+            "start_time": 92.0,
+            "end_time": 95.5,
+            "description": "hand scoops yogurt from container",
+            "refined": true,
+            "raw_stage2_label": "hand scoops yogurt from container",
+            "merged_from": [
+                42
+            ]
+        },
+        {
+            "action_id": 36,
+            "start_time": 93.5,
+            "end_time": 97.0,
+            "description": "hand stirs yogurt in cup",
+            "refined": true,
+            "raw_stage2_label": "hand stirs yogurt in cup",
+            "merged_from": [
+                43
+            ]
+        },
+        {
+            "action_id": 37,
+            "start_time": 95.0,
+            "end_time": 98.5,
+            "description": "hand scoops sugar from container",
+            "refined": true,
+            "raw_stage2_label": "hand scoops sugar from container",
+            "merged_from": [
+                44
+            ]
+        },
+        {
+            "action_id": 38,
+            "start_time": 96.5,
+            "end_time": 105.5,
+            "description": "stir sugar into cup",
+            "refined": true,
+            "raw_stage2_label": "stir sugar into cup",
+            "merged_from": [
+                45
+            ]
+        },
+        {
+            "action_id": 39,
+            "start_time": 104.0,
+            "end_time": 107.5,
+            "description": "stir yogurt into cup",
+            "refined": true,
+            "raw_stage2_label": "stir yogurt into cup",
+            "merged_from": [
+                46
+            ]
+        },
+        {
+            "action_id": 40,
+            "start_time": 107.5,
+            "end_time": 111.5,
+            "description": "open",
+            "refined": true,
+            "raw_stage2_label": "open",
+            "merged_from": [
+                48
+            ]
+        },
+        {
+            "action_id": 41,
+            "start_time": 108.0,
+            "end_time": 109.5,
+            "description": "close the container",
+            "refined": true,
+            "raw_stage2_label": "open",
+            "merged_from": [
+                47
+            ]
+        },
+        {
+            "action_id": 42,
+            "start_time": 109.5,
+            "end_time": 113.0,
+            "description": "stirs cup",
+            "refined": true,
+            "raw_stage2_label": "stirs cup",
+            "merged_from": [
+                49
+            ]
+        }
+    ]
+}

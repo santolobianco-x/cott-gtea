@@ -12,7 +12,7 @@ from src.refine_action_instances import run as run_stage3
 from src.generate_srt import run as run_generate_srt
 from src.evaluate import run as run_evaluate, summarize_batch, evaluate_existing
 from src.analyze_errors import run_analysis
-from src.postprocess import run as run_dedup, DEDUP_TIOU, DEDUP_STRATEGY, STRATEGIES
+from src.postprocess import run as run_dedup, DEDUP_TIOU, DEDUP_STRATEGY, STRATEGIES, MIN_CONF
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 
@@ -33,16 +33,19 @@ def check_stage1_health(video_id: str, max_fail_ratio: float = 0.5):
     return True
 
 
-def process_video(vid: str, force: bool, dedup_thr: float, dedup_strategy: str):
-    print(f"\n🚀 Avvio pipeline CoTT per: {vid}\n")
-    run_video_processing(vid, force=force)
-    run_stage1(vid, force=force)
-    if not check_stage1_health(vid):
-        return None
-    run_clean_captions(vid)
-    run_stage2(vid, force=force)
+def process_video(vid: str, force: bool, dedup_thr: float, dedup_strategy: str, min_conf: float,
+                  from_stage: int = 1):
+    print(f"\n🚀 Avvio pipeline CoTT per: {vid} (da Stage {from_stage})\n")
+    if from_stage <= 1:
+        run_video_processing(vid, force=force)
+        run_stage1(vid, force=force)
+        if not check_stage1_health(vid):
+            return None
+        run_clean_captions(vid)
+    if from_stage <= 2:
+        run_stage2(vid, force=force)
     run_stage3(vid, force=force)
-    run_dedup(vid, thr=dedup_thr, strategy=dedup_strategy)  # aggiunta, NON nel paper
+    run_dedup(vid, thr=dedup_thr, strategy=dedup_strategy, min_conf=min_conf)  # aggiunta, NON nel paper
     run_generate_srt(vid)
     return run_evaluate(vid)
 
@@ -58,10 +61,14 @@ def main():
                         help="Non esegue il modello: valuta solo gli output gia' presenti in outputs/")
     parser.add_argument("--analyze", action="store_true",
                         help="Non esegue il modello: analizza gli errori degli output gia' presenti")
+    parser.add_argument("--from-stage", type=int, choices=(1, 2, 3), default=1,
+                        help="Riparte da questo stage riusando gli output precedenti (es. 3 = solo refinement)")
     parser.add_argument("--dedup-thr", type=float, default=DEDUP_TIOU,
                         help="Soglia tIoU per considerare duplicate due predizioni dello Stage 3")
     parser.add_argument("--dedup-strategy", choices=STRATEGIES, default=DEDUP_STRATEGY,
                         help="Come fondere i duplicati: mean, union o keep")
+    parser.add_argument("--min-conf", type=float, default=MIN_CONF,
+                        help="Scarta le predizioni dello Stage 3 con confidenza inferiore (0 = filtro disattivato)")
     parser.add_argument("--tag", type=str, default=None,
                         help="Nome dell'esperimento salvato nel CSV dei risultati (es. qwen3b_baseline)")
     args = parser.parse_args()
@@ -78,7 +85,8 @@ def main():
         # La deduplicazione e' deterministica e istantanea: la ricalcoliamo sempre
         # dagli output dello Stage 3, cosi' si possono provare soglie e strategie diverse.
         for vid in video_ids:
-            run_dedup(vid, thr=args.dedup_thr, strategy=args.dedup_strategy, verbose=False)
+            run_dedup(vid, thr=args.dedup_thr, strategy=args.dedup_strategy,
+                      min_conf=args.min_conf, verbose=False)
         if args.eval_only:
             evaluate_existing(video_ids, tag=args.tag)
         if args.analyze:
@@ -89,7 +97,8 @@ def main():
     for idx, vid in enumerate(video_ids, 1):
         print(f"\n{'#'*60}\nVIDEO {idx}/{len(video_ids)}: {vid}\n{'#'*60}")
         try:
-            res = process_video(vid, args.force, args.dedup_thr, args.dedup_strategy)
+            res = process_video(vid, args.force, args.dedup_thr, args.dedup_strategy, args.min_conf,
+                                args.from_stage)
             if res:
                 all_metrics.append(res)
         except Exception:

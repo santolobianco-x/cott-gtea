@@ -1,0 +1,290 @@
+{
+    "video_id": "S3_Peanut_C1",
+    "dedup_tiou": 0.5,
+    "dedup_strategy": "keep",
+    "n_before": 31,
+    "n_after": 25,
+    "actions": [
+        {
+            "action_id": 0,
+            "start_time": 1.0,
+            "end_time": 1.5,
+            "description": "hand places jar on table",
+            "refined": true,
+            "raw_stage2_label": "hand places jar on table",
+            "merged_from": [
+                0
+            ]
+        },
+        {
+            "action_id": 1,
+            "start_time": 1.5,
+            "end_time": 3.0,
+            "description": "hand places jar on table",
+            "refined": true,
+            "raw_stage2_label": "hand places jar on table",
+            "merged_from": [
+                1,
+                2
+            ]
+        },
+        {
+            "action_id": 2,
+            "start_time": 4.0,
+            "end_time": 5.0,
+            "description": "hand picks up jar from table",
+            "refined": true,
+            "raw_stage2_label": "hand places jar on table",
+            "merged_from": [
+                3
+            ]
+        },
+        {
+            "action_id": 3,
+            "start_time": 5.0,
+            "end_time": 6.0,
+            "description": "hand picks up jar",
+            "refined": true,
+            "raw_stage2_label": "hand places jar on table",
+            "merged_from": [
+                4
+            ]
+        },
+        {
+            "action_id": 4,
+            "start_time": 6.0,
+            "end_time": 8.0,
+            "description": "hand opens jar lid",
+            "refined": true,
+            "raw_stage2_label": "hand places jar on table",
+            "merged_from": [
+                5,
+                6
+            ]
+        },
+        {
+            "action_id": 5,
+            "start_time": 9.0,
+            "end_time": 10.0,
+            "description": "hand picks jar from table",
+            "refined": true,
+            "raw_stage2_label": "hand places jar on table",
+            "merged_from": [
+                7,
+                8
+            ]
+        },
+        {
+            "action_id": 6,
+            "start_time": 10.5,
+            "end_time": 11.5,
+            "description": "hand picks up bread, places bread on plate.",
+            "refined": false,
+            "raw_stage2_label": "hand picks up bread, places bread on plate.",
+            "merged_from": [
+                9
+            ]
+        },
+        {
+            "action_id": 7,
+            "start_time": 13.5,
+            "end_time": 14.5,
+            "description": "hand spreads the peanut butter on the bread",
+            "refined": true,
+            "raw_stage2_label": "hand places the jar of peanut butter on the table, spreads the peanut butter on the bread, places the jar of peanut butter on the table.",
+            "merged_from": [
+                10
+            ]
+        },
+        {
+            "action_id": 8,
+            "start_time": 14.0,
+            "end_time": 29.5,
+            "description": "hand spreads peanut butter on bread",
+            "refined": true,
+            "raw_stage2_label": "hand spreads peanut butter on bread",
+            "merged_from": [
+                11
+            ]
+        },
+        {
+            "action_id": 9,
+            "start_time": 30.0,
+            "end_time": 33.0,
+            "description": "apply mustard",
+            "refined": false,
+            "raw_stage2_label": "apply mustard",
+            "merged_from": [
+                12
+            ]
+        },
+        {
+            "action_id": 10,
+            "start_time": 33.0,
+            "end_time": 35.5,
+            "description": "hand applies honey to the bread",
+            "refined": false,
+            "raw_stage2_label": "hand continues to hold the bottle of ketchup",
+            "merged_from": [
+                13
+            ]
+        },
+        {
+            "action_id": 11,
+            "start_time": 36.0,
+            "end_time": 40.0,
+            "description": "hand spreads honey on bread",
+            "refined": true,
+            "raw_stage2_label": "hand spreads butter on bread",
+            "merged_from": [
+                14
+            ]
+        },
+        {
+            "action_id": 12,
+            "start_time": 39.5,
+            "end_time": 42.5,
+            "description": "spread honey on bread",
+            "refined": true,
+            "raw_stage2_label": "apply honey on bread",
+            "merged_from": [
+                15,
+                16
+            ]
+        },
+        {
+            "action_id": 13,
+            "start_time": 41.0,
+            "end_time": 44.5,
+            "description": "spread mustard on bread",
+            "refined": true,
+            "raw_stage2_label": "spread mustard on bread",
+            "merged_from": [
+                17
+            ]
+        },
+        {
+            "action_id": 14,
+            "start_time": 43.5,
+            "end_time": 45.0,
+            "description": "spread mustard on bread",
+            "refined": false,
+            "raw_stage2_label": "spread mustard on bread",
+            "merged_from": [
+                18
+            ]
+        },
+        {
+            "action_id": 15,
+            "start_time": 45.5,
+            "end_time": 49.0,
+            "description": "hand spreads the spread on the bread.",
+            "refined": true,
+            "raw_stage2_label": "hand spreads the spread on the bread.",
+            "merged_from": [
+                20
+            ]
+        },
+        {
+            "action_id": 16,
+            "start_time": 47.0,
+            "end_time": 47.5,
+            "description": "spread jam on bread",
+            "refined": true,
+            "raw_stage2_label": "place spread on bread",
+            "merged_from": [
+                19
+            ]
+        },
+        {
+            "action_id": 17,
+            "start_time": 47.0,
+            "end_time": 51.5,
+            "description": "hand continues to squeeze the honey.",
+            "refined": true,
+            "raw_stage2_label": "hand continues to squeeze the honey.",
+            "merged_from": [
+                21
+            ]
+        },
+        {
+            "action_id": 18,
+            "start_time": 49.5,
+            "end_time": 54.5,
+            "description": "hand picks up the bottle of ketchup.",
+            "refined": true,
+            "raw_stage2_label": "hand picks up the bottle of ketchup.",
+            "merged_from": [
+                22
+            ]
+        },
+        {
+            "action_id": 19,
+            "start_time": 53.5,
+            "end_time": 55.5,
+            "description": "hand opens the honey bottle",
+            "refined": false,
+            "raw_stage2_label": "hand places the honey bottle on the table.",
+            "merged_from": [
+                23
+            ]
+        },
+        {
+            "action_id": 20,
+            "start_time": 54.5,
+            "end_time": 57.5,
+            "description": "hand places the honey bottle on the table",
+            "refined": true,
+            "raw_stage2_label": "hand places the honey bottle on the table",
+            "merged_from": [
+                24
+            ]
+        },
+        {
+            "action_id": 21,
+            "start_time": 58.0,
+            "end_time": 58.5,
+            "description": "hand picks up the sandwich again",
+            "refined": true,
+            "raw_stage2_label": "hand picks up the sandwich again",
+            "merged_from": [
+                26,
+                25
+            ]
+        },
+        {
+            "action_id": 22,
+            "start_time": 58.5,
+            "end_time": 61.5,
+            "description": "hand places the sandwich back on the table",
+            "refined": true,
+            "raw_stage2_label": "hand places the sandwich back on the table",
+            "merged_from": [
+                27,
+                28
+            ]
+        },
+        {
+            "action_id": 23,
+            "start_time": 61.0,
+            "end_time": 62.5,
+            "description": "hand picks up the bread",
+            "refined": true,
+            "raw_stage2_label": "hand picks up the bread",
+            "merged_from": [
+                29
+            ]
+        },
+        {
+            "action_id": 24,
+            "start_time": 63.0,
+            "end_time": 63.5,
+            "description": "hand places the bread on the table",
+            "refined": true,
+            "raw_stage2_label": "hand places the bread on the table",
+            "merged_from": [
+                30
+            ]
+        }
+    ]
+}

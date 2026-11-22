@@ -19,6 +19,8 @@ Analisi prodotte (per Stage 2 e Stage 3):
   5. Frammentazione: predizioni adiacenti con etichetta simile (stessa azione spezzata).
   6. What-if: F1 se si uniscono le predizioni adiacenti con etichetta simile
      (regola fissa, NON ottimizzata sul GT: serve solo come diagnosi).
+  7. Calibrazione della confidenza dello Stage 3 (se presente): la confidenza
+     dichiarata dal modello distingue davvero le predizioni corrette da quelle sbagliate?
 
 Modulo richiamato da main.py (opzione --analyze).
 """
@@ -274,6 +276,59 @@ def pooled_f1(pairs):
 
 
 # ============================================================
+# CALIBRAZIONE DELLA CONFIDENZA (Stage 3)
+# ============================================================
+CONF_BINS = [(0.0, 0.2), (0.2, 0.4), (0.4, 0.6), (0.6, 0.8), (0.8, 1.01)]
+
+
+def confidence_report(video_ids, rel_path=Path("stage3") / "refined_actions.json"):
+    """Per ogni predizione dello Stage 3: confidenza e se e' un TP a tIoU=TIOU_EVAL."""
+    records = []  # (confidence or None, is_tp)
+    for vid in video_ids:
+        path, gt_path = OUTPUTS_DIR / vid / rel_path, GT_DIR / f"{vid}.txt"
+        if not path.exists() or not gt_path.exists():
+            continue
+        data = json.loads(path.read_text(encoding="utf-8"))
+        actions = data["actions"] if isinstance(data, dict) else data
+        gts = load_gtea_gt(gt_path)
+        segs = [(float(a["start_time"]), float(a["end_time"])) for a in actions]
+        tp_idx = set()
+        if segs and gts:
+            iou = np.array([[compute_tiou(p, g) for g in gts] for p in segs])
+            rows, cols = linear_sum_assignment(-iou)
+            tp_idx = {r for r, c in zip(rows, cols) if iou[r, c] >= TIOU_EVAL}
+        for i, a in enumerate(actions):
+            c = a.get("confidence")
+            records.append((float(c) if isinstance(c, (int, float)) else None, i in tp_idx))
+    return records
+
+
+def print_confidence(records):
+    with_conf = [(c, tp) for c, tp in records if c is not None]
+    print(f"\n{'=' * 72}\n7) CALIBRAZIONE CONFIDENZA - Stage 3 (tIoU={TIOU_EVAL})\n{'=' * 72}")
+    print(f"   Predizioni con confidenza valida: {len(with_conf)}/{len(records)}")
+    if not with_conf:
+        print("   Nessuna confidenza trovata (Stage 3 eseguito con un prompt senza confidenza).")
+        return None
+
+    tp_c = [c for c, tp in with_conf if tp]
+    fp_c = [c for c, tp in with_conf if not tp]
+    print(f"   Confidenza media  TP: {np.mean(tp_c) if tp_c else 0:.2f}   FP: {np.mean(fp_c) if fp_c else 0:.2f}")
+    print(f"   Valori distinti usati dal modello: {len(set(round(c, 2) for c, _ in with_conf))}")
+    print(f"\n   {'fascia':<11} {'#pred':>6} {'#TP':>5} {'precisione':>11}")
+    bins = []
+    for lo, hi in CONF_BINS:
+        sel = [tp for c, tp in with_conf if lo <= c < hi]
+        prec = pct(sum(sel), len(sel))
+        bins.append({"range": [lo, min(hi, 1.0)], "n": len(sel), "tp": sum(sel), "precision": prec})
+        print(f"   {lo:.1f}-{min(hi, 1.0):.1f}    {len(sel):6d} {sum(sel):5d} {prec:10.1f}%")
+    print("   (se la precisione cresce con la confidenza, il filtro --min-conf ha senso)")
+    return {"n_with_conf": len(with_conf), "n_total": len(records),
+            "mean_conf_tp": float(np.mean(tp_c)) if tp_c else None,
+            "mean_conf_fp": float(np.mean(fp_c)) if fp_c else None, "bins": bins}
+
+
+# ============================================================
 # ENTRY POINT
 # ============================================================
 def run_analysis(video_ids, tag=None):
@@ -306,6 +361,8 @@ def run_analysis(video_ids, tag=None):
         whatif = {"before": pooled_f1(pairs), "after": pooled_f1(merged_pairs)}
         print_stage(f"{label} - {summary['n_videos']} video", summary, whatif)
         report[stage] = {**summary, "whatif_merge": whatif}
+
+    report["confidence_calibration"] = print_confidence(confidence_report(video_ids))
 
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")

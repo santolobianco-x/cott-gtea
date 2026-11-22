@@ -32,7 +32,7 @@ STAGES = {
     "stage2": ("Stage 2 (Grouping)", Path("stage2") / "action_grouping_stage2.json"),
     "stage3": ("Stage 3 (Refined)", Path("stage3") / "refined_actions.json"),
     # Post-processing aggiunto (NON nel paper): vedi src/postprocess.py
-    "stage3_dedup": ("Stage 3 + Dedup (aggiunta)", Path("stage3") / "refined_actions_dedup.json"),
+    "stage3_dedup": ("Stage 3 + Conf/Dedup (aggiunta)", Path("stage3") / "refined_actions_dedup.json"),
 }
 
 # Cattura SOLO le azioni: <verb><noun1, noun2> (start-end) [0/1]

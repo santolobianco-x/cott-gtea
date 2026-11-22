@@ -1,0 +1,287 @@
+{
+    "video_id": "S1_Cheese_C1",
+    "dedup_tiou": 0.5,
+    "dedup_strategy": "keep",
+    "n_before": 28,
+    "n_after": 25,
+    "actions": [
+        {
+            "action_id": 0,
+            "start_time": 1.5,
+            "end_time": 2.0,
+            "description": "hand places flour on the table",
+            "refined": true,
+            "raw_stage2_label": "hand places flour on the table",
+            "merged_from": [
+                0
+            ]
+        },
+        {
+            "action_id": 1,
+            "start_time": 2.5,
+            "end_time": 3.0,
+            "description": "hand opens the container",
+            "refined": true,
+            "raw_stage2_label": "hand places sugar on the table",
+            "merged_from": [
+                1
+            ]
+        },
+        {
+            "action_id": 2,
+            "start_time": 3.5,
+            "end_time": 4.0,
+            "description": "hand places salt on the table",
+            "refined": true,
+            "raw_stage2_label": "hand places salt on the table",
+            "merged_from": [
+                2
+            ]
+        },
+        {
+            "action_id": 3,
+            "start_time": 4.0,
+            "end_time": 5.0,
+            "description": "hand places baking powder on the table",
+            "refined": true,
+            "raw_stage2_label": "hand places baking powder on the table",
+            "merged_from": [
+                3,
+                4
+            ]
+        },
+        {
+            "action_id": 4,
+            "start_time": 4.0,
+            "end_time": 7.0,
+            "description": "hand places yeast on the table",
+            "refined": true,
+            "raw_stage2_label": "hand places yeast on the table",
+            "merged_from": [
+                5
+            ]
+        },
+        {
+            "action_id": 5,
+            "start_time": 7.0,
+            "end_time": 9.0,
+            "description": "hand picks up bottle of ketchup",
+            "refined": false,
+            "raw_stage2_label": "hand places bottle on table",
+            "merged_from": [
+                7
+            ]
+        },
+        {
+            "action_id": 6,
+            "start_time": 7.5,
+            "end_time": 8.0,
+            "description": "hand picks up a red cup",
+            "refined": true,
+            "raw_stage2_label": "hand places vinegar on the table",
+            "merged_from": [
+                6
+            ]
+        },
+        {
+            "action_id": 7,
+            "start_time": 10.0,
+            "end_time": 14.0,
+            "description": "hand places bottle on table",
+            "refined": true,
+            "raw_stage2_label": "hand places bottle on table",
+            "merged_from": [
+                9
+            ]
+        },
+        {
+            "action_id": 8,
+            "start_time": 11.5,
+            "end_time": 12.0,
+            "description": "hand places bottle on table",
+            "refined": true,
+            "raw_stage2_label": "hand places bottle on table",
+            "merged_from": [
+                8
+            ]
+        },
+        {
+            "action_id": 9,
+            "start_time": 18.5,
+            "end_time": 19.0,
+            "description": "sticks cheese to bread",
+            "refined": true,
+            "raw_stage2_label": "hand holds cheese",
+            "merged_from": [
+                10
+            ]
+        },
+        {
+            "action_id": 10,
+            "start_time": 24.0,
+            "end_time": 24.5,
+            "description": "spread butter on cheese",
+            "refined": true,
+            "raw_stage2_label": "hands spread butter on cheese",
+            "merged_from": [
+                11
+            ]
+        },
+        {
+            "action_id": 11,
+            "start_time": 25.0,
+            "end_time": 34.0,
+            "description": "apply mayonnaise",
+            "refined": true,
+            "raw_stage2_label": "apply mayonnaise",
+            "merged_from": [
+                12
+            ]
+        },
+        {
+            "action_id": 12,
+            "start_time": 34.0,
+            "end_time": 35.0,
+            "description": "hand picks up bottle of mustard",
+            "refined": false,
+            "raw_stage2_label": "hand picks up bottle of mustard",
+            "merged_from": [
+                13
+            ]
+        },
+        {
+            "action_id": 13,
+            "start_time": 36.0,
+            "end_time": 40.0,
+            "description": "hand applies mayonnaise",
+            "refined": true,
+            "raw_stage2_label": "hand applies mayonnaise",
+            "merged_from": [
+                15
+            ]
+        },
+        {
+            "action_id": 14,
+            "start_time": 37.0,
+            "end_time": 38.0,
+            "description": "hand applies mustard",
+            "refined": true,
+            "raw_stage2_label": "hand applies mustard",
+            "merged_from": [
+                14
+            ]
+        },
+        {
+            "action_id": 15,
+            "start_time": 38.0,
+            "end_time": 43.0,
+            "description": "hand applies mustard to bread",
+            "refined": true,
+            "raw_stage2_label": "hand applies mustard to bread",
+            "merged_from": [
+                16
+            ]
+        },
+        {
+            "action_id": 16,
+            "start_time": 43.5,
+            "end_time": 44.0,
+            "description": "hand applies mustard to bread",
+            "refined": true,
+            "raw_stage2_label": "hand applies mustard to bread",
+            "merged_from": [
+                17
+            ]
+        },
+        {
+            "action_id": 17,
+            "start_time": 44.0,
+            "end_time": 45.0,
+            "description": "hand applies mustard to bread",
+            "refined": true,
+            "raw_stage2_label": "hand applies mustard to bread",
+            "merged_from": [
+                18
+            ]
+        },
+        {
+            "action_id": 18,
+            "start_time": 45.0,
+            "end_time": 46.5,
+            "description": "hand picks up the bottle of mustard",
+            "refined": true,
+            "raw_stage2_label": "hand picks up the bottle of mustard",
+            "merged_from": [
+                21
+            ]
+        },
+        {
+            "action_id": 19,
+            "start_time": 45.5,
+            "end_time": 46.0,
+            "description": "hand applies mustard to bread",
+            "refined": true,
+            "raw_stage2_label": "hand applies mustard to bread",
+            "merged_from": [
+                19
+            ]
+        },
+        {
+            "action_id": 20,
+            "start_time": 46.0,
+            "end_time": 47.0,
+            "description": "hand places the bottle of mustard on the table",
+            "refined": true,
+            "raw_stage2_label": "hand places the bottle of mustard on the table",
+            "merged_from": [
+                22,
+                20
+            ]
+        },
+        {
+            "action_id": 21,
+            "start_time": 47.0,
+            "end_time": 50.0,
+            "description": "hand places the bottle of mustard on the table",
+            "refined": true,
+            "raw_stage2_label": "hand places the bottle of mustard on the table",
+            "merged_from": [
+                23,
+                24
+            ]
+        },
+        {
+            "action_id": 22,
+            "start_time": 50.0,
+            "end_time": 60.5,
+            "description": "press bread slices together",
+            "refined": true,
+            "raw_stage2_label": "press bread slices together",
+            "merged_from": [
+                26
+            ]
+        },
+        {
+            "action_id": 23,
+            "start_time": 51.0,
+            "end_time": 52.0,
+            "description": "press the sandwich together",
+            "refined": true,
+            "raw_stage2_label": "hand places the bottle of mayonnaise on the table",
+            "merged_from": [
+                25
+            ]
+        },
+        {
+            "action_id": 24,
+            "start_time": 59.0,
+            "end_time": 60.5,
+            "description": "holds bread slices",
+            "refined": true,
+            "raw_stage2_label": "hold bread slices",
+            "merged_from": [
+                27
+            ]
+        }
+    ]
+}

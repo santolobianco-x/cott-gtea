@@ -1,0 +1,196 @@
+{
+    "video_id": "S1_Hotdog_C1",
+    "dedup_tiou": 0.5,
+    "dedup_strategy": "keep",
+    "n_before": 17,
+    "n_after": 17,
+    "actions": [
+        {
+            "action_id": 0,
+            "start_time": 1.5,
+            "end_time": 2.0,
+            "description": "grabs a knife",
+            "refined": true,
+            "raw_stage2_label": "spreads mayonnaise",
+            "merged_from": [
+                0
+            ]
+        },
+        {
+            "action_id": 1,
+            "start_time": 3.0,
+            "end_time": 6.5,
+            "description": "lays meat on the bread",
+            "refined": true,
+            "raw_stage2_label": "places slices of meat",
+            "merged_from": [
+                1
+            ]
+        },
+        {
+            "action_id": 2,
+            "start_time": 5.0,
+            "end_time": 8.0,
+            "description": "lays sausage on plate",
+            "refined": true,
+            "raw_stage2_label": "spreads mustard",
+            "merged_from": [
+                2
+            ]
+        },
+        {
+            "action_id": 3,
+            "start_time": 8.0,
+            "end_time": 10.0,
+            "description": "place sausage on bread",
+            "refined": true,
+            "raw_stage2_label": "place sausage on bread",
+            "merged_from": [
+                3
+            ]
+        },
+        {
+            "action_id": 4,
+            "start_time": 11.0,
+            "end_time": 12.0,
+            "description": "spread mustard on hot dog",
+            "refined": true,
+            "raw_stage2_label": "spread mustard on hot dog",
+            "merged_from": [
+                4
+            ]
+        },
+        {
+            "action_id": 5,
+            "start_time": 12.5,
+            "end_time": 13.5,
+            "description": "spread mustard on bread",
+            "refined": true,
+            "raw_stage2_label": "place hot dog on plate",
+            "merged_from": [
+                5
+            ]
+        },
+        {
+            "action_id": 6,
+            "start_time": 14.0,
+            "end_time": 15.0,
+            "description": "spread mustard on hot dog bun",
+            "refined": true,
+            "raw_stage2_label": "spread mustard on hot dog bun",
+            "merged_from": [
+                6
+            ]
+        },
+        {
+            "action_id": 7,
+            "start_time": 14.0,
+            "end_time": 18.5,
+            "description": "hand spreads mustard on hot dog",
+            "refined": true,
+            "raw_stage2_label": "hand spreads mustard on hot dog",
+            "merged_from": [
+                7
+            ]
+        },
+        {
+            "action_id": 8,
+            "start_time": 17.0,
+            "end_time": 21.5,
+            "description": "hand adjusts hot dog on plate",
+            "refined": true,
+            "raw_stage2_label": "hand adjusts hot dog on plate",
+            "merged_from": [
+                8
+            ]
+        },
+        {
+            "action_id": 9,
+            "start_time": 20.5,
+            "end_time": 27.0,
+            "description": "applies ketchup",
+            "refined": false,
+            "raw_stage2_label": "applies ketchup",
+            "merged_from": [
+                9
+            ]
+        },
+        {
+            "action_id": 10,
+            "start_time": 26.0,
+            "end_time": 35.5,
+            "description": "applies ketchup",
+            "refined": true,
+            "raw_stage2_label": "applies ketchup",
+            "merged_from": [
+                10
+            ]
+        },
+        {
+            "action_id": 11,
+            "start_time": 34.0,
+            "end_time": 39.5,
+            "description": "hand adjusts hot dog on plate",
+            "refined": true,
+            "raw_stage2_label": "hand adjusts hot dog on plate",
+            "merged_from": [
+                11
+            ]
+        },
+        {
+            "action_id": 12,
+            "start_time": 38.0,
+            "end_time": 42.5,
+            "description": "hands place the sandwich back on the plate",
+            "refined": true,
+            "raw_stage2_label": "hands place the sandwich back on the plate",
+            "merged_from": [
+                12
+            ]
+        },
+        {
+            "action_id": 13,
+            "start_time": 40.5,
+            "end_time": 44.0,
+            "description": "hands place the bread on the plate",
+            "refined": true,
+            "raw_stage2_label": "hands place the bread on the plate",
+            "merged_from": [
+                13
+            ]
+        },
+        {
+            "action_id": 14,
+            "start_time": 42.0,
+            "end_time": 45.5,
+            "description": "hands spread a condiment on the bread",
+            "refined": true,
+            "raw_stage2_label": "hands spread a condiment on the bread",
+            "merged_from": [
+                14
+            ]
+        },
+        {
+            "action_id": 15,
+            "start_time": 43.5,
+            "end_time": 46.5,
+            "description": "hands adjust the bread on the plate",
+            "refined": true,
+            "raw_stage2_label": "hands adjust the bread on the plate",
+            "merged_from": [
+                15
+            ]
+        },
+        {
+            "action_id": 16,
+            "start_time": 45.0,
+            "end_time": 46.0,
+            "description": "hands place the bread on the plate.",
+            "refined": true,
+            "raw_stage2_label": "hands place the bread on the plate",
+            "merged_from": [
+                16
+            ]
+        }
+    ]
+}

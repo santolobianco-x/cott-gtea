@@ -1,0 +1,322 @@
+{
+    "video_id": "S4_Peanut_C1",
+    "dedup_tiou": 0.5,
+    "dedup_strategy": "keep",
+    "n_before": 43,
+    "n_after": 27,
+    "actions": [
+        {
+            "action_id": 0,
+            "start_time": 1.0,
+            "end_time": 2.0,
+            "description": "hand picks up a piece of bread",
+            "refined": true,
+            "raw_stage2_label": "hand picks up a piece of bread",
+            "merged_from": [
+                0
+            ]
+        },
+        {
+            "action_id": 1,
+            "start_time": 2.0,
+            "end_time": 3.0,
+            "description": "hand spreads butter on the bread",
+            "refined": true,
+            "raw_stage2_label": "hand spreads butter on the bread",
+            "merged_from": [
+                1,
+                2
+            ]
+        },
+        {
+            "action_id": 2,
+            "start_time": 2.5,
+            "end_time": 4.5,
+            "description": "spread butter on the bread",
+            "refined": true,
+            "raw_stage2_label": "hand spreads butter on the bread",
+            "merged_from": [
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "action_id": 3,
+            "start_time": 4.0,
+            "end_time": 5.0,
+            "description": "hand spreads the butter on the bread",
+            "refined": true,
+            "raw_stage2_label": "hand picks up the spread bottle",
+            "merged_from": [
+                6
+            ]
+        },
+        {
+            "action_id": 4,
+            "start_time": 4.5,
+            "end_time": 5.5,
+            "description": "hand places the spread bottle back on the table",
+            "refined": true,
+            "raw_stage2_label": "hand places the spread bottle back on the table",
+            "merged_from": [
+                7
+            ]
+        },
+        {
+            "action_id": 5,
+            "start_time": 5.0,
+            "end_time": 6.5,
+            "description": "hand picks up the spread bottle",
+            "refined": true,
+            "raw_stage2_label": "hand picks up the spread bottle",
+            "merged_from": [
+                8,
+                9
+            ]
+        },
+        {
+            "action_id": 6,
+            "start_time": 6.0,
+            "end_time": 7.0,
+            "description": "hand picks up a bottle of mustard",
+            "refined": true,
+            "raw_stage2_label": "hand places the spread bottle back on the table",
+            "merged_from": [
+                11,
+                10
+            ]
+        },
+        {
+            "action_id": 7,
+            "start_time": 7.0,
+            "end_time": 7.5,
+            "description": "hand opens the mustard bottle",
+            "refined": false,
+            "raw_stage2_label": "hand places the bottle of mustard on the table",
+            "merged_from": [
+                13
+            ]
+        },
+        {
+            "action_id": 8,
+            "start_time": 7.5,
+            "end_time": 8.0,
+            "description": "hand picks up a bottle of mustard",
+            "refined": true,
+            "raw_stage2_label": "hand picks up a bottle of mustard",
+            "merged_from": [
+                12
+            ]
+        },
+        {
+            "action_id": 9,
+            "start_time": 9.0,
+            "end_time": 11.5,
+            "description": "hand closes the bottle of mustard.",
+            "refined": true,
+            "raw_stage2_label": "hand closes the bottle of mustard.",
+            "merged_from": [
+                14,
+                16,
+                17,
+                15
+            ]
+        },
+        {
+            "action_id": 10,
+            "start_time": 10.5,
+            "end_time": 11.0,
+            "description": "hand applies mustard on bread.",
+            "refined": false,
+            "raw_stage2_label": "hand applies mustard on bread.",
+            "merged_from": [
+                18
+            ]
+        },
+        {
+            "action_id": 11,
+            "start_time": 12.0,
+            "end_time": 12.5,
+            "description": "hand picks up the plate",
+            "refined": true,
+            "raw_stage2_label": "hand closes the bottle of mustard.",
+            "merged_from": [
+                19,
+                21
+            ]
+        },
+        {
+            "action_id": 12,
+            "start_time": 12.5,
+            "end_time": 13.0,
+            "description": "hand applies mustard on bread.",
+            "refined": true,
+            "raw_stage2_label": "hand applies mustard on bread.",
+            "merged_from": [
+                20,
+                22
+            ]
+        },
+        {
+            "action_id": 13,
+            "start_time": 14.0,
+            "end_time": 15.0,
+            "description": "hand opens the bottle of ketchup.",
+            "refined": true,
+            "raw_stage2_label": "hand opens the bottle of ketchup.",
+            "merged_from": [
+                23,
+                24
+            ]
+        },
+        {
+            "action_id": 14,
+            "start_time": 15.0,
+            "end_time": 16.0,
+            "description": "hand opens the bottle of ketchup.",
+            "refined": true,
+            "raw_stage2_label": "hand closes the bottle of ketchup.",
+            "merged_from": [
+                25,
+                26,
+                27
+            ]
+        },
+        {
+            "action_id": 15,
+            "start_time": 17.5,
+            "end_time": 18.5,
+            "description": "hand spreads peanut butter on bread",
+            "refined": true,
+            "raw_stage2_label": "hand continues to hold the spoon.",
+            "merged_from": [
+                28,
+                29
+            ]
+        },
+        {
+            "action_id": 16,
+            "start_time": 17.5,
+            "end_time": 29.0,
+            "description": "spreads peanut butter on bread",
+            "refined": true,
+            "raw_stage2_label": "hand spreads peanut butter on bread",
+            "merged_from": [
+                30
+            ]
+        },
+        {
+            "action_id": 17,
+            "start_time": 30.0,
+            "end_time": 32.5,
+            "description": "hand opens peanut butter jar lid",
+            "refined": false,
+            "raw_stage2_label": "hand places peanut butter jar on table",
+            "merged_from": [
+                31
+            ]
+        },
+        {
+            "action_id": 18,
+            "start_time": 31.5,
+            "end_time": 35.0,
+            "description": "hand opens the peanut butter jar",
+            "refined": true,
+            "raw_stage2_label": "hand opens the peanut butter jar",
+            "merged_from": [
+                32,
+                33
+            ]
+        },
+        {
+            "action_id": 19,
+            "start_time": 35.5,
+            "end_time": 37.5,
+            "description": "hand opens the jar lid",
+            "refined": false,
+            "raw_stage2_label": "hand places the peanut butter jar on the table",
+            "merged_from": [
+                34
+            ]
+        },
+        {
+            "action_id": 20,
+            "start_time": 38.0,
+            "end_time": 42.5,
+            "description": "spreads honey on bread",
+            "refined": true,
+            "raw_stage2_label": "hand holds honey bottle",
+            "merged_from": [
+                35
+            ]
+        },
+        {
+            "action_id": 21,
+            "start_time": 41.0,
+            "end_time": 48.5,
+            "description": "hand applies honey on bread",
+            "refined": true,
+            "raw_stage2_label": "hand applies honey on bread",
+            "merged_from": [
+                36
+            ]
+        },
+        {
+            "action_id": 22,
+            "start_time": 47.5,
+            "end_time": 50.5,
+            "description": "hand holds ketchup bottle",
+            "refined": true,
+            "raw_stage2_label": "hand holds ketchup bottle",
+            "merged_from": [
+                37
+            ]
+        },
+        {
+            "action_id": 23,
+            "start_time": 49.0,
+            "end_time": 52.5,
+            "description": "grasp ketchup bottle",
+            "refined": true,
+            "raw_stage2_label": "hand reaches for ketchup bottle",
+            "merged_from": [
+                38
+            ]
+        },
+        {
+            "action_id": 24,
+            "start_time": 54.5,
+            "end_time": 55.0,
+            "description": "place the bread on the plate",
+            "refined": true,
+            "raw_stage2_label": "hand spreads mustard on bread",
+            "merged_from": [
+                39
+            ]
+        },
+        {
+            "action_id": 25,
+            "start_time": 54.5,
+            "end_time": 57.5,
+            "description": "presses sandwich",
+            "refined": true,
+            "raw_stage2_label": "cuts and places sandwich",
+            "merged_from": [
+                40,
+                41
+            ]
+        },
+        {
+            "action_id": 26,
+            "start_time": 55.5,
+            "end_time": 60.5,
+            "description": "holds bread",
+            "refined": true,
+            "raw_stage2_label": "holds bread",
+            "merged_from": [
+                42
+            ]
+        }
+    ]
+}

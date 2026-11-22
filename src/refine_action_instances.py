@@ -21,10 +21,16 @@ DEFAULT_IMAGE_SIDE = 336
 JPEG_QUALITY = 90
 PAUSE_SECONDS = 0.3
 
+# Versione del prompt: se cambia, le azioni gia' rifinite con una versione diversa
+# vengono rielaborate (e il vecchio file viene salvato come backup).
+# v2: aggiunto il punteggio di confidenza (0-1) richiesto dal prompt originale del paper.
+PROMPT_VERSION = "stage3_conf_v2"
+
 SYSTEM_PROMPT = """You are an expert video analyzer, specialized in detecting **specific physical interactions**.
 Given {nframes} consecutive frames from a {duration}-second video segment, your task is to:
 1. Precisely localize the **start** and **end** of the most prominent physical interaction using the exact timestamps provided with the frames.
 2. Provide a refined and concrete description.
+3. Assign a confidence score (0-1) that the interaction is really visible in the frames.
 
 You will be given an initial hypothesized interaction: "{description}".
 WARNING: This hypothesis may be inaccurate. Always rely on the actual visual evidence.
@@ -33,14 +39,16 @@ WARNING: This hypothesis may be inaccurate. Always rely on the actual visual evi
 1. Do NOT label the entire segment as the action. The segment contains padding; find the exact timestamps where the action begins and ends.
 2. Never use Double Quotation Marks or Single Quotation Marks inside the description.
 3. Each description must contain exactly ONE concrete low-level verb (e.g., grasp, put into, take out, open, close, pour, stir).
-4. Return ONLY a fenced JSON code block starting with ```json and ending with ```.
-5. The description string MUST begin with <start> and end with <end>.
+4. The confidence must be a number between 0 and 1. Use a LOW value if the hands are not clearly interacting with an object or if no interaction is visible.
+5. Return ONLY a fenced JSON code block starting with ```json and ending with ```.
+6. The description string MUST begin with <start> and end with <end>.
 
 ```json
 {
 "start": <start time>,
 "end": <end time>,
-"description": "<start><refined action description><end>"
+"description": "<start><refined action description><end>",
+"confidence": <confidence between 0 and 1>
 }
 ```"""
 
@@ -83,6 +91,22 @@ def parse_ts(val):
         except ValueError:
             return None
     return None
+
+
+def parse_confidence(val):
+    """Converte la confidenza in un float in [0, 1]; None se assente o non valida."""
+    if isinstance(val, str):
+        val = val.strip().rstrip("%")
+        try:
+            val = float(val)
+        except ValueError:
+            return None
+    if not isinstance(val, (int, float)):
+        return None
+    val = float(val)
+    if 1.0 < val <= 100.0:   # alcuni modelli rispondono in percentuale
+        val /= 100.0
+    return val if 0.0 <= val <= 1.0 else None
 
 
 def process_action(action, frames_dir, raw_dir, max_side):
@@ -140,6 +164,7 @@ def process_action(action, frames_dir, raw_dir, max_side):
     parsed = extract_json(raw_text)
     s = parse_ts(parsed.get("start"))
     e = parse_ts(parsed.get("end"))
+    confidence = parse_confidence(parsed.get("confidence"))
     desc = re.sub(r"</?(start|end)>", "", str(parsed.get("description", ""))).strip()
 
     valid_time = (
@@ -165,9 +190,43 @@ def process_action(action, frames_dir, raw_dir, max_side):
         "start_time": float(s),
         "end_time": float(e),
         "description": desc,
+        "confidence": confidence,
         "refined": refined_ok,
         "raw_stage2_label": action["action_label"],
+        "prompt_version": PROMPT_VERSION,
     }
+
+
+def fallback_result(act):
+    return {
+        "action_id": act["action_id"],
+        "start_time": act["start_time"],
+        "end_time": act["end_time"],
+        "description": act["action_label"],
+        "confidence": None,
+        "refined": False,
+        "raw_stage2_label": act["action_label"],
+        "prompt_version": PROMPT_VERSION,
+    }
+
+
+def load_existing(output_file, force):
+    """Carica le azioni gia' rifinite con la versione di prompt corrente.
+    Se il file contiene risultati di una versione diversa, ne salva un backup."""
+    if force or not output_file.exists():
+        return {}
+
+    items = json.loads(output_file.read_text(encoding="utf-8"))
+    current = {it["action_id"]: it for it in items if it.get("prompt_version") == PROMPT_VERSION}
+
+    if len(current) < len(items):
+        old_versions = {it.get("prompt_version", "v1") for it in items} - {PROMPT_VERSION}
+        tag = "_".join(sorted(str(v) for v in old_versions))
+        backup = output_file.with_name(f"refined_actions_{tag}.json")
+        if not backup.exists():
+            backup.write_text(json.dumps(items, indent=4, ensure_ascii=False), encoding="utf-8")
+            print(f"Backup dei risultati della versione precedente: {backup.name}")
+    return current
 
 
 def run(video_id: str, image_side: int = DEFAULT_IMAGE_SIDE, force: bool = False):
@@ -188,18 +247,12 @@ def run(video_id: str, image_side: int = DEFAULT_IMAGE_SIDE, force: bool = False
     with open(input_file, "r", encoding="utf-8") as f:
         actions = json.load(f)["actions"]
 
-    existing = {}
-    if not force and output_file.exists():
-        with open(output_file, "r", encoding="utf-8") as f:
-            for item in json.load(f):
-                existing[item["action_id"]] = item
+    refined_map = load_existing(output_file, force)
 
     print("\n" + "=" * 55)
-    print("STAGE 3 - ACTION REFINEMENT")
+    print(f"STAGE 3 - ACTION REFINEMENT ({PROMPT_VERSION})")
     print("=" * 55)
-    print(f"Azioni totali: {len(actions)} | Già elaborate: {len(existing)}")
-
-    refined_map = dict(existing)
+    print(f"Azioni totali: {len(actions)} | Gia' elaborate con questa versione: {len(refined_map)}")
 
     for idx, act in enumerate(actions, 1):
         aid = act["action_id"]
@@ -214,17 +267,13 @@ def run(video_id: str, image_side: int = DEFAULT_IMAGE_SIDE, force: bool = False
             refined = process_action(act, frames_dir, raw_dir, image_side)
             refined_map[aid] = refined
             status_tag = "OK" if refined["refined"] else "FALLBACK"
-            print(f"  {status_tag}: {refined['start_time']}s - {refined['end_time']}s | '{refined['description']}'")
+            conf = refined["confidence"]
+            conf_str = f"{conf:.2f}" if conf is not None else "n/d"
+            print(f"  {status_tag}: {refined['start_time']}s - {refined['end_time']}s | "
+                  f"'{refined['description']}' | conf={conf_str}")
         except Exception as e:
             print(f"  ERRORE ({e}) -> Fallback ai confini dello Stage 2.")
-            refined_map[aid] = {
-                "action_id": aid,
-                "start_time": act["start_time"],
-                "end_time": act["end_time"],
-                "description": act["action_label"],
-                "refined": False,
-                "raw_stage2_label": act["action_label"],
-            }
+            refined_map[aid] = fallback_result(act)
 
         ordered = [refined_map[k] for k in sorted(refined_map)]
         with open(output_file, "w", encoding="utf-8") as f:
@@ -232,6 +281,14 @@ def run(video_id: str, image_side: int = DEFAULT_IMAGE_SIDE, force: bool = False
 
         time.sleep(PAUSE_SECONDS)
 
+    # Rimuove eventuali azioni rimaste da una versione precedente che non esistono piu' nello Stage 2
+    valid_ids = {a["action_id"] for a in actions}
+    ordered = [refined_map[k] for k in sorted(refined_map) if k in valid_ids]
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(ordered, f, indent=4, ensure_ascii=False)
+
+    n_conf = sum(1 for a in ordered if a.get("confidence") is not None)
     print("\n" + "=" * 55)
-    print(f"STAGE 3 COMPLETATO: {len(refined_map)} azioni salvate in {output_file}")
+    print(f"STAGE 3 COMPLETATO: {len(ordered)} azioni salvate in {output_file}")
+    print(f"Azioni con confidenza valida: {n_conf}/{len(ordered)}")
     print("=" * 55)

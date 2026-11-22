@@ -1,0 +1,298 @@
+{
+    "video_id": "S2_Tea_C1",
+    "dedup_tiou": 0.5,
+    "dedup_strategy": "keep",
+    "n_before": 29,
+    "n_after": 26,
+    "actions": [
+        {
+            "action_id": 0,
+            "start_time": 0.0,
+            "end_time": 1.5,
+            "description": "hand picks up a red cup from the table.",
+            "refined": false,
+            "raw_stage2_label": "hand picks up a red cup from the table.",
+            "merged_from": [
+                0
+            ]
+        },
+        {
+            "action_id": 1,
+            "start_time": 2.0,
+            "end_time": 3.5,
+            "description": "hand picks up a red cup from the table.",
+            "refined": true,
+            "raw_stage2_label": "hand picks up a red cup from the table.",
+            "merged_from": [
+                1,
+                2
+            ]
+        },
+        {
+            "action_id": 2,
+            "start_time": 5.5,
+            "end_time": 7.0,
+            "description": "hand picks up a bottle of water from the table.",
+            "refined": true,
+            "raw_stage2_label": "hand picks up a red cup from the table.",
+            "merged_from": [
+                3
+            ]
+        },
+        {
+            "action_id": 3,
+            "start_time": 7.0,
+            "end_time": 8.0,
+            "description": "hand pours liquid into the cup",
+            "refined": true,
+            "raw_stage2_label": "hand places the bottle of water on the table.",
+            "merged_from": [
+                4,
+                5
+            ]
+        },
+        {
+            "action_id": 4,
+            "start_time": 8.0,
+            "end_time": 15.0,
+            "description": "hand pours liquid into cup",
+            "refined": true,
+            "raw_stage2_label": "hand pours liquid into cup",
+            "merged_from": [
+                6
+            ]
+        },
+        {
+            "action_id": 5,
+            "start_time": 13.5,
+            "end_time": 24.5,
+            "description": "pours sugar into cup",
+            "refined": true,
+            "raw_stage2_label": "pours sugar into cup",
+            "merged_from": [
+                7
+            ]
+        },
+        {
+            "action_id": 6,
+            "start_time": 25.0,
+            "end_time": 27.0,
+            "description": "pours liquid into cup",
+            "refined": true,
+            "raw_stage2_label": "pours liquid into cup",
+            "merged_from": [
+                8
+            ]
+        },
+        {
+            "action_id": 7,
+            "start_time": 25.5,
+            "end_time": 31.0,
+            "description": "pours liquid into cup",
+            "refined": true,
+            "raw_stage2_label": "pours liquid into cup",
+            "merged_from": [
+                9
+            ]
+        },
+        {
+            "action_id": 8,
+            "start_time": 30.0,
+            "end_time": 33.0,
+            "description": "open the box",
+            "refined": false,
+            "raw_stage2_label": "hand closes the box",
+            "merged_from": [
+                10
+            ]
+        },
+        {
+            "action_id": 9,
+            "start_time": 33.0,
+            "end_time": 35.5,
+            "description": "hands open the Lipton box",
+            "refined": false,
+            "raw_stage2_label": "hands open the Lipton box",
+            "merged_from": [
+                11
+            ]
+        },
+        {
+            "action_id": 10,
+            "start_time": 36.0,
+            "end_time": 42.5,
+            "description": "hand holds tea bag in cup",
+            "refined": true,
+            "raw_stage2_label": "hand holds tea bag in cup",
+            "merged_from": [
+                12
+            ]
+        },
+        {
+            "action_id": 11,
+            "start_time": 41.0,
+            "end_time": 45.5,
+            "description": "hand opens container",
+            "refined": true,
+            "raw_stage2_label": "hand opens container",
+            "merged_from": [
+                13
+            ]
+        },
+        {
+            "action_id": 12,
+            "start_time": 46.0,
+            "end_time": 47.5,
+            "description": "hands place tea bag into cup",
+            "refined": true,
+            "raw_stage2_label": "hands place tea bag into cup",
+            "merged_from": [
+                14
+            ]
+        },
+        {
+            "action_id": 13,
+            "start_time": 47.0,
+            "end_time": 52.0,
+            "description": "stir tea in cup",
+            "refined": true,
+            "raw_stage2_label": "stir tea in cup",
+            "merged_from": [
+                15
+            ]
+        },
+        {
+            "action_id": 14,
+            "start_time": 50.0,
+            "end_time": 57.5,
+            "description": "hand stirs the tea bag in the cup",
+            "refined": true,
+            "raw_stage2_label": "hand stirs the tea bag in the cup",
+            "merged_from": [
+                16
+            ]
+        },
+        {
+            "action_id": 15,
+            "start_time": 59.0,
+            "end_time": 60.0,
+            "description": "hand lifts the cup slightly",
+            "refined": true,
+            "raw_stage2_label": "hand lifts the cup slightly",
+            "merged_from": [
+                17
+            ]
+        },
+        {
+            "action_id": 16,
+            "start_time": 62.0,
+            "end_time": 64.0,
+            "description": "hand places the plate on the table",
+            "refined": true,
+            "raw_stage2_label": "hand places the plate on the table",
+            "merged_from": [
+                20,
+                19
+            ]
+        },
+        {
+            "action_id": 17,
+            "start_time": 62.5,
+            "end_time": 63.0,
+            "description": "hand stirs the tea in the cup",
+            "refined": true,
+            "raw_stage2_label": "hand stirs the tea in the cup",
+            "merged_from": [
+                18
+            ]
+        },
+        {
+            "action_id": 18,
+            "start_time": 66.0,
+            "end_time": 70.0,
+            "description": "picks up container",
+            "refined": true,
+            "raw_stage2_label": "picks up container",
+            "merged_from": [
+                23
+            ]
+        },
+        {
+            "action_id": 19,
+            "start_time": 66.5,
+            "end_time": 67.0,
+            "description": "hand opens the box",
+            "refined": true,
+            "raw_stage2_label": "hand places the plate on the table",
+            "merged_from": [
+                21
+            ]
+        },
+        {
+            "action_id": 20,
+            "start_time": 67.0,
+            "end_time": 68.0,
+            "description": "hand places the container on the table",
+            "refined": true,
+            "raw_stage2_label": "hand places the container on the table",
+            "merged_from": [
+                22
+            ]
+        },
+        {
+            "action_id": 21,
+            "start_time": 69.0,
+            "end_time": 71.5,
+            "description": "places spoon on table",
+            "refined": false,
+            "raw_stage2_label": "places spoon on table",
+            "merged_from": [
+                24
+            ]
+        },
+        {
+            "action_id": 22,
+            "start_time": 70.5,
+            "end_time": 76.0,
+            "description": "spoons sugar into the bowl",
+            "refined": true,
+            "raw_stage2_label": "holds spoon",
+            "merged_from": [
+                25
+            ]
+        },
+        {
+            "action_id": 23,
+            "start_time": 75.0,
+            "end_time": 78.0,
+            "description": "hand closes the container lid",
+            "refined": false,
+            "raw_stage2_label": "hand scoops sugar from container",
+            "merged_from": [
+                26
+            ]
+        },
+        {
+            "action_id": 24,
+            "start_time": 79.0,
+            "end_time": 81.0,
+            "description": "hand covers the container with the lid",
+            "refined": true,
+            "raw_stage2_label": "hand covers the container with the lid",
+            "merged_from": [
+                27
+            ]
+        },
+        {
+            "action_id": 25,
+            "start_time": 81.5,
+            "end_time": 82.5,
+            "description": "stir",
+            "refined": true,
+            "raw_stage2_label": "stir",
+            "merged_from": [
+                28
+            ]
+        }
+    ]
+}
