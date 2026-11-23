@@ -1,15 +1,25 @@
-# 数据集介绍
-  ## 简介
-  佐治亚理工学院以自我为中心的活动 (GTEA) 数据集包含七种类型的日常活动，例如制作三明治、茶或咖啡。每个活动由四个不同的人执行，因此总共有 28 个视频。对于每个视频，大约有 20 个细粒度的动作实例，例如拿面包、倒番茄酱，大约在一分钟内。
-  ## 引文
-  ```
-@inproceedings{fathi2011learning,
-  title={Learning to recognize objects in egocentric activities},
-  author={Fathi, Alireza and Ren, Xiaofeng and Rehg, James M},
-  booktitle={CVPR 2011},
-  pages={3281--3288},
-  year={2011},
-  organization={IEEE}
-}
+# Dati
+
+Il dataset **GTEA** non è incluso nel repository. È stato scaricato da OpenDataLab:
+<https://opendatalab.com/OpenDataLab/GTEA/tree/main> (è necessario registrarsi e fare l'accesso).
+
+Per alleggerire il download servono solo:
+- i **video**;
+- le **label** delle azioni (`gtea_labels_71`).
+
+## Struttura attesa
+
 ```
-  ‌​‌‌​​​​‌​​​‌‌‌‌‌​​‌‌​‌​‌​​‌​​​‌‌​‌‌‌​‌‌‌​​‌‌‌‌​‌​​​‌​‌‌‌​​‌‌‌‌​‌​‌‌​​‌‌‌​​‌‌‌‌​‌​​‌‌‌​‌
+data/
+├── Videos/
+│   ├── S1_Cheese_C1.mp4
+│   ├── ...
+│   └── S4_Tea_C1.mp4        # 28 video
+└── gtea_labels_71/
+    └── labels/
+        ├── S1_Cheese_C1.txt
+        ├── ...
+        └── S4_Tea_C1.txt    # una label per video
+```
+
+I nomi dei video devono corrispondere a quelli dei file di label.
