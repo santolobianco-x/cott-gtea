@@ -1,0 +1,186 @@
+{
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "window_size": 12,
+    "stride": 12,
+    "fps": 2,
+    "image_side": 336
+  },
+  "windows": [
+    {
+      "window_id": 0,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 1.0,
+          "end_time": 1.5,
+          "description": "grasp the packet of salt"
+        },
+        {
+          "start_time": 2.0,
+          "end_time": 2.5,
+          "description": "grasp the packet of salt"
+        },
+        {
+          "start_time": 3.0,
+          "end_time": 3.5,
+          "description": "grasp the packet of salt"
+        },
+        {
+          "start_time": 4.0,
+          "end_time": 4.5,
+          "description": "grasp the packet of salt"
+        },
+        {
+          "start_time": 5.0,
+          "end_time": 5.5,
+          "description": "grasp the packet of salt"
+        }
+      ]
+    },
+    {
+      "window_id": 1,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 6.0,
+          "end_time": 7.0,
+          "description": "place the cheese on the bread"
+        },
+        {
+          "start_time": 7.5,
+          "end_time": 8.5,
+          "description": "place the cheese on the bread"
+        },
+        {
+          "start_time": 9.0,
+          "end_time": 9.5,
+          "description": "place the cheese on the bread"
+        },
+        {
+          "start_time": 10.0,
+          "end_time": 10.5,
+          "description": "place the cheese on the bread"
+        },
+        {
+          "start_time": 11.0,
+          "end_time": 11.5,
+          "description": "place the cheese on the bread"
+        }
+      ]
+    },
+    {
+      "window_id": 2,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": []
+    },
+    {
+      "window_id": 3,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": []
+    },
+    {
+      "window_id": 4,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 25.0,
+          "end_time": 26.5,
+          "description": "<spread> mayonnaise on bread"
+        },
+        {
+          "start_time": 27.0,
+          "end_time": 28.5,
+          "description": "<spread> mayonnaise on bread"
+        },
+        {
+          "start_time": 29.0,
+          "end_time": 29.5,
+          "description": "<spread> mayonnaise on bread"
+        }
+      ]
+    },
+    {
+      "window_id": 5,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 30.0,
+          "end_time": 31.5,
+          "description": "Put the mustard on the bread."
+        },
+        {
+          "start_time": 32.0,
+          "end_time": 32.5,
+          "description": "Put the mustard on the bread."
+        },
+        {
+          "start_time": 33.0,
+          "end_time": 33.5,
+          "description": "Put the mustard on the bread."
+        },
+        {
+          "start_time": 34.0,
+          "end_time": 34.5,
+          "description": "Put the mustard on the bread."
+        },
+        {
+          "start_time": 35.0,
+          "end_time": 35.5,
+          "description": "Put the mustard on the bread."
+        }
+      ]
+    },
+    {
+      "window_id": 6,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 36.0,
+          "end_time": 36.5,
+          "description": "holds the sandwich together"
+        },
+        {
+          "start_time": 37.0,
+          "end_time": 37.5,
+          "description": "holds the sandwich together"
+        },
+        {
+          "start_time": 38.0,
+          "end_time": 38.5,
+          "description": "holds the sandwich together"
+        },
+        {
+          "start_time": 39.0,
+          "end_time": 39.5,
+          "description": "holds the sandwich together"
+        },
+        {
+          "start_time": 40.0,
+          "end_time": 40.5,
+          "description": "holds the sandwich together"
+        },
+        {
+          "start_time": 41.0,
+          "end_time": 41.5,
+          "description": "holds the sandwich together"
+        }
+      ]
+    }
+  ]
+}

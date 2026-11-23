@@ -1,0 +1,398 @@
+{
+  "video_id": "S2_Tea_C1",
+  "baseline": "slide",
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "window_size": 12,
+    "stride": 12,
+    "fps": 2,
+    "image_side": 336
+  },
+  "actions": [
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "description": "grasp the red cup",
+      "action_id": 0
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 4.0,
+      "description": "grasp the red cup",
+      "action_id": 1
+    },
+    {
+      "start_time": 4.5,
+      "end_time": 5.0,
+      "description": "grasp the red cup",
+      "action_id": 2
+    },
+    {
+      "start_time": 5.5,
+      "end_time": 6.0,
+      "description": "grasp the red cup",
+      "action_id": 3
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 7.0,
+      "description": "grasp bottle cap",
+      "action_id": 4
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 7.5,
+      "description": "open bottle cap",
+      "action_id": 5
+    },
+    {
+      "start_time": 7.5,
+      "end_time": 8.0,
+      "description": "grasp bottle cap",
+      "action_id": 6
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 8.5,
+      "description": "close bottle cap",
+      "action_id": 7
+    },
+    {
+      "start_time": 8.5,
+      "end_time": 9.0,
+      "description": "grasp bottle cap",
+      "action_id": 8
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 9.5,
+      "description": "open bottle cap",
+      "action_id": 9
+    },
+    {
+      "start_time": 9.5,
+      "end_time": 10.0,
+      "description": "grasp bottle cap",
+      "action_id": 10
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 10.5,
+      "description": "close bottle cap",
+      "action_id": 11
+    },
+    {
+      "start_time": 10.5,
+      "end_time": 11.0,
+      "description": "grasp bottle cap",
+      "action_id": 12
+    },
+    {
+      "start_time": 11.0,
+      "end_time": 11.5,
+      "description": "open bottle cap",
+      "action_id": 13
+    },
+    {
+      "start_time": 11.5,
+      "end_time": 12.0,
+      "description": "grasp bottle cap",
+      "action_id": 14
+    },
+    {
+      "start_time": 24.0,
+      "end_time": 26.5,
+      "description": "pouring liquid into the cup",
+      "action_id": 15
+    },
+    {
+      "start_time": 27.0,
+      "end_time": 28.0,
+      "description": "shaking the bottle",
+      "action_id": 16
+    },
+    {
+      "start_time": 28.5,
+      "end_time": 29.0,
+      "description": "placing the bottle on the table",
+      "action_id": 17
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 30.5,
+      "description": "grasp the Lipton box",
+      "action_id": 18
+    },
+    {
+      "start_time": 30.5,
+      "end_time": 31.0,
+      "description": "grasp the Lipton box",
+      "action_id": 19
+    },
+    {
+      "start_time": 31.0,
+      "end_time": 31.5,
+      "description": "open the Lipton box",
+      "action_id": 20
+    },
+    {
+      "start_time": 31.5,
+      "end_time": 32.0,
+      "description": "open the Lipton box",
+      "action_id": 21
+    },
+    {
+      "start_time": 32.0,
+      "end_time": 32.5,
+      "description": "open the Lipton box",
+      "action_id": 22
+    },
+    {
+      "start_time": 32.5,
+      "end_time": 33.0,
+      "description": "open the Lipton box",
+      "action_id": 23
+    },
+    {
+      "start_time": 33.0,
+      "end_time": 33.5,
+      "description": "open the Lipton box",
+      "action_id": 24
+    },
+    {
+      "start_time": 33.5,
+      "end_time": 34.0,
+      "description": "open the Lipton box",
+      "action_id": 25
+    },
+    {
+      "start_time": 34.0,
+      "end_time": 34.5,
+      "description": "open the Lipton box",
+      "action_id": 26
+    },
+    {
+      "start_time": 34.5,
+      "end_time": 35.0,
+      "description": "open the Lipton box",
+      "action_id": 27
+    },
+    {
+      "start_time": 35.0,
+      "end_time": 35.5,
+      "description": "open the Lipton box",
+      "action_id": 28
+    },
+    {
+      "start_time": 35.5,
+      "end_time": 36.0,
+      "description": "open the Lipton box",
+      "action_id": 29
+    },
+    {
+      "start_time": 36.0,
+      "end_time": 36.5,
+      "description": "Put the tea bag into the cup.",
+      "action_id": 30
+    },
+    {
+      "start_time": 37.0,
+      "end_time": 37.5,
+      "description": "Put the tea bag into the cup.",
+      "action_id": 31
+    },
+    {
+      "start_time": 38.0,
+      "end_time": 38.5,
+      "description": "Put the tea bag into the cup.",
+      "action_id": 32
+    },
+    {
+      "start_time": 39.0,
+      "end_time": 39.5,
+      "description": "Put the tea bag into the cup.",
+      "action_id": 33
+    },
+    {
+      "start_time": 40.0,
+      "end_time": 40.5,
+      "description": "Put the tea bag into the cup.",
+      "action_id": 34
+    },
+    {
+      "start_time": 41.0,
+      "end_time": 41.5,
+      "description": "Put the tea bag into the cup.",
+      "action_id": 35
+    },
+    {
+      "start_time": 42.0,
+      "end_time": 42.5,
+      "description": "grasp the tea bag",
+      "action_id": 36
+    },
+    {
+      "start_time": 43.0,
+      "end_time": 43.5,
+      "description": "grasp the tea bag",
+      "action_id": 37
+    },
+    {
+      "start_time": 44.0,
+      "end_time": 44.5,
+      "description": "grasp the tea bag",
+      "action_id": 38
+    },
+    {
+      "start_time": 45.0,
+      "end_time": 45.5,
+      "description": "grasp the tea bag",
+      "action_id": 39
+    },
+    {
+      "start_time": 46.0,
+      "end_time": 46.5,
+      "description": "grasp the tea bag",
+      "action_id": 40
+    },
+    {
+      "start_time": 47.0,
+      "end_time": 47.5,
+      "description": "grasp the tea bag",
+      "action_id": 41
+    },
+    {
+      "start_time": 47.5,
+      "end_time": 48.0,
+      "description": "place the tea bag in the cup",
+      "action_id": 42
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 60.5,
+      "description": "Put the lid of the container on the table.",
+      "action_id": 43
+    },
+    {
+      "start_time": 61.0,
+      "end_time": 61.5,
+      "description": "Put the lid of the container on the table.",
+      "action_id": 44
+    },
+    {
+      "start_time": 62.0,
+      "end_time": 62.5,
+      "description": "Put the lid of the container on the table.",
+      "action_id": 45
+    },
+    {
+      "start_time": 63.0,
+      "end_time": 63.5,
+      "description": "Put the lid of the container on the table.",
+      "action_id": 46
+    },
+    {
+      "start_time": 64.0,
+      "end_time": 64.5,
+      "description": "Put the lid of the container on the table.",
+      "action_id": 47
+    },
+    {
+      "start_time": 65.0,
+      "end_time": 65.5,
+      "description": "Put the lid of the container on the table.",
+      "action_id": 48
+    },
+    {
+      "start_time": 66.0,
+      "end_time": 67.5,
+      "description": "<open> a box of cereal",
+      "action_id": 49
+    },
+    {
+      "start_time": 68.0,
+      "end_time": 69.0,
+      "description": "<open> a box of cereal",
+      "action_id": 50
+    },
+    {
+      "start_time": 71.0,
+      "end_time": 71.5,
+      "description": "<open> a container of cream",
+      "action_id": 51
+    },
+    {
+      "start_time": 72.0,
+      "end_time": 73.0,
+      "description": "Put the sugar in the bowl.",
+      "action_id": 52
+    },
+    {
+      "start_time": 73.5,
+      "end_time": 74.5,
+      "description": "Put the sugar in the bowl.",
+      "action_id": 53
+    },
+    {
+      "start_time": 75.0,
+      "end_time": 76.0,
+      "description": "Close the sugar container.",
+      "action_id": 54
+    },
+    {
+      "start_time": 76.5,
+      "end_time": 77.5,
+      "description": "Put the sugar in the bowl.",
+      "action_id": 55
+    },
+    {
+      "start_time": 78.0,
+      "end_time": 78.5,
+      "description": "Stirs the contents of the pink cup with the spoon.",
+      "action_id": 56
+    },
+    {
+      "start_time": 79.0,
+      "end_time": 80.0,
+      "description": "Seals the container of Dannon yogurt.",
+      "action_id": 57
+    },
+    {
+      "start_time": 80.5,
+      "end_time": 81.0,
+      "description": "Seals the container of Dannon yogurt.",
+      "action_id": 58
+    },
+    {
+      "start_time": 81.5,
+      "end_time": 82.0,
+      "description": "Seals the container of Dannon yogurt.",
+      "action_id": 59
+    },
+    {
+      "start_time": 82.5,
+      "end_time": 83.0,
+      "description": "Seals the container of Dannon yogurt.",
+      "action_id": 60
+    },
+    {
+      "start_time": 83.5,
+      "end_time": 84.0,
+      "description": "Stirs the contents of the pink cup with the spoon.",
+      "action_id": 61
+    },
+    {
+      "start_time": 90.0,
+      "end_time": 92.5,
+      "description": "stirs the contents of the cup with a spoon.",
+      "action_id": 62
+    },
+    {
+      "start_time": 93.0,
+      "end_time": 93.5,
+      "description": "leaves the spoon in the cup.",
+      "action_id": 63
+    }
+  ]
+}

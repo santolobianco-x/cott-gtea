@@ -1,0 +1,326 @@
+{
+  "video_id": "S4_Tea_C1",
+  "baseline": "slide",
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "window_size": 12,
+    "stride": 12,
+    "fps": 2,
+    "image_side": 336
+  },
+  "actions": [
+    {
+      "start_time": 2.0,
+      "end_time": 3.5,
+      "description": "stacks the cups",
+      "action_id": 0
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 4.5,
+      "description": "removes the cups from the stack",
+      "action_id": 1
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 8.0,
+      "description": "grasp the bottle cap",
+      "action_id": 2
+    },
+    {
+      "start_time": 8.5,
+      "end_time": 9.0,
+      "description": "open the bottle cap",
+      "action_id": 3
+    },
+    {
+      "start_time": 9.5,
+      "end_time": 10.0,
+      "description": "pour the liquid into the cup",
+      "action_id": 4
+    },
+    {
+      "start_time": 10.5,
+      "end_time": 11.0,
+      "description": "close the bottle cap",
+      "action_id": 5
+    },
+    {
+      "start_time": 11.5,
+      "end_time": 12.0,
+      "description": "close the bottle cap",
+      "action_id": 6
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 16.0,
+      "description": "Stirs the contents of the cup with the spoon.",
+      "action_id": 7
+    },
+    {
+      "start_time": 16.5,
+      "end_time": 17.5,
+      "description": "Plucks the cap from the bottle.",
+      "action_id": 8
+    },
+    {
+      "start_time": 18.0,
+      "end_time": 18.5,
+      "description": "grasp the bottle of mayonnaise",
+      "action_id": 9
+    },
+    {
+      "start_time": 19.0,
+      "end_time": 19.5,
+      "description": "grasp the bottle of mustard",
+      "action_id": 10
+    },
+    {
+      "start_time": 20.0,
+      "end_time": 20.5,
+      "description": "grasp the bottle of mayonnaise",
+      "action_id": 11
+    },
+    {
+      "start_time": 21.0,
+      "end_time": 21.5,
+      "description": "open the bottle of mayonnaise",
+      "action_id": 12
+    },
+    {
+      "start_time": 22.0,
+      "end_time": 22.5,
+      "description": "open the bottle of mustard",
+      "action_id": 13
+    },
+    {
+      "start_time": 23.0,
+      "end_time": 23.5,
+      "description": "open the bottle of mayonnaise",
+      "action_id": 14
+    },
+    {
+      "start_time": 24.0,
+      "end_time": 25.0,
+      "description": "<open> bottle of Ketchup",
+      "action_id": 15
+    },
+    {
+      "start_time": 25.5,
+      "end_time": 26.5,
+      "description": "<open> bottle of Ketchup",
+      "action_id": 16
+    },
+    {
+      "start_time": 27.0,
+      "end_time": 28.0,
+      "description": "<open> bottle of Ketchup",
+      "action_id": 17
+    },
+    {
+      "start_time": 28.5,
+      "end_time": 29.5,
+      "description": "<open> bottle of Ketchup",
+      "action_id": 18
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 31.5,
+      "description": "holding a packet of tea",
+      "action_id": 19
+    },
+    {
+      "start_time": 32.0,
+      "end_time": 32.5,
+      "description": "holding a packet of tea",
+      "action_id": 20
+    },
+    {
+      "start_time": 33.0,
+      "end_time": 33.5,
+      "description": "pouring tea into a cup",
+      "action_id": 21
+    },
+    {
+      "start_time": 34.0,
+      "end_time": 34.5,
+      "description": "pouring tea into a cup",
+      "action_id": 22
+    },
+    {
+      "start_time": 35.0,
+      "end_time": 35.5,
+      "description": "pouring tea into a cup",
+      "action_id": 23
+    },
+    {
+      "start_time": 36.0,
+      "end_time": 37.0,
+      "description": "grasp the cup",
+      "action_id": 24
+    },
+    {
+      "start_time": 37.0,
+      "end_time": 38.0,
+      "description": "grasp the cup",
+      "action_id": 25
+    },
+    {
+      "start_time": 38.0,
+      "end_time": 39.0,
+      "description": "grasp the cup",
+      "action_id": 26
+    },
+    {
+      "start_time": 39.0,
+      "end_time": 40.0,
+      "description": "grasp the cup",
+      "action_id": 27
+    },
+    {
+      "start_time": 40.0,
+      "end_time": 41.0,
+      "description": "grasp the cup",
+      "action_id": 28
+    },
+    {
+      "start_time": 41.0,
+      "end_time": 41.5,
+      "description": "grasp the cup",
+      "action_id": 29
+    },
+    {
+      "start_time": 41.5,
+      "end_time": 42.0,
+      "description": "grasp the cup",
+      "action_id": 30
+    },
+    {
+      "start_time": 42.0,
+      "end_time": 46.5,
+      "description": "Stir the contents of the cup with the spoon.",
+      "action_id": 31
+    },
+    {
+      "start_time": 47.0,
+      "end_time": 47.5,
+      "description": "Place the spoon on the table.",
+      "action_id": 32
+    },
+    {
+      "start_time": 48.0,
+      "end_time": 50.0,
+      "description": "place the container on the table",
+      "action_id": 33
+    },
+    {
+      "start_time": 50.5,
+      "end_time": 52.5,
+      "description": "open the container",
+      "action_id": 34
+    },
+    {
+      "start_time": 53.0,
+      "end_time": 53.5,
+      "description": "close the container",
+      "action_id": 35
+    },
+    {
+      "start_time": 54.0,
+      "end_time": 55.0,
+      "description": "Put the lid on the table.",
+      "action_id": 36
+    },
+    {
+      "start_time": 55.5,
+      "end_time": 56.5,
+      "description": "Open the container.",
+      "action_id": 37
+    },
+    {
+      "start_time": 57.0,
+      "end_time": 57.5,
+      "description": "Take out a spoon from the container.",
+      "action_id": 38
+    },
+    {
+      "start_time": 58.0,
+      "end_time": 58.5,
+      "description": "Put the spoon into the container.",
+      "action_id": 39
+    },
+    {
+      "start_time": 59.0,
+      "end_time": 59.5,
+      "description": "Put the spoon into the container.",
+      "action_id": 40
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 61.5,
+      "description": "<put milk into cup>",
+      "action_id": 41
+    },
+    {
+      "start_time": 62.0,
+      "end_time": 63.5,
+      "description": "<stir milk in cup>",
+      "action_id": 42
+    },
+    {
+      "start_time": 64.0,
+      "end_time": 65.5,
+      "description": "<stir milk in cup>",
+      "action_id": 43
+    },
+    {
+      "start_time": 66.0,
+      "end_time": 67.0,
+      "description": "grasp the container lid",
+      "action_id": 44
+    },
+    {
+      "start_time": 67.0,
+      "end_time": 68.0,
+      "description": "close the container lid",
+      "action_id": 45
+    },
+    {
+      "start_time": 68.0,
+      "end_time": 69.0,
+      "description": "grasp the container lid",
+      "action_id": 46
+    },
+    {
+      "start_time": 69.0,
+      "end_time": 69.5,
+      "description": "close the container lid",
+      "action_id": 47
+    },
+    {
+      "start_time": 70.0,
+      "end_time": 71.0,
+      "description": "grasp the container lid",
+      "action_id": 48
+    },
+    {
+      "start_time": 71.0,
+      "end_time": 71.5,
+      "description": "close the container lid",
+      "action_id": 49
+    },
+    {
+      "start_time": 72.0,
+      "end_time": 75.5,
+      "description": "grasp the red cup",
+      "action_id": 50
+    },
+    {
+      "start_time": 76.0,
+      "end_time": 76.5,
+      "description": "lift the red cup",
+      "action_id": 51
+    }
+  ]
+}

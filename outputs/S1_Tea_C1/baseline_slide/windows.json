@@ -1,0 +1,581 @@
+{
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "window_size": 12,
+    "stride": 12,
+    "fps": 2,
+    "image_side": 336
+  },
+  "windows": [
+    {
+      "window_id": 0,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 1.0,
+          "end_time": 1.5,
+          "description": "grabs a spoon from the table"
+        },
+        {
+          "start_time": 1.5,
+          "end_time": 2.5,
+          "description": "puts the spoon into the cup"
+        },
+        {
+          "start_time": 2.5,
+          "end_time": 3.5,
+          "description": "stirs the contents of the cup"
+        },
+        {
+          "start_time": 3.5,
+          "end_time": 4.5,
+          "description": "puts the spoon into the cup"
+        },
+        {
+          "start_time": 4.5,
+          "end_time": 5.5,
+          "description": "stirs the contents of the cup"
+        },
+        {
+          "start_time": 5.5,
+          "end_time": 6.0,
+          "description": "puts the spoon into the cup"
+        }
+      ]
+    },
+    {
+      "window_id": 1,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 6.0,
+          "end_time": 7.0,
+          "description": "grasp the bottle cap"
+        },
+        {
+          "start_time": 7.0,
+          "end_time": 7.5,
+          "description": "open the bottle cap"
+        },
+        {
+          "start_time": 8.0,
+          "end_time": 8.5,
+          "description": "pour the liquid into the cup"
+        },
+        {
+          "start_time": 9.0,
+          "end_time": 9.5,
+          "description": "stir the liquid in the cup"
+        },
+        {
+          "start_time": 10.0,
+          "end_time": 10.5,
+          "description": "stir the liquid in the cup"
+        },
+        {
+          "start_time": 11.0,
+          "end_time": 11.5,
+          "description": "stir the liquid in the cup"
+        },
+        {
+          "start_time": 11.5,
+          "end_time": 12.0,
+          "description": "stir the liquid in the cup"
+        }
+      ]
+    },
+    {
+      "window_id": 2,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": []
+    },
+    {
+      "window_id": 3,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 18.0,
+          "end_time": 21.5,
+          "description": "Stir the contents of the cup with a spoon."
+        },
+        {
+          "start_time": 22.0,
+          "end_time": 23.5,
+          "description": "Place the bottle on the table."
+        }
+      ]
+    },
+    {
+      "window_id": 4,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 24.0,
+          "end_time": 25.0,
+          "description": "place butter on the plate"
+        },
+        {
+          "start_time": 25.5,
+          "end_time": 26.0,
+          "description": "open the butter packet"
+        },
+        {
+          "start_time": 26.5,
+          "end_time": 27.0,
+          "description": "take out a piece of butter"
+        },
+        {
+          "start_time": 27.5,
+          "end_time": 28.0,
+          "description": "place butter on the plate"
+        },
+        {
+          "start_time": 28.5,
+          "end_time": 29.0,
+          "description": "close the butter packet"
+        }
+      ]
+    },
+    {
+      "window_id": 5,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 30.0,
+          "end_time": 31.5,
+          "description": "grasp the tea box"
+        },
+        {
+          "start_time": 32.0,
+          "end_time": 32.5,
+          "description": "open the tea box"
+        },
+        {
+          "start_time": 33.0,
+          "end_time": 33.5,
+          "description": "take out a tea bag"
+        },
+        {
+          "start_time": 34.0,
+          "end_time": 34.5,
+          "description": "grasp the tea bag"
+        },
+        {
+          "start_time": 35.0,
+          "end_time": 35.5,
+          "description": "open the tea bag"
+        }
+      ]
+    },
+    {
+      "window_id": 6,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 36.0,
+          "end_time": 37.5,
+          "description": "grasp the tea bag"
+        },
+        {
+          "start_time": 38.0,
+          "end_time": 39.5,
+          "description": "tear the tea bag"
+        },
+        {
+          "start_time": 40.0,
+          "end_time": 41.5,
+          "description": "place the tea bag in the cup"
+        }
+      ]
+    },
+    {
+      "window_id": 7,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": []
+    },
+    {
+      "window_id": 8,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": []
+    },
+    {
+      "window_id": 9,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 54.0,
+          "end_time": 54.5,
+          "description": "Put the red cup on the table."
+        },
+        {
+          "start_time": 55.0,
+          "end_time": 55.5,
+          "description": "Put the red cup on the table."
+        },
+        {
+          "start_time": 56.0,
+          "end_time": 56.5,
+          "description": "Put the red cup on the table."
+        },
+        {
+          "start_time": 57.0,
+          "end_time": 57.5,
+          "description": "Put the red cup on the table."
+        },
+        {
+          "start_time": 58.0,
+          "end_time": 58.5,
+          "description": "Put the red cup on the table."
+        },
+        {
+          "start_time": 59.0,
+          "end_time": 59.5,
+          "description": "Put the red cup on the table."
+        }
+      ]
+    },
+    {
+      "window_id": 10,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 60.0,
+          "end_time": 60.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 61.0,
+          "end_time": 61.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 62.0,
+          "end_time": 62.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 63.0,
+          "end_time": 63.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 64.0,
+          "end_time": 64.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 65.0,
+          "end_time": 65.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        }
+      ]
+    },
+    {
+      "window_id": 11,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 66.0,
+          "end_time": 67.5,
+          "description": "<grasp> red cup"
+        },
+        {
+          "start_time": 68.0,
+          "end_time": 70.5,
+          "description": "<grasp> red cup"
+        },
+        {
+          "start_time": 71.0,
+          "end_time": 71.5,
+          "description": "<grasp> red cup"
+        }
+      ]
+    },
+    {
+      "window_id": 12,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 72.0,
+          "end_time": 72.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 73.0,
+          "end_time": 73.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 74.0,
+          "end_time": 74.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 75.0,
+          "end_time": 75.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 76.0,
+          "end_time": 76.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 77.0,
+          "end_time": 77.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        }
+      ]
+    },
+    {
+      "window_id": 13,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": []
+    },
+    {
+      "window_id": 14,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 84.0,
+          "end_time": 84.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 85.0,
+          "end_time": 85.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 86.0,
+          "end_time": 86.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 87.0,
+          "end_time": 87.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 88.0,
+          "end_time": 88.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        },
+        {
+          "start_time": 89.0,
+          "end_time": 89.5,
+          "description": "Stirs the contents of the red cup with a spoon."
+        }
+      ]
+    },
+    {
+      "window_id": 15,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 90.0,
+          "end_time": 93.5,
+          "description": "<grasp red cup>"
+        },
+        {
+          "start_time": 94.0,
+          "end_time": 95.5,
+          "description": "<open jar>"
+        }
+      ]
+    },
+    {
+      "window_id": 16,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 96.0,
+          "end_time": 97.0,
+          "description": "open the container of Domino's pizza sauce."
+        },
+        {
+          "start_time": 97.5,
+          "end_time": 98.0,
+          "description": "open the container of Domino's pizza sauce."
+        },
+        {
+          "start_time": 98.5,
+          "end_time": 99.0,
+          "description": "open the container of Domino's pizza sauce."
+        },
+        {
+          "start_time": 99.5,
+          "end_time": 100.0,
+          "description": "open the container of Domino's pizza sauce."
+        },
+        {
+          "start_time": 100.5,
+          "end_time": 101.0,
+          "description": "open the container of Domino's pizza sauce."
+        }
+      ]
+    },
+    {
+      "window_id": 17,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 102.0,
+          "end_time": 103.0,
+          "description": "Put the spoon in the container of sugar."
+        },
+        {
+          "start_time": 103.5,
+          "end_time": 104.0,
+          "description": "Take the spoon out of the container."
+        },
+        {
+          "start_time": 104.5,
+          "end_time": 105.0,
+          "description": "Put the spoon in the container."
+        },
+        {
+          "start_time": 105.5,
+          "end_time": 106.0,
+          "description": "Put the spoon in the container."
+        },
+        {
+          "start_time": 106.5,
+          "end_time": 107.0,
+          "description": "Put the spoon in the container."
+        },
+        {
+          "start_time": 107.5,
+          "end_time": 108.0,
+          "description": "Put the spoon in the container."
+        }
+      ]
+    },
+    {
+      "window_id": 18,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 108.0,
+          "end_time": 113.5,
+          "description": "grasp the spoon"
+        }
+      ]
+    },
+    {
+      "window_id": 19,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 114.0,
+          "end_time": 116.5,
+          "description": "place the lid on the container"
+        },
+        {
+          "start_time": 117.0,
+          "end_time": 118.5,
+          "description": "open the container"
+        },
+        {
+          "start_time": 118.5,
+          "end_time": 119.5,
+          "description": "take out the spoon from the container"
+        }
+      ]
+    },
+    {
+      "window_id": 20,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": []
+    },
+    {
+      "window_id": 21,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 126.0,
+          "end_time": 127.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 128.0,
+          "end_time": 129.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 130.0,
+          "end_time": 130.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        }
+      ]
+    },
+    {
+      "window_id": 22,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 132.0,
+          "end_time": 133.0,
+          "description": "Put the red cup on the table."
+        },
+        {
+          "start_time": 133.0,
+          "end_time": 133.5,
+          "description": "Put the red cup on the table."
+        },
+        {
+          "start_time": 133.5,
+          "end_time": 134.0,
+          "description": "Put the red cup on the table."
+        }
+      ]
+    }
+  ]
+}

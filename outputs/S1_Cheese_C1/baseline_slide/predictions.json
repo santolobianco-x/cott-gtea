@@ -1,0 +1,206 @@
+{
+  "video_id": "S1_Cheese_C1",
+  "baseline": "slide",
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "window_size": 12,
+    "stride": 12,
+    "fps": 2,
+    "image_side": 336
+  },
+  "actions": [
+    {
+      "start_time": 2.0,
+      "end_time": 3.5,
+      "description": "<grasp> bottle of ketchup",
+      "action_id": 0
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 4.0,
+      "description": "<open> bottle of ketchup",
+      "action_id": 1
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 4.5,
+      "description": "<pour ketchup on bread",
+      "action_id": 2
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 5.5,
+      "description": "<grasp bottle of mustard",
+      "action_id": 3
+    },
+    {
+      "start_time": 5.5,
+      "end_time": 6.0,
+      "description": "<open bottle of mustard",
+      "action_id": 4
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 7.0,
+      "description": "grasp the bread",
+      "action_id": 5
+    },
+    {
+      "start_time": 7.5,
+      "end_time": 8.5,
+      "description": "grasp the red cup",
+      "action_id": 6
+    },
+    {
+      "start_time": 8.5,
+      "end_time": 9.5,
+      "description": "grasp the bottle",
+      "action_id": 7
+    },
+    {
+      "start_time": 9.5,
+      "end_time": 10.5,
+      "description": "grasp the bottle",
+      "action_id": 8
+    },
+    {
+      "start_time": 10.5,
+      "end_time": 11.5,
+      "description": "grasp the bottle",
+      "action_id": 9
+    },
+    {
+      "start_time": 11.5,
+      "end_time": 12.0,
+      "description": "grasp the bottle",
+      "action_id": 10
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 13.5,
+      "description": "grasp cheese with left hand",
+      "action_id": 11
+    },
+    {
+      "start_time": 14.0,
+      "end_time": 14.5,
+      "description": "grasp cheese with right hand",
+      "action_id": 12
+    },
+    {
+      "start_time": 15.0,
+      "end_time": 15.5,
+      "description": "grasp cheese with left hand",
+      "action_id": 13
+    },
+    {
+      "start_time": 16.0,
+      "end_time": 16.5,
+      "description": "grasp cheese with right hand",
+      "action_id": 14
+    },
+    {
+      "start_time": 17.0,
+      "end_time": 17.5,
+      "description": "grasp cheese with left hand",
+      "action_id": 15
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 32.5,
+      "description": "apply butter on bread",
+      "action_id": 16
+    },
+    {
+      "start_time": 33.0,
+      "end_time": 33.5,
+      "description": "apply butter on bread",
+      "action_id": 17
+    },
+    {
+      "start_time": 34.0,
+      "end_time": 34.5,
+      "description": "apply butter on bread",
+      "action_id": 18
+    },
+    {
+      "start_time": 35.0,
+      "end_time": 35.5,
+      "description": "apply butter on bread",
+      "action_id": 19
+    },
+    {
+      "start_time": 36.0,
+      "end_time": 38.0,
+      "description": "Put mustard on bread",
+      "action_id": 20
+    },
+    {
+      "start_time": 38.5,
+      "end_time": 40.0,
+      "description": "Put mustard on bread",
+      "action_id": 21
+    },
+    {
+      "start_time": 42.0,
+      "end_time": 44.0,
+      "description": "<grasp> pick up the mustard bottle",
+      "action_id": 22
+    },
+    {
+      "start_time": 44.5,
+      "end_time": 45.5,
+      "description": "<open> open the mustard bottle",
+      "action_id": 23
+    },
+    {
+      "start_time": 46.0,
+      "end_time": 46.5,
+      "description": "<close> close the mustard bottle",
+      "action_id": 24
+    },
+    {
+      "start_time": 47.0,
+      "end_time": 47.5,
+      "description": "<grasp> pick up the mustard bottle",
+      "action_id": 25
+    },
+    {
+      "start_time": 48.0,
+      "end_time": 50.0,
+      "description": "grasp the bread",
+      "action_id": 26
+    },
+    {
+      "start_time": 50.5,
+      "end_time": 52.0,
+      "description": "press the bread",
+      "action_id": 27
+    },
+    {
+      "start_time": 52.5,
+      "end_time": 53.5,
+      "description": "press the bread",
+      "action_id": 28
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 60.5,
+      "description": "grasp the bread",
+      "action_id": 29
+    },
+    {
+      "start_time": 61.0,
+      "end_time": 61.5,
+      "description": "grasp the bread",
+      "action_id": 30
+    },
+    {
+      "start_time": 62.0,
+      "end_time": 62.5,
+      "description": "grasp the bread",
+      "action_id": 31
+    }
+  ]
+}

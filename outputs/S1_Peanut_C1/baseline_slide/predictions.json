@@ -1,0 +1,242 @@
+{
+  "video_id": "S1_Peanut_C1",
+  "baseline": "slide",
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "window_size": 12,
+    "stride": 12,
+    "fps": 2,
+    "image_side": 336
+  },
+  "actions": [
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "description": "grasp the bread loaf",
+      "action_id": 0
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 4.5,
+      "description": "open the bread loaf",
+      "action_id": 1
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 5.5,
+      "description": "grasp the bread slice",
+      "action_id": 2
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 7.0,
+      "description": "grasp the bottle of ketchup",
+      "action_id": 3
+    },
+    {
+      "start_time": 7.5,
+      "end_time": 8.5,
+      "description": "open the bottle of ketchup",
+      "action_id": 4
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 11.0,
+      "description": "pour ketchup onto the bread",
+      "action_id": 5
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 13.0,
+      "description": "place the lid on the table",
+      "action_id": 6
+    },
+    {
+      "start_time": 14.0,
+      "end_time": 15.0,
+      "description": "open the jar",
+      "action_id": 7
+    },
+    {
+      "start_time": 15.5,
+      "end_time": 16.5,
+      "description": "close the jar",
+      "action_id": 8
+    },
+    {
+      "start_time": 17.0,
+      "end_time": 17.5,
+      "description": "open the jar",
+      "action_id": 9
+    },
+    {
+      "start_time": 18.0,
+      "end_time": 23.5,
+      "description": "open peanut butter jar",
+      "action_id": 10
+    },
+    {
+      "start_time": 18.0,
+      "end_time": 23.5,
+      "description": "put peanut butter on spoon",
+      "action_id": 11
+    },
+    {
+      "start_time": 18.0,
+      "end_time": 23.5,
+      "description": "close peanut butter jar",
+      "action_id": 12
+    },
+    {
+      "start_time": 24.0,
+      "end_time": 25.5,
+      "description": "spoon spreads peanut butter on bread",
+      "action_id": 13
+    },
+    {
+      "start_time": 26.0,
+      "end_time": 27.5,
+      "description": "spoon spreads peanut butter on bread",
+      "action_id": 14
+    },
+    {
+      "start_time": 28.0,
+      "end_time": 29.5,
+      "description": "spoon spreads peanut butter on bread",
+      "action_id": 15
+    },
+    {
+      "start_time": 54.0,
+      "end_time": 55.0,
+      "description": "<open> peanut butter jar lid",
+      "action_id": 16
+    },
+    {
+      "start_time": 55.5,
+      "end_time": 56.5,
+      "description": "<close> peanut butter jar lid",
+      "action_id": 17
+    },
+    {
+      "start_time": 57.0,
+      "end_time": 58.0,
+      "description": "<open> peanut butter jar lid",
+      "action_id": 18
+    },
+    {
+      "start_time": 58.5,
+      "end_time": 59.5,
+      "description": "<close> peanut butter jar lid",
+      "action_id": 19
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 60.5,
+      "description": "grasp the jar lid",
+      "action_id": 20
+    },
+    {
+      "start_time": 61.0,
+      "end_time": 61.5,
+      "description": "open the jar lid",
+      "action_id": 21
+    },
+    {
+      "start_time": 62.0,
+      "end_time": 62.5,
+      "description": "grasp the jar lid",
+      "action_id": 22
+    },
+    {
+      "start_time": 63.0,
+      "end_time": 63.5,
+      "description": "open the jar lid",
+      "action_id": 23
+    },
+    {
+      "start_time": 64.0,
+      "end_time": 64.5,
+      "description": "grasp the jar lid",
+      "action_id": 24
+    },
+    {
+      "start_time": 65.0,
+      "end_time": 65.5,
+      "description": "open the jar lid",
+      "action_id": 25
+    },
+    {
+      "start_time": 66.0,
+      "end_time": 67.0,
+      "description": "open the bottle of ketchup",
+      "action_id": 26
+    },
+    {
+      "start_time": 67.5,
+      "end_time": 68.0,
+      "description": "open the bottle of ketchup",
+      "action_id": 27
+    },
+    {
+      "start_time": 68.5,
+      "end_time": 69.0,
+      "description": "open the bottle of ketchup",
+      "action_id": 28
+    },
+    {
+      "start_time": 69.5,
+      "end_time": 70.0,
+      "description": "open the bottle of ketchup",
+      "action_id": 29
+    },
+    {
+      "start_time": 70.5,
+      "end_time": 71.0,
+      "description": "open the bottle of ketchup",
+      "action_id": 30
+    },
+    {
+      "start_time": 71.5,
+      "end_time": 72.0,
+      "description": "open the bottle of ketchup",
+      "action_id": 31
+    },
+    {
+      "start_time": 96.0,
+      "end_time": 98.0,
+      "description": "<open> bread pack </open>",
+      "action_id": 32
+    },
+    {
+      "start_time": 98.0,
+      "end_time": 101.5,
+      "description": "<open> bread pack </open>",
+      "action_id": 33
+    },
+    {
+      "start_time": 102.0,
+      "end_time": 107.5,
+      "description": "grasp the bread",
+      "action_id": 34
+    },
+    {
+      "start_time": 107.5,
+      "end_time": 108.0,
+      "description": "grasp the bread",
+      "action_id": 35
+    },
+    {
+      "start_time": 108.0,
+      "end_time": 108.5,
+      "description": "grasp the bread",
+      "action_id": 36
+    },
+    {
+      "start_time": 109.0,
+      "end_time": 109.5,
+      "description": "grasp the bread",
+      "action_id": 37
+    }
+  ]
+}

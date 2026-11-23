@@ -1,0 +1,266 @@
+{
+  "video_id": "S4_Peanut_C1",
+  "baseline": "slide",
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "window_size": 12,
+    "stride": 12,
+    "fps": 2,
+    "image_side": 336
+  },
+  "actions": [
+    {
+      "start_time": 1.0,
+      "end_time": 1.5,
+      "description": "grasp the bread",
+      "action_id": 0
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 2.5,
+      "description": "open the bread",
+      "action_id": 1
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 3.5,
+      "description": "grasp the bread",
+      "action_id": 2
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 4.5,
+      "description": "open the bread",
+      "action_id": 3
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 5.5,
+      "description": "grasp the bread",
+      "action_id": 4
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 13.5,
+      "description": "grasp a spoon",
+      "action_id": 5
+    },
+    {
+      "start_time": 14.0,
+      "end_time": 15.5,
+      "description": "open a jar of peanut butter",
+      "action_id": 6
+    },
+    {
+      "start_time": 16.0,
+      "end_time": 17.5,
+      "description": "spread peanut butter on a piece of bread",
+      "action_id": 7
+    },
+    {
+      "start_time": 17.5,
+      "end_time": 18.0,
+      "description": "place the bread on a plate",
+      "action_id": 8
+    },
+    {
+      "start_time": 18.0,
+      "end_time": 20.0,
+      "description": "<spread spread on bread>",
+      "action_id": 9
+    },
+    {
+      "start_time": 20.5,
+      "end_time": 22.5,
+      "description": "<open peanut butter jar>",
+      "action_id": 10
+    },
+    {
+      "start_time": 23.0,
+      "end_time": 23.5,
+      "description": "<close peanut butter jar>",
+      "action_id": 11
+    },
+    {
+      "start_time": 24.0,
+      "end_time": 25.0,
+      "description": "<spread> spread peanut butter on the bread",
+      "action_id": 12
+    },
+    {
+      "start_time": 25.5,
+      "end_time": 26.5,
+      "description": "<spread> spread peanut butter on the bread",
+      "action_id": 13
+    },
+    {
+      "start_time": 27.0,
+      "end_time": 28.0,
+      "description": "<spread> spread peanut butter on the bread",
+      "action_id": 14
+    },
+    {
+      "start_time": 28.5,
+      "end_time": 29.5,
+      "description": "<spread> spread peanut butter on the bread",
+      "action_id": 15
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 31.5,
+      "description": "Put the spoon on the plate.",
+      "action_id": 16
+    },
+    {
+      "start_time": 32.0,
+      "end_time": 32.5,
+      "description": "Put the lid on the table.",
+      "action_id": 17
+    },
+    {
+      "start_time": 33.0,
+      "end_time": 34.5,
+      "description": "Put the lid on the table.",
+      "action_id": 18
+    },
+    {
+      "start_time": 35.0,
+      "end_time": 35.5,
+      "description": "Put the lid on the table.",
+      "action_id": 19
+    },
+    {
+      "start_time": 36.0,
+      "end_time": 37.0,
+      "description": "grasp the bottle of honey.",
+      "action_id": 20
+    },
+    {
+      "start_time": 37.0,
+      "end_time": 37.5,
+      "description": "<open the bottle of honey.",
+      "action_id": 21
+    },
+    {
+      "start_time": 38.0,
+      "end_time": 38.5,
+      "description": "<grasp the bottle of honey.",
+      "action_id": 22
+    },
+    {
+      "start_time": 38.5,
+      "end_time": 39.0,
+      "description": "<open the bottle of honey.",
+      "action_id": 23
+    },
+    {
+      "start_time": 39.0,
+      "end_time": 39.5,
+      "description": "<grasp the bottle of honey.",
+      "action_id": 24
+    },
+    {
+      "start_time": 39.5,
+      "end_time": 40.0,
+      "description": "<open the bottle of honey.",
+      "action_id": 25
+    },
+    {
+      "start_time": 40.0,
+      "end_time": 40.5,
+      "description": "<grasp the bottle of honey.",
+      "action_id": 26
+    },
+    {
+      "start_time": 40.5,
+      "end_time": 41.0,
+      "description": "<open the bottle of honey.",
+      "action_id": 27
+    },
+    {
+      "start_time": 41.0,
+      "end_time": 41.5,
+      "description": "<grasp the bottle of honey.",
+      "action_id": 28
+    },
+    {
+      "start_time": 41.5,
+      "end_time": 42.0,
+      "description": "<open the bottle of honey.",
+      "action_id": 29
+    },
+    {
+      "start_time": 48.0,
+      "end_time": 50.0,
+      "description": "Put the honey on the bread.",
+      "action_id": 30
+    },
+    {
+      "start_time": 50.5,
+      "end_time": 52.0,
+      "description": "Put the honey on the bread.",
+      "action_id": 31
+    },
+    {
+      "start_time": 52.5,
+      "end_time": 53.5,
+      "description": "Put the honey on the bread.",
+      "action_id": 32
+    },
+    {
+      "start_time": 54.0,
+      "end_time": 54.5,
+      "description": "place the bread on the plate",
+      "action_id": 33
+    },
+    {
+      "start_time": 55.0,
+      "end_time": 55.5,
+      "description": "press the bread together",
+      "action_id": 34
+    },
+    {
+      "start_time": 56.0,
+      "end_time": 56.5,
+      "description": "press the bread together",
+      "action_id": 35
+    },
+    {
+      "start_time": 57.0,
+      "end_time": 57.5,
+      "description": "press the bread together",
+      "action_id": 36
+    },
+    {
+      "start_time": 58.0,
+      "end_time": 58.5,
+      "description": "press the bread together",
+      "action_id": 37
+    },
+    {
+      "start_time": 59.0,
+      "end_time": 59.5,
+      "description": "press the bread together",
+      "action_id": 38
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 60.5,
+      "description": "holds sandwich",
+      "action_id": 39
+    },
+    {
+      "start_time": 61.0,
+      "end_time": 61.5,
+      "description": "holds sandwich",
+      "action_id": 40
+    },
+    {
+      "start_time": 62.0,
+      "end_time": 62.5,
+      "description": "holds sandwich",
+      "action_id": 41
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "window_size": 12,
+    "stride": 12,
+    "fps": 2,
+    "image_side": 336
+  },
+  "windows": [
+    {
+      "window_id": 0,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 1.0,
+          "end_time": 1.5,
+          "description": "grabs a red cup"
+        },
+        {
+          "start_time": 2.0,
+          "end_time": 2.5,
+          "description": "holds the red cup"
+        },
+        {
+          "start_time": 3.0,
+          "end_time": 3.5,
+          "description": "holds the red cup"
+        },
+        {
+          "start_time": 4.0,
+          "end_time": 4.5,
+          "description": "holds the red cup"
+        },
+        {
+          "start_time": 5.0,
+          "end_time": 5.5,
+          "description": "holds the red cup"
+        }
+      ]
+    },
+    {
+      "window_id": 1,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "length",
+      "actions": [
+        {
+          "start_time": 6.0,
+          "end_time": 7.0,
+          "description": "grasp the jar lid"
+        },
+        {
+          "start_time": 7.0,
+          "end_time": 8.0,
+          "description": "open the jar lid"
+        },
+        {
+          "start_time": 8.0,
+          "end_time": 9.0,
+          "description": "pour the contents into the cup"
+        },
+        {
+          "start_time": 9.0,
+          "end_time": 10.0,
+          "description": "close the jar lid"
+        },
+        {
+          "start_time": 10.0,
+          "end_time": 11.0,
+          "description": "open the jar lid"
+        },
+        {
+          "start_time": 11.0,
+          "end_time": 12.0,
+          "description": "pour the contents into the cup"
+        }
+      ]
+    },
+    {
+      "window_id": 2,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "length",
+      "actions": [
+        {
+          "start_time": 12.0,
+          "end_time": 13.0,
+          "description": "open the box of tea bags"
+        },
+        {
+          "start_time": 13.5,
+          "end_time": 14.5,
+          "description": "take out a tea bag from the box"
+        },
+        {
+          "start_time": 14.5,
+          "end_time": 15.5,
+          "description": "put the tea bag into the cup"
+        },
+        {
+          "start_time": 15.5,
+          "end_time": 16.5,
+          "description": "take out a spoon from the container"
+        },
+        {
+          "start_time": 16.5,
+          "end_time": 17.5,
+          "description": "put the spoon into the cup"
+        },
+        {
+          "start_time": 17.5,
+          "end_time": 18.0,
+          "description": "take out a spoon from the container"
+        }
+      ]
+    },
+    {
+      "window_id": 3,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 18.0,
+          "end_time": 23.5,
+          "description": "<grasp spoon>"
+        },
+        {
+          "start_time": 18.0,
+          "end_time": 23.5,
+          "description": "<pour jam into cup>"
+        }
+      ]
+    },
+    {
+      "window_id": 4,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 24.0,
+          "end_time": 25.0,
+          "description": "grasp the spoon in the cup"
+        },
+        {
+          "start_time": 25.0,
+          "end_time": 26.0,
+          "description": "open the bottle of hot sauce"
+        },
+        {
+          "start_time": 26.0,
+          "end_time": 27.5,
+          "description": "pour the hot sauce into the cup"
+        },
+        {
+          "start_time": 28.0,
+          "end_time": 28.5,
+          "description": "close the bottle of hot sauce"
+        },
+        {
+          "start_time": 29.0,
+          "end_time": 29.5,
+          "description": "open the bottle of hot sauce"
+        }
+      ]
+    },
+    {
+      "window_id": 5,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "length",
+      "actions": [
+        {
+          "start_time": 30.0,
+          "end_time": 31.5,
+          "description": "Close the container of Dora the Explorer yogurt."
+        },
+        {
+          "start_time": 32.0,
+          "end_time": 33.5,
+          "description": "Open the container of Dora the Explorer yogurt."
+        },
+        {
+          "start_time": 34.0,
+          "end_time": 35.5,
+          "description": "Close the container of Dora the Explorer yogurt."
+        }
+      ]
+    },
+    {
+      "window_id": 6,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 36.0,
+          "end_time": 36.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 37.0,
+          "end_time": 37.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 38.0,
+          "end_time": 38.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 39.0,
+          "end_time": 39.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 40.0,
+          "end_time": 40.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 41.0,
+          "end_time": 41.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        }
+      ]
+    },
+    {
+      "window_id": 7,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 42.0,
+          "end_time": 42.5,
+          "description": "Put the spoon in the cup"
+        },
+        {
+          "start_time": 43.0,
+          "end_time": 43.5,
+          "description": "Close the container"
+        },
+        {
+          "start_time": 44.0,
+          "end_time": 44.5,
+          "description": "Open the container"
+        },
+        {
+          "start_time": 45.0,
+          "end_time": 45.5,
+          "description": "Close the container"
+        },
+        {
+          "start_time": 46.0,
+          "end_time": 46.5,
+          "description": "Close the container"
+        },
+        {
+          "start_time": 47.0,
+          "end_time": 47.5,
+          "description": "Close the container"
+        },
+        {
+          "start_time": 47.5,
+          "end_time": 48.0,
+          "description": "Close the container"
+        }
+      ]
+    },
+    {
+      "window_id": 8,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 48.0,
+          "end_time": 50.0,
+          "description": "open bottle of syrup"
+        },
+        {
+          "start_time": 50.5,
+          "end_time": 52.5,
+          "description": "pour syrup into cup"
+        },
+        {
+          "start_time": 53.0,
+          "end_time": 53.5,
+          "description": "stir cup with spoon"
+        }
+      ]
+    },
+    {
+      "window_id": 9,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 54.0,
+          "end_time": 54.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 55.0,
+          "end_time": 55.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 56.0,
+          "end_time": 56.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 57.0,
+          "end_time": 57.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 58.0,
+          "end_time": 58.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 59.0,
+          "end_time": 59.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        }
+      ]
+    },
+    {
+      "window_id": 10,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 60.0,
+          "end_time": 61.5,
+          "description": "Stirs the contents of the cup with a spoon."
+        },
+        {
+          "start_time": 62.0,
+          "end_time": 63.5,
+          "description": "Plucks a piece of paper towel from the roll."
+        },
+        {
+          "start_time": 64.0,
+          "end_time": 65.5,
+          "description": "Plucks a piece of paper towel from the roll."
+        }
+      ]
+    },
+    {
+      "window_id": 11,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 66.0,
+          "end_time": 66.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 67.0,
+          "end_time": 67.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 68.0,
+          "end_time": 68.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 69.0,
+          "end_time": 69.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 70.0,
+          "end_time": 70.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 71.0,
+          "end_time": 71.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        }
+      ]
+    },
+    {
+      "window_id": 12,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 72.0,
+          "end_time": 73.5,
+          "description": "Stirs the contents of the cup with a spoon."
+        },
+        {
+          "start_time": 74.0,
+          "end_time": 74.5,
+          "description": "Leaves the spoon in the cup."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "video_id": "S3_CofHoney_C1",
+  "baseline": "slide",
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "window_size": 12,
+    "stride": 12,
+    "fps": 2,
+    "image_side": 336
+  },
+  "actions": [
+    {
+      "start_time": 2.0,
+      "end_time": 2.5,
+      "description": "Put the red cup on the table.",
+      "action_id": 0
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 4.5,
+      "description": "Put the red cup on the table.",
+      "action_id": 1
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 5.5,
+      "description": "Put the red cup on the table.",
+      "action_id": 2
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 7.0,
+      "description": "grasp the knife",
+      "action_id": 3
+    },
+    {
+      "start_time": 7.5,
+      "end_time": 8.5,
+      "description": "open the bottle",
+      "action_id": 4
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 10.0,
+      "description": "pour the sauce into the cup",
+      "action_id": 5
+    },
+    {
+      "start_time": 10.5,
+      "end_time": 11.5,
+      "description": "stir the sauce in the cup",
+      "action_id": 6
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 12.5,
+      "description": "grasp the jar lid",
+      "action_id": 7
+    },
+    {
+      "start_time": 13.0,
+      "end_time": 13.5,
+      "description": "open the jar lid",
+      "action_id": 8
+    },
+    {
+      "start_time": 14.0,
+      "end_time": 14.5,
+      "description": "pour the jam into the cup",
+      "action_id": 9
+    },
+    {
+      "start_time": 15.0,
+      "end_time": 15.5,
+      "description": "close the jar lid",
+      "action_id": 10
+    },
+    {
+      "start_time": 16.0,
+      "end_time": 16.5,
+      "description": "open the jar lid",
+      "action_id": 11
+    },
+    {
+      "start_time": 17.0,
+      "end_time": 17.5,
+      "description": "pour the jam into the cup",
+      "action_id": 12
+    },
+    {
+      "start_time": 18.0,
+      "end_time": 19.5,
+      "description": "stirs the contents of the cup with the spoon",
+      "action_id": 13
+    },
+    {
+      "start_time": 20.0,
+      "end_time": 20.5,
+      "description": "opens the jar",
+      "action_id": 14
+    },
+    {
+      "start_time": 21.0,
+      "end_time": 21.5,
+      "description": "removes the lid",
+      "action_id": 15
+    },
+    {
+      "start_time": 22.0,
+      "end_time": 22.5,
+      "description": "puts the lid back on the jar",
+      "action_id": 16
+    },
+    {
+      "start_time": 23.0,
+      "end_time": 23.5,
+      "description": "removes the lid",
+      "action_id": 17
+    },
+    {
+      "start_time": 23.5,
+      "end_time": 24.0,
+      "description": "puts the lid back on the jar",
+      "action_id": 18
+    },
+    {
+      "start_time": 24.0,
+      "end_time": 25.0,
+      "description": "grasp the bottle of hand sanitizer",
+      "action_id": 19
+    },
+    {
+      "start_time": 25.0,
+      "end_time": 26.0,
+      "description": "open the bottle of hand sanitizer",
+      "action_id": 20
+    },
+    {
+      "start_time": 26.0,
+      "end_time": 27.0,
+      "description": "grasp the bottle of hand sanitizer",
+      "action_id": 21
+    },
+    {
+      "start_time": 27.0,
+      "end_time": 28.0,
+      "description": "open the bottle of hand sanitizer",
+      "action_id": 22
+    },
+    {
+      "start_time": 28.0,
+      "end_time": 28.5,
+      "description": "grasp the bottle of hand sanitizer",
+      "action_id": 23
+    },
+    {
+      "start_time": 28.5,
+      "end_time": 29.5,
+      "description": "open the bottle of hand sanitizer",
+      "action_id": 24
+    },
+    {
+      "start_time": 29.5,
+      "end_time": 30.0,
+      "description": "grasp the bottle of hand sanitizer",
+      "action_id": 25
+    },
+    {
+      "start_time": 36.0,
+      "end_time": 37.0,
+      "description": "Put the spoon in the cup.",
+      "action_id": 26
+    },
+    {
+      "start_time": 37.5,
+      "end_time": 38.0,
+      "description": "Put the bottle on the table.",
+      "action_id": 27
+    },
+    {
+      "start_time": 38.5,
+      "end_time": 39.0,
+      "description": "Put the bottle on the table.",
+      "action_id": 28
+    },
+    {
+      "start_time": 39.5,
+      "end_time": 40.0,
+      "description": "Put the bottle on the table.",
+      "action_id": 29
+    },
+    {
+      "start_time": 40.5,
+      "end_time": 41.0,
+      "description": "Put the bottle on the table.",
+      "action_id": 30
+    },
+    {
+      "start_time": 41.5,
+      "end_time": 42.0,
+      "description": "Put the bottle on the table.",
+      "action_id": 31
+    },
+    {
+      "start_time": 42.0,
+      "end_time": 43.0,
+      "description": "open bottle lid",
+      "action_id": 32
+    },
+    {
+      "start_time": 43.5,
+      "end_time": 44.0,
+      "description": "close bottle lid",
+      "action_id": 33
+    },
+    {
+      "start_time": 44.5,
+      "end_time": 45.0,
+      "description": "open bottle lid",
+      "action_id": 34
+    },
+    {
+      "start_time": 45.5,
+      "end_time": 46.0,
+      "description": "close bottle lid",
+      "action_id": 35
+    },
+    {
+      "start_time": 46.5,
+      "end_time": 47.0,
+      "description": "open bottle lid",
+      "action_id": 36
+    },
+    {
+      "start_time": 47.5,
+      "end_time": 48.0,
+      "description": "close bottle lid",
+      "action_id": 37
+    },
+    {
+      "start_time": 48.0,
+      "end_time": 50.5,
+      "description": "<open> bottle of sauce",
+      "action_id": 38
+    },
+    {
+      "start_time": 51.0,
+      "end_time": 51.5,
+      "description": "<close> bottle of sauce",
+      "action_id": 39
+    },
+    {
+      "start_time": 52.0,
+      "end_time": 52.5,
+      "description": "<put into> sauce cup",
+      "action_id": 40
+    },
+    {
+      "start_time": 53.0,
+      "end_time": 53.5,
+      "description": "<stir> sauce cup",
+      "action_id": 41
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "video_id": "S1_Hotdog_C1",
+  "baseline": "slide",
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "window_size": 12,
+    "stride": 12,
+    "fps": 2,
+    "image_side": 336
+  },
+  "actions": [
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "description": "grabs a slice of bread",
+      "action_id": 0
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 4.0,
+      "description": "lays the bread on the plate",
+      "action_id": 1
+    },
+    {
+      "start_time": 4.5,
+      "end_time": 5.0,
+      "description": "lays the bread on the plate",
+      "action_id": 2
+    },
+    {
+      "start_time": 11.5,
+      "end_time": 12.0,
+      "description": "applies mustard to the bread.",
+      "action_id": 3
+    },
+    {
+      "start_time": 18.0,
+      "end_time": 22.0,
+      "description": "Put mustard on the hot dog.",
+      "action_id": 4
+    },
+    {
+      "start_time": 22.5,
+      "end_time": 23.5,
+      "description": "Put mustard on the hot dog.",
+      "action_id": 5
+    },
+    {
+      "start_time": 24.0,
+      "end_time": 24.5,
+      "description": "applies mustard to the hot dog",
+      "action_id": 6
+    },
+    {
+      "start_time": 25.0,
+      "end_time": 25.5,
+      "description": "applies ketchup to the hot dog",
+      "action_id": 7
+    },
+    {
+      "start_time": 26.0,
+      "end_time": 26.5,
+      "description": "applies ketchup to the hot dog",
+      "action_id": 8
+    },
+    {
+      "start_time": 27.0,
+      "end_time": 27.5,
+      "description": "applies ketchup to the hot dog",
+      "action_id": 9
+    },
+    {
+      "start_time": 28.0,
+      "end_time": 28.5,
+      "description": "applies ketchup to the hot dog",
+      "action_id": 10
+    },
+    {
+      "start_time": 29.0,
+      "end_time": 29.5,
+      "description": "applies ketchup to the hot dog",
+      "action_id": 11
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 32.5,
+      "description": "apply ketchup to the hot dog",
+      "action_id": 12
+    },
+    {
+      "start_time": 33.0,
+      "end_time": 34.5,
+      "description": "apply ketchup to the hot dog",
+      "action_id": 13
+    },
+    {
+      "start_time": 35.0,
+      "end_time": 35.5,
+      "description": "apply ketchup to the hot dog",
+      "action_id": 14
+    },
+    {
+      "start_time": 42.0,
+      "end_time": 46.0,
+      "description": "grasp the bread",
+      "action_id": 15
+    },
+    {
+      "start_time": 46.5,
+      "end_time": 47.0,
+      "description": "place the bread on the plate",
+      "action_id": 16
+    }
+  ]
+}

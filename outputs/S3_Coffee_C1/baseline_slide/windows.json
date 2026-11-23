@@ -1,0 +1,412 @@
+{
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "window_size": 12,
+    "stride": 12,
+    "fps": 2,
+    "image_side": 336
+  },
+  "windows": [
+    {
+      "window_id": 0,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": []
+    },
+    {
+      "window_id": 1,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "length",
+      "actions": [
+        {
+          "start_time": 6.0,
+          "end_time": 7.0,
+          "description": "grasp the red cup"
+        },
+        {
+          "start_time": 7.5,
+          "end_time": 8.5,
+          "description": "open the bottle"
+        },
+        {
+          "start_time": 9.0,
+          "end_time": 11.0,
+          "description": "pour the liquid into the cup"
+        },
+        {
+          "start_time": 11.5,
+          "end_time": 12.0,
+          "description": "close the bottle"
+        }
+      ]
+    },
+    {
+      "window_id": 2,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 12.0,
+          "end_time": 13.5,
+          "description": "Put the spoon in the jar of jam."
+        },
+        {
+          "start_time": 14.0,
+          "end_time": 14.5,
+          "description": "Put the spoon in the jar of jam."
+        },
+        {
+          "start_time": 15.0,
+          "end_time": 15.5,
+          "description": "Put the spoon in the jar of jam."
+        },
+        {
+          "start_time": 16.0,
+          "end_time": 16.5,
+          "description": "Put the spoon in the jar of jam."
+        },
+        {
+          "start_time": 17.0,
+          "end_time": 17.5,
+          "description": "Put the spoon in the jar of jam."
+        }
+      ]
+    },
+    {
+      "window_id": 3,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 18.0,
+          "end_time": 20.5,
+          "description": "Stir the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 21.0,
+          "end_time": 22.0,
+          "description": "Close the jar of jam."
+        },
+        {
+          "start_time": 22.5,
+          "end_time": 23.5,
+          "description": "Open the jar of jam."
+        }
+      ]
+    },
+    {
+      "window_id": 4,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 24.0,
+          "end_time": 26.5,
+          "description": "grasp the spoon"
+        },
+        {
+          "start_time": 27.0,
+          "end_time": 28.5,
+          "description": "grasp the spoon"
+        },
+        {
+          "start_time": 29.0,
+          "end_time": 29.5,
+          "description": "grasp the spoon"
+        }
+      ]
+    },
+    {
+      "window_id": 5,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 30.0,
+          "end_time": 31.5,
+          "description": "<open> open the container lid"
+        },
+        {
+          "start_time": 32.0,
+          "end_time": 33.5,
+          "description": "<close> close the container lid"
+        },
+        {
+          "start_time": 34.0,
+          "end_time": 35.5,
+          "description": "<open> open the container lid"
+        }
+      ]
+    },
+    {
+      "window_id": 6,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 36.0,
+          "end_time": 37.0,
+          "description": "Put the lid on the table."
+        },
+        {
+          "start_time": 37.5,
+          "end_time": 38.0,
+          "description": "Take the spoon from the table."
+        },
+        {
+          "start_time": 38.5,
+          "end_time": 39.0,
+          "description": "Put the spoon in the container."
+        },
+        {
+          "start_time": 39.5,
+          "end_time": 40.0,
+          "description": "Take the spoon from the container."
+        },
+        {
+          "start_time": 40.5,
+          "end_time": 41.0,
+          "description": "Put the spoon in the container."
+        },
+        {
+          "start_time": 41.5,
+          "end_time": 42.0,
+          "description": "Take the spoon from the container."
+        }
+      ]
+    },
+    {
+      "window_id": 7,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 42.0,
+          "end_time": 43.5,
+          "description": "Put the spoon in the cup."
+        },
+        {
+          "start_time": 44.0,
+          "end_time": 44.5,
+          "description": "Put the spoon in the cup."
+        },
+        {
+          "start_time": 45.0,
+          "end_time": 45.5,
+          "description": "Put the spoon in the cup."
+        },
+        {
+          "start_time": 46.0,
+          "end_time": 46.5,
+          "description": "Put the spoon in the cup."
+        },
+        {
+          "start_time": 47.0,
+          "end_time": 47.5,
+          "description": "Put the spoon in the cup."
+        }
+      ]
+    },
+    {
+      "window_id": 8,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 48.0,
+          "end_time": 50.0,
+          "description": "<open bottle>"
+        },
+        {
+          "start_time": 50.5,
+          "end_time": 51.0,
+          "description": "<pour into cup>"
+        },
+        {
+          "start_time": 51.5,
+          "end_time": 52.0,
+          "description": "<close bottle>"
+        },
+        {
+          "start_time": 52.5,
+          "end_time": 53.0,
+          "description": "<open bottle>"
+        },
+        {
+          "start_time": 53.5,
+          "end_time": 54.0,
+          "description": "<pour into cup>"
+        }
+      ]
+    },
+    {
+      "window_id": 9,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": []
+    },
+    {
+      "window_id": 10,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 60.0,
+          "end_time": 60.5,
+          "description": "grasp the cup"
+        },
+        {
+          "start_time": 60.5,
+          "end_time": 61.0,
+          "description": "release the cup"
+        },
+        {
+          "start_time": 61.0,
+          "end_time": 61.5,
+          "description": "grasp the cup"
+        },
+        {
+          "start_time": 61.5,
+          "end_time": 62.0,
+          "description": "release the cup"
+        },
+        {
+          "start_time": 62.0,
+          "end_time": 62.5,
+          "description": "grasp the cup"
+        },
+        {
+          "start_time": 62.5,
+          "end_time": 63.0,
+          "description": "release the cup"
+        },
+        {
+          "start_time": 63.0,
+          "end_time": 63.5,
+          "description": "grasp the cup"
+        },
+        {
+          "start_time": 63.5,
+          "end_time": 64.0,
+          "description": "release the cup"
+        },
+        {
+          "start_time": 64.0,
+          "end_time": 64.5,
+          "description": "grasp the cup"
+        },
+        {
+          "start_time": 64.5,
+          "end_time": 65.0,
+          "description": "release the cup"
+        },
+        {
+          "start_time": 65.0,
+          "end_time": 65.5,
+          "description": "grasp the cup"
+        },
+        {
+          "start_time": 65.5,
+          "end_time": 66.0,
+          "description": "release the cup"
+        }
+      ]
+    },
+    {
+      "window_id": 11,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 66.0,
+          "end_time": 68.0,
+          "description": "Put the spoon in the cup"
+        },
+        {
+          "start_time": 68.5,
+          "end_time": 70.0,
+          "description": "Close the bottle"
+        },
+        {
+          "start_time": 70.5,
+          "end_time": 71.0,
+          "description": "Put the bottle on the table"
+        }
+      ]
+    },
+    {
+      "window_id": 12,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 72.0,
+          "end_time": 73.0,
+          "description": "Put the spoon into the bowl of food."
+        },
+        {
+          "start_time": 73.0,
+          "end_time": 74.0,
+          "description": "Put the spoon into the bowl of food."
+        },
+        {
+          "start_time": 74.0,
+          "end_time": 75.0,
+          "description": "Put the spoon into the bowl of food."
+        },
+        {
+          "start_time": 75.0,
+          "end_time": 76.0,
+          "description": "Put the spoon into the bowl of food."
+        },
+        {
+          "start_time": 76.0,
+          "end_time": 77.0,
+          "description": "Put the spoon into the bowl of food."
+        },
+        {
+          "start_time": 77.0,
+          "end_time": 77.5,
+          "description": "Put the spoon into the bowl of food."
+        },
+        {
+          "start_time": 77.5,
+          "end_time": 78.0,
+          "description": "Put the spoon into the bowl of food."
+        }
+      ]
+    },
+    {
+      "window_id": 13,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 78.0,
+          "end_time": 78.5,
+          "description": "Stirs the contents of the cup with the spoon."
+        },
+        {
+          "start_time": 78.5,
+          "end_time": 79.0,
+          "description": "Removes the spoon from the cup."
+        }
+      ]
+    }
+  ]
+}

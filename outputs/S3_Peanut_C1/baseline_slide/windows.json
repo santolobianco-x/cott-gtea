@@ -1,0 +1,338 @@
+{
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "window_size": 12,
+    "stride": 12,
+    "fps": 2,
+    "image_side": 336
+  },
+  "windows": [
+    {
+      "window_id": 0,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 1.0,
+          "end_time": 1.5,
+          "description": "grabs a jar of mustard"
+        },
+        {
+          "start_time": 2.0,
+          "end_time": 2.5,
+          "description": "opens the jar of mustard"
+        },
+        {
+          "start_time": 3.0,
+          "end_time": 3.5,
+          "description": "spreads mustard on bread"
+        },
+        {
+          "start_time": 4.0,
+          "end_time": 4.5,
+          "description": "holds the bread"
+        },
+        {
+          "start_time": 5.0,
+          "end_time": 5.5,
+          "description": "spreads mustard on bread"
+        }
+      ]
+    },
+    {
+      "window_id": 1,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "length",
+      "actions": [
+        {
+          "start_time": 6.0,
+          "end_time": 7.0,
+          "description": "open the mustard bottle lid"
+        },
+        {
+          "start_time": 7.5,
+          "end_time": 8.5,
+          "description": "close the mustard bottle lid"
+        },
+        {
+          "start_time": 9.0,
+          "end_time": 10.0,
+          "description": "open the mustard bottle lid"
+        },
+        {
+          "start_time": 10.5,
+          "end_time": 11.5,
+          "description": "close the mustard bottle lid"
+        },
+        {
+          "start_time": 11.5,
+          "end_time": 12.0,
+          "description": "open the mustard bottle lid"
+        }
+      ]
+    },
+    {
+      "window_id": 2,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 12.0,
+          "end_time": 12.5,
+          "description": "Put the spoon in the jar of peanut butter."
+        },
+        {
+          "start_time": 13.0,
+          "end_time": 13.5,
+          "description": "Take a spoonful of peanut butter."
+        },
+        {
+          "start_time": 14.0,
+          "end_time": 14.5,
+          "description": "Put the peanut butter on the bread."
+        },
+        {
+          "start_time": 15.0,
+          "end_time": 15.5,
+          "description": "Put the spoon in the jar of peanut butter."
+        },
+        {
+          "start_time": 16.0,
+          "end_time": 16.5,
+          "description": "Put the peanut butter on the bread."
+        },
+        {
+          "start_time": 17.0,
+          "end_time": 17.5,
+          "description": "Put the spoon in the jar of peanut butter."
+        },
+        {
+          "start_time": 17.5,
+          "end_time": 18.0,
+          "description": "Put the peanut butter on the bread."
+        }
+      ]
+    },
+    {
+      "window_id": 3,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": []
+    },
+    {
+      "window_id": 4,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 24.0,
+          "end_time": 26.0,
+          "description": "apply peanut butter on bread"
+        },
+        {
+          "start_time": 26.5,
+          "end_time": 27.5,
+          "description": "apply peanut butter on bread"
+        },
+        {
+          "start_time": 28.0,
+          "end_time": 28.5,
+          "description": "apply peanut butter on bread"
+        },
+        {
+          "start_time": 29.0,
+          "end_time": 29.5,
+          "description": "apply peanut butter on bread"
+        }
+      ]
+    },
+    {
+      "window_id": 5,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 30.0,
+          "end_time": 31.5,
+          "description": "applies mustard to the bread."
+        },
+        {
+          "start_time": 32.0,
+          "end_time": 32.5,
+          "description": "puts the mustard bottle down."
+        },
+        {
+          "start_time": 33.0,
+          "end_time": 33.5,
+          "description": "puts the knife down."
+        },
+        {
+          "start_time": 34.0,
+          "end_time": 34.5,
+          "description": "spreads the mustard on the bread."
+        },
+        {
+          "start_time": 35.0,
+          "end_time": 35.5,
+          "description": "puts the knife down."
+        }
+      ]
+    },
+    {
+      "window_id": 6,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 36.0,
+          "end_time": 36.5,
+          "description": "place the honey bottle on the table"
+        },
+        {
+          "start_time": 37.0,
+          "end_time": 37.5,
+          "description": "open the honey bottle"
+        },
+        {
+          "start_time": 38.0,
+          "end_time": 38.5,
+          "description": "close the honey bottle"
+        },
+        {
+          "start_time": 39.0,
+          "end_time": 39.5,
+          "description": "open the honey bottle"
+        },
+        {
+          "start_time": 40.0,
+          "end_time": 40.5,
+          "description": "close the honey bottle"
+        },
+        {
+          "start_time": 41.0,
+          "end_time": 41.5,
+          "description": "open the honey bottle"
+        }
+      ]
+    },
+    {
+      "window_id": 7,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 42.0,
+          "end_time": 42.5,
+          "description": "Put the butter on the bread."
+        },
+        {
+          "start_time": 43.0,
+          "end_time": 43.5,
+          "description": "Put the butter on the bread."
+        },
+        {
+          "start_time": 44.0,
+          "end_time": 44.5,
+          "description": "Put the butter on the bread."
+        },
+        {
+          "start_time": 45.0,
+          "end_time": 45.5,
+          "description": "Put the butter on the bread."
+        },
+        {
+          "start_time": 46.0,
+          "end_time": 46.5,
+          "description": "Put the butter on the bread."
+        },
+        {
+          "start_time": 47.0,
+          "end_time": 47.5,
+          "description": "Put the butter on the bread."
+        },
+        {
+          "start_time": 47.5,
+          "end_time": 48.0,
+          "description": "Put the butter on the bread."
+        }
+      ]
+    },
+    {
+      "window_id": 8,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": []
+    },
+    {
+      "window_id": 9,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 54.0,
+          "end_time": 55.0,
+          "description": "Put the bread on the table."
+        },
+        {
+          "start_time": 55.5,
+          "end_time": 56.5,
+          "description": "Put the bread on the table."
+        },
+        {
+          "start_time": 57.0,
+          "end_time": 58.0,
+          "description": "Put the bread on the table."
+        },
+        {
+          "start_time": 58.5,
+          "end_time": 59.5,
+          "description": "Put the bread on the table."
+        }
+      ]
+    },
+    {
+      "window_id": 10,
+      "status": "success",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "actions": [
+        {
+          "start_time": 60.0,
+          "end_time": 60.5,
+          "description": "grasp the bread"
+        },
+        {
+          "start_time": 61.0,
+          "end_time": 61.5,
+          "description": "press the bread"
+        },
+        {
+          "start_time": 62.0,
+          "end_time": 62.5,
+          "description": "hold the bread"
+        },
+        {
+          "start_time": 63.0,
+          "end_time": 63.5,
+          "description": "lift the bread"
+        },
+        {
+          "start_time": 64.0,
+          "end_time": 64.5,
+          "description": "place the bread on the table"
+        }
+      ]
+    }
+  ]
+}
