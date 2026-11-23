@@ -33,6 +33,9 @@ STAGES = {
     "stage3": ("Stage 3 (Refined)", Path("stage3") / "refined_actions.json"),
     # Post-processing aggiunto (NON nel paper): vedi src/postprocess.py
     "stage3_dedup": ("Stage 3 + Conf/Dedup (aggiunta)", Path("stage3") / "refined_actions_dedup.json"),
+    # Baseline di prompting diretto (Figura 1 del paper): vedi src/baselines.py
+    "baseline_slide": ("Baseline sliding-window", Path("baseline_slide") / "predictions.json"),
+    "baseline_whole": ("Baseline whole-video", Path("baseline_whole") / "predictions.json"),
 }
 
 # Cattura SOLO le azioni: <verb><noun1, noun2> (start-end) [0/1]
@@ -167,6 +170,8 @@ def summarize_batch(results_list, thresholds=THRESHOLDS, tag=None, save_csv=True
     print("#" * 72)
 
     for stage, (label, _) in STAGES.items():
+        if aggregate(results_list, stage, thresholds[0]) is None:
+            continue  # nessun output per questo stage/baseline
         print(f"\n[{label}]")
         print(f"  {'subset':<9} {'tIoU':>4} | {'pooled F1':>9} {'P':>6} {'R':>6} | {'mean F1':>8} | {'#pred':>6} {'#gt':>5}")
         for subset_name, subset in subsets(results_list):

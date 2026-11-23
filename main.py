@@ -12,6 +12,7 @@ from src.refine_action_instances import run as run_stage3
 from src.generate_srt import run as run_generate_srt
 from src.evaluate import run as run_evaluate, summarize_batch, evaluate_existing
 from src.analyze_errors import run_analysis
+from src.baselines import run as run_baseline, DEFAULT_IMAGE_SIDE as BASELINE_IMAGE_SIDE
 from src.postprocess import run as run_dedup, DEDUP_TIOU, DEDUP_STRATEGY, STRATEGIES, MIN_CONF
 
 PROJECT_ROOT = Path(__file__).resolve().parent
@@ -69,6 +70,12 @@ def main():
                         help="Come fondere i duplicati: mean, union o keep")
     parser.add_argument("--min-conf", type=float, default=MIN_CONF,
                         help="Scarta le predizioni dello Stage 3 con confidenza inferiore (0 = filtro disattivato)")
+    parser.add_argument("--baseline", choices=("slide", "whole"), default=None,
+                        help="Esegue una baseline di prompting diretto (Figura 1) invece della pipeline CoTT")
+    parser.add_argument("--whole-fps", type=float, default=2,
+                        help="Baseline whole: fps dei frame inviati al modello (paper: 2)")
+    parser.add_argument("--image-side", type=int, default=BASELINE_IMAGE_SIDE,
+                        help="Baseline: lato massimo delle immagini in pixel")
     parser.add_argument("--tag", type=str, default=None,
                         help="Nome dell'esperimento salvato nel CSV dei risultati (es. qwen3b_baseline)")
     args = parser.parse_args()
@@ -91,6 +98,22 @@ def main():
             evaluate_existing(video_ids, tag=args.tag)
         if args.analyze:
             run_analysis(video_ids, tag=args.tag)
+        return
+
+    if args.baseline:
+        all_metrics = []
+        for idx, vid in enumerate(video_ids, 1):
+            print(f"\n{'#'*60}\nBASELINE {args.baseline.upper()} - VIDEO {idx}/{len(video_ids)}: {vid}\n{'#'*60}")
+            try:
+                run_video_processing(vid, force=False)      # servono i frame a 2 fps
+                run_baseline(vid, args.baseline, force=args.force,
+                             image_side=args.image_side, whole_fps=args.whole_fps)
+                all_metrics.append(run_evaluate(vid, verbose=False))
+            except Exception:
+                print(f"\n❌ ERRORE su {vid}:")
+                traceback.print_exc()
+        if all_metrics:
+            summarize_batch(all_metrics, tag=args.tag)
         return
 
     all_metrics = []
