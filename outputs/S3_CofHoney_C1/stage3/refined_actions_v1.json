@@ -1,0 +1,266 @@
+[
+    {
+        "action_id": 0,
+        "start_time": 1.5,
+        "end_time": 2.0,
+        "description": "picks up and places",
+        "refined": true,
+        "raw_stage2_label": "picks up and places"
+    },
+    {
+        "action_id": 1,
+        "start_time": 2.5,
+        "end_time": 3.0,
+        "description": "picks up and places",
+        "refined": true,
+        "raw_stage2_label": "picks up and places"
+    },
+    {
+        "action_id": 2,
+        "start_time": 1.5,
+        "end_time": 3.0,
+        "description": "picks up and places",
+        "refined": true,
+        "raw_stage2_label": "picks up and places"
+    },
+    {
+        "action_id": 3,
+        "start_time": 2.0,
+        "end_time": 3.0,
+        "description": "puts the cup on the table",
+        "refined": true,
+        "raw_stage2_label": "picks up and places"
+    },
+    {
+        "action_id": 4,
+        "start_time": 5.5,
+        "end_time": 6.0,
+        "description": "picks up and places",
+        "refined": true,
+        "raw_stage2_label": "picks up and places"
+    },
+    {
+        "action_id": 5,
+        "start_time": 4.0,
+        "end_time": 6.0,
+        "description": "opens the box",
+        "refined": true,
+        "raw_stage2_label": "picks up and places"
+    },
+    {
+        "action_id": 6,
+        "start_time": 7.5,
+        "end_time": 8.0,
+        "description": "picks up and places",
+        "refined": true,
+        "raw_stage2_label": "picks up and places"
+    },
+    {
+        "action_id": 7,
+        "start_time": 9.5,
+        "end_time": 10.0,
+        "description": "hand opens the jar lid",
+        "refined": true,
+        "raw_stage2_label": "hand places the pack of pepper on the table."
+    },
+    {
+        "action_id": 8,
+        "start_time": 10.5,
+        "end_time": 11.0,
+        "description": "picks up a spoon",
+        "refined": true,
+        "raw_stage2_label": "lifts and places"
+    },
+    {
+        "action_id": 9,
+        "start_time": 10.0,
+        "end_time": 10.5,
+        "description": "hand lifts the spoon from the pink cup.",
+        "refined": false,
+        "raw_stage2_label": "hand lifts the spoon from the pink cup."
+    },
+    {
+        "action_id": 10,
+        "start_time": 11.5,
+        "end_time": 12.0,
+        "description": "hand places the spoon back into the pink cup.",
+        "refined": true,
+        "raw_stage2_label": "hand places the spoon back into the pink cup."
+    },
+    {
+        "action_id": 11,
+        "start_time": 11.0,
+        "end_time": 11.5,
+        "description": "hand stirs the contents of the pink cup.",
+        "refined": false,
+        "raw_stage2_label": "hand stirs the contents of the pink cup."
+    },
+    {
+        "action_id": 12,
+        "start_time": 12.5,
+        "end_time": 13.0,
+        "description": "hand opens the jar lid",
+        "refined": true,
+        "raw_stage2_label": "hand lifts the spoon from the pink cup."
+    },
+    {
+        "action_id": 13,
+        "start_time": 12.0,
+        "end_time": 12.5,
+        "description": "hand opens the jar lid",
+        "refined": false,
+        "raw_stage2_label": "hand places the spoon back into the jar."
+    },
+    {
+        "action_id": 14,
+        "start_time": 13.0,
+        "end_time": 14.0,
+        "description": "hand pours the jam into the red cup.",
+        "refined": true,
+        "raw_stage2_label": "hand pours the jam into the red cup."
+    },
+    {
+        "action_id": 15,
+        "start_time": 12.0,
+        "end_time": 14.5,
+        "description": "hand uses the spoon to stir the jam in the cup.",
+        "refined": true,
+        "raw_stage2_label": "hand uses the spoon to stir the jam in the cup."
+    },
+    {
+        "action_id": 16,
+        "start_time": 12.5,
+        "end_time": 15.0,
+        "description": "hand places the spoon back into the jar.",
+        "refined": true,
+        "raw_stage2_label": "hand places the spoon back into the jar."
+    },
+    {
+        "action_id": 17,
+        "start_time": 13.0,
+        "end_time": 15.5,
+        "description": "hand closes the jar lid.",
+        "refined": true,
+        "raw_stage2_label": "hand closes the jar lid."
+    },
+    {
+        "action_id": 18,
+        "start_time": 13.5,
+        "end_time": 16.0,
+        "description": "hand uses the spoon to stir the jam in the cup.",
+        "refined": true,
+        "raw_stage2_label": "hand uses the spoon to stir the jam in the cup."
+    },
+    {
+        "action_id": 19,
+        "start_time": 14.0,
+        "end_time": 17.5,
+        "description": "hand stirs jam in cup",
+        "refined": true,
+        "raw_stage2_label": "hand stirs jam in cup"
+    },
+    {
+        "action_id": 20,
+        "start_time": 15.5,
+        "end_time": 19.0,
+        "description": "hand pours jam into cup",
+        "refined": true,
+        "raw_stage2_label": "hand pours jam into cup"
+    },
+    {
+        "action_id": 21,
+        "start_time": 17.0,
+        "end_time": 20.0,
+        "description": "hand stirs the contents of the cup",
+        "refined": true,
+        "raw_stage2_label": "hand stirs the contents of the cup"
+    },
+    {
+        "action_id": 22,
+        "start_time": 21.0,
+        "end_time": 21.5,
+        "description": "hand opens the jar lid",
+        "refined": true,
+        "raw_stage2_label": "hand lifts the spoon out of the cup"
+    },
+    {
+        "action_id": 23,
+        "start_time": 20.5,
+        "end_time": 23.5,
+        "description": "hand opens the jar lid.",
+        "refined": false,
+        "raw_stage2_label": "hand opens the jar lid"
+    },
+    {
+        "action_id": 24,
+        "start_time": 23.5,
+        "end_time": 24.5,
+        "description": "hand picks up the bottle of syrup",
+        "refined": false,
+        "raw_stage2_label": "hand finishes pouring syrup into the cup"
+    },
+    {
+        "action_id": 25,
+        "start_time": 24.5,
+        "end_time": 27.0,
+        "description": "picks up the cup",
+        "refined": false,
+        "raw_stage2_label": "hand picks up a bottle of syrup, pours syrup into the cup, places bottle of oil on table, picks up bottle of oil, holds bottle of oil, places bottle of oil on table, picks up bottle of oil, holds bottle of oil."
+    },
+    {
+        "action_id": 26,
+        "start_time": 28.0,
+        "end_time": 33.5,
+        "description": "hand stirs the contents of the red cup with the spoon.",
+        "refined": true,
+        "raw_stage2_label": "hand stirs the contents of the red cup with the spoon."
+    },
+    {
+        "action_id": 27,
+        "start_time": 32.0,
+        "end_time": 39.5,
+        "description": "pour liquid into cup",
+        "refined": true,
+        "raw_stage2_label": "hold and lift spoon"
+    },
+    {
+        "action_id": 28,
+        "start_time": 38.0,
+        "end_time": 43.0,
+        "description": "hand picks up and places the bottle of honey on the table.",
+        "refined": true,
+        "raw_stage2_label": "hand picks up and places the bottle of honey on the table."
+    },
+    {
+        "action_id": 29,
+        "start_time": 44.5,
+        "end_time": 45.0,
+        "description": "spoon into the cup",
+        "refined": true,
+        "raw_stage2_label": "hand opens the bottle of honey."
+    },
+    {
+        "action_id": 30,
+        "start_time": 43.0,
+        "end_time": 48.5,
+        "description": "hand continues to hold the bottle of honey.",
+        "refined": true,
+        "raw_stage2_label": "hand continues to hold the bottle of honey."
+    },
+    {
+        "action_id": 31,
+        "start_time": 47.0,
+        "end_time": 51.5,
+        "description": "hand opens bottle of sauce",
+        "refined": true,
+        "raw_stage2_label": "hand opens bottle of sauce"
+    },
+    {
+        "action_id": 32,
+        "start_time": 50.5,
+        "end_time": 57.0,
+        "description": "hand continues to stir the contents of the cup.",
+        "refined": true,
+        "raw_stage2_label": "hand continues to stir the contents of the cup."
+    }
+]

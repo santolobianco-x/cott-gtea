@@ -2,49 +2,58 @@
     "video_id": "S3_Hotdog_C1",
     "dedup_tiou": 0.5,
     "dedup_strategy": "keep",
+    "min_conf": 0.0,
     "n_before": 16,
     "n_after": 12,
     "actions": [
         {
             "action_id": 0,
-            "start_time": 0.0,
-            "end_time": 1.0,
+            "start_time": 1.5,
+            "end_time": 2.0,
             "description": "hand picks up a piece of bread",
-            "refined": false,
+            "confidence": 0.8,
+            "refined": true,
             "raw_stage2_label": "hand picks up a piece of bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 0
             ]
         },
         {
             "action_id": 1,
-            "start_time": 2.5,
-            "end_time": 3.0,
-            "description": "hand places the bread on a plate",
-            "refined": true,
-            "raw_stage2_label": "hand places the bread on a plate",
-            "merged_from": [
-                1
-            ]
-        },
-        {
-            "action_id": 2,
-            "start_time": 3.0,
+            "start_time": 2.0,
             "end_time": 4.0,
             "description": "hand picks up a piece of bread",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand picks up a piece of bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 2
             ]
         },
         {
-            "action_id": 3,
-            "start_time": 4.0,
-            "end_time": 7.0,
+            "action_id": 2,
+            "start_time": 2.5,
+            "end_time": 3.0,
             "description": "hand places the bread on a plate",
+            "confidence": 0.8,
             "refined": true,
             "raw_stage2_label": "hand places the bread on a plate",
+            "prompt_version": "stage3_conf_v2",
+            "merged_from": [
+                1
+            ]
+        },
+        {
+            "action_id": 3,
+            "start_time": 4.0,
+            "end_time": 5.5,
+            "description": "hand picks up a piece of bread",
+            "confidence": 0.9,
+            "refined": true,
+            "raw_stage2_label": "hand picks up a piece of bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 3,
                 4,
@@ -57,19 +66,23 @@
             "start_time": 9.0,
             "end_time": 12.5,
             "description": "place bread on plate",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "place bread on plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 7
             ]
         },
         {
             "action_id": 5,
-            "start_time": 14.5,
+            "start_time": 14.0,
             "end_time": 15.0,
             "description": "spread mustard on bread",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "spread mustard on bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 8
             ]
@@ -79,19 +92,23 @@
             "start_time": 14.5,
             "end_time": 29.5,
             "description": "hand applies mustard to hot dog",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand applies mustard to hot dog",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 9
             ]
         },
         {
             "action_id": 7,
-            "start_time": 32.5,
+            "start_time": 29.0,
             "end_time": 33.5,
-            "description": "picks up the mustard bottle",
+            "description": "applies mustard to the hot dog",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "adjusts hot dog",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 10
             ]
@@ -101,8 +118,10 @@
             "start_time": 37.5,
             "end_time": 45.0,
             "description": "hand continues opening mustard bottle",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand continues opening mustard bottle",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 11
             ]
@@ -110,21 +129,25 @@
         {
             "action_id": 9,
             "start_time": 44.0,
-            "end_time": 49.0,
+            "end_time": 50.5,
             "description": "hand applies ketchup to the bread",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand applies ketchup to the bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 12
             ]
         },
         {
             "action_id": 10,
-            "start_time": 50.0,
-            "end_time": 54.5,
+            "start_time": 49.0,
+            "end_time": 50.5,
             "description": "hand adjusts the sandwich on the plate",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand adjusts the sandwich on the plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 13
             ]
@@ -133,9 +156,11 @@
             "action_id": 11,
             "start_time": 53.0,
             "end_time": 56.5,
-            "description": "hand places the sandwich on the plate",
+            "description": "hands place the sandwich on the plate",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places the sandwich on the plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 14,
                 15

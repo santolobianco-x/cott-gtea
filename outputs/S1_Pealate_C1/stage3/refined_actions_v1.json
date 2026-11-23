@@ -1,0 +1,274 @@
+[
+    {
+        "action_id": 0,
+        "start_time": 1.0,
+        "end_time": 2.0,
+        "description": "hand places a small object on the table.",
+        "refined": true,
+        "raw_stage2_label": "hand places a small object on the table."
+    },
+    {
+        "action_id": 1,
+        "start_time": 1.0,
+        "end_time": 2.5,
+        "description": "hand picks up the small object from the table.",
+        "refined": true,
+        "raw_stage2_label": "hand picks up the small object from the table."
+    },
+    {
+        "action_id": 2,
+        "start_time": 3.0,
+        "end_time": 4.0,
+        "description": "hand places the small object on the table.",
+        "refined": true,
+        "raw_stage2_label": "hand places the small object on the table."
+    },
+    {
+        "action_id": 3,
+        "start_time": 2.5,
+        "end_time": 3.5,
+        "description": "hand picks up the small object from the table.",
+        "refined": true,
+        "raw_stage2_label": "hand picks up the small object from the table."
+    },
+    {
+        "action_id": 4,
+        "start_time": 5.5,
+        "end_time": 6.0,
+        "description": "hand places the small object on the table.",
+        "refined": true,
+        "raw_stage2_label": "hand places the small object on the table."
+    },
+    {
+        "action_id": 5,
+        "start_time": 6.0,
+        "end_time": 7.0,
+        "description": "hand places the bottle of mustard on the table.",
+        "refined": true,
+        "raw_stage2_label": "hand places the bottle of mustard on the table."
+    },
+    {
+        "action_id": 6,
+        "start_time": 6.0,
+        "end_time": 8.0,
+        "description": "hand picks up a bottle of ketchup.",
+        "refined": true,
+        "raw_stage2_label": "hand picks up a bottle of ketchup."
+    },
+    {
+        "action_id": 7,
+        "start_time": 6.0,
+        "end_time": 10.0,
+        "description": "hand places bottle on table",
+        "refined": true,
+        "raw_stage2_label": "hand places bottle on table"
+    },
+    {
+        "action_id": 8,
+        "start_time": 12.5,
+        "end_time": 13.0,
+        "description": "hand places bottle on table",
+        "refined": true,
+        "raw_stage2_label": "hand places bottle on table"
+    },
+    {
+        "action_id": 9,
+        "start_time": 15.0,
+        "end_time": 16.0,
+        "description": "hand spreads jam on bread",
+        "refined": true,
+        "raw_stage2_label": "hand places bottle on table"
+    },
+    {
+        "action_id": 10,
+        "start_time": 16.0,
+        "end_time": 18.0,
+        "description": "hand spreads jam on bread",
+        "refined": true,
+        "raw_stage2_label": "hand places bottle on table"
+    },
+    {
+        "action_id": 11,
+        "start_time": 16.0,
+        "end_time": 18.5,
+        "description": "hand places the jar of jam back on the table",
+        "refined": true,
+        "raw_stage2_label": "hand places the jar of jam back on the table"
+    },
+    {
+        "action_id": 12,
+        "start_time": 16.5,
+        "end_time": 30.0,
+        "description": "hand spreads jam on bread",
+        "refined": true,
+        "raw_stage2_label": "hand spreads jam on bread"
+    },
+    {
+        "action_id": 13,
+        "start_time": 31.5,
+        "end_time": 32.0,
+        "description": "hand picks up knife",
+        "refined": true,
+        "raw_stage2_label": "hand places knife on table"
+    },
+    {
+        "action_id": 14,
+        "start_time": 32.5,
+        "end_time": 33.0,
+        "description": "hand places the jam bottle on the table",
+        "refined": true,
+        "raw_stage2_label": "hand places the jam bottle on the table"
+    },
+    {
+        "action_id": 15,
+        "start_time": 31.0,
+        "end_time": 34.0,
+        "description": "hand applies jam on the bread",
+        "refined": true,
+        "raw_stage2_label": "hand applies jam on the bread"
+    },
+    {
+        "action_id": 16,
+        "start_time": 34.5,
+        "end_time": 35.0,
+        "description": "hand places the jam bottle on the table",
+        "refined": true,
+        "raw_stage2_label": "hand places the jam bottle on the table"
+    },
+    {
+        "action_id": 17,
+        "start_time": 33.0,
+        "end_time": 36.0,
+        "description": "hand applies jam on the bread",
+        "refined": true,
+        "raw_stage2_label": "hand applies jam on the bread"
+    },
+    {
+        "action_id": 18,
+        "start_time": 34.0,
+        "end_time": 37.0,
+        "description": "hand places the jam bottle on the table",
+        "refined": true,
+        "raw_stage2_label": "hand places the jam bottle on the table"
+    },
+    {
+        "action_id": 19,
+        "start_time": 37.0,
+        "end_time": 38.0,
+        "description": "hand opens the bottle of ketchup",
+        "refined": true,
+        "raw_stage2_label": "hand continues to hold the bottle of ketchup."
+    },
+    {
+        "action_id": 20,
+        "start_time": 36.0,
+        "end_time": 40.0,
+        "description": "hand holds bottle of ketchup",
+        "refined": true,
+        "raw_stage2_label": "hand holds bottle of ketchup"
+    },
+    {
+        "action_id": 21,
+        "start_time": 39.0,
+        "end_time": 43.0,
+        "description": "hand spreads peanut butter on bread",
+        "refined": true,
+        "raw_stage2_label": "hand spreads peanut butter on bread"
+    },
+    {
+        "action_id": 22,
+        "start_time": 41.0,
+        "end_time": 46.0,
+        "description": "spoon spreads peanut butter on bread",
+        "refined": true,
+        "raw_stage2_label": "hand holds spoon"
+    },
+    {
+        "action_id": 23,
+        "start_time": 44.0,
+        "end_time": 49.0,
+        "description": "spreads peanut butter",
+        "refined": true,
+        "raw_stage2_label": "spreads peanut butter"
+    },
+    {
+        "action_id": 24,
+        "start_time": 47.0,
+        "end_time": 52.0,
+        "description": "spreads jam",
+        "refined": true,
+        "raw_stage2_label": "spreads jam"
+    },
+    {
+        "action_id": 25,
+        "start_time": 50.0,
+        "end_time": 60.5,
+        "description": "spreading peanut butter on bread",
+        "refined": true,
+        "raw_stage2_label": "spreading peanut butter on bread"
+    },
+    {
+        "action_id": 26,
+        "start_time": 60.0,
+        "end_time": 61.5,
+        "description": "hand holds peanut butter jar",
+        "refined": false,
+        "raw_stage2_label": "hand holds peanut butter jar"
+    },
+    {
+        "action_id": 27,
+        "start_time": 60.5,
+        "end_time": 64.5,
+        "description": "hand reaches for condiment bottle",
+        "refined": true,
+        "raw_stage2_label": "hand reaches for condiment bottle"
+    },
+    {
+        "action_id": 28,
+        "start_time": 62.5,
+        "end_time": 66.5,
+        "description": "hand picks up a bottle of mustard.",
+        "refined": true,
+        "raw_stage2_label": "hand picks up a bottle of mustard."
+    },
+    {
+        "action_id": 29,
+        "start_time": 64.5,
+        "end_time": 68.5,
+        "description": "hand places the bottle of mustard on the table.",
+        "refined": true,
+        "raw_stage2_label": "hand places the bottle of mustard on the table."
+    },
+    {
+        "action_id": 30,
+        "start_time": 66.5,
+        "end_time": 75.5,
+        "description": "puts jam on bread",
+        "refined": true,
+        "raw_stage2_label": "pours syrup onto bread"
+    },
+    {
+        "action_id": 31,
+        "start_time": 74.0,
+        "end_time": 78.5,
+        "description": "hand holds toast with jam",
+        "refined": true,
+        "raw_stage2_label": "hand holds toast with jam"
+    },
+    {
+        "action_id": 32,
+        "start_time": 77.0,
+        "end_time": 82.0,
+        "description": "hand picks up a bottle of sauce",
+        "refined": true,
+        "raw_stage2_label": "hand picks up a bottle of sauce"
+    },
+    {
+        "action_id": 33,
+        "start_time": 80.0,
+        "end_time": 89.0,
+        "description": "spreads spread on bread",
+        "refined": true,
+        "raw_stage2_label": "hand spreads spread on bread"
+    }
+]

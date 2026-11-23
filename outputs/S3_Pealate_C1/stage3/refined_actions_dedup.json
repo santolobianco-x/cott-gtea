@@ -2,62 +2,73 @@
     "video_id": "S3_Pealate_C1",
     "dedup_tiou": 0.5,
     "dedup_strategy": "keep",
+    "min_conf": 0.0,
     "n_before": 39,
-    "n_after": 29,
+    "n_after": 28,
     "actions": [
         {
             "action_id": 0,
             "start_time": 1.5,
             "end_time": 2.0,
             "description": "hand places bread on plate",
+            "confidence": 0.8,
             "refined": true,
             "raw_stage2_label": "hand places bread on plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 0
             ]
         },
         {
             "action_id": 1,
+            "start_time": 4.5,
+            "end_time": 10.0,
+            "description": "hand places bottle of honey on table",
+            "confidence": 0.9,
+            "refined": true,
+            "raw_stage2_label": "hand places bottle of honey on table",
+            "prompt_version": "stage3_conf_v2",
+            "merged_from": [
+                2
+            ]
+        },
+        {
+            "action_id": 2,
             "start_time": 5.5,
             "end_time": 6.0,
             "description": "hand adjusts bread on plate",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand adjusts bread on plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 1
             ]
         },
         {
-            "action_id": 2,
-            "start_time": 9.5,
-            "end_time": 10.0,
-            "description": "hand places bottle of honey on table",
-            "refined": true,
-            "raw_stage2_label": "hand places bottle of honey on table",
-            "merged_from": [
-                3,
-                2
-            ]
-        },
-        {
             "action_id": 3,
-            "start_time": 11.0,
-            "end_time": 11.5,
-            "description": "hand places box on table",
+            "start_time": 8.0,
+            "end_time": 11.0,
+            "description": "hand opens jam bottle",
+            "confidence": 0.9,
             "refined": true,
-            "raw_stage2_label": "hand places box on table",
+            "raw_stage2_label": "hand places piece of bread on plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
-                4
+                3
             ]
         },
         {
             "action_id": 4,
-            "start_time": 11.5,
+            "start_time": 10.5,
             "end_time": 12.0,
             "description": "hand opens box",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand opens box",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
+                4,
                 5
             ]
         },
@@ -66,8 +77,10 @@
             "start_time": 12.0,
             "end_time": 12.5,
             "description": "hand uses spoon to scoop jam",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand uses spoon to scoop tea",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 6
             ]
@@ -76,259 +89,293 @@
             "action_id": 6,
             "start_time": 12.5,
             "end_time": 13.0,
-            "description": "hand places spoon back on plate",
+            "description": "spoon places jam on bread",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places spoon back on plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 7
             ]
         },
         {
             "action_id": 7,
-            "start_time": 12.5,
-            "end_time": 15.0,
-            "description": "hand places spoon back on plate",
-            "refined": true,
-            "raw_stage2_label": "hand places spoon back on plate",
-            "merged_from": [
-                8,
-                9,
-                11,
-                10
-            ]
-        },
-        {
-            "action_id": 8,
             "start_time": 14.0,
             "end_time": 17.5,
             "description": "hand uses the spoon to spread jam on the bread.",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand uses the spoon to spread jam on the bread.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
-                13,
+                8,
+                10,
+                9,
+                11,
                 12,
+                13,
                 14
             ]
         },
         {
-            "action_id": 9,
+            "action_id": 8,
             "start_time": 15.5,
             "end_time": 18.5,
-            "description": "hand finishes spreading jam on the bread.",
+            "description": "hand finishes spreading jam on the bread",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand finishes spreading jam on the bread.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 15
             ]
         },
         {
-            "action_id": 10,
-            "start_time": 18.0,
+            "action_id": 9,
+            "start_time": 16.5,
             "end_time": 25.5,
-            "description": "hand spreads jam on bread",
+            "description": "spread jam on bread",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand spreads jam on bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 16
             ]
         },
         {
-            "action_id": 11,
+            "action_id": 10,
             "start_time": 24.0,
-            "end_time": 25.0,
-            "description": "hand spreads jam on the toast.",
+            "end_time": 28.0,
+            "description": "hand spreads jam on the toast",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand spreads jam on the toast.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 17
             ]
         },
         {
-            "action_id": 12,
+            "action_id": 11,
             "start_time": 26.0,
-            "end_time": 28.5,
-            "description": "hand opens jam jar.",
+            "end_time": 30.5,
+            "description": "open jam jar",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand opens jam jar.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 18
             ]
         },
         {
-            "action_id": 13,
-            "start_time": 29.0,
-            "end_time": 32.0,
-            "description": "hand closes peanut butter jar.",
+            "action_id": 12,
+            "start_time": 28.5,
+            "end_time": 33.0,
+            "description": "hand opens peanut butter jar",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand closes peanut butter jar.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 19
             ]
         },
         {
-            "action_id": 14,
+            "action_id": 13,
             "start_time": 31.0,
             "end_time": 34.0,
             "description": "spreads peanut butter on bread",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "opens peanut butter jar",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 20,
                 21
             ]
         },
         {
-            "action_id": 15,
+            "action_id": 14,
             "start_time": 34.0,
             "end_time": 37.0,
             "description": "spreads jelly on bread",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "spreads jelly on bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 23,
                 24
             ]
         },
         {
-            "action_id": 16,
+            "action_id": 15,
             "start_time": 35.5,
             "end_time": 36.0,
             "description": "<spreads jelly on bread>",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "spreads jelly on bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 22
             ]
         },
         {
-            "action_id": 17,
+            "action_id": 16,
             "start_time": 36.0,
             "end_time": 45.5,
-            "description": "spread peanut butter",
+            "description": "spread peanut butter on bread",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "spread peanut butter",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 25
             ]
         },
         {
-            "action_id": 18,
+            "action_id": 17,
             "start_time": 44.0,
             "end_time": 49.0,
-            "description": "hand places a slice of bread on a paper plate.",
+            "description": "hand places a slice of bread on a paper plate",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places a slice of bread on a paper plate.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 26
             ]
         },
         {
-            "action_id": 19,
+            "action_id": 18,
             "start_time": 47.0,
             "end_time": 52.0,
-            "description": "hand uses fork to cut food.",
+            "description": "hand uses fork to cut food",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand uses fork to cut food.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 27
             ]
         },
         {
-            "action_id": 20,
+            "action_id": 19,
             "start_time": 50.0,
             "end_time": 53.0,
             "description": "hand opens the mustard bottle",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand cuts the bread.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 28,
                 29
             ]
         },
         {
-            "action_id": 21,
+            "action_id": 20,
             "start_time": 56.0,
             "end_time": 60.5,
             "description": "hand picks up a bottle of mustard",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand picks up a bottle of mustard",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 31
             ]
         },
         {
-            "action_id": 22,
+            "action_id": 21,
             "start_time": 57.0,
             "end_time": 58.0,
             "description": "hand opens jar of mustard",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand opens jar of mustard",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 30
             ]
         },
         {
-            "action_id": 23,
+            "action_id": 22,
             "start_time": 58.5,
             "end_time": 64.0,
             "description": "hand holds pepper mill",
+            "confidence": null,
             "refined": true,
             "raw_stage2_label": "hand holds pepper mill",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 32
             ]
         },
         {
-            "action_id": 24,
+            "action_id": 23,
             "start_time": 62.0,
-            "end_time": 66.0,
+            "end_time": 67.5,
             "description": "hand places the bottle of sauce on the table",
+            "confidence": 0.8,
             "refined": true,
             "raw_stage2_label": "hand places the bottle of sauce on the table",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 33
             ]
         },
         {
-            "action_id": 25,
-            "start_time": 70.0,
+            "action_id": 24,
+            "start_time": 69.5,
             "end_time": 73.0,
             "description": "spread spread on bread",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hands spread spread on bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 34
             ]
         },
         {
-            "action_id": 26,
+            "action_id": 25,
             "start_time": 71.0,
             "end_time": 74.5,
-            "description": "press down on bread",
+            "description": "hands press down on bread",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hands press down on bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 35
             ]
         },
         {
-            "action_id": 27,
+            "action_id": 26,
             "start_time": 72.5,
             "end_time": 76.0,
             "description": "spread spread on bread",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hands spread spread on bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 36
             ]
         },
         {
-            "action_id": 28,
+            "action_id": 27,
             "start_time": 74.0,
             "end_time": 77.5,
             "description": "hands place and adjust bread",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hands place and adjust bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 37,
                 38

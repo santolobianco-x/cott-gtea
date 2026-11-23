@@ -4,30 +4,30 @@ hand picks up a piece of bread
 
 2
 00:00:02,000 --> 00:00:02,500
-hand picks up the bread
+hand places the bread on the plate
 
 3
 00:00:02,000 --> 00:00:03,000
 hand spreads butter on the bread
 
 4
-00:00:02,500 --> 00:00:03,500
+00:00:02,000 --> 00:00:03,500
 hand picks up the spread bottle
 
 5
-00:00:02,500 --> 00:00:04,000
-hand places the spread bottle back on the table
+00:00:02,000 --> 00:00:04,500
+spread butter on the bread
 
 6
-00:00:02,500 --> 00:00:04,500
-spread butter on the bread
+00:00:02,500 --> 00:00:03,500
+hand places the spread bottle back on the table
 
 7
 00:00:04,000 --> 00:00:05,000
-hand spreads the butter on the bread
+hand picks up the spread bottle
 
 8
-00:00:04,500 --> 00:00:05,500
+00:00:04,000 --> 00:00:05,500
 hand places the spread bottle back on the table
 
 9
@@ -40,43 +40,43 @@ hand picks up the spread bottle
 
 11
 00:00:06,000 --> 00:00:06,500
-hand picks up the bottle of mayonnaise [Stage2]
+hand places the bottle of mayonnaise on the table [Stage2]
 
 12
 00:00:06,000 --> 00:00:07,000
-hand picks up a bottle of mustard
+hand places the spread bottle back on the table
 
 13
-00:00:07,000 --> 00:00:07,500
-hand opens the mustard bottle [Stage2]
-
-14
 00:00:07,500 --> 00:00:08,000
 hand picks up a bottle of mustard
 
+14
+00:00:08,000 --> 00:00:08,500
+hand places the bottle of mustard on the table
+
 15
-00:00:09,000 --> 00:00:10,000
-hand opens the bottle of ketchup
+00:00:08,000 --> 00:00:10,000
+hand places the bottle of ketchup on the table.
 
 16
-00:00:09,000 --> 00:00:11,000
-hand closes the bottle of mustard
+00:00:08,000 --> 00:00:10,500
+hand applies mustard on bread
 
 17
+00:00:08,500 --> 00:00:11,000
+hand closes the bottle of mustard
+
+18
 00:00:09,000 --> 00:00:11,500
 hand closes the bottle of mustard.
 
-18
-00:00:09,500 --> 00:00:10,500
+19
+00:00:09,500 --> 00:00:11,500
 hand applies mustard on bread
 
-19
-00:00:10,500 --> 00:00:11,000
-hand applies mustard on bread. [Stage2]
-
 20
-00:00:12,000 --> 00:00:12,500
-hand picks up the plate
+00:00:10,000 --> 00:00:11,000
+hand closes the bottle of mustard
 
 21
 00:00:12,000 --> 00:00:12,500
@@ -84,11 +84,11 @@ hand closes the bottle of mustard. [Stage2]
 
 22
 00:00:12,500 --> 00:00:13,000
-hand applies mustard on bread.
+hand applies mustard on bread
 
 23
-00:00:12,500 --> 00:00:13,000
-hand places the bottle of mustard on the table. [Stage2]
+00:00:12,500 --> 00:00:13,500
+hand places the bottle of mustard on the table.
 
 24
 00:00:14,000 --> 00:00:14,500
@@ -96,47 +96,47 @@ hand picks up a bottle of ketchup.
 
 25
 00:00:14,000 --> 00:00:15,000
-hand opens the bottle of ketchup.
+hand opens the bottle of ketchup
 
 26
-00:00:15,000 --> 00:00:15,500
-hand applies ketchup on a piece of bread.
+00:00:14,000 --> 00:00:15,500
+hand applies ketchup on a piece of bread
 
 27
-00:00:15,000 --> 00:00:16,000
-hand opens the bottle of ketchup.
+00:00:14,000 --> 00:00:17,500
+spread peanut butter on bread
 
 28
-00:00:15,000 --> 00:00:16,500
-spread peanut butter on bread [Stage2]
+00:00:15,000 --> 00:00:16,000
+person opens the bottle of ketchup
 
 29
-00:00:17,500 --> 00:00:18,000
+00:00:15,500 --> 00:00:17,500
 hand uses the spoon to scoop something from a container
 
 30
-00:00:17,500 --> 00:00:18,500
-hand spreads peanut butter on bread
+00:00:17,000 --> 00:00:18,500
+hand spreads peanut butter on the bread
 
 31
-00:00:17,500 --> 00:00:29,000
-spreads peanut butter on bread
+00:00:17,500 --> 00:00:20,000
+spread peanut butter on bread
 
 32
-00:00:30,000 --> 00:00:32,500
-hand opens peanut butter jar lid [Stage2]
-
-33
 00:00:31,500 --> 00:00:35,000
 hand opens the peanut butter jar
+
+33
+00:00:33,000 --> 00:00:33,500
+spoon spreads peanut butter on bread
 
 34
 00:00:33,000 --> 00:00:35,500
 hand closes the peanut butter jar
 
 35
-00:00:35,500 --> 00:00:37,500
-hand opens the jar lid [Stage2]
+00:00:34,500 --> 00:00:35,500
+hand places the peanut butter jar on the table
 
 36
 00:00:38,000 --> 00:00:42,500
@@ -148,14 +148,14 @@ hand applies honey on bread
 
 38
 00:00:47,500 --> 00:00:50,500
-hand holds ketchup bottle
+applies mustard to bread
 
 39
 00:00:49,000 --> 00:00:52,500
-grasp ketchup bottle
+hand reaches for ketchup bottle
 
 40
-00:00:54,000 --> 00:00:56,500
+00:00:54,000 --> 00:00:56,000
 lays the sandwich on the plate
 
 41
@@ -164,7 +164,7 @@ place the bread on the plate
 
 42
 00:00:54,500 --> 00:00:57,500
-presses sandwich
+presses sandwich together
 
 43
 00:00:55,500 --> 00:01:00,500

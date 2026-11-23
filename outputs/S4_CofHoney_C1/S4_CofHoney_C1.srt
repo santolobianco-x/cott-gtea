@@ -4,42 +4,42 @@ grabs the red cup
 
 2
 00:00:02,000 --> 00:00:03,000
-grabs the red cup
+grabs a red cup
 
 3
 00:00:02,000 --> 00:00:03,000
-picks up, places
+puts the cup on the table
 
 4
 00:00:02,000 --> 00:00:04,000
-lifts up, places
+lifts, drops
 
 5
-00:00:05,000 --> 00:00:06,000
-drops the box on the table
+00:00:03,000 --> 00:00:04,500
+puts the cup on the table
 
 6
 00:00:06,000 --> 00:00:07,000
-picks up, places
+opens the box
 
 7
 00:00:10,000 --> 00:00:11,000
-pours into
+opens the jar of jam
 
 8
 00:00:10,500 --> 00:00:11,500
-hand places the bottle back on the table [Stage2]
+spoon scoops out some jam from the jar [Stage2]
 
 9
-00:00:11,500 --> 00:00:12,500
-spoon scoops jam into cup [Stage2]
-
-10
 00:00:12,500 --> 00:00:15,500
 hand scoops jam into cup
 
+10
+00:00:13,000 --> 00:00:13,500
+spoon scoops jam into cup
+
 11
-00:00:13,500 --> 00:00:14,500
+00:00:13,000 --> 00:00:14,500
 hand places spoon in cup
 
 12
@@ -55,54 +55,54 @@ hand places spoon in pink cup
 hand continues to scoop cocoa
 
 15
-00:00:19,000 --> 00:00:20,000
+00:00:18,500 --> 00:00:20,000
 hand continues scooping cocoa
 
 16
-00:00:22,500 --> 00:00:23,000
-person picks up a phone on the table.
+00:00:19,500 --> 00:00:22,500
+hand continues to scoop jam into the cup.
 
 17
-00:00:24,000 --> 00:00:27,500
-hand picks up a bottle.
+00:00:26,000 --> 00:00:27,500
+hand picks up a bottle
 
 18
+00:00:27,500 --> 00:00:35,500
+pouring liquid into cup
+
+19
 00:00:28,000 --> 00:00:29,500
 hand pours liquid into cup
 
-19
-00:00:28,000 --> 00:00:35,500
-pouring liquid into cup
-
 20
-00:00:35,000 --> 00:00:39,000
-holding bottle [Stage2]
+00:00:39,000 --> 00:00:43,000
+hand picks up bottle
 
 21
-00:00:39,000 --> 00:00:42,500
-hand picks up bottle
+00:00:39,500 --> 00:00:40,000
+holding bottle
 
 22
 00:00:41,000 --> 00:00:48,500
-hand opens jar lid
+open jar lid
 
 23
 00:00:47,000 --> 00:00:50,000
-pours honey into the cup
+puts lid on the jar
 
 24
 00:00:48,000 --> 00:00:51,500
-pours honey into the cup
+removes lid from jar
 
 25
-00:00:50,500 --> 00:00:54,500
-grasp honey bottle and pour into cup
+00:00:49,500 --> 00:00:52,500
+puts the honey in the cup
 
 26
-00:00:51,000 --> 00:00:52,500
-pours the content of the bottle into the cup
+00:00:50,500 --> 00:00:54,500
+stirs the contents of the cup with the spoon
 
 27
 00:00:52,500 --> 00:00:57,500
-hand stirs the contents of a cup.
+hand stirs the contents of a cup
 

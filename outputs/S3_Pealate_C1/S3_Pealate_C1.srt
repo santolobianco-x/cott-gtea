@@ -3,23 +3,23 @@
 hand places bread on plate
 
 2
+00:00:04,500 --> 00:00:10,000
+hand places bottle of honey on table
+
+3
 00:00:05,500 --> 00:00:06,000
 hand adjusts bread on plate
 
-3
-00:00:09,000 --> 00:00:10,000
-hand opens box of butter [Stage2]
-
 4
-00:00:09,500 --> 00:00:10,000
-hand places bottle of honey on table
+00:00:08,000 --> 00:00:11,000
+hand opens jam bottle
 
 5
-00:00:11,000 --> 00:00:11,500
-hand places box on table
+00:00:10,000 --> 00:00:11,500
+hand picks up a box
 
 6
-00:00:11,500 --> 00:00:12,000
+00:00:10,500 --> 00:00:12,000
 hand opens box
 
 7
@@ -28,31 +28,31 @@ hand uses spoon to scoop jam
 
 8
 00:00:12,000 --> 00:00:13,500
-hand uses spoon to spread jam
+spoon spreads jam on bread
 
 9
-00:00:12,500 --> 00:00:13,000
-hand places spoon back on plate
+00:00:12,000 --> 00:00:14,500
+hand uses spoon to spread jam
 
 10
-00:00:12,500 --> 00:00:14,000
-hand places spoon back on plate
+00:00:12,500 --> 00:00:13,000
+spoon places jam on bread
 
 11
+00:00:12,500 --> 00:00:14,000
+spoon spreads jam on bread
+
+12
 00:00:12,500 --> 00:00:15,000
 hand places spoon back on plate
 
-12
-00:00:13,000 --> 00:00:14,500
-hand uses spoon to spread jam
-
 13
-00:00:13,500 --> 00:00:16,000
-hand spreads jam on bread
+00:00:13,000 --> 00:00:15,500
+hand uses spoon to spread jam
 
 14
-00:00:14,000 --> 00:00:15,500
-hand uses spoon to spread jam
+00:00:13,500 --> 00:00:16,000
+hand places spoon back on table
 
 15
 00:00:14,000 --> 00:00:17,500
@@ -60,23 +60,23 @@ hand uses the spoon to spread jam on the bread.
 
 16
 00:00:15,500 --> 00:00:18,500
-hand finishes spreading jam on the bread.
+hand finishes spreading jam on the bread
 
 17
-00:00:18,000 --> 00:00:25,500
-hand spreads jam on bread
+00:00:16,500 --> 00:00:25,500
+spread jam on bread
 
 18
-00:00:24,000 --> 00:00:25,000
-hand spreads jam on the toast.
+00:00:24,000 --> 00:00:28,000
+hand spreads jam on the toast
 
 19
-00:00:26,000 --> 00:00:28,500
-hand opens jam jar.
+00:00:26,000 --> 00:00:30,500
+open jam jar
 
 20
-00:00:29,000 --> 00:00:32,000
-hand closes peanut butter jar.
+00:00:28,500 --> 00:00:33,000
+hand opens peanut butter jar
 
 21
 00:00:31,000 --> 00:00:34,000
@@ -100,15 +100,15 @@ spreads jelly on bread
 
 26
 00:00:36,000 --> 00:00:45,500
-spread peanut butter
+spread peanut butter on bread
 
 27
 00:00:44,000 --> 00:00:49,000
-hand places a slice of bread on a paper plate.
+hand places a slice of bread on a paper plate
 
 28
 00:00:47,000 --> 00:00:52,000
-hand uses fork to cut food.
+hand uses fork to cut food
 
 29
 00:00:50,000 --> 00:00:53,000
@@ -116,7 +116,7 @@ hand opens the mustard bottle
 
 30
 00:00:51,000 --> 00:00:54,000
-hand places the bread on the plate.
+hand places the bread on the plate
 
 31
 00:00:56,000 --> 00:01:00,500
@@ -131,16 +131,16 @@ hand opens jar of mustard
 hand holds pepper mill
 
 34
-00:01:02,000 --> 00:01:06,000
+00:01:02,000 --> 00:01:07,500
 hand places the bottle of sauce on the table
 
 35
-00:01:10,000 --> 00:01:13,000
+00:01:09,500 --> 00:01:13,000
 spread spread on bread
 
 36
 00:01:11,000 --> 00:01:14,500
-press down on bread
+hands press down on bread
 
 37
 00:01:12,500 --> 00:01:16,000

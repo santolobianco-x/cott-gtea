@@ -3,7 +3,7 @@
 hand places jar on table
 
 2
-00:00:01,500 --> 00:00:03,000
+00:00:01,500 --> 00:00:02,500
 hand places jar on table
 
 3
@@ -19,47 +19,47 @@ hand picks up jar from table
 hand picks up jar
 
 6
-00:00:06,000 --> 00:00:07,000
+00:00:05,000 --> 00:00:08,000
 hand opens jar lid
 
 7
-00:00:06,000 --> 00:00:08,000
-hand opens jar lid
+00:00:06,000 --> 00:00:07,000
+hand places jar on table
 
 8
 00:00:09,000 --> 00:00:10,000
 hand picks jar from table
 
 9
-00:00:09,000 --> 00:00:10,500
-hand picks up bread, places bread on plate [Stage2]
+00:00:11,000 --> 00:00:11,500
+hand picks up bread, places bread on plate, picks up plate, places plate on table.
 
 10
-00:00:10,500 --> 00:00:11,500
-hand picks up bread, places bread on plate. [Stage2]
+00:00:12,000 --> 00:00:12,500
+hand picks up bread, places bread on plate.
 
 11
-00:00:13,500 --> 00:00:14,500
-hand spreads the peanut butter on the bread
+00:00:12,500 --> 00:00:29,500
+spreads peanut butter on bread
 
 12
-00:00:14,000 --> 00:00:29,500
-hand spreads peanut butter on bread
+00:00:13,500 --> 00:00:14,500
+hand spreads peanut butter on the bread
 
 13
-00:00:30,000 --> 00:00:33,000
-apply mustard [Stage2]
+00:00:29,000 --> 00:00:31,500
+apply mustard
 
 14
 00:00:33,000 --> 00:00:35,500
-hand applies honey to the bread [Stage2]
+hand continues to hold the bottle of ketchup [Stage2]
 
 15
 00:00:36,000 --> 00:00:40,000
-hand spreads honey on bread
+hand spreads butter on bread
 
 16
-00:00:39,000 --> 00:00:41,500
+00:00:38,000 --> 00:00:41,500
 apply honey on bread
 
 17
@@ -67,7 +67,7 @@ apply honey on bread
 spread honey on bread
 
 18
-00:00:41,000 --> 00:00:44,500
+00:00:41,000 --> 00:00:42,500
 spread mustard on bread
 
 19
@@ -76,49 +76,49 @@ spread mustard on bread [Stage2]
 
 20
 00:00:45,500 --> 00:00:49,000
-hand spreads the spread on the bread.
+spreads the spread on the bread
 
 21
-00:00:47,000 --> 00:00:47,500
+00:00:46,000 --> 00:00:47,500
 spread jam on bread
 
 22
 00:00:47,000 --> 00:00:51,500
-hand continues to squeeze the honey.
+hand continues to squeeze the honey
 
 23
 00:00:49,500 --> 00:00:54,500
-hand picks up the bottle of ketchup.
+hand picks up the bottle of ketchup
 
 24
-00:00:53,500 --> 00:00:55,500
-hand opens the honey bottle [Stage2]
+00:00:52,500 --> 00:00:55,500
+hand places the honey bottle on the table.
 
 25
 00:00:54,500 --> 00:00:57,500
 hand places the honey bottle on the table
 
 26
-00:00:57,500 --> 00:00:58,500
-hand places the sandwich back on the table [Stage2]
+00:00:57,500 --> 00:01:00,500
+hand picks up the sandwich again
 
 27
 00:00:58,000 --> 00:00:58,500
 hand picks up the sandwich again
 
 28
-00:00:58,000 --> 00:01:00,500
-hand picks up the sandwich again
+00:00:58,000 --> 00:00:59,500
+person places the sandwich back on the table
 
 29
 00:00:58,500 --> 00:01:01,500
 hand places the sandwich back on the table
 
 30
-00:01:01,000 --> 00:01:02,500
+00:00:59,500 --> 00:01:02,500
 hand picks up the bread
 
 31
-00:01:03,000 --> 00:01:03,500
-hand places the bread on the table
+00:01:02,000 --> 00:01:03,500
+hands hold the bread
 

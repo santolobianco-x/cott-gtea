@@ -2,51 +2,60 @@
     "video_id": "S3_Coffee_C1",
     "dedup_tiou": 0.5,
     "dedup_strategy": "keep",
+    "min_conf": 0.0,
     "n_before": 34,
-    "n_after": 31,
+    "n_after": 29,
     "actions": [
         {
             "action_id": 0,
-            "start_time": 0.0,
-            "end_time": 1.5,
-            "description": "grabs packet",
-            "refined": false,
+            "start_time": 2.0,
+            "end_time": 2.5,
+            "description": "opens packet",
+            "confidence": 0.8,
+            "refined": true,
             "raw_stage2_label": "opens packet",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 0
             ]
         },
         {
             "action_id": 1,
-            "start_time": 2.5,
-            "end_time": 4.0,
-            "description": "holds packet",
+            "start_time": 2.0,
+            "end_time": 5.5,
+            "description": "opens packet",
+            "confidence": 0.9,
             "refined": true,
-            "raw_stage2_label": "holds packet",
+            "raw_stage2_label": "opens packet",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
-                1
+                1,
+                2
             ]
         },
         {
             "action_id": 2,
-            "start_time": 3.0,
-            "end_time": 5.5,
-            "description": "opens packet",
+            "start_time": 3.5,
+            "end_time": 7.0,
+            "description": "holds cup",
+            "confidence": 0.8,
             "refined": true,
-            "raw_stage2_label": "opens packet",
+            "raw_stage2_label": "holds packet",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
-                2
+                3
             ]
         },
         {
             "action_id": 3,
             "start_time": 5.0,
-            "end_time": 8.0,
+            "end_time": 8.5,
             "description": "opens bottle",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "picks up bottle",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
-                3,
                 4
             ]
         },
@@ -54,9 +63,11 @@
             "action_id": 4,
             "start_time": 7.5,
             "end_time": 10.5,
-            "description": "opens bottle",
+            "description": "opens the bottle of jam",
+            "confidence": 0.8,
             "refined": false,
             "raw_stage2_label": "places bottle",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 5
             ]
@@ -64,135 +75,160 @@
         {
             "action_id": 5,
             "start_time": 10.5,
-            "end_time": 11.5,
-            "description": "hand picks up the jar lid",
-            "refined": false,
-            "raw_stage2_label": "hand places the jar of jam on the table.",
-            "merged_from": [
-                6
-            ]
-        },
-        {
-            "action_id": 6,
-            "start_time": 11.5,
             "end_time": 12.5,
-            "description": "hand places the jar lid on the table.",
-            "refined": false,
+            "description": "hand places the jar lid on the table",
+            "confidence": 0.9,
+            "refined": true,
             "raw_stage2_label": "hand places the jar lid on the table.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
+                6,
                 7
             ]
         },
         {
-            "action_id": 7,
+            "action_id": 6,
             "start_time": 12.5,
-            "end_time": 13.5,
+            "end_time": 14.5,
+            "description": "hand places the jar lid on the table.",
+            "confidence": 0.9,
+            "refined": true,
+            "raw_stage2_label": "hand places the jar lid on the table.",
+            "prompt_version": "stage3_conf_v2",
+            "merged_from": [
+                9
+            ]
+        },
+        {
+            "action_id": 7,
+            "start_time": 14.0,
+            "end_time": 14.5,
             "description": "hand places the jar on the table.",
-            "refined": false,
+            "confidence": 0.9,
+            "refined": true,
             "raw_stage2_label": "hand places the jar on the table.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 8
             ]
         },
         {
             "action_id": 8,
-            "start_time": 14.0,
-            "end_time": 15.0,
-            "description": "hand places the jar lid on the table.",
-            "refined": true,
-            "raw_stage2_label": "hand places the jar lid on the table.",
-            "merged_from": [
-                9
-            ]
-        },
-        {
-            "action_id": 9,
             "start_time": 15.5,
             "end_time": 18.5,
-            "description": "hand places the spoon into the cup.",
+            "description": "hand places the spoon into the cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places the spoon into the cup.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 10,
                 11
             ]
         },
         {
-            "action_id": 10,
+            "action_id": 9,
             "start_time": 16.5,
             "end_time": 26.0,
-            "description": "hand continues to hold spoon in jar",
+            "description": "spoon continues to hold spoon in jar",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand continues to hold spoon in jar",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 12
             ]
         },
         {
-            "action_id": 11,
+            "action_id": 10,
             "start_time": 25.5,
             "end_time": 26.5,
             "description": "hand scoops jam with spoon",
+            "confidence": 0.9,
             "refined": false,
             "raw_stage2_label": "hand scoops jam with spoon",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 13
             ]
         },
         {
-            "action_id": 12,
-            "start_time": 26.5,
+            "action_id": 11,
+            "start_time": 25.5,
             "end_time": 28.5,
             "description": "hand places bottle on table",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places bottle on table",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
-                15,
-                14
+                14,
+                15
             ]
         },
         {
-            "action_id": 13,
-            "start_time": 29.0,
-            "end_time": 30.5,
-            "description": "hand opens container",
+            "action_id": 12,
+            "start_time": 27.5,
+            "end_time": 28.5,
+            "description": "hand places bottle on table",
+            "confidence": 0.8,
             "refined": true,
             "raw_stage2_label": "hand places bottle on table",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 16
             ]
         },
         {
-            "action_id": 14,
-            "start_time": 29.5,
-            "end_time": 33.0,
-            "description": "open the container",
-            "refined": false,
-            "raw_stage2_label": "hand places spoon on table",
-            "merged_from": [
-                17
-            ]
-        },
-        {
-            "action_id": 15,
+            "action_id": 13,
             "start_time": 32.0,
-            "end_time": 34.0,
+            "end_time": 34.5,
             "description": "hand closes the container",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand closes the container",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 18
             ]
         },
         {
-            "action_id": 16,
+            "action_id": 14,
             "start_time": 33.0,
             "end_time": 36.0,
             "description": "hand opens the container",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand opens the container",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 19
+            ]
+        },
+        {
+            "action_id": 15,
+            "start_time": 33.5,
+            "end_time": 34.0,
+            "description": "hand places spoon on table",
+            "confidence": 0.9,
+            "refined": true,
+            "raw_stage2_label": "hand places spoon on table",
+            "prompt_version": "stage3_conf_v2",
+            "merged_from": [
+                17
+            ]
+        },
+        {
+            "action_id": 16,
+            "start_time": 35.0,
+            "end_time": 37.5,
+            "description": "hand stirs the contents of the cup",
+            "confidence": 0.9,
+            "refined": true,
+            "raw_stage2_label": "hand stirs the contents of the cup",
+            "prompt_version": "stage3_conf_v2",
+            "merged_from": [
+                21
             ]
         },
         {
@@ -200,151 +236,154 @@
             "start_time": 36.5,
             "end_time": 37.0,
             "description": "hand closes the container",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand closes the container",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 20
             ]
         },
         {
             "action_id": 18,
-            "start_time": 37.5,
-            "end_time": 38.0,
-            "description": "hand stirs the contents of the cup",
-            "refined": true,
-            "raw_stage2_label": "hand stirs the contents of the cup",
-            "merged_from": [
-                21
-            ]
-        },
-        {
-            "action_id": 19,
             "start_time": 38.0,
             "end_time": 41.5,
-            "description": "hand stirs the contents of the cup.",
+            "description": "hand stirs the contents of the cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand stirs the contents of the cup.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
+                22,
                 23
             ]
         },
         {
-            "action_id": 20,
-            "start_time": 38.5,
-            "end_time": 40.0,
-            "description": "hand places the spoon back on the table.",
-            "refined": true,
-            "raw_stage2_label": "hand places the spoon back on the table.",
-            "merged_from": [
-                22
-            ]
-        },
-        {
-            "action_id": 21,
+            "action_id": 19,
             "start_time": 39.5,
             "end_time": 42.5,
-            "description": "hand picks up the cup from the table.",
+            "description": "hand picks up the cup from the table",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand picks up the cup from the table.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 24
             ]
         },
         {
-            "action_id": 22,
+            "action_id": 20,
             "start_time": 40.5,
             "end_time": 46.0,
-            "description": "hand places the cup on the table.",
+            "description": "spoon scoops from the container",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places the cup on the table.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 25
             ]
         },
         {
-            "action_id": 23,
+            "action_id": 21,
             "start_time": 45.0,
-            "end_time": 49.5,
+            "end_time": 49.0,
             "description": "hand covers container with lid",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand covers container with lid",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 26
             ]
         },
         {
-            "action_id": 24,
+            "action_id": 22,
             "start_time": 52.0,
-            "end_time": 59.0,
+            "end_time": 60.0,
             "description": "hand pours liquid into cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand pours liquid into cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 27
             ]
         },
         {
-            "action_id": 25,
+            "action_id": 23,
             "start_time": 59.0,
             "end_time": 64.0,
-            "description": "pours liquid into cup",
+            "description": "spoons liquid into cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "pours liquid into cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 28
             ]
         },
         {
-            "action_id": 26,
+            "action_id": 24,
             "start_time": 62.0,
             "end_time": 67.0,
             "description": "stirs the contents of the cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "stirs the contents of the cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 29
             ]
         },
         {
-            "action_id": 27,
+            "action_id": 25,
             "start_time": 65.0,
             "end_time": 72.5,
             "description": "stir",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "stir",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 30
             ]
         },
         {
-            "action_id": 28,
+            "action_id": 26,
             "start_time": 71.0,
             "end_time": 74.5,
             "description": "stir food in a cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "place",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 31
             ]
         },
         {
-            "action_id": 29,
+            "action_id": 27,
             "start_time": 72.5,
             "end_time": 75.5,
-            "description": "grasp",
+            "description": "stir the contents of the cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "lift",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 32
             ]
         },
         {
-            "action_id": 30,
+            "action_id": 28,
             "start_time": 73.5,
             "end_time": 78.5,
             "description": "stir",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "stir",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 33
             ]

@@ -3,16 +3,16 @@
 hand reaches for bread bag
 
 2
+00:00:02,000 --> 00:00:04,000
+hand lifts bread bag
+
+3
 00:00:02,000 --> 00:00:05,000
 hand holds bread bag
 
-3
-00:00:02,500 --> 00:00:03,000
-hand holds bread bag
-
 4
-00:00:02,500 --> 00:00:04,000
-hand lifts bread bag
+00:00:02,500 --> 00:00:03,000
+hand opens bread bag
 
 5
 00:00:03,000 --> 00:00:06,000
@@ -27,40 +27,40 @@ hand holds bread bag
 hand picks up another slice of bread
 
 8
-00:00:07,000 --> 00:00:10,500
-hand picks up a slice of bread [Stage2]
+00:00:06,000 --> 00:00:11,500
+hand picks up a slice of bread
 
 9
 00:00:10,500 --> 00:00:11,500
 hand picks up a slice of bread [Stage2]
 
 10
-00:00:13,000 --> 00:00:18,500
-hand opens the bottle of mayonnaise
+00:00:12,000 --> 00:00:15,000
+person opens the jar of peanut butter
 
 11
-00:00:14,500 --> 00:00:15,000
-hand opens the jar of peanut butter
+00:00:13,000 --> 00:00:18,500
+person opens the jar of mayonnaise
 
 12
 00:00:17,000 --> 00:00:20,500
 hand closes peanut butter jar lid
 
 13
-00:00:19,000 --> 00:00:22,000
+00:00:18,500 --> 00:00:22,000
 hand opens peanut butter jar lid
 
 14
-00:00:21,000 --> 00:00:22,500
-spoon spreads peanut butter on bread [Stage2]
+00:00:23,000 --> 00:00:23,500
+spoon spreads peanut butter on bread
 
 15
-00:00:24,500 --> 00:00:33,000
-hand spreads peanut butter on bread
+00:00:23,500 --> 00:00:33,000
+spreads peanut butter on bread
 
 16
 00:00:32,000 --> 00:00:36,500
-spread peanut butter
+spread peanut butter on bread
 
 17
 00:00:34,500 --> 00:00:45,500
@@ -76,15 +76,15 @@ spread peanut butter on bread
 
 20
 00:00:52,500 --> 00:00:55,500
-close peanut butter jar
+Close peanut butter jar
 
 21
-00:00:54,000 --> 00:00:56,500
+00:00:53,500 --> 00:00:56,500
 open peanut butter jar
 
 22
 00:00:54,500 --> 00:00:57,500
-close peanut butter jar
+Close peanut butter jar
 
 23
 00:00:55,500 --> 00:00:58,500
@@ -92,7 +92,7 @@ open peanut butter jar
 
 24
 00:00:56,500 --> 00:00:59,500
-close peanut butter jar
+Close peanut butter jar
 
 25
 00:00:57,500 --> 00:01:00,500
@@ -111,12 +111,12 @@ hand holds jar lid
 hand picks up a jar of mayonnaise
 
 29
-00:01:12,000 --> 00:01:27,000
+00:01:12,000 --> 00:01:14,000
 hand spreads honey on bread
 
 30
-00:01:13,000 --> 00:01:14,000
-hand spreads honey on bread
+00:01:12,000 --> 00:01:27,000
+spreads honey on bread
 
 31
 00:01:26,000 --> 00:01:31,000
@@ -124,7 +124,7 @@ hand lifts and places bread slices
 
 32
 00:01:29,000 --> 00:01:32,500
-grasp bread
+hands hold bread
 
 33
 00:01:36,000 --> 00:01:36,500

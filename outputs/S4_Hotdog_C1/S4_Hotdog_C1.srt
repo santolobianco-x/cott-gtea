@@ -1,6 +1,6 @@
 1
-00:00:00,000 --> 00:00:01,000
-grasp the knife [Stage2]
+00:00:01,500 --> 00:00:02,000
+hand spreads butter on bread
 
 2
 00:00:07,000 --> 00:00:10,000
@@ -19,32 +19,32 @@ person picks up a bottle of mustard [Stage2]
 hand picks up a bottle of mustard [Stage2]
 
 6
-00:00:11,000 --> 00:00:11,500
-hand picks up a bottle of mustard [Stage2]
+00:00:12,000 --> 00:00:12,500
+hand picks up a bottle of mustard
 
 7
 00:00:12,500 --> 00:00:13,000
-hand picks up a bottle of mustard
+hands adjust the hot dog on the plate
 
 8
+00:00:12,500 --> 00:00:14,500
+hand applies mustard to bread
+
+9
 00:00:13,000 --> 00:00:14,000
 hand picks up mustard bottle
 
-9
-00:00:13,500 --> 00:00:14,500
-hand applies mustard to bread
-
 10
+00:00:13,000 --> 00:00:15,500
+hand applies mustard to hot dog
+
+11
 00:00:13,500 --> 00:00:17,500
 hand picks up the bottle of mustard again, continues squeezing the mustard bottle, hand places the bottle back on the table
 
-11
-00:00:14,000 --> 00:00:14,500
-hand opens mustard bottle
-
 12
-00:00:14,000 --> 00:00:15,500
-hand applies mustard to hot dog
+00:00:14,000 --> 00:00:14,500
+apply mustard on bread
 
 13
 00:00:15,500 --> 00:00:27,000
@@ -60,21 +60,21 @@ open ketchup bottle
 
 16
 00:00:35,500 --> 00:00:37,500
-spread mustard on bread
+grasp and place mustard bottle
 
 17
-00:00:39,000 --> 00:00:41,000
-sticks mustard on bread
+00:00:38,500 --> 00:00:41,000
+rolls dough on hands
 
 18
-00:00:41,000 --> 00:00:41,500
-places mustard bottle on table
+00:00:40,000 --> 00:00:42,000
+applies mayonnaise to bread
 
 19
-00:00:41,000 --> 00:00:42,000
-sticks toothpick in sandwich
+00:00:41,000 --> 00:00:41,500
+applies mustard to bread
 
 20
-00:00:42,000 --> 00:00:42,500
+00:00:41,000 --> 00:00:42,500
 places mayonnaise bottle on table
 

@@ -2,305 +2,381 @@
     {
         "action_id": 0,
         "start_time": 1.0,
-        "end_time": 2.0,
+        "end_time": 1.5,
         "description": "grabs a red cup",
+        "confidence": 0.8,
         "refined": true,
-        "raw_stage2_label": "picks up | picks up a red cup"
+        "raw_stage2_label": "picks up | picks up a red cup",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 1,
         "start_time": 2.0,
         "end_time": 3.0,
         "description": "holds a red cup",
+        "confidence": 0.8,
         "refined": true,
-        "raw_stage2_label": "picks up | picks up a white plate"
+        "raw_stage2_label": "picks up | picks up a white plate",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 2,
         "start_time": 1.0,
-        "end_time": 3.5,
+        "end_time": 4.0,
         "description": "grasps a red cup",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "picks up | picks up a red cup"
+        "raw_stage2_label": "picks up | picks up a red cup",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 3,
         "start_time": 2.0,
         "end_time": 4.5,
         "description": "holds a red cup",
+        "confidence": 0.8,
         "refined": true,
-        "raw_stage2_label": "picks up | picks up a white plate"
+        "raw_stage2_label": "picks up | picks up a white plate",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 4,
-        "start_time": 5.0,
-        "end_time": 6.0,
-        "description": "drops the cup on the table",
+        "start_time": 3.0,
+        "end_time": 4.5,
+        "description": "grasps a red cup",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "picks up | picks up a red cup"
+        "raw_stage2_label": "picks up | picks up a red cup",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 5,
-        "start_time": 6.0,
-        "end_time": 7.0,
-        "description": "sticks out toothpick",
+        "start_time": 4.0,
+        "end_time": 5.5,
+        "description": "grabs a white plate",
+        "confidence": 0.8,
         "refined": true,
-        "raw_stage2_label": "picks up | picks up a white plate"
+        "raw_stage2_label": "picks up | picks up a white plate",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 6,
         "start_time": 7.0,
         "end_time": 8.0,
         "description": "holds a spoon",
+        "confidence": 0.8,
         "refined": true,
-        "raw_stage2_label": "picks up | picks up a bottle"
+        "raw_stage2_label": "picks up | picks up a bottle",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 7,
         "start_time": 9.0,
         "end_time": 10.0,
-        "description": "picks up | picks up a bottle",
+        "description": "opens a jar of peanut butter",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "picks up | picks up a bottle"
+        "raw_stage2_label": "picks up | picks up a bottle",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 8,
-        "start_time": 9.0,
-        "end_time": 12.0,
-        "description": "spoon scoops sauce into the cup",
-        "refined": false,
-        "raw_stage2_label": "hand holds bottle of sauce"
+        "start_time": 8.0,
+        "end_time": 13.0,
+        "description": "hand opens bottle of sauce",
+        "confidence": 0.8,
+        "refined": true,
+        "raw_stage2_label": "hand holds bottle of sauce",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 9,
-        "start_time": 13.0,
+        "start_time": 11.0,
         "end_time": 14.5,
         "description": "hand opens jar lid",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand opens jar lid"
+        "raw_stage2_label": "hand opens jar lid",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 10,
         "start_time": 12.5,
         "end_time": 16.0,
         "description": "spoon scoops out jam from jar",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand holds jar lid"
+        "raw_stage2_label": "hand holds jar lid",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 11,
         "start_time": 14.0,
         "end_time": 18.5,
         "description": "hand scoops jam with spoon",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand scoops jam with spoon"
+        "raw_stage2_label": "hand scoops jam with spoon",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 12,
         "start_time": 16.5,
         "end_time": 19.0,
         "description": "hand scoops jam with spoon",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand scoops jam with spoon"
+        "raw_stage2_label": "hand scoops jam with spoon",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 13,
         "start_time": 17.0,
         "end_time": 19.5,
-        "description": "hand places spoon in cup",
+        "description": "spoon places spoon in cup",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand places spoon in cup"
+        "raw_stage2_label": "hand places spoon in cup",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 14,
         "start_time": 17.5,
         "end_time": 20.0,
-        "description": "hand holds spoon in jar",
+        "description": "spoon scoops jam into cup",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand holds spoon in jar."
+        "raw_stage2_label": "hand holds spoon in jar.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 15,
         "start_time": 18.0,
         "end_time": 20.5,
-        "description": "hand scoops chocolate into cup.",
+        "description": "hand scoops chocolate into cup",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand scoops chocolate into cup."
+        "raw_stage2_label": "hand scoops chocolate into cup.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 16,
-        "start_time": 19.5,
-        "end_time": 20.0,
-        "description": "hand holds spoon in jar.",
-        "refined": false,
-        "raw_stage2_label": "hand holds spoon in jar."
+        "start_time": 18.5,
+        "end_time": 21.0,
+        "description": "spoon stirs in jar",
+        "confidence": 0.9,
+        "refined": true,
+        "raw_stage2_label": "hand holds spoon in jar.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 17,
         "start_time": 21.0,
         "end_time": 21.5,
         "description": "hand scoops chocolate into cup.",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand scoops chocolate into cup."
+        "raw_stage2_label": "hand scoops chocolate into cup.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 18,
         "start_time": 21.0,
         "end_time": 22.0,
-        "description": "hand holds spoon in jar.",
+        "description": "hand holds spoon in jar",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand holds spoon in jar."
+        "raw_stage2_label": "hand holds spoon in jar.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 19,
         "start_time": 20.0,
         "end_time": 22.5,
-        "description": "hand scoops chocolate into cup.",
+        "description": "hand scoops chocolate into cup",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand scoops chocolate into cup."
+        "raw_stage2_label": "hand scoops chocolate into cup.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 20,
         "start_time": 20.5,
         "end_time": 23.5,
         "description": "hand opens jar lid",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand opens jar lid"
+        "raw_stage2_label": "hand opens jar lid",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 21,
-        "start_time": 24.5,
+        "start_time": 21.5,
         "end_time": 25.0,
         "description": "hand scoops jam from jar",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand scoops jam from jar"
+        "raw_stage2_label": "hand scoops jam from jar",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 22,
-        "start_time": 24.0,
-        "end_time": 27.0,
-        "description": "hand places jar on table",
-        "refined": false,
-        "raw_stage2_label": "hand places jar on table"
+        "start_time": 23.0,
+        "end_time": 24.5,
+        "description": "grasp jar lid",
+        "confidence": 0.9,
+        "refined": true,
+        "raw_stage2_label": "hand places jar on table",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 23,
-        "start_time": 28.0,
+        "start_time": 26.0,
         "end_time": 31.0,
-        "description": "hand opens container lid",
+        "description": "hand opens jar lid",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand places jar on table"
+        "raw_stage2_label": "hand places jar on table",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 24,
         "start_time": 29.0,
         "end_time": 32.5,
         "description": "hand opens the container lid",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand opens the container lid"
+        "raw_stage2_label": "hand opens the container lid",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 25,
-        "start_time": 32.0,
-        "end_time": 33.0,
+        "start_time": 33.5,
+        "end_time": 34.0,
         "description": "hand pours the powder into the cup",
-        "refined": false,
-        "raw_stage2_label": "hand pours the powder into the cup"
+        "confidence": 0.9,
+        "refined": true,
+        "raw_stage2_label": "hand pours the powder into the cup",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 26,
         "start_time": 34.0,
         "end_time": 35.0,
-        "description": "hand closes the container",
+        "description": "hand pours milk into the cup",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand closes the container"
+        "raw_stage2_label": "hand closes the container",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 27,
-        "start_time": 34.0,
-        "end_time": 36.0,
-        "description": "hand closes the container lid",
-        "refined": false,
-        "raw_stage2_label": "hand pours the powder into the cup"
+        "start_time": 36.5,
+        "end_time": 37.0,
+        "description": "hand pours the powder into the cup",
+        "confidence": 0.8,
+        "refined": true,
+        "raw_stage2_label": "hand pours the powder into the cup",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 28,
         "start_time": 37.0,
         "end_time": 38.0,
-        "description": "hand places the container on the table",
+        "description": "close the container",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand places the container on the table"
+        "raw_stage2_label": "hand places the container on the table",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 29,
         "start_time": 37.0,
         "end_time": 40.0,
-        "description": "hand places the container on the table.",
+        "description": "hand places the container on the table",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand places the container on the table."
+        "raw_stage2_label": "hand places the container on the table.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 30,
-        "start_time": 38.0,
-        "end_time": 40.5,
-        "description": "place the container on the table",
+        "start_time": 39.0,
+        "end_time": 41.0,
+        "description": "lifts the container from the table",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand lifts the container from the table."
+        "raw_stage2_label": "hand lifts the container from the table.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 31,
         "start_time": 41.0,
         "end_time": 44.5,
-        "description": "hand opens the bottle",
+        "description": "person picks up the bottle of water",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand places the bottle on the table."
+        "raw_stage2_label": "hand places the bottle on the table.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 32,
-        "start_time": 44.0,
+        "start_time": 43.5,
         "end_time": 48.5,
-        "description": "hand opens the bottle",
+        "description": "person opens the bottle cap",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand closes the bottle."
+        "raw_stage2_label": "hand closes the bottle.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 33,
         "start_time": 47.0,
         "end_time": 50.0,
-        "description": "pours liquid into cup",
+        "description": "spooning liquid into cup",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "opens bottle"
+        "raw_stage2_label": "opens bottle",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 34,
         "start_time": 48.0,
         "end_time": 51.0,
-        "description": "pours liquid into cup",
+        "description": "stirs the contents of the cup with the spoon",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "opens bottle"
+        "raw_stage2_label": "opens bottle",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 35,
         "start_time": 49.0,
         "end_time": 52.0,
         "description": "stirs the contents of the cup with the spoon",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "opens bottle"
+        "raw_stage2_label": "opens bottle",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 36,
         "start_time": 50.0,
         "end_time": 57.5,
         "description": "hand pours liquid into cup",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand pours liquid into cup"
+        "raw_stage2_label": "hand pours liquid into cup",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 37,
         "start_time": 59.0,
         "end_time": 63.0,
-        "description": "hand stirs the contents of the cup",
+        "description": "stirs the contents of the cup with a spoon",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand places the bottle back on the table"
+        "raw_stage2_label": "hand places the bottle back on the table",
+        "prompt_version": "stage3_conf_v2"
     }
 ]

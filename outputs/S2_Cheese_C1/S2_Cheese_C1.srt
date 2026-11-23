@@ -1,30 +1,30 @@
 1
 00:00:01,000 --> 00:00:02,000
-grabs a packet of salt
+grabs a small packet of seasoning
 
 2
 00:00:02,000 --> 00:00:04,500
 grabs
 
 3
-00:00:05,500 --> 00:00:06,500
-lays the cheese on the bread [Stage2]
+00:00:06,500 --> 00:00:10,500
+hands place the cheese on the bread
 
 4
-00:00:06,500 --> 00:00:10,500
-hand places the bread on the other piece of bread.
+00:00:07,000 --> 00:00:07,500
+place the cheese on the bread
 
 5
 00:00:07,000 --> 00:00:08,500
 place the cheese on the bread
 
 6
-00:00:12,000 --> 00:00:14,000
-hands open mayonnaise bottle [Stage2]
+00:00:12,500 --> 00:00:13,000
+person places cheese on bread
 
 7
-00:00:12,500 --> 00:00:13,000
-hand places cheese on bread.
+00:00:14,500 --> 00:00:15,000
+hands lift bread from table.
 
 8
 00:00:15,000 --> 00:00:20,000
@@ -44,5 +44,5 @@ spreads mayonnaise on bread
 
 12
 00:00:37,000 --> 00:00:41,500
-holds bread in hands
+holds bread
 

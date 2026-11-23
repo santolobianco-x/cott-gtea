@@ -3,96 +3,120 @@
         "action_id": 0,
         "start_time": 1.0,
         "end_time": 2.0,
-        "description": "grabs a packet of salt",
+        "description": "grabs a small packet of seasoning",
+        "confidence": 0.8,
         "refined": true,
-        "raw_stage2_label": "picks up"
+        "raw_stage2_label": "picks up",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 1,
         "start_time": 2.0,
         "end_time": 4.5,
         "description": "grabs",
+        "confidence": 0.8,
         "refined": true,
-        "raw_stage2_label": "holds"
+        "raw_stage2_label": "holds",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 2,
-        "start_time": 5.5,
-        "end_time": 6.5,
-        "description": "lays the cheese on the bread",
-        "refined": false,
-        "raw_stage2_label": "places"
+        "start_time": 7.0,
+        "end_time": 7.5,
+        "description": "place the cheese on the bread",
+        "confidence": 0.9,
+        "refined": true,
+        "raw_stage2_label": "places",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 3,
         "start_time": 7.0,
         "end_time": 8.5,
         "description": "place the cheese on the bread",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "places"
+        "raw_stage2_label": "places",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 4,
         "start_time": 6.5,
         "end_time": 10.5,
-        "description": "hand places the bread on the other piece of bread.",
+        "description": "hands place the cheese on the bread",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand places the bread on the other piece of bread."
+        "raw_stage2_label": "hand places the bread on the other piece of bread.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 5,
         "start_time": 12.5,
         "end_time": 13.0,
-        "description": "hand places cheese on bread.",
+        "description": "person places cheese on bread",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand places cheese on bread."
+        "raw_stage2_label": "hand places cheese on bread.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 6,
-        "start_time": 12.0,
-        "end_time": 14.0,
-        "description": "hands open mayonnaise bottle",
-        "refined": false,
-        "raw_stage2_label": "hands lift bread from table."
+        "start_time": 14.5,
+        "end_time": 15.0,
+        "description": "hands lift bread from table.",
+        "confidence": 0.8,
+        "refined": true,
+        "raw_stage2_label": "hands lift bread from table.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 7,
         "start_time": 15.0,
         "end_time": 20.0,
         "description": "spread mayonnaise on bread",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hands place bread on table."
+        "raw_stage2_label": "hands place bread on table.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 8,
         "start_time": 19.5,
         "end_time": 25.5,
         "description": "applies mayonnaise to bread",
+        "confidence": 0.9,
         "refined": false,
-        "raw_stage2_label": "applies mayonnaise to bread"
+        "raw_stage2_label": "applies mayonnaise to bread",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 9,
         "start_time": 25.0,
         "end_time": 28.0,
         "description": "hand opens mayonnaise bottle",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand opens mayonnaise bottle"
+        "raw_stage2_label": "hand opens mayonnaise bottle",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 10,
         "start_time": 26.0,
         "end_time": 32.5,
         "description": "spreads mayonnaise on bread",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand spreads mayonnaise on bread"
+        "raw_stage2_label": "hand spreads mayonnaise on bread",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 11,
         "start_time": 37.0,
         "end_time": 41.5,
-        "description": "holds bread in hands",
+        "description": "holds bread",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand spreads butter on bread"
+        "raw_stage2_label": "hand spreads butter on bread",
+        "prompt_version": "stage3_conf_v2"
     }
 ]

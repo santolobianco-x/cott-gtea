@@ -1,6 +1,6 @@
 1
-00:00:01,000 --> 00:00:02,000
-hand places
+00:00:01,000 --> 00:00:01,500
+hand picks up a can of food
 
 2
 00:00:01,500 --> 00:00:02,500
@@ -8,7 +8,7 @@ hand places
 
 3
 00:00:01,500 --> 00:00:02,500
-hand places
+hand places a red cup on the table
 
 4
 00:00:04,500 --> 00:00:05,000
@@ -16,18 +16,18 @@ hand places bottle on table
 
 5
 00:00:05,500 --> 00:00:06,000
-hand picks up bottle
+hand places
 
 6
 00:00:06,000 --> 00:00:07,000
-hand pours liquid into the cup
+puts the bottle on the table
 
 7
 00:00:06,000 --> 00:00:08,000
 hand pours
 
 8
-00:00:09,000 --> 00:00:12,500
+00:00:07,000 --> 00:00:12,500
 hand tilts bottle
 
 9
@@ -43,7 +43,7 @@ hand pours sugar into cup
 hand holds packet of sugar
 
 12
-00:00:22,500 --> 00:00:23,000
+00:00:19,500 --> 00:00:22,500
 hand continues pouring liquid
 
 13
@@ -59,24 +59,24 @@ open bottle
 open the box
 
 16
-00:00:29,000 --> 00:00:33,500
+00:00:28,000 --> 00:00:33,500
 open tea box
 
 17
-00:00:34,000 --> 00:00:35,500
-teaspoon stirs the tea in the cup [Stage2]
-
-18
-00:00:34,500 --> 00:00:35,000
+00:00:34,000 --> 00:00:35,000
 hand opens the tea box
 
+18
+00:00:34,500 --> 00:00:38,000
+teabag is placed into the cup
+
 19
-00:00:35,500 --> 00:00:37,000
-tear the tea bag open [Stage2]
+00:00:35,000 --> 00:00:36,500
+teaspoon stirs the tea in the cup
 
 20
-00:00:37,000 --> 00:00:38,500
-tear the tea bag open [Stage2]
+00:00:36,000 --> 00:00:39,500
+hand lifts the tea bag out of the cup
 
 21
 00:00:37,500 --> 00:00:41,000
@@ -88,11 +88,11 @@ hands hold the tea bag
 
 23
 00:00:39,500 --> 00:00:42,000
-hands place the tea bag in a cup
+hands open the tea bag package
 
 24
 00:00:40,000 --> 00:00:42,500
-hands close the tea bag
+hands open the tea bag
 
 25
 00:00:40,500 --> 00:00:43,000
@@ -100,11 +100,11 @@ hands hold the tea bag
 
 26
 00:00:41,000 --> 00:00:43,500
-hand holds the packet of tea
+hands hold the packet of tea
 
 27
 00:00:41,500 --> 00:00:44,000
-hand opens the packet of tea
+hands open the packet of tea
 
 28
 00:00:42,000 --> 00:00:44,500
@@ -112,15 +112,15 @@ hand pours tea into the cup
 
 29
 00:00:42,500 --> 00:00:45,000
-hand opens the packet of tea
+hands open the packet of tea
 
 30
 00:00:43,000 --> 00:00:45,500
-hand holds the packet of tea
+teaspoon holds the packet of tea
 
 31
 00:00:43,500 --> 00:00:46,000
-hand opens the packet of tea
+hands open the packet of tea
 
 32
 00:00:44,000 --> 00:00:47,500
@@ -128,35 +128,35 @@ open packet
 
 33
 00:00:45,500 --> 00:00:49,000
-swallow
+open packet
 
 34
 00:00:47,000 --> 00:00:50,500
-inject into cup
+Inject into cup
 
 35
 00:00:48,500 --> 00:00:52,000
-stir into cup
+Put the syringe into the cup
 
 36
 00:00:50,000 --> 00:00:53,500
-stir tea bag into cup
+Put tea bag into cup
 
 37
 00:00:51,500 --> 00:00:57,500
-hand stirs the contents of the cup.
+hand stirs the contents of the cup
 
 38
 00:00:56,000 --> 00:01:00,500
-hand places the red cup on the table.
+hand places the red cup on the table
 
 39
 00:00:58,500 --> 00:01:04,000
-hand stirs the tea in the cup.
+hand stirs the tea in the cup
 
 40
 00:01:02,000 --> 00:01:06,500
-hand moves cup
+grasp cup
 
 41
 00:01:04,500 --> 00:01:15,000
@@ -168,7 +168,7 @@ hand reaches into the red cup
 
 43
 00:01:17,000 --> 00:01:22,000
-hand stirs the red cup with a straw
+hand lifts the red cup
 
 44
 00:01:20,000 --> 00:01:30,500
@@ -187,26 +187,26 @@ hand places crackers in cup
 open container
 
 48
-00:01:39,500 --> 00:01:40,000
-hand opens the container
+00:01:39,000 --> 00:01:40,000
+person opens the container of frosting
 
 49
-00:01:46,000 --> 00:01:55,500
-hand continues to hold the spoon.
+00:01:43,000 --> 00:01:55,500
+spoon into the container
 
 50
 00:01:54,500 --> 00:01:57,500
-close container
+Close the container lid
 
 51
 00:01:56,000 --> 00:01:59,500
 open container
 
 52
-00:01:58,500 --> 00:02:01,000
-scoop food into cup
+00:01:58,000 --> 00:02:01,000
+stir cup
 
 53
 00:01:59,000 --> 00:02:11,500
-hand stirs tea in cup
+stirs tea in cup
 

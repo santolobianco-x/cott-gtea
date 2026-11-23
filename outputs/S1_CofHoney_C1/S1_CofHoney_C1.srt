@@ -4,31 +4,31 @@ grabs a red cup
 
 2
 00:00:02,000 --> 00:00:03,000
-picks up a bottle
+lifts a bottle of syrup
 
 3
-00:00:02,500 --> 00:00:03,000
-lifts a red cup
+00:00:02,000 --> 00:00:03,000
+holds a cup
 
 4
-00:00:02,500 --> 00:00:04,000
-stirs a cup of water
+00:00:02,500 --> 00:00:03,000
+picks up | picks up a small bottle
 
 5
-00:00:05,500 --> 00:00:06,000
+00:00:05,000 --> 00:00:06,000
 picks up | picks up a bottle
 
 6
+00:00:06,000 --> 00:00:11,000
+opens the bottle of mustard
+
+7
 00:00:06,500 --> 00:00:07,000
 picks up | picks up a bottle
 
-7
+8
 00:00:07,000 --> 00:00:08,000
 picks up | picks up a bottle
-
-8
-00:00:07,000 --> 00:00:10,000
-spreads mustard on the bread [Stage2]
 
 9
 00:00:10,000 --> 00:00:11,000
@@ -36,23 +36,23 @@ puts the lid on the bottle of mustard [Stage2]
 
 10
 00:00:10,000 --> 00:00:13,500
-grabs a bottle of hot sauce
+puts the lid on the bottle of hot sauce
 
 11
 00:00:14,500 --> 00:00:15,000
-spoons honey into the cup
+spoons honey into a cup
 
 12
 00:00:17,000 --> 00:00:18,500
-pours relish into the cup
+spoons relish into the cup
 
 13
 00:00:17,000 --> 00:00:20,500
 hand pours the jam into the red cup.
 
 14
-00:00:19,000 --> 00:00:22,000
-hand uses the spoon to scoop jam from the jar.
+00:00:18,500 --> 00:00:22,000
+hand uses the spoon to scoop jam from the jar
 
 15
 00:00:20,000 --> 00:00:23,500
@@ -68,23 +68,23 @@ hand holding spoon over cup
 
 18
 00:00:30,000 --> 00:00:33,000
-stirs the contents of the cup with the spoon [Stage2]
+hand stirs contents of cup [Stage2]
 
 19
-00:00:34,500 --> 00:00:35,000
-hand picks up the bottle of water
+00:00:34,000 --> 00:00:35,000
+hand picks up a bottle of water
 
 20
 00:00:35,000 --> 00:00:36,000
 hand picks up the bottle of water
 
 21
-00:00:35,000 --> 00:00:40,000
-hand continues pouring syrup into the cup
+00:00:35,000 --> 00:00:37,000
+hand picks up a bottle of water
 
 22
-00:00:36,500 --> 00:00:37,000
-hand picks up a bottle of water
+00:00:36,000 --> 00:00:40,000
+hand pours syrup into the cup
 
 23
 00:00:38,000 --> 00:00:43,000
@@ -95,12 +95,12 @@ pour contents of bottle into cup
 place small objects into cup
 
 25
-00:00:44,000 --> 00:00:48,500
+00:00:44,000 --> 00:00:48,000
 add sugar to the cup
 
 26
 00:00:46,500 --> 00:00:52,000
-pours white powder into cup
+spoons white powder into cup
 
 27
 00:00:51,000 --> 00:00:53,500
@@ -131,6 +131,6 @@ hand dips finger into cup
 hand dips cookie into cup
 
 34
-00:01:17,000 --> 00:01:20,500
-hand continues stirring the contents of the red cup.
+00:01:17,000 --> 00:01:21,500
+hand continues stirring the contents of the red cup
 

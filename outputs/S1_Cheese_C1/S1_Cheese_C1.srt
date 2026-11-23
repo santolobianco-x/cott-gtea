@@ -3,11 +3,11 @@
 hand places flour on the table
 
 2
-00:00:02,500 --> 00:00:03,000
-hand opens the container
+00:00:02,000 --> 00:00:03,000
+hand opens the bottle cap
 
 3
-00:00:03,500 --> 00:00:04,000
+00:00:03,000 --> 00:00:04,000
 hand places salt on the table
 
 4
@@ -23,16 +23,16 @@ hand places baking soda on the table
 hand places yeast on the table
 
 7
-00:00:07,000 --> 00:00:09,000
-hand picks up bottle of ketchup [Stage2]
+00:00:05,000 --> 00:00:07,500
+hand places bread on the table
 
 8
-00:00:07,500 --> 00:00:08,000
-hand picks up a red cup
+00:00:06,000 --> 00:00:10,000
+hand places bottle on table
 
 9
 00:00:10,000 --> 00:00:14,000
-hand places bottle on table
+hand picks up cheese
 
 10
 00:00:11,500 --> 00:00:12,000
@@ -40,34 +40,34 @@ hand places bottle on table
 
 11
 00:00:18,500 --> 00:00:19,000
-sticks cheese to bread
+place cheese on bread
 
 12
+00:00:23,000 --> 00:00:34,000
+apply mayonnaise
+
+13
 00:00:24,000 --> 00:00:24,500
 spread butter on cheese
 
-13
-00:00:25,000 --> 00:00:34,000
-apply mayonnaise
-
 14
-00:00:34,000 --> 00:00:35,000
-hand picks up bottle of mustard [Stage2]
+00:00:35,500 --> 00:00:36,000
+hand picks up bottle of mustard
 
 15
-00:00:36,000 --> 00:00:40,000
-hand applies mayonnaise
+00:00:36,000 --> 00:00:38,000
+hand applies mustard
 
 16
-00:00:37,000 --> 00:00:38,000
-hand applies mustard
+00:00:36,000 --> 00:00:40,000
+hand applies mayonnaise
 
 17
 00:00:38,000 --> 00:00:43,000
 hand applies mustard to bread
 
 18
-00:00:43,500 --> 00:00:44,000
+00:00:42,000 --> 00:00:44,000
 hand applies mustard to bread
 
 19
@@ -75,19 +75,19 @@ hand applies mustard to bread
 hand applies mustard to bread
 
 20
-00:00:45,000 --> 00:00:46,500
+00:00:44,000 --> 00:00:46,000
 hand picks up the bottle of mustard
 
 21
-00:00:45,500 --> 00:00:46,000
+00:00:45,000 --> 00:00:46,000
 hand applies mustard to bread
 
 22
-00:00:46,000 --> 00:00:47,000
-hand places the bottle of mustard on the table
+00:00:45,000 --> 00:00:46,000
+hand picks up the bottle of mustard
 
 23
-00:00:46,500 --> 00:00:47,000
+00:00:46,000 --> 00:00:47,000
 hand places the bottle of mustard on the table
 
 24
@@ -99,14 +99,14 @@ hand places the bottle of mustard on the table
 hand places the bottle of ketchup on the table
 
 26
-00:00:50,000 --> 00:01:00,500
-press bread slices together
+00:00:49,000 --> 00:00:50,500
+hand places the bottle of mayonnaise on the table
 
 27
-00:00:51,000 --> 00:00:52,000
-press the sandwich together
+00:00:50,000 --> 00:00:59,500
+press bread slices together
 
 28
-00:00:59,000 --> 00:01:00,500
+00:00:59,000 --> 00:01:02,500
 holds bread slices
 

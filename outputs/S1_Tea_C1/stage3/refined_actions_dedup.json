@@ -2,16 +2,19 @@
     "video_id": "S1_Tea_C1",
     "dedup_tiou": 0.5,
     "dedup_strategy": "keep",
+    "min_conf": 0.0,
     "n_before": 53,
     "n_after": 40,
     "actions": [
         {
             "action_id": 0,
             "start_time": 1.0,
-            "end_time": 2.0,
-            "description": "hand places",
+            "end_time": 1.5,
+            "description": "hand picks up a can of food",
+            "confidence": 0.8,
             "refined": true,
             "raw_stage2_label": "hand places",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 0
             ]
@@ -21,8 +24,10 @@
             "start_time": 1.5,
             "end_time": 2.5,
             "description": "hand places",
+            "confidence": 0.8,
             "refined": true,
             "raw_stage2_label": "hand places",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 1,
                 2
@@ -33,8 +38,10 @@
             "start_time": 4.5,
             "end_time": 5.0,
             "description": "hand places bottle on table",
+            "confidence": 0.8,
             "refined": true,
             "raw_stage2_label": "hand places",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 3
             ]
@@ -43,9 +50,11 @@
             "action_id": 3,
             "start_time": 5.5,
             "end_time": 6.0,
-            "description": "hand picks up bottle",
+            "description": "hand places",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 4
             ]
@@ -55,8 +64,10 @@
             "start_time": 6.0,
             "end_time": 8.0,
             "description": "hand pours",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand pours",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 5,
                 6
@@ -64,11 +75,13 @@
         },
         {
             "action_id": 5,
-            "start_time": 9.0,
+            "start_time": 7.0,
             "end_time": 12.5,
             "description": "hand tilts bottle",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand tilts bottle",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 7
             ]
@@ -78,8 +91,10 @@
             "start_time": 11.0,
             "end_time": 16.0,
             "description": "hand stirs sugar in cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand stirs sugar in cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 8
             ]
@@ -89,8 +104,10 @@
             "start_time": 14.0,
             "end_time": 19.0,
             "description": "hand pours sugar into cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand pours sugar into cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 9
             ]
@@ -100,19 +117,23 @@
             "start_time": 17.0,
             "end_time": 21.5,
             "description": "hand holds packet of sugar",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand holds packet of sugar",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 10
             ]
         },
         {
             "action_id": 9,
-            "start_time": 22.5,
-            "end_time": 23.0,
+            "start_time": 19.5,
+            "end_time": 22.5,
             "description": "hand continues pouring liquid",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand continues pouring liquid",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 11
             ]
@@ -122,8 +143,10 @@
             "start_time": 22.5,
             "end_time": 24.5,
             "description": "open the butter wrapper",
+            "confidence": 0.9,
             "refined": false,
             "raw_stage2_label": "pour liquid",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 12
             ]
@@ -133,8 +156,10 @@
             "start_time": 25.5,
             "end_time": 30.0,
             "description": "open bottle",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hold bottle",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 14
             ]
@@ -144,19 +169,23 @@
             "start_time": 26.5,
             "end_time": 27.5,
             "description": "open the box",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "pour liquid",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 13
             ]
         },
         {
             "action_id": 13,
-            "start_time": 29.0,
+            "start_time": 28.0,
             "end_time": 33.5,
             "description": "open tea box",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hold tea box",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 15
             ]
@@ -164,43 +193,51 @@
         {
             "action_id": 14,
             "start_time": 34.0,
-            "end_time": 35.5,
-            "description": "teaspoon stirs the tea in the cup",
-            "refined": false,
-            "raw_stage2_label": "hand stirs the tea in the cup",
-            "merged_from": [
-                17
-            ]
-        },
-        {
-            "action_id": 15,
-            "start_time": 34.5,
             "end_time": 35.0,
             "description": "hand opens the tea box",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places the tea box back on the table",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 16
             ]
         },
         {
-            "action_id": 16,
-            "start_time": 35.5,
-            "end_time": 37.0,
-            "description": "tear the tea bag open",
-            "refined": false,
+            "action_id": 15,
+            "start_time": 34.5,
+            "end_time": 38.0,
+            "description": "teabag is placed into the cup",
+            "confidence": 0.9,
+            "refined": true,
             "raw_stage2_label": "hand places the tea bag back into the cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 18
             ]
         },
         {
+            "action_id": 16,
+            "start_time": 35.0,
+            "end_time": 36.5,
+            "description": "teaspoon stirs the tea in the cup",
+            "confidence": 0.8,
+            "refined": true,
+            "raw_stage2_label": "hand stirs the tea in the cup",
+            "prompt_version": "stage3_conf_v2",
+            "merged_from": [
+                17
+            ]
+        },
+        {
             "action_id": 17,
-            "start_time": 37.0,
-            "end_time": 38.5,
-            "description": "tear the tea bag open",
-            "refined": false,
+            "start_time": 36.0,
+            "end_time": 39.5,
+            "description": "hand lifts the tea bag out of the cup",
+            "confidence": 0.9,
+            "refined": true,
             "raw_stage2_label": "hand lifts the tea bag out of the cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 19
             ]
@@ -210,8 +247,10 @@
             "start_time": 37.5,
             "end_time": 41.0,
             "description": "hands place the tea bag in a cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hands place the tea bag in a cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 20,
                 21,
@@ -231,9 +270,11 @@
             "action_id": 19,
             "start_time": 45.5,
             "end_time": 49.0,
-            "description": "swallow",
+            "description": "open packet",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hold packet",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 32
             ]
@@ -242,9 +283,11 @@
             "action_id": 20,
             "start_time": 47.0,
             "end_time": 50.5,
-            "description": "inject into cup",
+            "description": "Inject into cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "inject into cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 33
             ]
@@ -253,9 +296,11 @@
             "action_id": 21,
             "start_time": 48.5,
             "end_time": 52.0,
-            "description": "stir into cup",
+            "description": "Put the syringe into the cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hold syringe and cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 34
             ]
@@ -264,9 +309,11 @@
             "action_id": 22,
             "start_time": 50.0,
             "end_time": 53.5,
-            "description": "stir tea bag into cup",
+            "description": "Put tea bag into cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "dip tea bag into cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 35
             ]
@@ -275,9 +322,11 @@
             "action_id": 23,
             "start_time": 51.5,
             "end_time": 57.5,
-            "description": "hand stirs the contents of the cup.",
+            "description": "hand stirs the contents of the cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand stirs the contents of the cup.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 36
             ]
@@ -286,9 +335,11 @@
             "action_id": 24,
             "start_time": 56.0,
             "end_time": 60.5,
-            "description": "hand places the red cup on the table.",
+            "description": "hand places the red cup on the table",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places the red cup on the table.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 37
             ]
@@ -297,9 +348,11 @@
             "action_id": 25,
             "start_time": 58.5,
             "end_time": 64.0,
-            "description": "hand stirs the tea in the cup.",
+            "description": "hand stirs the tea in the cup",
+            "confidence": 0.8,
             "refined": true,
             "raw_stage2_label": "hand stirs the tea in the cup.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 38
             ]
@@ -308,9 +361,11 @@
             "action_id": 26,
             "start_time": 62.0,
             "end_time": 66.5,
-            "description": "hand moves cup",
+            "description": "grasp cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand moves cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 39
             ]
@@ -320,8 +375,10 @@
             "start_time": 64.5,
             "end_time": 75.0,
             "description": "hand lifts red cup slightly",
+            "confidence": 0.8,
             "refined": true,
             "raw_stage2_label": "hand lifts red cup slightly",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 40
             ]
@@ -331,8 +388,10 @@
             "start_time": 73.5,
             "end_time": 79.0,
             "description": "hand reaches into the red cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand reaches into the red cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 41
             ]
@@ -341,9 +400,11 @@
             "action_id": 29,
             "start_time": 77.0,
             "end_time": 82.0,
-            "description": "hand stirs the red cup with a straw",
+            "description": "hand lifts the red cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand lifts the red cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 42
             ]
@@ -353,8 +414,10 @@
             "start_time": 80.0,
             "end_time": 90.5,
             "description": "stirs the contents of the red cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "stirs the contents of the red cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 43
             ]
@@ -364,8 +427,10 @@
             "start_time": 89.0,
             "end_time": 94.0,
             "description": "hand stirs tea",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand stirs tea",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 44
             ]
@@ -375,8 +440,10 @@
             "start_time": 92.0,
             "end_time": 97.0,
             "description": "hand places crackers in cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places crackers in cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 45
             ]
@@ -386,30 +453,36 @@
             "start_time": 98.0,
             "end_time": 102.5,
             "description": "open container",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand opens container",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 47
             ]
         },
         {
             "action_id": 34,
-            "start_time": 99.5,
+            "start_time": 99.0,
             "end_time": 100.0,
-            "description": "hand opens the container",
+            "description": "person opens the container of frosting",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places cookies on plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 46
             ]
         },
         {
             "action_id": 35,
-            "start_time": 106.0,
+            "start_time": 103.0,
             "end_time": 115.5,
-            "description": "hand continues to hold the spoon.",
+            "description": "spoon into the container",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand continues to hold the spoon.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 48
             ]
@@ -418,9 +491,11 @@
             "action_id": 36,
             "start_time": 114.5,
             "end_time": 117.5,
-            "description": "close container",
+            "description": "Close the container lid",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "cover container",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 49
             ]
@@ -430,19 +505,23 @@
             "start_time": 116.0,
             "end_time": 119.5,
             "description": "open container",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "cover container",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 50
             ]
         },
         {
             "action_id": 38,
-            "start_time": 118.5,
+            "start_time": 118.0,
             "end_time": 121.0,
-            "description": "scoop food into cup",
+            "description": "stir cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "cover container",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 51
             ]
@@ -451,9 +530,11 @@
             "action_id": 39,
             "start_time": 119.0,
             "end_time": 131.5,
-            "description": "hand stirs tea in cup",
+            "description": "stirs tea in cup",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand stirs tea in cup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 52
             ]

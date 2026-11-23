@@ -4,247 +4,309 @@
         "start_time": 1.0,
         "end_time": 2.0,
         "description": "hand opens bread package",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand opens bread package"
+        "raw_stage2_label": "hand opens bread package",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 1,
         "start_time": 2.5,
         "end_time": 3.0,
         "description": "hand holds bread package",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand holds bread package"
+        "raw_stage2_label": "hand holds bread package",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 2,
         "start_time": 2.0,
         "end_time": 3.5,
         "description": "hand pulls bread from package",
+        "confidence": 0.8,
         "refined": true,
-        "raw_stage2_label": "hand pulls bread from package"
+        "raw_stage2_label": "hand pulls bread from package",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 3,
         "start_time": 2.0,
         "end_time": 5.0,
-        "description": "grasp bread package",
+        "description": "hand holds bread package",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand holds bread package"
+        "raw_stage2_label": "hand holds bread package",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 4,
         "start_time": 5.0,
         "end_time": 6.0,
         "description": "hand pulls bread from package",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand pulls bread from package"
+        "raw_stage2_label": "hand pulls bread from package",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 5,
-        "start_time": 4.5,
+        "start_time": 4.0,
         "end_time": 6.5,
         "description": "hand holds bread package",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand holds bread package"
+        "raw_stage2_label": "hand holds bread package",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 6,
         "start_time": 7.0,
         "end_time": 8.0,
-        "description": "hand picks up the bottle of ketchup",
+        "description": "hand closes the bottle of ketchup",
+        "confidence": 0.8,
         "refined": true,
-        "raw_stage2_label": "hand closes the bottle of ketchup"
+        "raw_stage2_label": "hand closes the bottle of ketchup",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 7,
-        "start_time": 9.0,
+        "start_time": 8.0,
         "end_time": 10.0,
-        "description": "hand opens bottle of mustard",
+        "description": "hand picks up bottle of mustard",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand places bottle of mustard on table"
+        "raw_stage2_label": "hand places bottle of mustard on table",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 8,
-        "start_time": 10.0,
+        "start_time": 8.0,
         "end_time": 12.5,
-        "description": "hand continues to hold bottle of ketchup",
+        "description": "hand opens bottle of ketchup",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand continues to hold bottle of ketchup"
+        "raw_stage2_label": "hand continues to hold bottle of ketchup",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 9,
         "start_time": 10.5,
         "end_time": 13.5,
-        "description": "hand holds jar lid",
+        "description": "hand opens jar lid",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand holds jar lid"
+        "raw_stage2_label": "hand holds jar lid",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 10,
-        "start_time": 13.5,
+        "start_time": 12.5,
         "end_time": 14.5,
-        "description": "hand closes jar lid",
-        "refined": false,
-        "raw_stage2_label": "hand closes jar lid"
+        "description": "person closes jar lid",
+        "confidence": 0.9,
+        "refined": true,
+        "raw_stage2_label": "hand closes jar lid",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 11,
-        "start_time": 14.5,
-        "end_time": 16.5,
+        "start_time": 13.5,
+        "end_time": 17.5,
         "description": "hand places jar of peanut butter on table",
-        "refined": false,
-        "raw_stage2_label": "hand places jar of peanut butter on table"
+        "confidence": 0.9,
+        "refined": true,
+        "raw_stage2_label": "hand places jar of peanut butter on table",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 12,
         "start_time": 16.5,
         "end_time": 17.5,
-        "description": "spoon scoops peanut butter",
+        "description": "spoon picks up jar of peanut butter",
+        "confidence": 0.9,
         "refined": false,
-        "raw_stage2_label": "hand picks up lid of jar"
+        "raw_stage2_label": "hand picks up lid of jar",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 13,
         "start_time": 17.5,
         "end_time": 25.5,
         "description": "spread peanut butter on bread",
+        "confidence": 0.9,
         "refined": false,
-        "raw_stage2_label": "hold jar steady"
+        "raw_stage2_label": "hold jar steady",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 14,
         "start_time": 24.5,
         "end_time": 44.5,
-        "description": "hand spreads peanut butter on bread",
+        "description": "spreads peanut butter on bread",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand spreads peanut butter on bread"
+        "raw_stage2_label": "hand spreads peanut butter on bread",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 15,
         "start_time": 44.0,
         "end_time": 50.5,
         "description": "spread peanut butter",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "spread peanut butter"
+        "raw_stage2_label": "spread peanut butter",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 16,
-        "start_time": 50.0,
-        "end_time": 57.0,
-        "description": "spread peanut butter",
-        "refined": false,
-        "raw_stage2_label": "spread peanut butter"
+        "start_time": 49.0,
+        "end_time": 53.5,
+        "description": "spreading peanut butter on bread",
+        "confidence": 0.9,
+        "refined": true,
+        "raw_stage2_label": "spread peanut butter",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 17,
         "start_time": 56.0,
         "end_time": 61.0,
         "description": "open jar of peanut butter",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "pick up jar of peanut butter"
+        "raw_stage2_label": "pick up jar of peanut butter",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 18,
         "start_time": 59.0,
         "end_time": 64.0,
         "description": "open bottle of mustard",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand opens bottle of mustard"
+        "raw_stage2_label": "hand opens bottle of mustard",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 19,
         "start_time": 62.0,
         "end_time": 66.5,
         "description": "hand closes jar lid",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand closes jar lid"
+        "raw_stage2_label": "hand closes jar lid",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 20,
         "start_time": 64.5,
         "end_time": 71.0,
         "description": "open bottle of ketchup",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand opens bottle of ketchup"
+        "raw_stage2_label": "hand opens bottle of ketchup",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 21,
         "start_time": 72.5,
         "end_time": 73.0,
-        "description": "hand places the bottle of honey on the table",
+        "description": "hand opens the bottle of honey",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand places the bottle of honey on the table"
+        "raw_stage2_label": "hand places the bottle of honey on the table",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 22,
-        "start_time": 74.0,
+        "start_time": 72.0,
         "end_time": 74.5,
         "description": "hand opens the bottle of honey",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand opens the bottle of honey"
+        "raw_stage2_label": "hand opens the bottle of honey",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 23,
         "start_time": 75.0,
         "end_time": 76.0,
         "description": "spreads ketchup on the bread",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand places the bottle of honey on the table"
+        "raw_stage2_label": "hand places the bottle of honey on the table",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 24,
         "start_time": 74.0,
         "end_time": 90.0,
-        "description": "apply ketchup to bread",
+        "description": "applies ketchup to bread",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand continues applying ketchup"
+        "raw_stage2_label": "hand continues applying ketchup",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 25,
         "start_time": 89.0,
-        "end_time": 95.5,
+        "end_time": 95.0,
         "description": "hand holds toast",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand holds toast"
+        "raw_stage2_label": "hand holds toast",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 26,
         "start_time": 94.0,
         "end_time": 101.0,
         "description": "spread peanut butter on bread",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand spreads honey on bread"
+        "raw_stage2_label": "hand spreads honey on bread",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 27,
-        "start_time": 100.0,
+        "start_time": 99.5,
         "end_time": 103.0,
-        "description": "hand places the bread slices back on the table.",
+        "description": "hand places the bread slices back on the table",
+        "confidence": 0.8,
         "refined": true,
-        "raw_stage2_label": "hand places the bread slices back on the table."
+        "raw_stage2_label": "hand places the bread slices back on the table.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 28,
         "start_time": 101.0,
         "end_time": 104.5,
-        "description": "hand adjusts the bread slices.",
+        "description": "hand adjusts the bread slices",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand adjusts the bread slices."
+        "raw_stage2_label": "hand adjusts the bread slices.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 29,
         "start_time": 102.5,
         "end_time": 106.0,
-        "description": "hand lifts the bread slices slightly.",
+        "description": "hands hold the bread slice",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hand lifts the bread slices slightly."
+        "raw_stage2_label": "hand lifts the bread slices slightly.",
+        "prompt_version": "stage3_conf_v2"
     },
     {
         "action_id": 30,
         "start_time": 104.0,
         "end_time": 108.5,
         "description": "hands hold a slice of bread",
+        "confidence": 0.9,
         "refined": true,
-        "raw_stage2_label": "hands hold a slice of bread."
+        "raw_stage2_label": "hands hold a slice of bread.",
+        "prompt_version": "stage3_conf_v2"
     }
 ]

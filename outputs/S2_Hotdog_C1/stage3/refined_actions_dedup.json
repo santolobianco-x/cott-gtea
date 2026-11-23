@@ -2,6 +2,7 @@
     "video_id": "S2_Hotdog_C1",
     "dedup_tiou": 0.5,
     "dedup_strategy": "keep",
+    "min_conf": 0.0,
     "n_before": 24,
     "n_after": 18,
     "actions": [
@@ -10,8 +11,10 @@
             "start_time": 1.5,
             "end_time": 2.0,
             "description": "hand places bread on plate",
+            "confidence": 0.8,
             "refined": true,
             "raw_stage2_label": "hand places bread on plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 0
             ]
@@ -21,8 +24,10 @@
             "start_time": 2.5,
             "end_time": 3.0,
             "description": "hand places bread on plate",
+            "confidence": 0.8,
             "refined": true,
             "raw_stage2_label": "hand places bread on plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 1
             ]
@@ -32,8 +37,10 @@
             "start_time": 3.0,
             "end_time": 4.0,
             "description": "hand places bread on plate",
+            "confidence": 0.8,
             "refined": true,
             "raw_stage2_label": "hand places bread on plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 2
             ]
@@ -43,8 +50,10 @@
             "start_time": 4.0,
             "end_time": 6.0,
             "description": "hand places bread on plate",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places bread on plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 3,
                 4
@@ -53,32 +62,38 @@
         {
             "action_id": 4,
             "start_time": 6.0,
-            "end_time": 10.0,
-            "description": "spread butter on bread",
+            "end_time": 7.0,
+            "description": "hand picks up bread from the table",
+            "confidence": 0.8,
             "refined": true,
-            "raw_stage2_label": "spread butter on bread",
+            "raw_stage2_label": "hand places bread on plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
-                7
+                5
             ]
         },
         {
             "action_id": 5,
-            "start_time": 6.5,
-            "end_time": 7.0,
-            "description": "hand places bread on plate",
+            "start_time": 6.0,
+            "end_time": 10.0,
+            "description": "spread butter on bread",
+            "confidence": 0.9,
             "refined": true,
-            "raw_stage2_label": "hand places bread on plate",
+            "raw_stage2_label": "spread butter on bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
-                5
+                7
             ]
         },
         {
             "action_id": 6,
             "start_time": 7.0,
             "end_time": 8.0,
-            "description": "hand spreads butter on bread",
+            "description": "hand places bread on plate",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places bread on plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 6
             ]
@@ -86,10 +101,12 @@
         {
             "action_id": 7,
             "start_time": 12.0,
-            "end_time": 16.0,
+            "end_time": 14.5,
             "description": "place hot dog on bun",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "place hot dog on bun",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 9
             ]
@@ -98,9 +115,11 @@
             "action_id": 8,
             "start_time": 12.5,
             "end_time": 13.0,
-            "description": "place hot dog on plate",
+            "description": "place bread on plate",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "place bread on plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 8
             ]
@@ -110,19 +129,23 @@
             "start_time": 15.0,
             "end_time": 18.0,
             "description": "hand picks up a piece of bread from the table.",
+            "confidence": 0.9,
             "refined": false,
             "raw_stage2_label": "hand picks up a piece of bread from the table.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 10
             ]
         },
         {
             "action_id": 10,
-            "start_time": 19.0,
+            "start_time": 18.0,
             "end_time": 22.0,
-            "description": "hand places the mustard on the hot dog.",
+            "description": "hand applies mustard to the hot dog",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places the bread on the plate.",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 11
             ]
@@ -132,8 +155,10 @@
             "start_time": 20.0,
             "end_time": 29.5,
             "description": "hand applies mustard",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand applies mustard",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 12
             ]
@@ -142,9 +167,11 @@
             "action_id": 12,
             "start_time": 30.0,
             "end_time": 33.0,
-            "description": "hand opens jar lid",
+            "description": "hand opens the bottle of jam",
+            "confidence": 0.9,
             "refined": false,
             "raw_stage2_label": "hand places mustard on bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 13
             ]
@@ -154,8 +181,10 @@
             "start_time": 32.0,
             "end_time": 36.5,
             "description": "hand applies jam to bread",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand applies jam to bread",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 14
             ]
@@ -163,21 +192,25 @@
         {
             "action_id": 14,
             "start_time": 34.5,
-            "end_time": 39.5,
+            "end_time": 40.0,
             "description": "hand applies ketchup to hot dog",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand applies ketchup to hot dog",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 15
             ]
         },
         {
             "action_id": 15,
-            "start_time": 40.0,
+            "start_time": 38.0,
             "end_time": 44.0,
             "description": "hand applies ketchup to hot dog",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand applies ketchup to hot dog",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 16
             ]
@@ -187,8 +220,10 @@
             "start_time": 43.5,
             "end_time": 48.5,
             "description": "hand applies ketchup to the hot dog",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand continues applying ketchup",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 17
             ]
@@ -197,9 +232,11 @@
             "action_id": 17,
             "start_time": 47.0,
             "end_time": 50.0,
-            "description": "hand places bun on plate",
+            "description": "hands place bun on plate",
+            "confidence": 0.9,
             "refined": true,
             "raw_stage2_label": "hand places bun on plate",
+            "prompt_version": "stage3_conf_v2",
             "merged_from": [
                 18,
                 19,

@@ -1,0 +1,330 @@
+[
+    {
+        "action_id": 0,
+        "start_time": 1.5,
+        "end_time": 2.0,
+        "description": "hand picks up a red cup from the table.",
+        "refined": true,
+        "raw_stage2_label": "hand picks up a red cup from the table."
+    },
+    {
+        "action_id": 1,
+        "start_time": 2.5,
+        "end_time": 3.0,
+        "description": "hand places the red cup on the table.",
+        "refined": true,
+        "raw_stage2_label": "hand places the red cup on the table."
+    },
+    {
+        "action_id": 2,
+        "start_time": 3.0,
+        "end_time": 4.0,
+        "description": "hand picks up a cup from the table.",
+        "refined": true,
+        "raw_stage2_label": "hand picks up a bottle from the table."
+    },
+    {
+        "action_id": 3,
+        "start_time": 4.0,
+        "end_time": 5.0,
+        "description": "cup places the bottle on the table",
+        "refined": true,
+        "raw_stage2_label": "hand places the bottle on the table."
+    },
+    {
+        "action_id": 4,
+        "start_time": 5.5,
+        "end_time": 6.0,
+        "description": "hand picks up a bottle from the table.",
+        "refined": true,
+        "raw_stage2_label": "hand picks up a bottle from the table."
+    },
+    {
+        "action_id": 5,
+        "start_time": 5.0,
+        "end_time": 7.0,
+        "description": "hand pours liquid into the cup",
+        "refined": true,
+        "raw_stage2_label": "hand places the bottle on the table."
+    },
+    {
+        "action_id": 6,
+        "start_time": 7.0,
+        "end_time": 8.0,
+        "description": "spins the bottle in hand",
+        "refined": true,
+        "raw_stage2_label": "hand picks up a bottle from the table."
+    },
+    {
+        "action_id": 7,
+        "start_time": 8.5,
+        "end_time": 15.5,
+        "description": "hand stirs the contents of the cup",
+        "refined": true,
+        "raw_stage2_label": "hand stirs the contents of the cup"
+    },
+    {
+        "action_id": 8,
+        "start_time": 14.0,
+        "end_time": 19.0,
+        "description": "pours liquid into cup",
+        "refined": true,
+        "raw_stage2_label": "pours liquid into cup"
+    },
+    {
+        "action_id": 9,
+        "start_time": 20.0,
+        "end_time": 21.5,
+        "description": "picks up hand sanitizer",
+        "refined": true,
+        "raw_stage2_label": "places and picks up hand sanitizer"
+    },
+    {
+        "action_id": 10,
+        "start_time": 25.0,
+        "end_time": 25.5,
+        "description": "person opens the tea bag in their hand",
+        "refined": false,
+        "raw_stage2_label": "hand picks up a bottle of mustard from the table."
+    },
+    {
+        "action_id": 11,
+        "start_time": 25.5,
+        "end_time": 26.5,
+        "description": "hand places the bottle of mustard on the table.",
+        "refined": false,
+        "raw_stage2_label": "hand places the bottle of mustard on the table."
+    },
+    {
+        "action_id": 12,
+        "start_time": 26.5,
+        "end_time": 28.0,
+        "description": "hand places the packet on the table.",
+        "refined": true,
+        "raw_stage2_label": "hand places the packet on the table."
+    },
+    {
+        "action_id": 13,
+        "start_time": 26.0,
+        "end_time": 29.5,
+        "description": "tear open the tea packet",
+        "refined": true,
+        "raw_stage2_label": "hand picks up a packet of tea."
+    },
+    {
+        "action_id": 14,
+        "start_time": 28.0,
+        "end_time": 30.0,
+        "description": "hand places the packet on the table.",
+        "refined": true,
+        "raw_stage2_label": "hand places the packet on the table."
+    },
+    {
+        "action_id": 15,
+        "start_time": 28.0,
+        "end_time": 31.0,
+        "description": "hand picks up a packet of tea",
+        "refined": true,
+        "raw_stage2_label": "hand picks up a packet of tea."
+    },
+    {
+        "action_id": 16,
+        "start_time": 30.0,
+        "end_time": 31.5,
+        "description": "teabag is placed on the table",
+        "refined": false,
+        "raw_stage2_label": "hand places tea bag on table"
+    },
+    {
+        "action_id": 17,
+        "start_time": 31.5,
+        "end_time": 33.0,
+        "description": "teaspoon stirs tea in cup",
+        "refined": false,
+        "raw_stage2_label": "hand picks up tea bag"
+    },
+    {
+        "action_id": 18,
+        "start_time": 35.0,
+        "end_time": 36.5,
+        "description": "hands place a tea bag into a red cup.",
+        "refined": true,
+        "raw_stage2_label": "hands place a tea bag into a red cup."
+    },
+    {
+        "action_id": 19,
+        "start_time": 34.5,
+        "end_time": 38.0,
+        "description": "hand places the white packet on the table",
+        "refined": true,
+        "raw_stage2_label": "hand places the white packet on the table"
+    },
+    {
+        "action_id": 20,
+        "start_time": 36.0,
+        "end_time": 39.5,
+        "description": "hand picks up the white packet",
+        "refined": true,
+        "raw_stage2_label": "hand picks up the white packet"
+    },
+    {
+        "action_id": 21,
+        "start_time": 37.5,
+        "end_time": 43.0,
+        "description": "hand continues to place small objects into the red cup.",
+        "refined": true,
+        "raw_stage2_label": "hand continues to place small objects into the red cup."
+    },
+    {
+        "action_id": 22,
+        "start_time": 41.0,
+        "end_time": 44.5,
+        "description": "hand places the bowl back on the table",
+        "refined": true,
+        "raw_stage2_label": "hand places the bowl back on the table"
+    },
+    {
+        "action_id": 23,
+        "start_time": 43.0,
+        "end_time": 50.5,
+        "description": "hand stirs the contents of the pink bowl",
+        "refined": true,
+        "raw_stage2_label": "hand stirs the contents of the pink bowl"
+    },
+    {
+        "action_id": 24,
+        "start_time": 49.0,
+        "end_time": 53.5,
+        "description": "hand stirs the contents of the cup",
+        "refined": true,
+        "raw_stage2_label": "hand stirs the contents of the cup"
+    },
+    {
+        "action_id": 25,
+        "start_time": 54.0,
+        "end_time": 56.5,
+        "description": "hand opens the container",
+        "refined": false,
+        "raw_stage2_label": "hand places the small object on the table"
+    },
+    {
+        "action_id": 26,
+        "start_time": 56.5,
+        "end_time": 58.0,
+        "description": "hand opens the container",
+        "refined": false,
+        "raw_stage2_label": "hand places the container on the table"
+    },
+    {
+        "action_id": 27,
+        "start_time": 57.0,
+        "end_time": 60.5,
+        "description": "hand places the container on the table",
+        "refined": true,
+        "raw_stage2_label": "hand places the container on the table"
+    },
+    {
+        "action_id": 28,
+        "start_time": 58.5,
+        "end_time": 62.0,
+        "description": "hand places the yellow container on the table",
+        "refined": true,
+        "raw_stage2_label": "hand places the yellow container on the table"
+    },
+    {
+        "action_id": 29,
+        "start_time": 61.0,
+        "end_time": 63.0,
+        "description": "hand places the yellow container on the table",
+        "refined": false,
+        "raw_stage2_label": "hand places the yellow container on the table"
+    },
+    {
+        "action_id": 30,
+        "start_time": 64.5,
+        "end_time": 65.0,
+        "description": "hand opens bottle of mayonnaise",
+        "refined": true,
+        "raw_stage2_label": "hand places bottle of mayonnaise on the table"
+    },
+    {
+        "action_id": 31,
+        "start_time": 65.0,
+        "end_time": 66.0,
+        "description": "hand places bottle of mustard on the table",
+        "refined": true,
+        "raw_stage2_label": "hand places bottle of mustard on the table"
+    },
+    {
+        "action_id": 32,
+        "start_time": 64.0,
+        "end_time": 67.0,
+        "description": "hand places the bottle of mayonnaise on the table",
+        "refined": true,
+        "raw_stage2_label": "hand places the bottle of mayonnaise on the table"
+    },
+    {
+        "action_id": 33,
+        "start_time": 65.0,
+        "end_time": 68.0,
+        "description": "hand places the bottle of mustard on the table",
+        "refined": true,
+        "raw_stage2_label": "hand places the bottle of mustard on the table"
+    },
+    {
+        "action_id": 34,
+        "start_time": 66.0,
+        "end_time": 71.5,
+        "description": "hand places the bottle of ketchup on the table",
+        "refined": true,
+        "raw_stage2_label": "hand places the bottle of ketchup on the table"
+    },
+    {
+        "action_id": 35,
+        "start_time": 70.0,
+        "end_time": 75.5,
+        "description": "hand scoops the mayonnaise into the cup",
+        "refined": true,
+        "raw_stage2_label": "hand places the bottle of mayonnaise on the table"
+    },
+    {
+        "action_id": 36,
+        "start_time": 73.5,
+        "end_time": 78.5,
+        "description": "hand stirs the contents of the pink cup",
+        "refined": true,
+        "raw_stage2_label": "hand stirs the contents of the pink cup"
+    },
+    {
+        "action_id": 37,
+        "start_time": 77.0,
+        "end_time": 80.5,
+        "description": "hand covers the container with a lid",
+        "refined": true,
+        "raw_stage2_label": "hand covers the container with a lid"
+    },
+    {
+        "action_id": 38,
+        "start_time": 78.5,
+        "end_time": 81.5,
+        "description": "hand adjusts the lid on the container",
+        "refined": true,
+        "raw_stage2_label": "hand adjusts the lid on the container"
+    },
+    {
+        "action_id": 39,
+        "start_time": 79.5,
+        "end_time": 81.5,
+        "description": "hands place the lid back on the container",
+        "refined": true,
+        "raw_stage2_label": "hands place the lid back on the container"
+    },
+    {
+        "action_id": 40,
+        "start_time": 84.5,
+        "end_time": 90.0,
+        "description": "hand stirs the contents of the paper cup with a spoon",
+        "refined": true,
+        "raw_stage2_label": "hand stirs the contents of the paper cup with a spoon"
+    }
+]
