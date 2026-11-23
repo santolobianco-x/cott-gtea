@@ -1,0 +1,284 @@
+{
+  "video_id": "S1_Peanut_C1",
+  "baseline": "whole",
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "fps": 2.0,
+    "image_side": 224
+  },
+  "actions": [
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "description": "grasp the bread",
+      "action_id": 0
+    },
+    {
+      "start_time": 22.0,
+      "end_time": 23.0,
+      "description": "open the peanut butter jar",
+      "action_id": 1
+    },
+    {
+      "start_time": 24.0,
+      "end_time": 25.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 2
+    },
+    {
+      "start_time": 26.0,
+      "end_time": 27.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 3
+    },
+    {
+      "start_time": 28.0,
+      "end_time": 29.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 4
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 31.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 5
+    },
+    {
+      "start_time": 32.0,
+      "end_time": 33.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 6
+    },
+    {
+      "start_time": 34.0,
+      "end_time": 35.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 7
+    },
+    {
+      "start_time": 36.0,
+      "end_time": 37.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 8
+    },
+    {
+      "start_time": 38.0,
+      "end_time": 39.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 9
+    },
+    {
+      "start_time": 40.0,
+      "end_time": 41.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 10
+    },
+    {
+      "start_time": 42.0,
+      "end_time": 43.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 11
+    },
+    {
+      "start_time": 44.0,
+      "end_time": 45.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 12
+    },
+    {
+      "start_time": 46.0,
+      "end_time": 47.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 13
+    },
+    {
+      "start_time": 48.0,
+      "end_time": 49.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 14
+    },
+    {
+      "start_time": 50.0,
+      "end_time": 51.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 15
+    },
+    {
+      "start_time": 52.0,
+      "end_time": 53.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 16
+    },
+    {
+      "start_time": 54.0,
+      "end_time": 55.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 17
+    },
+    {
+      "start_time": 56.0,
+      "end_time": 57.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 18
+    },
+    {
+      "start_time": 58.0,
+      "end_time": 59.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 19
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 61.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 20
+    },
+    {
+      "start_time": 62.0,
+      "end_time": 63.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 21
+    },
+    {
+      "start_time": 64.0,
+      "end_time": 65.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 22
+    },
+    {
+      "start_time": 66.0,
+      "end_time": 67.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 23
+    },
+    {
+      "start_time": 68.0,
+      "end_time": 69.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 24
+    },
+    {
+      "start_time": 70.0,
+      "end_time": 71.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 25
+    },
+    {
+      "start_time": 72.0,
+      "end_time": 73.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 26
+    },
+    {
+      "start_time": 74.0,
+      "end_time": 75.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 27
+    },
+    {
+      "start_time": 76.0,
+      "end_time": 77.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 28
+    },
+    {
+      "start_time": 78.0,
+      "end_time": 79.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 29
+    },
+    {
+      "start_time": 80.0,
+      "end_time": 81.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 30
+    },
+    {
+      "start_time": 82.0,
+      "end_time": 83.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 31
+    },
+    {
+      "start_time": 84.0,
+      "end_time": 85.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 32
+    },
+    {
+      "start_time": 86.0,
+      "end_time": 87.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 33
+    },
+    {
+      "start_time": 88.0,
+      "end_time": 89.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 34
+    },
+    {
+      "start_time": 90.0,
+      "end_time": 91.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 35
+    },
+    {
+      "start_time": 92.0,
+      "end_time": 93.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 36
+    },
+    {
+      "start_time": 94.0,
+      "end_time": 95.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 37
+    },
+    {
+      "start_time": 96.0,
+      "end_time": 97.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 38
+    },
+    {
+      "start_time": 98.0,
+      "end_time": 99.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 39
+    },
+    {
+      "start_time": 100.0,
+      "end_time": 101.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 40
+    },
+    {
+      "start_time": 102.0,
+      "end_time": 103.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 41
+    },
+    {
+      "start_time": 104.0,
+      "end_time": 105.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 42
+    },
+    {
+      "start_time": 106.0,
+      "end_time": 107.0,
+      "description": "<close the peanut butter jar",
+      "action_id": 43
+    },
+    {
+      "start_time": 108.0,
+      "end_time": 109.0,
+      "description": "<open the peanut butter jar",
+      "action_id": 44
+    }
+  ],
+  "status": "success",
+  "error": null
+}

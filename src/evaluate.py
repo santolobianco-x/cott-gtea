@@ -36,6 +36,7 @@ STAGES = {
     # Baseline di prompting diretto (Figura 1 del paper): vedi src/baselines.py
     "baseline_slide": ("Baseline sliding-window", Path("baseline_slide") / "predictions.json"),
     "baseline_whole": ("Baseline whole-video", Path("baseline_whole") / "predictions.json"),
+    "baseline_grid": ("Controllo cieco: griglia fissa", Path("baseline_grid") / "predictions.json"),
 }
 
 # Cattura SOLO le azioni: <verb><noun1, noun2> (start-end) [0/1]

@@ -11,6 +11,12 @@ Baseline di prompting diretto (Figura 1 del paper CoTT).
 Come nel paper, il prompt e' quello dello Stage 3 in cui "trova l'interazione piu'
 evidente" e' sostituito da "elenca tutte le interazioni", con lo stesso formato di uscita.
 
+  - grid  : CONTROLLO "cieco" (non nel paper): griglia fissa di segmenti lunghi GRID_LEN
+            secondi, uno ogni GRID_PERIOD secondi, SENZA guardare il video ne' usare il modello.
+            Misura quanto F1 si ottiene per puro caso: un metodo che non lo supera
+            non sta usando l'informazione visiva. Default 2 s ogni 3 s, lo schema
+            prodotto dal modello nei loop della baseline whole-video.
+
 Output: outputs/<video>/baseline_<tipo>/predictions.json  ({"actions": [...]})
 Modulo richiamato da main.py (opzione --baseline).
 """
@@ -255,8 +261,32 @@ def run_whole(video_id, force=False, image_side=DEFAULT_IMAGE_SIDE, fps=FPS):
     print(f"[Baseline whole] {video_id}: {len(res['actions'])} azioni ({res['status']})")
 
 
-def run(video_id, mode, force=False, image_side=DEFAULT_IMAGE_SIDE, whole_fps=FPS):
-    if mode == "slide":
+# ============================================================
+# CONTROLLO CIECO: GRIGLIA FISSA (non usa ne' il video ne' il modello)
+# ============================================================
+GRID_LEN = 2.0
+GRID_PERIOD = 3.0
+
+
+def run_grid(video_id, seg_len=GRID_LEN, period=GRID_PERIOD):
+    out_dir = PROJECT_ROOT / "outputs" / video_id / "baseline_grid"
+    duration = len(load_frames(video_id)) / FPS      # unica informazione usata: la durata
+    actions, t = [], 0.0
+    while t < duration:
+        end = min(t + seg_len, duration)
+        if end > t:
+            actions.append({"start_time": round(t, 3), "end_time": round(end, 3), "description": "grid"})
+        t += period
+    config = {"seg_len": seg_len, "period": period}
+    write_predictions(out_dir, video_id, "grid", config, actions)
+    print(f"[Baseline grid] {video_id}: {len(actions)} segmenti da {seg_len}s ogni {period}s")
+
+
+def run(video_id, mode, force=False, image_side=DEFAULT_IMAGE_SIDE, whole_fps=FPS,
+        grid_len=GRID_LEN, grid_period=GRID_PERIOD):
+    if mode == "grid":
+        run_grid(video_id, seg_len=grid_len, period=grid_period)
+    elif mode == "slide":
         run_slide(video_id, force=force, image_side=image_side)
     elif mode == "whole":
         run_whole(video_id, force=force, image_side=image_side, fps=whole_fps)

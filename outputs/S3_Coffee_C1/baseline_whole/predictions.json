@@ -1,0 +1,404 @@
+{
+  "video_id": "S3_Coffee_C1",
+  "baseline": "whole",
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "fps": 2.0,
+    "image_side": 224
+  },
+  "actions": [
+    {
+      "start_time": 1.0,
+      "end_time": 2.5,
+      "description": "grasp the container of jam",
+      "action_id": 0
+    },
+    {
+      "start_time": 2.5,
+      "end_time": 10.0,
+      "description": "<action description>open the container of jam",
+      "action_id": 1
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 11.5,
+      "description": "grasp the spoon",
+      "action_id": 2
+    },
+    {
+      "start_time": 11.5,
+      "end_time": 12.5,
+      "description": "<action description>stir the jam",
+      "action_id": 3
+    },
+    {
+      "start_time": 12.5,
+      "end_time": 13.5,
+      "description": "grasp the container of jam",
+      "action_id": 4
+    },
+    {
+      "start_time": 13.5,
+      "end_time": 14.5,
+      "description": "<action description>close the container of jam",
+      "action_id": 5
+    },
+    {
+      "start_time": 14.5,
+      "end_time": 15.5,
+      "description": "grasp the spoon",
+      "action_id": 6
+    },
+    {
+      "start_time": 15.5,
+      "end_time": 16.5,
+      "description": "<action description>stir the jam",
+      "action_id": 7
+    },
+    {
+      "start_time": 16.5,
+      "end_time": 17.5,
+      "description": "grasp the container of jam",
+      "action_id": 8
+    },
+    {
+      "start_time": 17.5,
+      "end_time": 18.5,
+      "description": "<action description>open the container of jam",
+      "action_id": 9
+    },
+    {
+      "start_time": 18.5,
+      "end_time": 19.5,
+      "description": "grasp the spoon",
+      "action_id": 10
+    },
+    {
+      "start_time": 19.5,
+      "end_time": 20.5,
+      "description": "<action description>stir the jam",
+      "action_id": 11
+    },
+    {
+      "start_time": 20.5,
+      "end_time": 21.5,
+      "description": "grasp the container of jam",
+      "action_id": 12
+    },
+    {
+      "start_time": 21.5,
+      "end_time": 22.5,
+      "description": "<action description>close the container of jam",
+      "action_id": 13
+    },
+    {
+      "start_time": 22.5,
+      "end_time": 23.5,
+      "description": "grasp the spoon",
+      "action_id": 14
+    },
+    {
+      "start_time": 23.5,
+      "end_time": 24.5,
+      "description": "<action description>stir the jam",
+      "action_id": 15
+    },
+    {
+      "start_time": 24.5,
+      "end_time": 25.5,
+      "description": "grasp the container of jam",
+      "action_id": 16
+    },
+    {
+      "start_time": 25.5,
+      "end_time": 26.5,
+      "description": "<action description>open the container of jam",
+      "action_id": 17
+    },
+    {
+      "start_time": 26.5,
+      "end_time": 27.5,
+      "description": "grasp the spoon",
+      "action_id": 18
+    },
+    {
+      "start_time": 27.5,
+      "end_time": 28.5,
+      "description": "<action description>stir the jam",
+      "action_id": 19
+    },
+    {
+      "start_time": 28.5,
+      "end_time": 29.5,
+      "description": "grasp the container of jam",
+      "action_id": 20
+    },
+    {
+      "start_time": 29.5,
+      "end_time": 30.5,
+      "description": "<action description>close the container of jam",
+      "action_id": 21
+    },
+    {
+      "start_time": 30.5,
+      "end_time": 31.5,
+      "description": "grasp the spoon",
+      "action_id": 22
+    },
+    {
+      "start_time": 31.5,
+      "end_time": 32.5,
+      "description": "<action description>stir the jam",
+      "action_id": 23
+    },
+    {
+      "start_time": 32.5,
+      "end_time": 33.5,
+      "description": "grasp the container of jam",
+      "action_id": 24
+    },
+    {
+      "start_time": 33.5,
+      "end_time": 34.5,
+      "description": "<action description>open the container of jam",
+      "action_id": 25
+    },
+    {
+      "start_time": 34.5,
+      "end_time": 35.5,
+      "description": "grasp the spoon",
+      "action_id": 26
+    },
+    {
+      "start_time": 35.5,
+      "end_time": 36.5,
+      "description": "<action description>stir the jam",
+      "action_id": 27
+    },
+    {
+      "start_time": 36.5,
+      "end_time": 37.5,
+      "description": "grasp the container of jam",
+      "action_id": 28
+    },
+    {
+      "start_time": 37.5,
+      "end_time": 38.5,
+      "description": "<action description>close the container of jam",
+      "action_id": 29
+    },
+    {
+      "start_time": 38.5,
+      "end_time": 39.5,
+      "description": "grasp the spoon",
+      "action_id": 30
+    },
+    {
+      "start_time": 39.5,
+      "end_time": 40.5,
+      "description": "<action description>stir the jam",
+      "action_id": 31
+    },
+    {
+      "start_time": 40.5,
+      "end_time": 41.5,
+      "description": "grasp the container of jam",
+      "action_id": 32
+    },
+    {
+      "start_time": 41.5,
+      "end_time": 42.5,
+      "description": "<action description>open the container of jam",
+      "action_id": 33
+    },
+    {
+      "start_time": 42.5,
+      "end_time": 43.5,
+      "description": "grasp the spoon",
+      "action_id": 34
+    },
+    {
+      "start_time": 43.5,
+      "end_time": 44.5,
+      "description": "<action description>stir the jam",
+      "action_id": 35
+    },
+    {
+      "start_time": 44.5,
+      "end_time": 45.5,
+      "description": "grasp the container of jam",
+      "action_id": 36
+    },
+    {
+      "start_time": 45.5,
+      "end_time": 46.5,
+      "description": "<action description>close the container of jam",
+      "action_id": 37
+    },
+    {
+      "start_time": 46.5,
+      "end_time": 47.5,
+      "description": "grasp the spoon",
+      "action_id": 38
+    },
+    {
+      "start_time": 47.5,
+      "end_time": 48.5,
+      "description": "<action description>stir the jam",
+      "action_id": 39
+    },
+    {
+      "start_time": 48.5,
+      "end_time": 49.5,
+      "description": "grasp the container of jam",
+      "action_id": 40
+    },
+    {
+      "start_time": 49.5,
+      "end_time": 50.5,
+      "description": "<action description>open the container of jam",
+      "action_id": 41
+    },
+    {
+      "start_time": 50.5,
+      "end_time": 51.5,
+      "description": "grasp the spoon",
+      "action_id": 42
+    },
+    {
+      "start_time": 51.5,
+      "end_time": 52.5,
+      "description": "<action description>stir the jam",
+      "action_id": 43
+    },
+    {
+      "start_time": 52.5,
+      "end_time": 53.5,
+      "description": "grasp the container of jam",
+      "action_id": 44
+    },
+    {
+      "start_time": 53.5,
+      "end_time": 54.5,
+      "description": "<action description>close the container of jam",
+      "action_id": 45
+    },
+    {
+      "start_time": 54.5,
+      "end_time": 55.5,
+      "description": "grasp the spoon",
+      "action_id": 46
+    },
+    {
+      "start_time": 55.5,
+      "end_time": 56.5,
+      "description": "<action description>stir the jam",
+      "action_id": 47
+    },
+    {
+      "start_time": 56.5,
+      "end_time": 57.5,
+      "description": "grasp the container of jam",
+      "action_id": 48
+    },
+    {
+      "start_time": 57.5,
+      "end_time": 58.5,
+      "description": "<action description>open the container of jam",
+      "action_id": 49
+    },
+    {
+      "start_time": 58.5,
+      "end_time": 59.5,
+      "description": "grasp the spoon",
+      "action_id": 50
+    },
+    {
+      "start_time": 59.5,
+      "end_time": 60.5,
+      "description": "<action description>stir the jam",
+      "action_id": 51
+    },
+    {
+      "start_time": 60.5,
+      "end_time": 61.5,
+      "description": "grasp the container of jam",
+      "action_id": 52
+    },
+    {
+      "start_time": 61.5,
+      "end_time": 62.5,
+      "description": "<action description>close the container of jam",
+      "action_id": 53
+    },
+    {
+      "start_time": 62.5,
+      "end_time": 63.5,
+      "description": "grasp the spoon",
+      "action_id": 54
+    },
+    {
+      "start_time": 63.5,
+      "end_time": 64.5,
+      "description": "<action description>stir the jam",
+      "action_id": 55
+    },
+    {
+      "start_time": 64.5,
+      "end_time": 65.5,
+      "description": "grasp the container of jam",
+      "action_id": 56
+    },
+    {
+      "start_time": 65.5,
+      "end_time": 66.5,
+      "description": "<action description>open the container of jam",
+      "action_id": 57
+    },
+    {
+      "start_time": 66.5,
+      "end_time": 67.5,
+      "description": "grasp the spoon",
+      "action_id": 58
+    },
+    {
+      "start_time": 67.5,
+      "end_time": 68.5,
+      "description": "<action description>stir the jam",
+      "action_id": 59
+    },
+    {
+      "start_time": 68.5,
+      "end_time": 69.5,
+      "description": "grasp the container of jam",
+      "action_id": 60
+    },
+    {
+      "start_time": 69.5,
+      "end_time": 70.5,
+      "description": "<action description>close the container of jam",
+      "action_id": 61
+    },
+    {
+      "start_time": 70.5,
+      "end_time": 71.5,
+      "description": "grasp the spoon",
+      "action_id": 62
+    },
+    {
+      "start_time": 71.5,
+      "end_time": 72.5,
+      "description": "<action description>stir the jam",
+      "action_id": 63
+    },
+    {
+      "start_time": 72.5,
+      "end_time": 73.5,
+      "description": "grasp the container of jam",
+      "action_id": 64
+    }
+  ],
+  "status": "success",
+  "error": null
+}

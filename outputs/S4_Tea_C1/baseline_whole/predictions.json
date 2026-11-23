@@ -1,0 +1,74 @@
+{
+  "video_id": "S4_Tea_C1",
+  "baseline": "whole",
+  "config": {
+    "prompt_version": "baseline_all_v1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "fps": 2.0,
+    "image_side": 224
+  },
+  "actions": [
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "description": "Put the cup on the table.",
+      "action_id": 0
+    },
+    {
+      "start_time": 22.0,
+      "end_time": 25.0,
+      "description": "Put the spoon in the cup.",
+      "action_id": 1
+    },
+    {
+      "start_time": 34.0,
+      "end_time": 36.0,
+      "description": "Put the spoon in the cup.",
+      "action_id": 2
+    },
+    {
+      "start_time": 41.0,
+      "end_time": 43.0,
+      "description": "Put the spoon in the cup.",
+      "action_id": 3
+    },
+    {
+      "start_time": 48.0,
+      "end_time": 50.0,
+      "description": "Put the spoon in the cup.",
+      "action_id": 4
+    },
+    {
+      "start_time": 55.0,
+      "end_time": 57.0,
+      "description": "Put the spoon in the cup.",
+      "action_id": 5
+    },
+    {
+      "start_time": 62.0,
+      "end_time": 64.0,
+      "description": "Put the spoon in the cup.",
+      "action_id": 6
+    },
+    {
+      "start_time": 67.0,
+      "end_time": 69.0,
+      "description": "Put the spoon in the cup.",
+      "action_id": 7
+    },
+    {
+      "start_time": 74.0,
+      "end_time": 76.0,
+      "description": "Put the spoon in the cup.",
+      "action_id": 8
+    },
+    {
+      "start_time": 76.5,
+      "end_time": 77.0,
+      "description": "Put the spoon in the cup.",
+      "action_id": 9
+    }
+  ],
+  "status": "success",
+  "error": null
+}
