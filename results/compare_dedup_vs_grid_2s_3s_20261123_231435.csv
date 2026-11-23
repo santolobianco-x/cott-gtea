@@ -1,0 +1,16 @@
+tiou,reference,other,n_videos,ref_pooled_f1,other_pooled_f1,diff,ci_low,ci_high,wins,ties,losses,p_wilcoxon,p_holm,reliable,grid_config
+0.3,stage3_dedup,stage2,28,49.7972,48.687,1.1102,-2.0886,4.1176,14,0,14,0.9197,0.9197,False,2.0s ogni 3.0s
+0.3,stage3_dedup,stage3,28,49.7972,45.2803,4.5169,3.0734,5.8619,22,2,4,0.0001,0.0002,True,2.0s ogni 3.0s
+0.3,stage3_dedup,baseline_slide,28,49.7972,30.7355,19.0618,14.9709,23.081,27,0,1,0.0,0.0,True,2.0s ogni 3.0s
+0.3,stage3_dedup,baseline_whole,28,49.7972,32.0087,17.7885,12.0583,23.3021,23,0,5,0.0,0.0002,True,2.0s ogni 3.0s
+0.3,stage3_dedup,baseline_grid,28,49.7972,51.6181,-1.8209,-7.1194,3.1472,13,0,15,0.3741,0.7482,False,2.0s ogni 3.0s
+0.5,stage3_dedup,stage2,28,30.4947,22.1434,8.3514,3.8862,12.5177,19,2,7,0.002,0.0041,True,2.0s ogni 3.0s
+0.5,stage3_dedup,stage3,28,30.4947,28.247,2.2477,1.1343,3.2748,22,2,4,0.0006,0.0017,True,2.0s ogni 3.0s
+0.5,stage3_dedup,baseline_slide,28,30.4947,13.6114,16.8833,12.5964,20.8531,24,0,4,0.0,0.0,True,2.0s ogni 3.0s
+0.5,stage3_dedup,baseline_whole,28,30.4947,15.6777,14.817,9.4032,19.8791,21,0,7,0.0003,0.0014,True,2.0s ogni 3.0s
+0.5,stage3_dedup,baseline_grid,28,30.4947,27.3463,3.1484,-1.4425,8.0885,14,0,14,0.4515,0.4515,False,2.0s ogni 3.0s
+0.7,stage3_dedup,stage2,28,10.7056,7.0972,3.6084,1.2936,5.7402,21,3,4,0.0049,0.0148,True,2.0s ogni 3.0s
+0.7,stage3_dedup,stage3,28,10.7056,10.7878,-0.0822,-1.0298,0.8097,15,4,9,0.8415,0.8415,False,2.0s ogni 3.0s
+0.7,stage3_dedup,baseline_slide,28,10.7056,3.1833,7.5223,5.165,9.8437,21,1,6,0.0001,0.0004,True,2.0s ogni 3.0s
+0.7,stage3_dedup,baseline_whole,28,10.7056,3.8106,6.895,4.1911,9.6239,22,1,5,0.0004,0.0015,True,2.0s ogni 3.0s
+0.7,stage3_dedup,baseline_grid,28,10.7056,7.767,2.9386,0.2774,5.6996,16,4,8,0.052,0.1041,False,2.0s ogni 3.0s

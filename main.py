@@ -12,6 +12,7 @@ from src.refine_action_instances import run as run_stage3
 from src.generate_srt import run as run_generate_srt
 from src.evaluate import run as run_evaluate, summarize_batch, evaluate_existing
 from src.analyze_errors import run_analysis
+from src.compare import run_compare
 from src.baselines import run as run_baseline, DEFAULT_IMAGE_SIDE as BASELINE_IMAGE_SIDE, GRID_LEN, GRID_PERIOD
 from src.postprocess import run as run_dedup, DEDUP_TIOU, DEDUP_STRATEGY, STRATEGIES, MIN_CONF
 
@@ -80,6 +81,8 @@ def main():
                         help="Baseline whole: fps dei frame inviati al modello (paper: 2)")
     parser.add_argument("--image-side", type=int, default=BASELINE_IMAGE_SIDE,
                         help="Baseline: lato massimo delle immagini in pixel")
+    parser.add_argument("--compare", nargs="?", const="stage3", default=None, metavar="RIFERIMENTO",
+                        help="Confronto statistico tra metodi rispetto a un riferimento (default: stage3)")
     parser.add_argument("--tag", type=str, default=None,
                         help="Nome dell'esperimento salvato nel CSV dei risultati (es. qwen3b_baseline)")
     args = parser.parse_args()
@@ -91,6 +94,13 @@ def main():
         video_ids = sorted(p.stem for p in videos_dir.glob("*.mp4"))
         if args.limit_videos:
             video_ids = video_ids[:args.limit_videos]
+
+    if args.compare:
+        for vid in video_ids:   # la dedup e' istantanea: la ricalcoliamo come per --eval-only
+            run_dedup(vid, thr=args.dedup_thr, strategy=args.dedup_strategy,
+                      min_conf=args.min_conf, verbose=False)
+        run_compare(video_ids, reference=args.compare, tag=args.tag)
+        return
 
     if args.eval_only or args.analyze:
         # La deduplicazione e' deterministica e istantanea: la ricalcoliamo sempre
