@@ -37,6 +37,11 @@ STAGES = {
     "baseline_slide": ("Baseline sliding-window", Path("baseline_slide") / "predictions.json"),
     "baseline_whole": ("Baseline whole-video", Path("baseline_whole") / "predictions.json"),
     "baseline_grid": ("Controllo cieco: griglia fissa", Path("baseline_grid") / "predictions.json"),
+    # CoTT-Lite (src/lite/): modello online addestrato su label diverse, valutato sempre sul GT
+    "lite_stage3": ("CoTT-Lite (label: Stage 3)", Path("lite_stage3") / "predictions.json"),
+    "lite_stage3_dedup": ("CoTT-Lite (label: Stage 3 + Dedup)", Path("lite_stage3_dedup") / "predictions.json"),
+    "lite_gt": ("CoTT-Lite (label: GT, limite sup.)", Path("lite_gt") / "predictions.json"),
+    "lite_grid": ("CoTT-Lite (label: griglia, caso)", Path("lite_grid") / "predictions.json"),
 }
 
 # Cattura SOLO le azioni: <verb><noun1, noun2> (start-end) [0/1]

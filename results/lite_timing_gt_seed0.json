@@ -1,0 +1,9 @@
+{
+  "label_source": "gt",
+  "seed": 0,
+  "device": "cpu",
+  "frames": 4175,
+  "stream_seconds": 71.913,
+  "fps_model": 58.1,
+  "feature_model": "openai/clip-vit-base-patch16"
+}

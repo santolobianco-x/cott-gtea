@@ -1,0 +1,9 @@
+{
+  "label_source": "stage3",
+  "seed": 0,
+  "device": "cpu",
+  "frames": 4175,
+  "stream_seconds": 67.382,
+  "fps_model": 62.0,
+  "feature_model": "openai/clip-vit-base-patch16"
+}
