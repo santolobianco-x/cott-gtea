@@ -1,65 +1,74 @@
 import cv2
-from pathlib import Path
+from src.config import FPS, FRAMES_DIR, VIDEOS_DIR
 
 
-def extract_frames(video_path, output_dir, target_fps=2, force=False):
-    video_path = Path(video_path)
-    output_dir = Path(output_dir)
+"""
+MODULO INCARICATO ALL'ESTRAZIONE DEI FRAME
+
+--> dal video orignale di GTEA salva un frame ogni 1/FPS(FPS =2 come nel paper)
+
+"""
+
+
+def count_expected_frames(original_fps, total_frames, target_fps):
+    """Conta quanti frame verranno estratti."""
+    count = 0
+    while round((count / target_fps) * original_fps) <total_frames:
+        count += 1
+    return count
+
+
+def extract_frames(video_path, output_dir, target_fps=FPS, force=False):
+    """Estrae un frame ogni 1/target_fps secondi e lo salva come JPEG in output_dir."""
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    cap = cv2.VideoCapture(str(video_path))
+    cap = cv2.VideoCapture(str(video_path)) # crea un lettore associato al video
     if not cap.isOpened():
         raise RuntimeError(f"Impossibile aprire il video: {video_path}")
 
-    original_fps = cap.get(cv2.CAP_PROP_FPS)
+    original_fps = cap.get(cv2.CAP_PROP_FPS) # assegnazione degli fps originali
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+
+
     if original_fps == 0:
         cap.release()
-        raise ValueError("Non è stato possibile calcolare gli FPS dal video.")
+        raise ValueError("Non e' stato possibile leggere gli FPS del video.")
 
-    duration = total_frames / original_fps
-    # Calcola il numero esatto di frame attesi dal ciclo
-    expected_count = 0
-    while round((expected_count / target_fps) * original_fps) < total_frames:
-        expected_count += 1
 
-    existing_frames = list(output_dir.glob("frame_*.jpg"))
-    if not force and len(existing_frames) == expected_count:
+    expected = count_expected_frames(original_fps, total_frames, target_fps)
+
+    # si verifica se i frame sono già stati estratti
+    # nel caso in cui siano stati già tutti estratti allora si salta(a meno del caso force)
+    if not force and len(list(output_dir.glob("frame_*.jpg"))) == expected:
         cap.release()
-        print(f"⏩ Estrazione frame già completa per {video_path.name} ({expected_count}/{expected_count} frame). Salto.")
+        print(f"Frame gia' estratti per {video_path.name} ({expected}). Salto.")
         return
 
-    print("\n" + "=" * 55)
-    print("ESTRAZIONE FRAME")
-    print("=" * 55)
-    print(f"Video: {video_path.name} | FPS: {original_fps:.2f} -> {target_fps} | Durata: {duration:.2f}s")
+    print(f"\nESTRAZIONE FRAME: {video_path.name} | {original_fps:.0f} fps -> {target_fps} fps "
+          f"| durata {total_frames / original_fps:.1f} s")
 
-    extracted_count = 0
+    k = 0
     while True:
-        timestamp = extracted_count / target_fps
-        target_frame = round(timestamp * original_fps)
-        if target_frame >= total_frames:
+        
+        source_frame = round((k / target_fps) * original_fps)# istante k/target_fps secondi -> frame piu' vicino nel video originale.
+        if source_frame >= total_frames:
             break
 
-        cap.set(cv2.CAP_PROP_POS_FRAMES, target_frame)
-        ret, frame = cap.read()
-        if not ret:
+        cap.set(cv2.CAP_PROP_POS_FRAMES, source_frame)# cambia l'etichetta della posizione in frame
+        ok, frame = cap.read()
+        if not ok:
             break
 
-        filename = output_dir / f"frame_{extracted_count:05d}.jpg"
-        cv2.imwrite(str(filename), frame)
-        extracted_count += 1
+        cv2.imwrite(str(output_dir / f"frame_{k:05d}.jpg"), frame)
+        k += 1
 
     cap.release()
-    print(f"Frame estratti: {extracted_count} | Salvati in: {output_dir}")
+    print(f"Frame estratti: {k} -> {output_dir}")
 
 
-def run(video_id: str, target_fps: int = 2, force: bool = False):
-    project_root = Path(__file__).resolve().parents[1]
-    video_path = project_root / "data" / "Videos" / f"{video_id}.mp4"
-    output_dir = project_root / "outputs" / "frames" / video_id
-
+def run(video_id, target_fps=FPS, force=False):
+    """Punto di ingresso usato da main.py: estrae i frame del video indicato."""
+    video_path = VIDEOS_DIR / f"{video_id}.mp4"
     if not video_path.exists():
-        raise FileNotFoundError(f"File video non trovato: {video_path}")
-
-    extract_frames(video_path, output_dir, target_fps=target_fps, force=force)
+        raise FileNotFoundError(f"Video non trovato: {video_path}")
+    extract_frames(video_path, FRAMES_DIR / video_id, target_fps=target_fps, force=force)
